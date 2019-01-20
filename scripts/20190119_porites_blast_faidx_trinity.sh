@@ -4,7 +4,6 @@
 
 ## Set input file locations
 transcriptome=/media/sam/4TB_toshiba/porites/20180419_trinity/Trinity.fasta
-transcriptome_index=/media/sam/4TB_toshiba/porites/20180419_trinity/Trinity.fasta.fai
 transcripts_list=/media/sam/4TB_toshiba/porites/20190115_blastx_ncbi_nr-v5_porites/20190115_blastx_nr_porites.list
 
 ## Set output file locations/names
@@ -20,7 +19,7 @@ cd ${out_dir}
 # Pull out coral only seqs from Trinity transcriptome
 while read contig; do \
 ${faidx} \
-${transcriptome_index} \
+${transcriptome} \
 ${contig} \
 >> ${out_fasta}; \
 done < ${transctipts_list}
