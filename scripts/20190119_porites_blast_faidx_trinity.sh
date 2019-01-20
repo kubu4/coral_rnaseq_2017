@@ -17,11 +17,12 @@ faidx="/home/shared/samtools-1.9/samtools faidx"
 cd ${out_dir}
 
 # Pull out coral only seqs from Trinity transcriptome
-while read contig; do \
-${faidx} \
-${transcriptome} \
-${contig} \
->> ${out_fasta}; \
+while read contig \
+do \
+  ${faidx} \
+  ${transcriptome} \
+  ${contig} \
+  >> ${out_fasta} \
 done < ${transctipts_list}
 
 ## Create index for new fasta
