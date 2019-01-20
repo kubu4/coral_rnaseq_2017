@@ -23,3 +23,6 @@ ${transcriptome} \
 ${contig} \
 >> ${out_fasta}; \
 done < ${transctipts_list}
+
+## Create index for new fasta
+${faidx} ${out_fasta}
