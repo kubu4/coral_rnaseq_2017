@@ -17,8 +17,7 @@ faidx="/home/shared/samtools-1.9/samtools faidx"
 cd ${out_dir}
 
 # Pull out coral only seqs from Trinity transcriptome
-while read contig \
-do \
+while read contig; do \
   ${faidx} \
   ${transcriptome} \
   ${contig} \
