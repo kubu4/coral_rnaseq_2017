@@ -13,8 +13,3 @@ non-bleached  4R041-L7-P05-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P
 non-bleached  4R041-L7-P10-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P10-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz
 non-bleached  4R041-L7-P12-TGACCA-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P12-TGACCA-READ2-Sequences.txt.gz_val_2.fq.gz
 non-bleached  4R041-L7-P15-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P15-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz
-non-bleached
-non-bleached
-non-bleached
-non-bleached
-non-bleached
