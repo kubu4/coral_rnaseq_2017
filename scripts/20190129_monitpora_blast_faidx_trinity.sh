@@ -3,7 +3,7 @@
 # Pull out coral transcripts based on BLAST results
 
 ## Set input file locations
-transcriptome=/media/sam/4TB_toshiba/porites/20180419_trinity/Trinity.fasta
+transcriptome=/media/sam/4TB_toshiba/montipora/20180416_trinity/Trinity.fasta
 transcripts_list=/media/sam/4TB_toshiba/montipora/20190129_blastx_ncbi_sp-v5_montipora/20190129_blastx_sp_montipora_cnidarian.list
 
 ## Set output file locations/names
@@ -27,4 +27,4 @@ done < ${transcripts_list}
 ${faidx} ${coral_transcriptome}
 
 # Email me when job is complete
-sed '/^Subject:/ s/ / porites_faidx JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
+sed '/^Subject:/ s/ / porites_montipora JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
