@@ -27,4 +27,4 @@ done < ${transcripts_list}
 ${faidx} ${coral_transcriptome}
 
 # Email me when job is complete
-sed '/^Subject:/ s/ / porites_faidx JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
+sed '/^Subject:/ s/ / porites_montipora JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
