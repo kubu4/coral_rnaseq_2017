@@ -1,0 +1,21 @@
+{
+    "read_files": "( /dev/fd/63, /dev/fd/62 )",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 0.7094293134532113,
+    "num_compatible_fragments": 2795829,
+    "num_assigned_fragments": 3940955,
+    "num_consistent_mappings": 6318424,
+    "num_inconsistent_mappings": 2499484,
+    "MSF": 0,
+    "OSF": 535,
+    "ISF": 1076905,
+    "MSR": 0,
+    "OSR": 5444,
+    "ISR": 6318424,
+    "SF": 408120,
+    "SR": 967120,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

@@ -1,0 +1,10 @@
+{
+    "salmon_version": "0.9.1",
+    "index": "/media/sam/4TB_toshiba/montipora/20190129_sp_coral_transcripts/Trinity.sp.coral.fasta.salmon_quasi.idx",
+    "libType": "ISR",
+    "mates1": "/dev/fd/63",
+    "mates2": "/dev/fd/62",
+    "output": "bleached_k4_01",
+    "threads": "23",
+    "auxDir": "aux_info"
+}
