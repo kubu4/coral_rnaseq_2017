@@ -1,0 +1,5 @@
+Entry	Entry name	Protein names	Gene ontology (GO)	Gene ontology IDs	Gene ontology (biological process)	Gene ontology (cellular component)	Gene ontology (molecular function)
+A8QZJ5	MCTX1_MILDI	Millepora cytotoxin-1 (MCTx-1)	extracellular region [GO:0005576]; nematocyst [GO:0042151]	GO:0005576; GO:0042151		extracellular region [GO:0005576]; nematocyst [GO:0042151]	
+P29145	NECB_HYDVU	PC3-like endoprotease variant B (EC 3.4.21.-) (SPC3)	serine-type endopeptidase activity [GO:0004252]	GO:0004252			serine-type endopeptidase activity [GO:0004252]
+P38976	RAS2_HYDVU	Ras-like protein RAS2	plasma membrane [GO:0005886]; GTP binding [GO:0005525]; GTPase activity [GO:0003924]; signal transduction [GO:0007165]	GO:0003924; GO:0005525; GO:0005886; GO:0007165	signal transduction [GO:0007165]	plasma membrane [GO:0005886]	GTPase activity [GO:0003924]; GTP binding [GO:0005525]
+Q95NR9	CALM_METSE	Calmodulin (CaM)	calcium ion binding [GO:0005509]	GO:0005509			calcium ion binding [GO:0005509]
