@@ -28,3 +28,7 @@ Identify coral sequences
   - evalue cutoff <= 1e<sup>-04</sup>
   - max_target_seqs=1
 - 6,882 unique matches
+
+Differential gene expression
+
+-
