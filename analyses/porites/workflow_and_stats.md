@@ -1,5 +1,6 @@
 _De-novo_ assembly
 
+
 - Trinity
 - 100bp PE
 - 379,738,954 reads
@@ -21,13 +22,23 @@ Identify ORFs
 
 Identify coral sequences
 
-  - BLAST 2.8.1+
-  - cnidarians
-  - BLASTx against NCBI v5 Swissprot database
-    - evalue cutoff <= 1e<sup>-04</sup>
-    - max_target_seqs=1
-  - 5,838 unique matches
+- BLAST 2.8.1+
+- cnidarians
+- BLASTx against NCBI v5 Swissprot database
+  - evalue cutoff <= 1e<sup>-04</sup>
+  - max_target_seqs=1
+- 5,838 unique matches
 
-  Differential gene expression
+Differential gene expression
 
-  -
+- salmon (transcript abundance)
+- edgeR (differential expression - via Trinity utility scripts)
+- Bleached, upregulated
+  - p-value <= 0.05
+  - > 2-fold expression
+  - 4 genes
+
+- Unbleached, upgregulated
+  - p-value <= 0.05
+  - > 2-fold expression
+  - 11 genes
