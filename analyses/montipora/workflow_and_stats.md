@@ -33,12 +33,12 @@ Differential gene expression
 
 - salmon (transcript abundance)
 - edgeR (differential expression - via Trinity utility scripts)
-- Bleached, upregulated
+- Bleached  (n = 6), upregulated
   - p-value <= 0.05
   - \> 2-fold expression
   - 5 genes
 
-- Unbleached, upgregulated
+- Unbleached  (n = 6), upgregulated
   - p-value <= 0.05
   - \> 2-fold expression
   - 26 genes
