@@ -35,10 +35,10 @@ Differential gene expression
 - edgeR (differential expression - via Trinity utility scripts)
 - Bleached, upregulated
   - p-value <= 0.05
-  - > 2-fold expression
+  - \> 2-fold expression
   - 5 genes
 
 - Unbleached, upgregulated
   - p-value <= 0.05
-  - > 2-fold expression
+  - \> 2-fold expression
   - 26 genes
