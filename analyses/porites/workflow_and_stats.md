@@ -14,6 +14,7 @@ Identify ORFs
 
 - Transdecoder
 - BLASTp longest ORFs against Uniprot/Swissprot database
+  - evalue cutoff <= 1e<sup>-10</sup>
 - HMMR longest ORFs against Pfam-A.hmm database
 - Extract complete ORFs
   - 61,306
