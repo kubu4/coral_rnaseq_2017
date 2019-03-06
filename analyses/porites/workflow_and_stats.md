@@ -5,7 +5,7 @@ _De-novo_ assembly
 - 379,738,954 reads
 - 82.87% overall alignment rate (Bowtie2)
 - Contig N50: 756
-  - At least 50% of assembled transcripts are at least 756bp
+  - i.e. At least 50% of assembled transcripts are at least 756bp
 - Median contig length: 361
 - Average contig: 580.37
 - Total assembled bases: 499,811,373
@@ -19,7 +19,7 @@ Identify ORFs
 - Extract complete ORFs
   - 61,306
 
-  Identify coral sequences
+Identify coral sequences
 
   - BLAST 2.8.1+
   - cnidarians

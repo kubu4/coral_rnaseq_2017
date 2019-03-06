@@ -6,7 +6,7 @@ _De-novo_ assembly
 - 84.64% overall alignment rate (Bowtie2)
 - total transcripts 861,176
 - Contig N50: 970
-  - At least 50% of assembled transcripts are at least 970bp
+  - i.e. At least 50% of assembled transcripts are at least 970bp
 - Median contig length: 384
 - Average contig: 658.25
 - Total assembled bases: 566,866,942
