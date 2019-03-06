@@ -1,0 +1,24 @@
+library(edgeR)
+
+data = read.table("/media/sam/4TB_toshiba/porites/20190305_salmon_abundance_porites/salmon.isoform.counts.matrix", header=T, row.names=1, com='')
+col_ordering = c(13,14,15,16,17,18,10,11,12,28,29,30,25,26,27)
+rnaseqMatrix = data[,col_ordering]
+rnaseqMatrix = round(rnaseqMatrix)
+rnaseqMatrix = rnaseqMatrix[rowSums(cpm(rnaseqMatrix) > 1) >= 2,]
+conditions = factor(c(rep("bleached", 9), rep("non-bleached", 6)))
+
+exp_study = DGEList(counts=rnaseqMatrix, group=conditions)
+exp_study = calcNormFactors(exp_study)
+exp_study = estimateCommonDisp(exp_study)
+exp_study = estimateTagwiseDisp(exp_study)
+et = exactTest(exp_study, pair=c("bleached", "non-bleached"))
+tTags = topTags(et,n=NULL)
+result_table = tTags$table
+result_table = data.frame(sampleA="bleached", sampleB="non-bleached", result_table)
+result_table$logFC = -1 * result_table$logFC
+write.table(result_table, file='salmon.isoform.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results', sep='	', quote=F, row.names=T)
+write.table(rnaseqMatrix, file='salmon.isoform.counts.matrix.bleached_vs_non-bleached.edgeR.count_matrix', sep='	', quote=F, row.names=T)
+source("/home/shared/Trinityrnaseq-v2.6.6/Analysis/DifferentialExpression/R/rnaseq_plot_funcs.R")
+pdf("salmon.isoform.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.MA_n_Volcano.pdf")
+plot_MA_and_Volcano(rownames(result_table), result_table$logCPM, result_table$logFC, result_table$FDR)
+dev.off()
