@@ -19,3 +19,12 @@ Identify ORFs
 - HMMR longest ORFs against Pfam-A.hmm database
 - Complete ORFs
   - 80,852
+
+Identify coral sequences
+
+- BLAST 2.8.1+ (allows for taxonomic searches)
+- cnidarians
+- BLASTx against NCBI v5 Swissprot database
+  - evalue cutoff <= 1e<sup>-04</sup>
+  - max_target_seqs=1
+- 6,882 unique matches
