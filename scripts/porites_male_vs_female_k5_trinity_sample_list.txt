@@ -1,0 +1,6 @@
+male  male_bleached_K5_01  4R041-L7-P01-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P01-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz
+male  male_bleached_K5_02  4R041-L7-P06-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P06-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz
+male  male_bleached_K5_03  4R041-L7-P07-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P07-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz
+female  female_bleached_K5_04  4R041-L7-P08-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P08-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz
+female  female_bleached_K5_05  4R041-L7-P09-GTGAAA-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P09-GTGAAA-READ2-Sequences.txt.gz_val_2.fq.gz
+female  female_bleached_K5_06  4R041-L7-P13-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P13-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz
