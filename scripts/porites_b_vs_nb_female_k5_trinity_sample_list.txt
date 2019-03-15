@@ -1,0 +1,6 @@
+bleached  b_F_K5_04  4R041-L7-P08-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P08-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz
+bleached  b_F_K5_05  4R041-L7-P09-GTGAAA-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P09-GTGAAA-READ2-Sequences.txt.gz_val_2.fq.gz
+bleached  b_F_K5_06  4R041-L7-P13-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P13-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz
+non-bleached  nb_F_K5_07  4R041-L7-P02-ACAGTG-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P02-ACAGTG-READ2-Sequences.txt.gz_val_2.fq.gz
+non-bleached  nb_F_K5_08  4R041-L7-P10-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P10-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz
+non-bleached  nb_F_K5_09  4R041-L7-P15-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz  4R041-L7-P15-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz
