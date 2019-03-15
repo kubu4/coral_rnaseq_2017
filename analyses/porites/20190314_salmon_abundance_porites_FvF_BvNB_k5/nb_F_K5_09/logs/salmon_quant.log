@@ -1,0 +1,46 @@
+[2019-03-14 21:17:45.920] [jointLog] [info] parsing read library format
+[2019-03-14 21:17:45.920] [jointLog] [info] There is 1 library.
+[2019-03-14 21:17:45.982] [jointLog] [info] Loading Quasi index
+[2019-03-14 21:17:45.982] [jointLog] [info] Loading 32-bit quasi index
+[2019-03-14 21:17:46.384] [jointLog] [info] done
+[2019-03-14 21:17:46.384] [jointLog] [info] Index contained 5838 targets
+[2019-03-14 21:19:07.728] [fileLog] [info] 
+At end of round 0
+==================
+Observed 34532223 total fragments (34532223 in most recent round)
+
+[2019-03-14 21:19:07.727] [jointLog] [info] Computed 7671 rich equivalence classes for further processing
+[2019-03-14 21:19:07.727] [jointLog] [info] Counted 3126572 total reads in the equivalence classes 
+[2019-03-14 21:19:07.737] [jointLog] [warning] 0.0188954% of fragments were shorter than the k used to build the index (31).
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2019-03-14 21:19:07.738] [jointLog] [warning] Only 3126572 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2019-03-14 21:19:07.738] [jointLog] [info] Mapping rate = 9.05407%
+
+[2019-03-14 21:19:07.738] [jointLog] [info] finished quantifyLibrary()
+[2019-03-14 21:19:07.738] [jointLog] [info] Starting optimizer
+[2019-03-14 21:19:07.744] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2019-03-14 21:19:07.744] [jointLog] [info] iteration = 0 | max rel diff. = 713.347
+[2019-03-14 21:19:07.765] [jointLog] [info] iteration = 100 | max rel diff. = 0.115414
+[2019-03-14 21:19:07.780] [jointLog] [info] iteration = 200 | max rel diff. = 0.0574996
+[2019-03-14 21:19:07.796] [jointLog] [info] iteration = 300 | max rel diff. = 0.0433144
+[2019-03-14 21:19:07.811] [jointLog] [info] iteration = 400 | max rel diff. = 0.0297571
+[2019-03-14 21:19:07.826] [jointLog] [info] iteration = 500 | max rel diff. = 0.0247571
+[2019-03-14 21:19:07.842] [jointLog] [info] iteration = 600 | max rel diff. = 0.019155
+[2019-03-14 21:19:07.859] [jointLog] [info] iteration = 700 | max rel diff. = 0.0155012
+[2019-03-14 21:19:07.877] [jointLog] [info] iteration = 800 | max rel diff. = 0.0129266
+[2019-03-14 21:19:07.895] [jointLog] [info] iteration = 900 | max rel diff. = 0.0101357
+[2019-03-14 21:19:07.913] [jointLog] [info] iteration = 1000 | max rel diff. = 0.0101356
+[2019-03-14 21:19:07.932] [jointLog] [info] iteration = 1100 | max rel diff. = 0.0101355
+[2019-03-14 21:19:07.940] [jointLog] [info] iteration = 1143 | max rel diff. = 0.00896338
+[2019-03-14 21:19:07.940] [jointLog] [info] Finished optimizer
+[2019-03-14 21:19:07.940] [jointLog] [info] writing output 
+
+[2019-03-14 21:19:07.951] [jointLog] [warning] NOTE: Read Lib [( /dev/fd/63, /dev/fd/62 )] :
+
+Greater than 5% of the fragments disagreed with the provided library type; check the file: nb_F_K5_09/lib_format_counts.json for details
+
