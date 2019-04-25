@@ -35,3 +35,6 @@ do
   ${samtools} faidx ${trinity_fasta} ${contig} \
   >> ${symbio_fasta}
 done < ${symbio_trinity_list}
+
+# Index new FastA
+${samtools} faidx ${symbio_fasta}
