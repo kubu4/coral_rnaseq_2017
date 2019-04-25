@@ -3,6 +3,8 @@
 # Script to pull subset of Trinity assembly
 # based on InParanoid ortholog comparison between corals and symbiodinium.
 
+# Exit script if a command fails
+set -e
 
 # Programs
 samtools="home/shared/samtools-1.9/samtools"
