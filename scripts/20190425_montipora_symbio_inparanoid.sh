@@ -21,7 +21,7 @@ symbio_fai="symbio-monitpora.fasta"
 
 # Pull out Trinity contig names
 # based on InParanoid rejects list
-grep "Ortholog pair "${inparanoid_coral_rejects} \
+grep "Ortholog pair" ${inparanoid_coral_rejects} \
 | tr " " "." \
 | tr "(" "." \
 | awk -F"." '{ print $5 }' \
