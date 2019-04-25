@@ -36,6 +36,6 @@ grep --file=${symbio_trinity_list} ${trinity_fai} \
 # to create new FastA subset.
 while read contig
 do
-  ${samtools} faidx ${contig} \
+  ${samtools} faidx ${trinity_fasta} ${contig} \
   >> ${symbio_fasta}
 done < ${symbio_fai}
