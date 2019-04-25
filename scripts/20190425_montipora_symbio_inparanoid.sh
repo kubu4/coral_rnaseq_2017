@@ -15,9 +15,9 @@ trinity_fasta="/media/sam/4TB_toshiba/montipora/20180416_trinity/Trinity.fasta"
 trinity_fai="/media/sam/4TB_toshiba/montipora/20180416_trinity/Trinity.fasta.fai"
 
 # Output files
-symbio_trinity_list="symbio-list.txt"
+symbio_trinity_list="symbio-montipora-list.txt"
 symbio_fasta="symbio-monitpora.fasta"
-symbio_fai="symbio-monitpora.fasta"
+symbio_fai="symbio-monitpora.fasta.fai"
 
 # Pull out Trinity contig names
 # based on InParanoid rejects list
