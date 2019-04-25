@@ -11,8 +11,8 @@ samtools="home/shared/samtools-1.9/samtools"
 
 # Input files
 inparanoid_coral_rejects="/media/sam/4TB_toshiba/montipora/20181204_inparanoid/inparanoid_4.1/rejected_sequences.symbB.v1.2.augustus.prot.fa"
-trinity_fasta="/media/sam/4TB_toshiba/montipora/20180416_trinity.fasta"
-trinity_fai="/media/sam/4TB_toshiba/montipora/20180416_trinity.fasta.fai"
+trinity_fasta="/media/sam/4TB_toshiba/montipora/20180416_trinity/Trinity.fasta"
+trinity_fai="/media/sam/4TB_toshiba/montipora/20180416_trinity/Trinity.fasta.fai"
 
 # Output files
 symbio_trinity_list="symbio-list.txt"
