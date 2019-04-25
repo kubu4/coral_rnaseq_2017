@@ -27,10 +27,6 @@ grep "Ortholog pair" ${inparanoid_coral_rejects} \
 | awk -F"." '{ print $5 }' \
 > ${symbio_trinity_list}
 
-# Pull out FastA index subset based on InParanoid
-# rejects list.
-grep --file=${symbio_trinity_list} ${trinity_fai} \
-> ${symbio_fai}
 
 # Use faidx and new symbiodinium FastA index
 # to create new FastA subset.
