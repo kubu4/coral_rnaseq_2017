@@ -16,7 +16,7 @@ sp_db=swissprot_v5
 
 
 #Get NCBI taxonomic ID for dinoflagellates
-${taxid}=$("$get_taxids" -n dinoflagellates | grep "Taxid:" | awk '{print $2}')
+taxid=$("$get_taxids" -n dinoflagellates | grep "Taxid:" | awk '{print $2}')
 
 # Generate list of all NCBI taxonomic IDs belonging to dinoflagellates
 ${get_taxids} -t ${taxid} \
