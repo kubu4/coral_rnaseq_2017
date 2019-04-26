@@ -26,6 +26,8 @@ ${get_taxids} -t ${taxid} \
 # Run blastx
 cd ${blastdb_dir}
 
+pwd
+
 export BLASTDB=${blastdb_dir}
 
 time \
