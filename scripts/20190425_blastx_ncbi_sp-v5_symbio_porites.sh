@@ -1,10 +1,10 @@
 #!/bin/env bash
 
 # Input/output files
-blastx_out_dir=/media/sam/4TB_toshiba/montipora/20190425_blastx_ncbi_sp-v5_symbio_montipora
-taxid_list=/media/sam/4TB_toshiba/montipora/20190425_blastx_ncbi_sp-v5_symbio_montipora/dinoflagellate.taxids
-orf_fasta=/media/sam/4TB_toshiba/montipora/20180429_transdecoder/Trinity.fasta.transdecoder.cds.complete-ORFS-only.fasta
-blastx_out_file=20190425_blastx_ncbi_sp-v5_symbio_montipora.tab
+blastx_out_dir=/media/sam/4TB_toshiba/porites/20190425_blastx_ncbi_sp-v5_symbio_porites
+taxid_list=/media/sam/4TB_toshiba/porites/20190425_blastx_ncbi_sp-v5_symbio_porites/dinoflagellate.taxids
+orf_fasta=/media/sam/4TB_toshiba/porites/20180429_transdecoder/Trinity.fasta.transdecoder.cds.complete-ORFS-only.fasta
+blastx_out_file=20190425_blastx_ncbi_sp-v5_symbio_porites.tab
 taxid=
 
 # Programs variables
@@ -41,4 +41,4 @@ ${blastx} \
 1> blastx_stdout.txt \
 2> blastx_stderr.txt
 
-sed '/^Subject:/ s/ / montipora_symbio_blastx JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
+sed '/^Subject:/ s/ / porites_symbio_blastx JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
