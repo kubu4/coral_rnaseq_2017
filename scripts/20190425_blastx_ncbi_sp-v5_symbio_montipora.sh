@@ -35,7 +35,7 @@ ${blastx} \
 -taxidlist ${taxid_list} \
 -evalue 1E-04 \
 -outfmt "6 std staxids" \
--max_target_seqs 1 \
+--max_hsps 1 \
 -num_threads 23 \
 -out ${blastx_out_dir}/${blastx_out_file} \
 1> blastx_stdout.txt \
