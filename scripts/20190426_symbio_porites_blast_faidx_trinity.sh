@@ -3,12 +3,12 @@
 # Pull out coral transcripts based on BLAST results
 
 ## Set input file locations
-blastx_out=/media/sam/4TB_toshiba/montipora/20190425_blastx_ncbi_sp-v5_symbio_montipora/20190425_blastx_ncbi_sp-v5_symbio_montipora.tab
-transcriptome=/media/sam/4TB_toshiba/montipora/20180416_trinity/Trinity.fasta
+blastx_out=/media/sam/4TB_toshiba/porites/20190425_blastx_ncbi_sp-v5_symbio_porites/20190425_blastx_ncbi_sp-v5_symbio_porites.tab
+transcriptome=/media/sam/4TB_toshiba/porites/20180419_trinity/Trinity.fasta
 
 ## Set output file locations/names
-out_dir=/media/sam/4TB_toshiba/montipora/20190426_symbio_montipora_transcripts
-transcripts_list=/media/sam/4TB_toshiba/montipora/20190426_symbio_montipora_transcripts/20190426_symbio_montipora_transcripts.list
+out_dir=/media/sam/4TB_toshiba/porites/20190426_symbio_porites_transcripts
+transcripts_list=/media/sam/4TB_toshiba/porites/20190426_symbio_porites_transcripts/20190426_symbio_porites_transcripts.list
 symbio_transcriptome=${out_dir}/Trinity.sp.symbio_montipora.fasta
 
 ## Set program locations
