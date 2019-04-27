@@ -16,6 +16,11 @@ faidx="/home/shared/samtools-1.9/samtools faidx"
 
 cd ${out_dir}
 
+# Create transcripts list from blastx output
+awk -F"." '{print $1}' ${blastx_out} \
+| sort -u \
+> ${transcripts_list}
+
 # Pull out coral only seqs from Trinity transcriptome
 while read contig; do
   ${faidx} \
