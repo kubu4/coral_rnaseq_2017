@@ -30,7 +30,7 @@ while read contig; do
 done < ${transcripts_list}
 
 ## Create index for new fasta
-${faidx} ${coral_transcriptome}
+${faidx} ${symbio_transcriptome}
 
 # Email me when job is complete
 sed '/^Subject:/ s/ / porites_montipora JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
