@@ -60,5 +60,7 @@ ${trinity_DE} \
 --method edgeR \
 --samples_file ${samples}
 
+mv edgeR* ${salmon_out_dir}
+
 # Email me when job is complete
 sed '/^Subject:/ s/ / porites_salmon JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
