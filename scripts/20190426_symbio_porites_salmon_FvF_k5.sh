@@ -5,6 +5,7 @@
 ## Set input file locations
 trimmed_reads_dir=/mnt/data/coral_RNAseq_2017/porites/20180311_fastqc_trimming/trimmed
 salmon_out_dir=/media/sam/4TB_toshiba/porites/20190426_symbio_porites_salmon_abundance_FvM_k5
+sybmio_transcriptome_dir=/media/sam/4TB_toshiba/porites/20190426_symbio_porites_transcripts
 sybmio_transcriptome=/media/sam/4TB_toshiba/porites/20190426_symbio_porites_transcripts/Trinity.sp.symbio_porites.fasta
 symbio_fasta_index=/media/sam/4TB_toshiba/porites/20190426_symbio_porites_transcripts/Trinity.sp.symbio_porites.fasta.fai
 samples=/home/sam/gitrepos/coral_rnaseq_2017/scripts/porites_male_vs_female_k5_trinity_sample_list.txt
@@ -51,6 +52,12 @@ female_bleached_K5_04/quant.sf \
 male_bleached_K5_02/quant.sf \
 male_bleached_K5_01/quant.sf \
 female_bleached_K5_05/quant.sf
+
+cd
+${trinity_DE} \
+--matrix ${salmon_out_dir}/salmon.isoform.counts.matrix \
+--method edgeR \
+--samples_file ${samples}
 
 # Email me when job is complete
 sed '/^Subject:/ s/ / porites_salmon JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
