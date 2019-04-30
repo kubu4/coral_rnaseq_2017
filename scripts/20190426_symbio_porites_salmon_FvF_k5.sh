@@ -13,9 +13,15 @@ gene_map=/media/sam/4TB_toshiba/porites/20190426_symbio_porites_transcripts/Trin
 salmon_stdout=20190426_salmon.out
 salmon_stderr=20190426_salmon.err
 
+#programs
+trinity_abundance=/home/shared/Trinityrnaseq-v2.6.6/util/align_and_estimate_abundance.pl
+trinity_matrix=/home/shared/Trinityrnaseq-v2.6.6/util/abundance_estimates_to_matrix.pl
+trinity_DE=/home/shared/Trinityrnaseq-v2.6.6/Analysis/DifferentialExpression/run_DE_analysis.pl
+diff_expr=/home/shared/Trinityrnaseq-v2.6.6/Analysis/DifferentialExpression/analyze_diff_expr.pl
+
 cd ${trimmed_reads_dir}
 
-time  /home/shared/Trinityrnaseq-v2.6.6/util/align_and_estimate_abundance.pl \
+time ${trinity_abundance} \
 --output_dir ${salmon_out_dir} \
 --transcripts ${coral_transcriptome} \
 --seqType fq \
