@@ -35,5 +35,22 @@ time ${trinity_abundance} \
 1> ${salmon_out_dir}/${salmon_stdout} \
 2> ${salmon_out_dir}/${salmon_stderr}
 
+# Move output folders
+mv ${trimmed_reads_dir}/[mf][ae][lm]* \
+${salmon_out_dir}
+
+# Convert abundance estimates to matrix
+${trinity_matrix} \
+--est_method salmon \
+--gene_trans_map ${gene_map} \
+--out_prefix salmon \
+--name_sample_by_basedir \
+male_bleached_K5_03/quant.sf \
+female_bleached_K5_06/quant.sf \
+female_bleached_K5_04/quant.sf \
+male_bleached_K5_02/quant.sf \
+male_bleached_K5_01/quant.sf \
+female_bleached_K5_05/quant.sf
+
 # Email me when job is complete
 sed '/^Subject:/ s/ / porites_salmon JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
