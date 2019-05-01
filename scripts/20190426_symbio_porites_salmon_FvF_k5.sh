@@ -67,5 +67,14 @@ ${trinity_DE} \
 
 mv edgeR* ${salmon_out_dir}
 
+# Run differential expression on edgeR output matrix
+# Set fold difference to 2-fold (ie. -C 1 = 2^1)
+# P value <= 0.05
+${diff_expr} \
+--matrix salmon.isoform.TMM.EXPR.matrix \
+--samples ${samples} \
+-C 1 \
+-P 0.05
+
 # Email me when job is complete
 sed '/^Subject:/ s/ / porites_salmon JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
