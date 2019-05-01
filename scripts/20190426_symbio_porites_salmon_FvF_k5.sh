@@ -43,6 +43,8 @@ time ${trinity_abundance} \
 mv ${trimmed_reads_dir}/[mf][ae][lm]* \
 ${salmon_out_dir}
 
+cd ${salmon_out_dir}
+
 # Convert abundance estimates to matrix
 ${trinity_matrix} \
 --est_method salmon \
