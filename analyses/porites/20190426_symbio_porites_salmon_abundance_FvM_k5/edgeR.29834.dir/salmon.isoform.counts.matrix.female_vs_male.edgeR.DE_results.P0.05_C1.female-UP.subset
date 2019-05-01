@@ -1,0 +1,2 @@
+sampleA	sampleB	logFC	logCPM	PValue	FDR	male_bleached_K5_03	female_bleached_K5_06	female_bleached_K5_04	male_bleached_K5_02	male_bleached_K5_01	female_bleached_K5_05
+TRINITY_DN163266_c0_g2_i4	female	male	9.39809196320739	9.15780328536966	4.59607081251093e-05	0.0098529902807564	0.000	678.224	1118.745	0.000	0.000	691.680

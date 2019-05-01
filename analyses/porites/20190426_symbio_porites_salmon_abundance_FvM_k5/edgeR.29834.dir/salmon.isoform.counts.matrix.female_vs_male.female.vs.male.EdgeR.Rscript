@@ -1,0 +1,24 @@
+library(edgeR)
+
+data = read.table("/media/sam/4TB_toshiba/porites/20190426_symbio_porites_salmon_abundance_FvM_k5/salmon.isoform.counts.matrix", header=T, row.names=1, com='')
+col_ordering = c(3,6,2,5,4,1)
+rnaseqMatrix = data[,col_ordering]
+rnaseqMatrix = round(rnaseqMatrix)
+rnaseqMatrix = rnaseqMatrix[rowSums(cpm(rnaseqMatrix) > 1) >= 2,]
+conditions = factor(c(rep("female", 3), rep("male", 3)))
+
+exp_study = DGEList(counts=rnaseqMatrix, group=conditions)
+exp_study = calcNormFactors(exp_study)
+exp_study = estimateCommonDisp(exp_study)
+exp_study = estimateTagwiseDisp(exp_study)
+et = exactTest(exp_study, pair=c("female", "male"))
+tTags = topTags(et,n=NULL)
+result_table = tTags$table
+result_table = data.frame(sampleA="female", sampleB="male", result_table)
+result_table$logFC = -1 * result_table$logFC
+write.table(result_table, file='salmon.isoform.counts.matrix.female_vs_male.edgeR.DE_results', sep='	', quote=F, row.names=T)
+write.table(rnaseqMatrix, file='salmon.isoform.counts.matrix.female_vs_male.edgeR.count_matrix', sep='	', quote=F, row.names=T)
+source("/home/shared/Trinityrnaseq-v2.6.6/Analysis/DifferentialExpression/R/rnaseq_plot_funcs.R")
+pdf("salmon.isoform.counts.matrix.female_vs_male.edgeR.DE_results.MA_n_Volcano.pdf")
+plot_MA_and_Volcano(rownames(result_table), result_table$logCPM, result_table$logFC, result_table$FDR)
+dev.off()
