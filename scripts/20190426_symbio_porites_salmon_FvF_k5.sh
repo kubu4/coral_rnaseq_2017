@@ -70,6 +70,7 @@ mv edgeR* ${salmon_out_dir}
 # Run differential expression on edgeR output matrix
 # Set fold difference to 2-fold (ie. -C 1 = 2^1)
 # P value <= 0.05
+cd ${salmon_out_dir}
 ${diff_expr} \
 --matrix salmon.isoform.TMM.EXPR.matrix \
 --samples ${samples} \
