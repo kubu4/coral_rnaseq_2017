@@ -17,6 +17,8 @@ gene_map=/media/sam/4TB_toshiba/porites/20190426_symbio_porites_transcripts/Trin
 salmon_stdout=20190426_salmon.out
 salmon_stderr=20190426_salmon.err
 
+edgeR_dir=""
+
 #programs
 trinity_abundance=/home/shared/Trinityrnaseq-v2.6.6/util/align_and_estimate_abundance.pl
 trinity_matrix=/home/shared/Trinityrnaseq-v2.6.6/util/abundance_estimates_to_matrix.pl
@@ -70,7 +72,11 @@ mv edgeR* ${salmon_out_dir}
 # Run differential expression on edgeR output matrix
 # Set fold difference to 2-fold (ie. -C 1 = 2^1)
 # P value <= 0.05
-cd ${salmon_out_dir}
+# Has to run from edgeR output directory
+
+# Pulls edgeR directory name and removes leading ./ in find output
+edgeR_dir=$(find . -type d -name "edgeR*" | sed 's%./%%'))
+cd ${edgeR_dir}
 ${diff_expr} \
 --matrix salmon.isoform.TMM.EXPR.matrix \
 --samples ${samples} \
