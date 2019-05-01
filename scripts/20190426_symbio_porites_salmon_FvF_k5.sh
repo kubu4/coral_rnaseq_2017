@@ -75,6 +75,7 @@ mv edgeR* ${salmon_out_dir}
 # Has to run from edgeR output directory
 
 # Pulls edgeR directory name and removes leading ./ in find output
+cd ${salmon_out_dir}
 edgeR_dir=$(find . -type d -name "edgeR*" | sed 's%./%%')
 cd ${edgeR_dir}
 ${diff_expr} \
