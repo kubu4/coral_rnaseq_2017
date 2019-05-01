@@ -2,6 +2,9 @@
 
 # Differential gene expression analysis
 
+# Exit script if any command fails
+set -e
+
 ## Set input file locations
 trimmed_reads_dir=/mnt/data/coral_RNAseq_2017/porites/20180311_fastqc_trimming/trimmed
 salmon_out_dir=/media/sam/4TB_toshiba/porites/20190426_symbio_porites_salmon_abundance_FvM_k5
