@@ -78,7 +78,7 @@ mv edgeR* ${salmon_out_dir}
 edgeR_dir=$(find . -type d -name "edgeR*" | sed 's%./%%'))
 cd ${edgeR_dir}
 ${diff_expr} \
---matrix salmon.isoform.TMM.EXPR.matrix \
+--matrix ${salmon_out_dir}/salmon.isoform.TMM.EXPR.matrix \
 --samples ${samples} \
 -C 1 \
 -P 0.05
