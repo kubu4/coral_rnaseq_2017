@@ -12,57 +12,61 @@ blastp_out_dir=/media/sam/4TB_toshiba/montipora/20190515_montipora_blastp_inpara
 orf_fasta=/media/sam/4TB_toshiba/porites/20180429_transdecoder/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta
 blastp_out_file=20190515_montipora_blastp_inparanoid_sp-v5.tab
 
+inparanoid_coral_table="/media/sam/4TB_toshiba/montipora/20181204_inparanoid/inparanoid_4.1/table.20180803_cd-hit_montipora.txt-maeq_coral_PRO.fas"
+orf_fai="/media/sam/4TB_toshiba/porites/20180429_transdecoder/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta.fai"
+
+# Output files
+coral_list="inparanoid-list.txt"
+coral_fasta="inparanoid_coral.fasta"
+coral_fai="inparanoid_coral.fasta.fai"
+
 # Programs variables
 blastp=/home/shared/ncbi-blast-2.8.1+/bin/blastp
 blastdb_dir=/mnt/data/ncbi_swissprot_v5_db
 sp_db=swissprot_v5
 samtools="/home/shared/samtools-1.9/samtools"
 
-# Input files
-inparanoid_coral="/media/sam/4TB_toshiba/montipora/20181204_inparanoid/inparanoid_4.1/table.20180803_cd-hit_montipora.txt-maeq_coral_PRO.fas"
-trinity_fasta="/media/sam/4TB_toshiba/montipora/20180416_trinity/Trinity.fasta"
-trinity_fai="/media/sam/4TB_toshiba/montipora/20180416_trinity/Trinity.fasta.fai"
+# Create FastA index file
+"${samtools}" faidx "${orf_fasta}" \
+> "${orf_fai}"
 
-# Output files
-symbio_trinity_list="montipora-inparanoid-list.txt"
-symbio_fasta="montipora.fasta"
-symbio_fai="montipora.fasta.fai"
 
 # Pull out Trinity contig names
 # based on InParanoid inparalogs
-awk 'NR>1 { print $3 }' "${inparanoid_coral}" \
-> "${coral_trinity_list}"
+awk 'NR>1 { print $3 }' "${inparanoid_coral_table}" \
+> "${coral_list}"
 
 
-# Use faidx and new symbiodinium FastA index
+# Use faidx and FastA index
 # to create new FastA subset.
 while read -r contig
 do
-  ${samtools} faidx "${trinity_fasta}" "${contig}" \
-  >> "${symbio_fasta}"
-done < "${symbio_trinity_list}"
+  "${samtools}" faidx "${orf_fasta}" "${contig}" \
+  >> "${coral_fasta}"
+done < "${coral_list}"
 
 # Index new FastA
-${samtools} faidx "${symbio_fasta}"
+${samtools} faidx "${coral_fasta}"
 
 
 
-# Run blastx
+# Run blastp
 cd ${blastdb_dir}
 
 export BLASTDB=${blastdb_dir}
 
 time \
-${blastx} \
+${blastp} \
 -query ${orf_fasta} \
 -db ${blastdb_dir}/${sp_db} \
 -taxidlist ${taxid_list} \
 -evalue 1E-04 \
 -outfmt "6 std staxids" \
 -max_hsps 1 \
+-max_target_seqs 1 \
 -num_threads 23 \
--out ${blastx_out_dir}/${blastx_out_file} \
-1> blastx_stdout.txt \
-2> blastx_stderr.txt
+-out ${blastp_out_dir}/${blastp_out_file} \
+1> blastp_stdout.txt \
+2> blastp_stderr.txt
 
-sed '/^Subject:/ s/ / porites_symbio_blastx JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
+sed '/^Subject:/ s/ / montipora_blastp JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
