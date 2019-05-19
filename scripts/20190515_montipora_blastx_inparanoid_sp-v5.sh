@@ -1,28 +1,21 @@
 #!/bin/env bash
 
-
+# Script to pull subset of Transdecoder complete ORFs proteins
+# based on InParanoid ortholog comparison between corals and symbiodinium.
 
 # Exit script if a command fails
 set -e
 
 
 # Input/output files
-blastx_out_dir=/media/sam/4TB_toshiba/montipora/20190515_montipora_blastx_inparanoid_sp-v5
-orf_fasta=/media/sam/4TB_toshiba/porites/20180429_transdecoder/Trinity.fasta.transdecoder.cds.complete-ORFS-only.fasta
-blastx_out_file=20190515_montipora_blastx_inparanoid_sp-v5.tab
+blastp_out_dir=/media/sam/4TB_toshiba/montipora/20190515_montipora_blastp_inparanoid_sp-v5
+orf_fasta=/media/sam/4TB_toshiba/porites/20180429_transdecoder/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta
+blastp_out_file=20190515_montipora_blastp_inparanoid_sp-v5.tab
 
 # Programs variables
-blastx=/home/shared/ncbi-blast-2.8.1+/bin/blastx
+blastp=/home/shared/ncbi-blast-2.8.1+/bin/blastp
 blastdb_dir=/mnt/data/ncbi_swissprot_v5_db
 sp_db=swissprot_v5
-
-#!/bin/env bash
-
-# Script to pull subset of Trinity assembly
-# based on InParanoid ortholog comparison between corals and symbiodinium.
-
-
-# Programs
 samtools="/home/shared/samtools-1.9/samtools"
 
 # Input files
