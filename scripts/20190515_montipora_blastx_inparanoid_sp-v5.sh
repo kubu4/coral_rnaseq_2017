@@ -18,7 +18,6 @@ orf_fai="/media/sam/4TB_toshiba/porites/20180429_transdecoder/Trinity.fasta.tran
 # Output files
 coral_list="inparanoid-list.txt"
 coral_fasta="inparanoid_coral.fasta"
-coral_fai="inparanoid_coral.fasta.fai"
 
 # Programs variables
 blastp=/home/shared/ncbi-blast-2.8.1+/bin/blastp
@@ -27,9 +26,7 @@ sp_db=swissprot_v5
 samtools="/home/shared/samtools-1.9/samtools"
 
 # Create FastA index file
-"${samtools}" faidx "${orf_fasta}" \
-> "${orf_fai}"
-
+"${samtools}" faidx "${orf_fasta}"
 
 # Pull out Trinity contig names
 # based on InParanoid inparalogs
@@ -48,8 +45,6 @@ done < "${coral_list}"
 # Index new FastA
 ${samtools} faidx "${coral_fasta}"
 
-
-
 # Run blastp
 cd ${blastdb_dir}
 
@@ -59,7 +54,6 @@ time \
 ${blastp} \
 -query ${orf_fasta} \
 -db ${blastdb_dir}/${sp_db} \
--taxidlist ${taxid_list} \
 -evalue 1E-04 \
 -outfmt "6 std staxids" \
 -max_hsps 1 \
