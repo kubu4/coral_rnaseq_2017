@@ -14,8 +14,7 @@ orf_fasta=/media/sam/4TB_toshiba/porites/20180803_cd-hit/20180803_cd-hit_porites
 orf_fasta_index=/media/sam/4TB_toshiba/porites/20180803_cd-hit/20180803_cd-hit_porites.txt.fai
 blastp_out_file=20190520_porites_blastp_inparanoid_sp-v5.tab
 
-inparanoid_coral_table="/media/sam/4TB_toshiba/porites/20181206_inparanoid/inparanoid_4.1/table.20180803_cd-hit_porites.txt-past_PRO.fas
-"
+inparanoid_coral_table="/media/sam/4TB_toshiba/porites/20181206_inparanoid/inparanoid_4.1/table.20180803_cd-hit_porites.txt-past_PRO.fas"
 
 # Output files
 coral_list="${wd}/inparanoid-list.txt"
