@@ -10,8 +10,8 @@ wd="$(pwd)"
 
 # Input/output files
 blastp_out_dir=/media/sam/4TB_toshiba/montipora/20190515_montipora_blastp_inparanoid_sp-v5
-orf_fasta=/media/sam/4TB_toshiba/montipora/20180429_transdecoder/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta
-orf_fasta_index=/media/sam/4TB_toshiba/montipora/20180429_transdecoder/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta.fai
+orf_fasta=/media/sam/4TB_toshiba/montipora/20180803_cd-hit/20180803_cd-hit_montipora.txt
+orf_fasta_index=/media/sam/4TB_toshiba/montipora/20180803_cd-hit/20180803_cd-hit_montipora.txt.fai
 blastp_out_file=20190515_montipora_blastp_inparanoid_sp-v5.tab
 
 inparanoid_coral_table="/media/sam/4TB_toshiba/montipora/20181204_inparanoid/inparanoid_4.1/table.20180803_cd-hit_montipora.txt-maeq_coral_PRO.fas"
