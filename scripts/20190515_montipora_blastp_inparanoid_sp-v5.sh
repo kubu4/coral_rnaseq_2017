@@ -18,8 +18,8 @@ inparanoid_coral_table="/media/sam/4TB_toshiba/montipora/20181204_inparanoid/inp
 orf_fai="/media/sam/4TB_toshiba/porites/20180429_transdecoder/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta.fai"
 
 # Output files
-coral_list="inparanoid-list.txt"
-coral_fasta="inparanoid_coral.fasta"
+coral_list="${wd}/inparanoid-list.txt"
+coral_fasta="${wd}/inparanoid_coral.fasta"
 
 # Programs variables
 blastp=/home/shared/ncbi-blast-2.8.1+/bin/blastp
