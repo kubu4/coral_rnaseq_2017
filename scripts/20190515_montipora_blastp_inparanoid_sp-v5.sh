@@ -5,11 +5,13 @@
 
 # Exit script if a command fails
 set -e
-
+# Save current directory as working directory.
+wd="$(pwd)"
 
 # Input/output files
 blastp_out_dir=/media/sam/4TB_toshiba/montipora/20190515_montipora_blastp_inparanoid_sp-v5
-orf_fasta=/media/sam/4TB_toshiba/porites/20180429_transdecoder/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta
+orf_fasta=Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta
+orf_fasta_dir=/media/sam/4TB_toshiba/montipora/20180429_transdecoder
 blastp_out_file=20190515_montipora_blastp_inparanoid_sp-v5.tab
 
 inparanoid_coral_table="/media/sam/4TB_toshiba/montipora/20181204_inparanoid/inparanoid_4.1/table.20180803_cd-hit_montipora.txt-maeq_coral_PRO.fas"
@@ -26,7 +28,11 @@ sp_db=swissprot_v5
 samtools="/home/shared/samtools-1.9/samtools"
 
 # Create FastA index file
+cd "${orf_fasta_dir}"
 "${samtools}" faidx "${orf_fasta}"
+
+# Change back to working directory.
+cd "${wd}"
 
 # Pull out Trinity contig names
 # based on InParanoid inparalogs
@@ -36,6 +42,7 @@ awk 'NR>1 { print $3 }' "${inparanoid_coral_table}" \
 
 # Use faidx and FastA index
 # to create new FastA subset.
+cd "${orf_fasta_dir}"
 while read -r contig
 do
   "${samtools}" faidx "${orf_fasta}" "${contig}" \
