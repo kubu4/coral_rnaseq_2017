@@ -9,7 +9,7 @@ set -e
 wd="$(pwd)"
 
 # Input/output files
-blastp_out_dir=/media/sam/4TB_toshiba/porites/20190520_montipora_blastp_inparanoid_sp-v5
+blastp_out_dir=/media/sam/4TB_toshiba/porites/20190520_porites_blastp_inparanoid_sp-v5
 orf_fasta=/media/sam/4TB_toshiba/porites/20180803_cd-hit/20180803_cd-hit_porites.txt
 orf_fasta_index=/media/sam/4TB_toshiba/porites/20180803_cd-hit/20180803_cd-hit_porites.txt.fai
 blastp_out_file=20190520_porites_blastp_inparanoid_sp-v5.tab
