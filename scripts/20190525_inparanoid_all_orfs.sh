@@ -6,6 +6,10 @@
 # Exit script if a command fails
 set -e
 
+# Paths to input files
+protein_fasta="/media/sam/4TB_toshiba/porites/20180429_transdecoder/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta"
+ingroup_fasta="/mnt/data/porites_astreoides_matz/pastreoides_2014/pastreoides_may2014/past_PRO.fas"
+outgroup_fasta="/mnt/data/symbiodinium_minutum_prot/symbB.v1.2.augustus.prot.fa"
 
 # Use sed to modify InParanoid config file
 # Uses the "%" as the substitute delimiter to allow usage of "/" in paths
