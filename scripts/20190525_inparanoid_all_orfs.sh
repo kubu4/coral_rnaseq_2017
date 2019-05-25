@@ -21,3 +21,8 @@ sed -i '/^$formatdb = "formatdb"/ s%"formatdb"%"/home/shared/blast-2.2.17/bin/fo
 
 ## Set InParanoid to use an out group (change from 0 to 1)
 sed -i '/^$use_outgroup = 0/ s%0%1%' inparanoid.pl
+
+# Copy files to working directory
+rsync -a "${protein_fasta}" .
+rsync -a "${ingroup_fasta}" .
+rsync -a "${outgroup_fasta}" .
