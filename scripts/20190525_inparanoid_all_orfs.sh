@@ -1,7 +1,8 @@
 #!/bin/env bash
 
-# Script to pull subset of Transdecoder complete ORFs proteins
-# based on InParanoid ortholog comparison between corals and symbiodinium.
+# Script to run InParanoid using two ingroups and an outgroup
+# Script must be executed in the "inparanoid_4.1" directory.
+# User must set paths to input files and blastall and formatdb program paths below.
 
 # Exit script if a command fails
 set -e
