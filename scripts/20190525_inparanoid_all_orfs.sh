@@ -26,3 +26,16 @@ sed -i '/^$use_outgroup = 0/ s%0%1%' inparanoid.pl
 rsync -a "${protein_fasta}" .
 rsync -a "${ingroup_fasta}" .
 rsync -a "${outgroup_fasta}" .
+
+# Run inparanoid
+## The two ingroup files have to be listed first
+## The outgrop file has be the last input file listed
+perl inparanoid.pl \
+"${protein_fasta}" \
+"${ingroup_fasta}" \
+"${outgroup_fasta}" \
+1>stdout.txt \
+2>stderr.txt
+
+# Send email when job finishes
+sed '/^Subject:/ s/ / porites inparanoid JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
