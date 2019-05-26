@@ -47,7 +47,7 @@ outgroup_fasta="symbB.v1.2.augustus.prot.fa"
 # Use sed to modify InParanoid config file
 # Uses the "%" as the substitute delimiter to allow usage of "/" in paths
 ## Set blastall location
-sed -i '/^$blastall = "blastall"/ s%"blastall"%"/gscratch/srlab/programs/blast-2.2.17/bin/blastall -a23"%' inparanoid.pl
+sed -i '/^$blastall = "blastall"/ s%"blastall"%"/gscratch/srlab/programs/blast-2.2.17/bin/blastall -a28"%' inparanoid.pl
 
 ## Set formatdb location
 sed -i '/^$formatdb = "formatdb"/ s%"formatdb"%"/gscratch/srlab/programs/blast-2.2.17/bin/formatdb"%' inparanoid.pl
