@@ -34,9 +34,9 @@ printf "%0.s-" {1..10} >> system_path.log
 echo "${PATH}" | tr : \\n >> system_path.log
 
 # Paths to input files for copying
-org_protein_fasta="gscratch/scrubbed/samwhite/data/montipora/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta"
-org_ingroup_fasta="gscratch/scrubbed/samwhite/data/montipora/maeq_coral_PRO.fas"
-org_outgroup_fasta="gscratch/scrubbed/samwhite/data/montipora/symbB.v1.2.augustus.prot.fa"
+org_protein_fasta="/gscratch/scrubbed/samwhite/data/montipora/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta"
+org_ingroup_fasta="/gscratch/scrubbed/samwhite/data/montipora/maeq_coral_PRO.fas"
+org_outgroup_fasta="/gscratch/scrubbed/samwhite/data/montipora/symbB.v1.2.augustus.prot.fa"
 
 
 # Input files for InParanoid
