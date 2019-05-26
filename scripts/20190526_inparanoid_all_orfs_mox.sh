@@ -33,5 +33,33 @@ echo "" >> system_path.log
 printf "%0.s-" {1..10} >> system_path.log
 echo "${PATH}" | tr : \\n >> system_path.log
 
+# Input files for InParanoid
+protein_fasta="Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta"
+ingroup_fasta="past_PRO.fas"
+outgroup_fasta="symbB.v1.2.augustus.prot.fa"
 
-threads=28
+# Use sed to modify InParanoid config file
+# Uses the "%" as the substitute delimiter to allow usage of "/" in paths
+## Set blastall location
+sed -i '/^$blastall = "blastall"/ s%"blastall"%"/gscratch/srlab/programs/blast-2.2.17/bin/blastall -a23"%' inparanoid.pl
+
+## Set formatdb location
+sed -i '/^$formatdb = "formatdb"/ s%"formatdb"%"/gscratch/srlab/programs/blast-2.2.17/bin/formatdb"%' inparanoid.pl
+
+## Set InParanoid to use an out group (change from 0 to 1)
+sed -i '/^$use_outgroup = 0/ s%0%1%' inparanoid.pl
+
+# Copy files to working directory
+rsync -a "${org_protein_fasta}" .
+rsync -a "${org_ingroup_fasta}" .
+rsync -a "${org_outgroup_fasta}" .
+
+# Run inparanoid
+## The two ingroup files have to be listed first
+## The outgrop file has be the last input file listed
+perl inparanoid.pl \
+"${protein_fasta}" \
+"${ingroup_fasta}" \
+"${outgroup_fasta}" \
+1>stdout.txt \
+2>stderr.txt
