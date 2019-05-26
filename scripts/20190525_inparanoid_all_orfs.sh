@@ -7,10 +7,15 @@
 # Exit script if a command fails
 set -e
 
-# Paths to input files
-protein_fasta="/media/sam/4TB_toshiba/porites/20180429_transdecoder/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta"
-ingroup_fasta="/mnt/data/porites_astreoides_matz/pastreoides_2014/pastreoides_may2014/past_PRO.fas"
-outgroup_fasta="/mnt/data/symbiodinium_minutum_prot/symbB.v1.2.augustus.prot.fa"
+# Paths to input files for copying
+org_protein_fasta="/media/sam/4TB_toshiba/porites/20180429_transdecoder/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta"
+org_ingroup_fasta="/mnt/data/porites_astreoides_matz/pastreoides_2014/pastreoides_may2014/past_PRO.fas"
+org_outgroup_fasta="/mnt/data/symbiodinium_minutum_prot/symbB.v1.2.augustus.prot.fa"
+
+# Input files for InParanoid
+protein_fasta="Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta"
+ingroup_fasta="pastreoides_2014/pastreoides_may2014/past_PRO.fas"
+outgroup_fasta="symbB.v1.2.augustus.prot.fa"
 
 # Use sed to modify InParanoid config file
 # Uses the "%" as the substitute delimiter to allow usage of "/" in paths
@@ -24,9 +29,9 @@ sed -i '/^$formatdb = "formatdb"/ s%"formatdb"%"/home/shared/blast-2.2.17/bin/fo
 sed -i '/^$use_outgroup = 0/ s%0%1%' inparanoid.pl
 
 # Copy files to working directory
-rsync -a "${protein_fasta}" .
-rsync -a "${ingroup_fasta}" .
-rsync -a "${outgroup_fasta}" .
+rsync -a "${org_protein_fasta}" .
+rsync -a "${org_ingroup_fasta}" .
+rsync -a "${org_outgroup_fasta}" .
 
 # Run inparanoid
 ## The two ingroup files have to be listed first
