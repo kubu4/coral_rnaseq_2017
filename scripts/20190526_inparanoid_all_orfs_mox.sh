@@ -15,7 +15,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=samwhite@uw.edu
 ## Specify the working directory for this job
-#SBATCH --workdir=/gscratch/scrubbed/samwhite/outputs/20190526_inparanoid_montipora_all_orfs
+#SBATCH --workdir=/gscratch/scrubbed/samwhite/outputs/20190526_inparanoid_montipora_all_orfs/inparanoid_4.1
 
 # Exit script if any command fails
 set -e
