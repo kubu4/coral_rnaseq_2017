@@ -14,7 +14,7 @@ org_outgroup_fasta="/mnt/data/symbiodinium_minutum_prot/symbB.v1.2.augustus.prot
 
 # Input files for InParanoid
 protein_fasta="Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta"
-ingroup_fasta="pastreoides_2014/pastreoides_may2014/past_PRO.fas"
+ingroup_fasta="past_PRO.fas"
 outgroup_fasta="symbB.v1.2.augustus.prot.fa"
 
 # Use sed to modify InParanoid config file
