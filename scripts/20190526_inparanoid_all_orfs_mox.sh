@@ -33,9 +33,15 @@ echo "" >> system_path.log
 printf "%0.s-" {1..10} >> system_path.log
 echo "${PATH}" | tr : \\n >> system_path.log
 
+# Paths to input files for copying
+org_protein_fasta="gscratch/scrubbed/samwhite/data/montipora/Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta"
+org_ingroup_fasta="gscratch/scrubbed/samwhite/data/montipora/maeq_coral_PRO.fas"
+org_outgroup_fasta="gscratch/scrubbed/samwhite/data/montipora/symbB.v1.2.augustus.prot.fa"
+
+
 # Input files for InParanoid
 protein_fasta="Trinity.fasta.transdecoder.pep.complete-ORFS-only.fasta"
-ingroup_fasta="past_PRO.fas"
+ingroup_fasta="maeq_coral_PRO.fas"
 outgroup_fasta="symbB.v1.2.augustus.prot.fa"
 
 # Use sed to modify InParanoid config file
