@@ -38,7 +38,7 @@ wd="$(pwd)"
 blastx_out="${wd}/blastx.outfmt6"
 sp_db="/gscratch/srlab/programs/Trinotate-v3.1.1/admin/uniprot_sprot.pep"
 
-trinity_fasta="/gscratch/scrubbed/samwhite/data/porites/Trinity.fasta"
+trinity_fasta="/gscratch/scrubbed/samwhite/data/montipora/Trinity.fasta"
 
 # Paths to programs
 blast_dir="/gscratch/srlab/programs/ncbi-blast-2.8.1+/bin"
