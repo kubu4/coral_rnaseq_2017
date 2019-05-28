@@ -44,13 +44,14 @@ trinity_fasta="/gscratch/scrubbed/samwhite/data/porites/Trinity.fasta"
 blast_dir="/gscratch/srlab/programs/ncbi-blast-2.8.1+/bin"
 blastx="${blast_dir}/blastx"
 
+threads=28
 
 # Run blastx on Trinity fasta
-${blastx} \
--query ${trinity_fasta} \
--db ${sp_db} \
+"${blastx}" \
+-query "${trinity_fasta}" \
+-db "${sp_db}" \
 -max_target_seqs 1 \
 -outfmt 6 \
 -evalue 1e-4 \
--num_threads 28 \
-> ${blastx_out}
+-num_threads "${threads}" \
+> "${blastx_out}"
