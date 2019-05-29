@@ -45,7 +45,7 @@ lORFs_pep="${transdecoder_out_dir}/longest_orfs.pep"
 pfam_db="/gscratch/srlab/programs/Trinotate-v3.1.1/admin/Pfam-A.hmm"
 sp_db="/gscratch/srlab/programs/Trinotate-v3.1.1/admin/uniprot_sprot.pep"
 
-trinity_fasta="/gscratch/scrubbed/samwhite/outputs/20190215_trinity_geoduck_ctenidia_RNAseq/trinity_out_dir/Trinity.fasta"
+trinity_fasta="/gscratch/scrubbed/samwhite/data/montipora//Trinity.fasta"
 
 # Paths to programs
 blast_dir="/gscratch/srlab/programs/ncbi-blast-2.8.1+/bin"
