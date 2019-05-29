@@ -9,6 +9,7 @@ threads=28
 # Paths to programs
 bt2="/home/shared/bowtie2-2.3.4.1-linux-x86_64/bowtie2"
 samtools="/home/shared/samtools-1.9/samtools"
+picard="/home/shared/picard-2.20.2.jar"
 
 # Input files
 fastq_dir="/media/sam/4TB_toshiba/porites/"
@@ -114,4 +115,28 @@ do
   --threads="${threads}" \
   "${sample_name}".sam
 
+  # Convert SAM to BAM
+  "${samtools}" view \
+  --threads "${threads}" \
+  -bS "${sample_name}".sam \
+  > "${sample_name}".bam
+
+  # Sort BAM
+  "${samtools}" sort \
+  "${sample_name}".bam \
+  -o "${sample_name}".sorted.bam
+
+  # Run Picard to remove duplicate reads
+  ## Sets maximum java heap size to 16GB
+  java \
+  -Xmx16g \
+  -jar \
+  "${picard}" MarkDuplicates \
+  REMOVE_DUPLICATES=true \
+  INPUT="${sample_name}".sorted.bam \
+  OUTPUT="${sample_name}".sorted.dedup.bam \
+  METRICS_FILE="${sample_name}"-picard_metrics.txt \
+  VALIDATION_STRINGENCY=LENIEN
+
+  
 done
