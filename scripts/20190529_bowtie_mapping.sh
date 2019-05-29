@@ -35,7 +35,7 @@ done
 ## Uses awk to parse out sample name from filename
 for R1_fastq in ${fastq_dir}/*READ1*.gz
 do
-  names_array+=($(echo ${R1_fastq#${fastq_dir}} | awk -F"_" '{print $3 $4}'))
+  names_array+=($(echo ${R1_fastq#${fastq_dir}} | awk -F'-' '{print $3}'))
 done
 
 # Create list of fastq files used in analysis
