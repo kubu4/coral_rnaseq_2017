@@ -118,6 +118,11 @@ do
   --threads="${threads}" \
   "${sample_name}".sam
 
+  # Create tab-delimited text file with read group info
+  # Needed during samtools merge step
+  printf "%s\t%s%s\t%s\t\n" "@RG" "${sample_name}" "SM:${sample_name}" "PL:Illumina" \
+  >> rg.txt
+
   # Convert SAM to BAM
   "${samtools}" view \
   --threads "${threads}" \
@@ -139,7 +144,7 @@ do
   INPUT="${sample_name}".sorted.bam \
   OUTPUT="${sample_name}".sorted.dedup.bam \
   METRICS_FILE="${sample_name}"-picard_metrics.txt \
-  VALIDATION_STRINGENCY=LENIEN
+  VALIDATION_STRINGENCY=LENIENT
 
   # Index new BAM file
   "${samtools}" index \
