@@ -149,6 +149,10 @@ do
   # Index new BAM file
   "${samtools}" index \
   "${sample_name}".sorted.dedup.bam
-
-
 done
+
+# Merge deduplicated files
+"${samtools}" merge \
+-rh rg.txt \
+merged.bam \
+*dedup.bam
