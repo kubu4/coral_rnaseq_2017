@@ -57,32 +57,31 @@ transdecoder_lORFs="${transdecoder_dir}/TransDecoder.LongOrfs"
 transdecoder_predict="${transdecoder_dir}/TransDecoder.Predict"
 
 # Make output directories
-mkdir ${blastp_out_dir}
-mkdir ${pfam_out_dir}
+mkdir "${blastp_out_dir}"
+mkdir "${pfam_out_dir}"
 
 # Extract long open reading frames
-${transdecoder_lORFs} \
--t ${trinity_fasta}
-
+"${transdecoder_lORFs}" \
+-t "${trinity_fasta}"
 # Run blastp on long ORFs
-${blastp} \
--query ${lORFs_pep} \
--db ${sp_db} \
+"${blastp}" \
+-query "${lORFs_pep}" \
+-db "${sp_db}" \
 -max_target_seqs 1 \
 -outfmt 6 \
 -evalue 1e-5 \
 -num_threads 28 \
-> ${blastp_out}
+> "${blastp_out}"
 
 # Run pfam search
-${hmmscan} \
+"${hmmscan}" \
 --cpu 28 \
---domtblout ${pfam_out} \
-${pfam_db} \
-${lORFs_pep}
+--domtblout "${pfam_out}" \
+"${pfam_db}" \
+"${lORFs_pep}"
 
 # Run Transdecoder with blastp and Pfam results
-${transdecoder_predict} \
--t ${trinity_fasta} \
---retain_pfam_hits ${pfam_out} \
---retain_blastp_hits ${blastp_out}
+"${transdecoder_predict}" \
+-t "${trinity_fasta}" \
+--retain_pfam_hits "${pfam_out}" \
+--retain_blastp_hits "${blastp_out}"
