@@ -156,3 +156,6 @@ done
 -rh rg.txt \
 merged.bam \
 *dedup.bam
+
+# Email me when finished
+sed '/^Subject:/ s/ / porites_blastp JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
