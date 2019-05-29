@@ -109,6 +109,9 @@ do
   fi
   # Run bowtie2 on each pair of FastQ files
   "${bt2}" \
+  --rg-id "${sample_name}" \
+  --rg SM:"${sample_name}" \
+  --rg PL:Illumina \
   -x "${bt2_index_name}" \
   -1 "${fastq_array_R1[index]}" \
   -2 "${fastq_array_R2[index]}" \
@@ -138,5 +141,9 @@ do
   METRICS_FILE="${sample_name}"-picard_metrics.txt \
   VALIDATION_STRINGENCY=LENIEN
 
-  
+  # Index new BAM file
+  "${samtools}" index \
+  "${sample_name}".sorted.dedup.bam
+
+
 done
