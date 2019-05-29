@@ -3,15 +3,16 @@
 # Exit if command fails
 set -e
 
+# Number of threads to use for programs
 threads=28
 
 # Paths to programs
-bowtie2="/home/shared/bowtie2-2.3.4.1-linux-x86_64/bowtie2"
+bt2="/home/shared/bowtie2-2.3.4.1-linux-x86_64/bowtie2"
 samtools="/home/shared/samtools-1.9/samtools"
 
 # Input files
 fastq_dir="/media/sam/4TB_toshiba/porites/"
-
+bt2_index_name="porites_sp_cnidarians"
 
 ## Inititalize arrays
 fastq_array_R1=()
@@ -105,5 +106,12 @@ do
     sample_name="${sample_name}"-female_bleached_K5 \
   fi
   fi
-  "${seqtk}" seq -a "${fastq_array_R1[index]}" "${fastq_array_R2[index]}" >> "${sample_name}".fasta
+  # Run bowtie2 on each pair of FastQ files
+  "${bt2}" \
+  -x "${bt2_index_name}" \
+  -1 "${fastq_array_R1[index]}" \
+  -2 "${fastq_array_R2[index]}" \
+  --threads="${threads}" \
+  "${sample_name}".sam
+
 done
