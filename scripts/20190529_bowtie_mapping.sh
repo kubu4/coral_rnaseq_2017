@@ -45,18 +45,65 @@ do
   echo "${fastq#${fastq_dir}}" >> fastq.list.txt
 done
 
-# Concatenate paired-end reads into singular FastA files for each sample.
-# Uses seqtk to convert FastQ to FastA.
+
 for index in "${!fastq_array_R1[@]}"
 do
   sample_name=$(echo "${names_array[index]}")
-  if [ "${sample_name}" == "MG1" ] \
-  || [ "${sample_name}" == "MG2" ] \
-  || [ "${sample_name}" == "MG5" ]
+  if [ "${sample_name}" == "P01" ] \
   then
-    sample_name="${sample_name}"_pH82
-  else
-    sample_name="${sample_name}"_pH71
+    sample_name="${sample_name}"-male_bleached_K5 \
+  elif [ "${sample_name}" == "P02" ] \
+  then
+    sample_name="${sample_name}"-female_nonbleached_K5 \
+  fi
+  elif [ "${sample_name}" == "P03" ] \
+  then
+    sample_name="${sample_name}"-female_bleached_44 \
+  fi
+  elif [ "${sample_name}" == "P04" ] \
+  then
+    sample_name="${sample_name}"-female_nonbleached_44 \
+  fi
+  elif [ "${sample_name}" == "P05" ] \
+  then
+    sample_name="${sample_name}"-female_bleached_44 \
+  fi
+  elif [ "${sample_name}" == "P06" ] \
+  then
+    sample_name="${sample_name}"-male_bleached_K5 \
+  fi
+  elif [ "${sample_name}" == "P07" ] \
+  then
+    sample_name="${sample_name}"-male_bleached_K5 \
+  fi
+  elif [ "${sample_name}" == "P08" ] \
+  then
+    sample_name="${sample_name}"-female_bleached_K5 \
+  fi
+  elif [ "${sample_name}" == "P09" ] \
+  then
+    sample_name="${sample_name}"-female_bleached_K5 \
+  fi
+  elif [ "${sample_name}" == "P10" ] \
+  then
+    sample_name="${sample_name}"-female_nonbleached_K5 \
+  fi
+  elif [ "${sample_name}" == "P11" ] \
+  then
+    sample_name="${sample_name}"-female_bleached_44 \
+  fi
+  elif [ "${sample_name}" == "P12" ] \
+  then
+    sample_name="${sample_name}"-female_nonbleached_44 \
+  fi
+  elif [ "${sample_name}" == "P13" ] \
+  then
+    sample_name="${sample_name}"-female_bleached_K5 \
+  fi
+  elif [ "${sample_name}" == "P14" ] \
+  then
+    sample_name="${sample_name}"-female_bleached_K5 \
+  fi
   fi
   "${seqtk}" seq -a "${fastq_array_R1[index]}" "${fastq_array_R2[index]}" >> "${sample_name}".fasta
 done
