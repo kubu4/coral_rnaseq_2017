@@ -2,8 +2,8 @@
 ## Job Name
 #SBATCH --job-name=blastx_montipora
 ## Allocation Definition
-#SBATCH --account=srlab
-#SBATCH --partition=srlab
+#SBATCH --account=coenv
+#SBATCH --partition=coenv
 ## Resources
 ## Nodes
 #SBATCH --nodes=1
