@@ -51,48 +51,48 @@ done
 for index in "${!fastq_array_R1[@]}"
 do
   sample_name=$(echo "${names_array[index]}")
-  if [ "${sample_name}" == "P01" ] \
+  if [ "${sample_name}" == "P01" ]
   then
-    sample_name="${sample_name}"-male_bleached_K5 \
-  elif [ "${sample_name}" == "P02" ] \
+    sample_name="${sample_name}"-male_bleached_K5
+  elif [ "${sample_name}" == "P02" ]
   then
-    sample_name="${sample_name}"-female_nonbleached_K5 \
-  elif [ "${sample_name}" == "P03" ] \
+    sample_name="${sample_name}"-female_nonbleached_K5
+  elif [ "${sample_name}" == "P03" ]
   then
-    sample_name="${sample_name}"-female_bleached_44 \
-  elif [ "${sample_name}" == "P04" ] \
+    sample_name="${sample_name}"-female_bleached_44
+  elif [ "${sample_name}" == "P04" ]
   then
-    sample_name="${sample_name}"-female_nonbleached_44 \
-  elif [ "${sample_name}" == "P05" ] \
+    sample_name="${sample_name}"-female_nonbleached_44
+  elif [ "${sample_name}" == "P05" ]
   then
-    sample_name="${sample_name}"-female_bleached_44 \
-  elif [ "${sample_name}" == "P06" ] \
+    sample_name="${sample_name}"-female_bleached_44
+  elif [ "${sample_name}" == "P06" ]
   then
-    sample_name="${sample_name}"-male_bleached_K5 \
-  elif [ "${sample_name}" == "P07" ] \
+    sample_name="${sample_name}"-male_bleached_K5
+  elif [ "${sample_name}" == "P07" ]
   then
-    sample_name="${sample_name}"-male_bleached_K5 \
-  elif [ "${sample_name}" == "P08" ] \
+    sample_name="${sample_name}"-male_bleached_K5
+  elif [ "${sample_name}" == "P08" ]
   then
-    sample_name="${sample_name}"-female_bleached_K5 \
-  elif [ "${sample_name}" == "P09" ] \
+    sample_name="${sample_name}"-female_bleached_K5
+  elif [ "${sample_name}" == "P09" ]
   then
-    sample_name="${sample_name}"-female_bleached_K5 \
-  elif [ "${sample_name}" == "P10" ] \
+    sample_name="${sample_name}"-female_bleached_K5
+  elif [ "${sample_name}" == "P10" ]
   then
-    sample_name="${sample_name}"-female_nonbleached_K5 \
-  elif [ "${sample_name}" == "P11" ] \
+    sample_name="${sample_name}"-female_nonbleached_K5
+  elif [ "${sample_name}" == "P11" ]
   then
-    sample_name="${sample_name}"-female_bleached_44 \
-  elif [ "${sample_name}" == "P12" ] \
+    sample_name="${sample_name}"-female_bleached_44
+  elif [ "${sample_name}" == "P12" ]
   then
-    sample_name="${sample_name}"-female_nonbleached_44 \
-  elif [ "${sample_name}" == "P13" ] \
+    sample_name="${sample_name}"-female_nonbleached_44
+  elif [ "${sample_name}" == "P13" ]
   then
-    sample_name="${sample_name}"-female_bleached_K5 \
-  elif [ "${sample_name}" == "P14" ] \
+    sample_name="${sample_name}"-female_bleached_K5
+  elif [ "${sample_name}" == "P14" ]
   then
-    sample_name="${sample_name}"-female_bleached_K5 \
+    sample_name="${sample_name}"-female_bleached_K5
   fi
   # Run bowtie2 on each pair of FastQ files
   "${bt2}" \
