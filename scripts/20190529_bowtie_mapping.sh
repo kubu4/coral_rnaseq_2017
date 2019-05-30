@@ -12,7 +12,7 @@ samtools="/home/shared/samtools-1.9/samtools"
 picard="/home/shared/picard-2.20.2.jar"
 
 # Input files
-fastq_dir="/media/sam/4TB_toshiba/porites/"
+fastq_dir="/mnt/data/coral_RNAseq_2017/porites/20180311_fastqc_trimming/trimmed/"
 bt2_index_dir="/media/sam/4TB_toshiba/porites/20180419_trinity/"
 bt2_index_name="porites_all"
 
