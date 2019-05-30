@@ -37,10 +37,10 @@ wd="$(pwd)"
 # Paths to input/output files
 ## Non-working directory locations
 blastp_out_dir="/gscratch/scrubbed/samwhite/outputs/20190528_transdecoder_montipora_all/blastp_out"
-blastx_out_dir="/gscratch/scrubbed/samwhite/outputs/20190528_blastx_montipora_all"
-pfam_out_dir="/gscratch/scrubbed/samwhite/outputs/20190528_transdecoder_montipora_all/pfam_out"
+blastx_out_dir="/gscratch/scrubbed/samwhite/outputs/20190528_blastx_porites_all"
+pfam_out_dir="/gscratch/scrubbed/samwhite/outputs/20190528_transdecoder_porites_all/pfam_out"
 trinity_out_dir="/gscratch/scrubbed/samwhite/data/porites"
-transdecoder_out_dir="/gscratch/scrubbed/samwhite/outputs/20190528_transdecoder_montipora_all/Trinity.fasta.transdecoder_dir"
+transdecoder_out_dir="/gscratch/scrubbed/samwhite/outputs/20190528_transdecoder_porites_all/Trinity.fasta.transdecoder_dir"
 
 
 
