@@ -13,12 +13,17 @@ picard="/home/shared/picard-2.20.2.jar"
 
 # Input files
 fastq_dir="/media/sam/4TB_toshiba/porites/"
+bt2_index_dir="/media/sam/4TB_toshiba/porites/20190129_sp_coral_transcripts/"
 bt2_index_name="porites_sp_cnidarians"
 
 ## Inititalize arrays
 fastq_array_R1=()
 fastq_array_R2=()
 names_array=()
+
+# Copy bowtie2 index files
+rsync -av \
+"${fastq_dir}"*.bt2 .
 
 # Create array of fastq R1 files
 for fastq in ${fastq_dir}/*READ1*.gz
@@ -103,7 +108,9 @@ do
   -1 "${fastq_array_R1[index]}" \
   -2 "${fastq_array_R2[index]}" \
   --threads="${threads}" \
-  "${sample_name}".sam
+  "${sample_name}".sam \
+  1> "${sample_name}".stdout \
+  2> "${sample_name}".stderr
 
   # Create tab-delimited text file with read group info
   # Needed during samtools merge step
