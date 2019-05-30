@@ -28,7 +28,7 @@ echo "" >> system_path.log
 echo "System PATH for $SLURM_JOB_ID" >> system_path.log
 echo "" >> system_path.log
 printf "%0.s-" {1..10} >> system_path.log
-echo ${PATH} | tr : \\n >> system_path.log
+echo "${PATH}" | tr : \\n >> system_path.log
 
 
 wd="$(pwd)"
@@ -73,12 +73,13 @@ tmhmm="${tmhmm_dir}/tmhmm"
 trinotate_dir="/gscratch/srlab/programs/Trinotate-v3.1.1"
 trinotate="${trinotate_dir}/Trinotate"
 trinotate_rnammer="${trinotate_dir}/util/rnammer_support/RnammerTranscriptome.pl"
+trinotate_GO="${trinotate_dir}/util/extract_GO_assignments_from_Trinotate_xls.pl"
 pfam_db="${trinotate_dir}/admin/Pfam-A.hmm"
 sp_db="${trinotate_dir}/admin/uniprot_sprot.pep"
 trinotate_sqlite_db="Trinotate.sqlite"
 
 # Make output directories
-mkdir ${rnammer_out_dir} ${signalp_out_dir} ${tmhmm_out_dir}
+mkdir "${rnammer_out_dir}" "${signalp_out_dir}" "${tmhmm_out_dir}"
 
 # Copy sqlite database template
 
@@ -87,68 +88,75 @@ cp ${trinotate_dir}/admin/Trinotate.sqlite .
 # Run signalp
 ${signalp} \
 -f short \
--n ${signalp_out} \
+-n "${signalp_out}" \
 ${lORFs_pep}
 
 # Run tmHMM
 ${tmhmm} \
 --short \
 < ${lORFs_pep} \
-> ${tmhmm_out}
+> "${tmhmm_out}"
 
 # Run RNAmmer
-cd ${rnammer_out_dir}
+cd "${rnammer_out_dir}" || exit
 ${trinotate_rnammer} \
 --transcriptome ${trinity_fasta} \
 --path_to_rnammer ${rnammer}
-cd ${wd}
+cd "${wd}" || exit
 
 # Run Trinotate
 ## Load transcripts and coding regions into database
 ${trinotate} \
 ${trinotate_sqlite_db} \
 init \
---gene_trans_map ${trinity_gene_map} \
---transcript_fasta ${trinity_fasta} \
---transdecoder_pep ${lORFs_pep}
+--gene_trans_map "${trinity_gene_map}" \
+--transcript_fasta "${trinity_fasta}" \
+--transdecoder_pep "${lORFs_pep}"
 
 ## Load BLAST homologies
-${trinotate} \
-${trinotate_sqlite_db} \
+"${trinotate}" \
+"${trinotate_sqlite_db}" \
 LOAD_swissprot_blastp \
-${blastp_out}
+"${blastp_out}"
 
-${trinotate} \
-${trinotate_sqlite_db} \
+"${trinotate}" \
+"${trinotate_sqlite_db}" \
 LOAD_swissprot_blastx \
-${blastx_out}
+"${blastx_out}"
 
 ## Load Pfam
-${trinotate} \
-${trinotate_sqlite_db} \
+"${trinotate}" \
+"${trinotate_sqlite_db}" \
 LOAD_pfam \
-${pfam_out}
+"${pfam_out}"
 
 ## Load transmembrane domains
-${trinotate} \
-${trinotate_sqlite_db} \
+"${trinotate}" \
+"${trinotate_sqlite_db}" \
 LOAD_tmhmm \
-${tmhmm_out}
+"${tmhmm_out}"
 
 ## Load signal peptides
-${trinotate} \
-${trinotate_sqlite_db} \
+"${trinotate}" \
+"${trinotate_sqlite_db}" \
 LOAD_signalp \
-${signalp_out}
+"${signalp_out}"
 
 ## Load RNAmmer
-${trinotate} \
-${trinotate_sqlite_db} \
+"${trinotate}" \
+"${trinotate_sqlite_db}" \
 LOAD_rnammer \
-${rnammer_out}
+"${rnammer_out}"
 
 ## Creat annotation report
-${trinotate} \
-${trinotate_sqlite_db} \
+"${trinotate}" \
+"${trinotate_sqlite_db}" \
 report \
-> ${trinotate_report}
+> "${trinotate_report}"
+
+# Extract GO terms from annotation report
+"${trinotate_GO}" \
+--Trinotate_xls "${trinotate_report}" \
+-G \
+--include_ancestral_terms \
+> go_annotations.txt
