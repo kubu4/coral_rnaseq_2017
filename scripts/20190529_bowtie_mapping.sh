@@ -107,7 +107,7 @@ do
   -1 "${fastq_array_R1[index]}" \
   -2 "${fastq_array_R2[index]}" \
   --threads="${threads}" \
-  "${sample_name}".sam \
+  -S "${sample_name}".sam \
   1> "${sample_name}".stdout \
   2> "${sample_name}".stderr
 
