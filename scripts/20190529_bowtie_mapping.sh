@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 
 # Exit if command fails
 set -e
@@ -13,8 +13,8 @@ picard="/home/shared/picard-2.20.2.jar"
 
 # Input files
 fastq_dir="/media/sam/4TB_toshiba/porites/"
-bt2_index_dir="/media/sam/4TB_toshiba/porites/20190129_sp_coral_transcripts/"
-bt2_index_name="porites_sp_cnidarians"
+bt2_index_dir="/media/sam/4TB_toshiba/porites/20180419_trinity/"
+bt2_index_name="porites_all"
 
 ## Inititalize arrays
 fastq_array_R1=()
