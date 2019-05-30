@@ -23,7 +23,7 @@ names_array=()
 
 # Copy bowtie2 index files
 rsync -av \
-"${fastq_dir}"*.bt2 .
+"${bt2_index_dir}"*.bt2 .
 
 # Create array of fastq R1 files
 for fastq in ${fastq_dir}/*READ1*.gz
