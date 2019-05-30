@@ -109,7 +109,7 @@ do
   --threads="${threads}" \
   -S "${sample_name}".sam \
   1> "${sample_name}".stdout \
-  2> "${sample_name}".stderr
+  2> "${sample_name}"bt2-mapping-results.txt
 
   # Create tab-delimited text file with read group info
   # Needed during samtools merge step
