@@ -124,6 +124,7 @@ do
 
   # Sort BAM
   "${samtools}" sort \
+  --threads "${threads}" \
   "${sample_name}".bam \
   -o "${sample_name}".sorted.bam
 
@@ -141,14 +142,21 @@ do
 
   # Index new BAM file
   "${samtools}" index \
+  -@ "${threads}" \
   "${sample_name}".sorted.dedup.bam
 done
 
 # Merge deduplicated files
 "${samtools}" merge \
+--threads "${threads}" \
 -rh rg.txt \
 merged.bam \
 *dedup.bam
+
+# Index mergred BAM file
+$"{$samtools}" index \
+-@ "${threads}" \
+merge.bam
 
 # Email me when finished
 sed '/^Subject:/ s/ / porites_blastp JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
