@@ -4,7 +4,7 @@
 set -e
 
 # Number of threads to use for programs
-threads=28
+threads=23
 
 # Paths to programs
 bt2="/home/shared/bowtie2-2.3.4.1-linux-x86_64/bowtie2"
