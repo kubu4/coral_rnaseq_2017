@@ -15,7 +15,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=samwhite@uw.edu
 ## Specify the working directory for this job
-#SBATCH --workdir=/gscratch/scrubbed/samwhite/outputs/20190530_blastx_montipora_all_outfmt-11
+#SBATCH --workdir=/gscratch/scrubbed/samwhite/outputs/20190530_trinotate_montipora_all
 
 # Load Python Mox module for Python module availability
 
