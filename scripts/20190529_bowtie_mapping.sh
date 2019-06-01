@@ -154,7 +154,7 @@ merged.bam \
 *dedup.bam
 
 # Index mergred BAM file
-$"{$samtools}" index \
+"${$samtools}" index \
 -@ "${threads}" \
 merge.bam
 
