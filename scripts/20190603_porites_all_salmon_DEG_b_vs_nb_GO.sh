@@ -60,12 +60,21 @@ ${trinity_matrix} \
 --gene_trans_map ${gene_map} \
 --out_prefix salmon \
 --name_sample_by_basedir \
-male_bleached_K5_03/quant.sf \
-female_bleached_K5_06/quant.sf \
-female_bleached_K5_04/quant.sf \
-male_bleached_K5_02/quant.sf \
-male_bleached_K5_01/quant.sf \
-female_bleached_K5_05/quant.sf
+bleached_44_01/quant.sf \
+bleached_44_02/quant.sf \
+bleached_44_03/quant.sf \
+bleached_K5_01/quant.sf \
+bleached_K5_02/quant.sf \
+bleached_K5_03/quant.sf \
+bleached_K5_04/quant.sf \
+bleached_K5_05/quant.sf \
+bleached_K5_06/quant.sf \
+non-bleached_44_01/quant.sf \
+non-bleached_44_02/quant.sf \
+non-bleached_44_03/quant.sf \
+non-bleached_K5_01/quant.sf \
+non-bleached_K5_02/quant.sf \
+non-bleached_K5_03/quant.sf
 
 # Generate weighted gene lengths
 "${trinity_tpm_length}" \
