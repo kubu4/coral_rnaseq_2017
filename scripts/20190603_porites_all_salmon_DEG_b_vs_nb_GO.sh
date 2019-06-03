@@ -49,7 +49,7 @@ time ${trinity_abundance} \
 2> ${salmon_out_dir}/${salmon_stderr}
 
 # Move output folders
-mv ${trimmed_reads_dir}/[mf][ae][lm]* \
+mv ${trimmed_reads_dir}/[mfbn][aloe][elmn]* \
 ${salmon_out_dir}
 
 cd ${salmon_out_dir}
