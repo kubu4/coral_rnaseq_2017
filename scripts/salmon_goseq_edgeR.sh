@@ -94,6 +94,9 @@ cd ${edgeR_dir}
 ${diff_expr} \
 --matrix ${salmon_out_dir}/salmon.isoform.TMM.EXPR.matrix \
 --samples ${samples} \
+--examine_GO_enrichment \
+--GO_annots "${go_annotations}" \
+--gene_lengths ${salmon_out_dir}/Trinity.gene_lengths.txt \
 -C 1 \
 -P 0.05
 
