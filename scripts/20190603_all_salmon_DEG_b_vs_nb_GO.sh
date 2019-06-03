@@ -19,8 +19,8 @@ salmon_matrix="${salmon_out_dir}/salmon.isoform.TMM.EXPR.matrix"
 go_annotations="/media/sam/4TB_toshiba/montipora/20190530_trinotate_montipora_all/go_annotations.txt"
 
 
-salmon_stdout="${salmon_out_dir}/stdout.txt"
-salmon_stderr="${salmon_out_dir}/stderr.txt"
+salmon_stdout="stdout.txt"
+salmon_stderr="stderr.txt"
 
 edgeR_dir=""
 
