@@ -1,0 +1,89 @@
+#!/bin/env bash
+
+# Differential gene expression analysis
+
+# Exit script if any command fails
+set -e
+
+## Set input file locations
+trimmed_reads_dir=
+salmon_out_dir=
+transcriptome_dir=
+transcriptome=
+fasta_index=
+samples=
+gene_map=
+
+salmon_stdout=
+salmon_stderr=
+
+edgeR_dir=""
+
+#programs
+trinity_abundance=/home/shared/Trinityrnaseq-v2.6.6/util/align_and_estimate_abundance.pl
+trinity_matrix=/home/shared/Trinityrnaseq-v2.6.6/util/abundance_estimates_to_matrix.pl
+trinity_DE=/home/shared/Trinityrnaseq-v2.6.6/Analysis/DifferentialExpression/run_DE_analysis.pl
+diff_expr=/home/shared/Trinityrnaseq-v2.6.6/Analysis/DifferentialExpression/analyze_diff_expr.pl
+
+
+cd ${trimmed_reads_dir}
+
+time ${trinity_abundance} \
+--output_dir ${salmon_out_dir} \
+--transcripts ${symbio_transcriptome} \
+--seqType fq \
+--samples_file ${samples} \
+--SS_lib_type RF \
+--est_method salmon \
+--aln_method bowtie2 \
+--trinity_mode \
+--prep_reference \
+--thread_count 23 \
+1> ${salmon_out_dir}/${salmon_stdout} \
+2> ${salmon_out_dir}/${salmon_stderr}
+
+# Move output folders
+mv ${trimmed_reads_dir}/[mf][ae][lm]* \
+${salmon_out_dir}
+
+cd ${salmon_out_dir}
+
+# Convert abundance estimates to matrix
+${trinity_matrix} \
+--est_method salmon \
+--gene_trans_map ${gene_map} \
+--out_prefix salmon \
+--name_sample_by_basedir \
+male_bleached_K5_03/quant.sf \
+female_bleached_K5_06/quant.sf \
+female_bleached_K5_04/quant.sf \
+male_bleached_K5_02/quant.sf \
+male_bleached_K5_01/quant.sf \
+female_bleached_K5_05/quant.sf
+
+# Differential expression analysis
+cd ${symbio_transcriptome_dir}
+${trinity_DE} \
+--matrix ${salmon_out_dir}/salmon.isoform.counts.matrix \
+--method edgeR \
+--samples_file ${samples}
+
+mv edgeR* ${salmon_out_dir}
+
+# Run differential expression on edgeR output matrix
+# Set fold difference to 2-fold (ie. -C 1 = 2^1)
+# P value <= 0.05
+# Has to run from edgeR output directory
+
+# Pulls edgeR directory name and removes leading ./ in find output
+cd ${salmon_out_dir}
+edgeR_dir=$(find . -type d -name "edgeR*" | sed 's%./%%')
+cd ${edgeR_dir}
+${diff_expr} \
+--matrix ${salmon_out_dir}/salmon.isoform.TMM.EXPR.matrix \
+--samples ${samples} \
+-C 1 \
+-P 0.05
+
+# Email me when job is complete
+sed '/^Subject:/ s/ / porites_salmon JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
