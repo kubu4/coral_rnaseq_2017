@@ -15,6 +15,7 @@ fasta_seq_lengths=
 samples=
 gene_map=
 salmon_matrix=salmon.isoform.TMM.EXPR.matrix
+go_annotations=
 
 
 salmon_stdout=
