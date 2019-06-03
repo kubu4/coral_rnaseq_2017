@@ -156,7 +156,7 @@ merged.bam \
 # Index mergred BAM file
 "${$samtools}" index \
 -@ "${threads}" \
-merge.bam
+merged.bam
 
 # Email me when finished
 sed '/^Subject:/ s/ / porites_blastp JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
