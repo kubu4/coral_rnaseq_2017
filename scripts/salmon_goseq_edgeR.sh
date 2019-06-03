@@ -11,9 +11,11 @@ salmon_out_dir=
 transcriptome_dir=
 transcriptome=
 fasta_index=
+fasta_seq_lengths=
 samples=
 gene_map=
 salmon_matrix=salmon.isoform.TMM.EXPR.matrix
+
 
 salmon_stdout=
 salmon_stderr=
@@ -32,7 +34,7 @@ cd ${trimmed_reads_dir}
 
 time ${trinity_abundance} \
 --output_dir ${salmon_out_dir} \
---transcripts ${symbio_transcriptome} \
+--transcripts ${transcriptome} \
 --seqType fq \
 --samples_file ${samples} \
 --SS_lib_type RF \
@@ -63,8 +65,15 @@ male_bleached_K5_02/quant.sf \
 male_bleached_K5_01/quant.sf \
 female_bleached_K5_05/quant.sf
 
+# Generate weighted gene lengths
+"${trinity_tpm_length}" \
+--gene_trans_map "${gene_trans_map}" \
+--trans_lengths "${fasta_seq_lengths}" \
+ --TPM_matrix "${salmon_matrix}" \
+ > Trinity.gene_lengths.txt
+
 # Differential expression analysis
-cd ${symbio_transcriptome_dir}
+cd ${transcriptome_dir}
 ${trinity_DE} \
 --matrix ${salmon_out_dir}/salmon.isoform.counts.matrix \
 --method edgeR \
