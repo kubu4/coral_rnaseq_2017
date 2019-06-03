@@ -13,6 +13,7 @@ transcriptome=
 fasta_index=
 samples=
 gene_map=
+salmon_matrix=salmon.isoform.TMM.EXPR.matrix
 
 salmon_stdout=
 salmon_stderr=
@@ -24,6 +25,7 @@ trinity_abundance=/home/shared/Trinityrnaseq-v2.6.6/util/align_and_estimate_abun
 trinity_matrix=/home/shared/Trinityrnaseq-v2.6.6/util/abundance_estimates_to_matrix.pl
 trinity_DE=/home/shared/Trinityrnaseq-v2.6.6/Analysis/DifferentialExpression/run_DE_analysis.pl
 diff_expr=/home/shared/Trinityrnaseq-v2.6.6/Analysis/DifferentialExpression/analyze_diff_expr.pl
+trinity_tpm_length=/home/shared/Trinityrnaseq-v2.6.6/util/misc/TPM_weighted_gene_length.py
 
 
 cd ${trimmed_reads_dir}
