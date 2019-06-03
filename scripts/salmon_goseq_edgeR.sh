@@ -101,4 +101,4 @@ ${diff_expr} \
 -P 0.05
 
 # Email me when job is complete
-sed '/^Subject:/ s/ / porites_salmon JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
+sed '/^Subject:/ s/ / JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
