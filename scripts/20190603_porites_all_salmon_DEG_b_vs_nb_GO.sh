@@ -42,7 +42,7 @@ time ${trinity_abundance} \
 --SS_lib_type RF \
 --est_method salmon \
 --aln_method bowtie2 \
---trinity_mode \
+--gene_trans_map "${gene_map}" \
 --prep_reference \
 --thread_count 23 \
 1> ${salmon_out_dir}/${salmon_stdout} \
