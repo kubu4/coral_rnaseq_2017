@@ -78,7 +78,7 @@ non-bleached_K5_03/quant.sf
 
 # Generate weighted gene lengths
 "${trinity_tpm_length}" \
---gene_trans_map "${gene_trans_map}" \
+--gene_trans_map "${gene_map}" \
 --trans_lengths "${fasta_seq_lengths}" \
  --TPM_matrix "${salmon_matrix}" \
  > Trinity.gene_lengths.txt
