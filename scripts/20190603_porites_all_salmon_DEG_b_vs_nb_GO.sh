@@ -15,7 +15,7 @@ fasta_seq_lengths="${transcriptome_dir}/Trinity.fasta.seq_lens"
 samples="/home/sam/gitrepos/coral_rnaseq_2017/scripts/porites_b_vs_nb_trinity_sample_list.txt"
 
 gene_map="${transcriptome_dir}/Trinity.fasta.gene_trans_map"
-salmon_matrix="${salmon_out_dir}/salmon.isoform.TMM.EXPR.matrix"
+salmon_matrix="${salmon_out_dir}/salmon.gene.TMM.EXPR.matrix"
 go_annotations="/media/sam/4TB_toshiba/porites/20190530_trinotate_porites_all/go_annotations.txt"
 
 
@@ -80,13 +80,13 @@ non-bleached_K5_03/quant.sf
 "${trinity_tpm_length}" \
 --gene_trans_map "${gene_map}" \
 --trans_lengths "${fasta_seq_lengths}" \
- --TPM_matrix "${salmon_matrix}" \
- > Trinity.gene_lengths.txt
+--TPM_matrix "${salmon_matrix}" \
+> Trinity.gene_lengths.txt
 
 # Differential expression analysis
 cd ${transcriptome_dir}
 ${trinity_DE} \
---matrix ${salmon_out_dir}/salmon.isoform.counts.matrix \
+--matrix ${salmon_out_dir}/salmon.gene.counts.matrix \
 --method edgeR \
 --samples_file ${samples}
 
@@ -102,7 +102,7 @@ cd ${salmon_out_dir}
 edgeR_dir=$(find . -type d -name "edgeR*" | sed 's%./%%')
 cd ${edgeR_dir}
 ${diff_expr} \
---matrix ${salmon_out_dir}/salmon.isoform.TMM.EXPR.matrix \
+--matrix "${salmon_matrix}" \
 --samples ${samples} \
 --examine_GO_enrichment \
 --GO_annots "${go_annotations}" \
