@@ -106,6 +106,7 @@ ${trinity_DE} \
 
 mv edgeR* ${salmon_out_dir}
 
+
 # Run differential expression on edgeR output matrix
 # Set fold difference to 2-fold (ie. -C 1 = 2^1)
 # P value <= 0.05
@@ -115,6 +116,8 @@ mv edgeR* ${salmon_out_dir}
 cd ${salmon_out_dir}
 edgeR_dir=$(find . -type d -name "edgeR*" | sed 's%./%%')
 cd "${edgeR_dir}"
+mv "${transcriptome_dir}/${trinity_DE_stdout}" .
+mv "${transcriptome_dir}/${trinity_DE_stderr}" .
 ${diff_expr} \
 --matrix "${salmon_matrix}" \
 --samples ${samples} \
