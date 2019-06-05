@@ -86,7 +86,7 @@ non-bleached_K5_03/quant.sf
 # Differential expression analysis
 cd ${transcriptome_dir}
 ${trinity_DE} \
---matrix ${salmon_out_dir}/salmon.gene.counts.matrix \
+--matrix ${salmon_out_dir}/salmon.isoform.counts.matrix \
 --method edgeR \
 --samples_file ${samples}
 
