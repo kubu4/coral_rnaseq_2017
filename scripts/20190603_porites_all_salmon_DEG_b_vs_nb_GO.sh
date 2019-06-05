@@ -98,7 +98,7 @@ trinity_tpm_length=/home/shared/Trinityrnaseq-v2.8.5/util/misc/TPM_weighted_gene
 # Differential expression analysis
 cd ${transcriptome_dir}
 ${trinity_DE} \
---matrix ${salmon_out_dir}/salmon.isoform.counts.matrix \
+--matrix ${salmon_out_dir}/salmon.gene.counts.matrix \
 --method edgeR \
 --samples_file ${samples} \
 1> ${trinity_DE_stdout} \
