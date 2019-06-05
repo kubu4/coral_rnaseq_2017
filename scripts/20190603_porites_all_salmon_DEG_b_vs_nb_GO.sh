@@ -15,7 +15,7 @@ fasta_seq_lengths="${transcriptome_dir}/Trinity.fasta.seq_lens"
 samples="/home/sam/gitrepos/coral_rnaseq_2017/scripts/porites_b_vs_nb_trinity_sample_list.txt"
 
 gene_map="${transcriptome_dir}/Trinity.fasta.gene_trans_map"
-salmon_matrix="${salmon_out_dir}/salmon.isoform.TMM.EXPR.matrix"
+salmon_matrix="${salmon_out_dir}/salmon.gene.TMM.EXPR.matrix"
 go_annotations="/media/sam/4TB_toshiba/porites/20190530_trinotate_porites_all/go_annotations.txt"
 
 
@@ -41,51 +41,51 @@ diff_expr=/home/shared/Trinityrnaseq-v2.8.5/Analysis/DifferentialExpression/anal
 trinity_tpm_length=/home/shared/Trinityrnaseq-v2.8.5/util/misc/TPM_weighted_gene_length.py
 
 
-cd ${trimmed_reads_dir}
+#cd ${trimmed_reads_dir}#
 
-time ${trinity_abundance} \
---output_dir ${salmon_out_dir} \
---transcripts ${transcriptome} \
---seqType fq \
---samples_file ${samples} \
---SS_lib_type RF \
---est_method salmon \
---aln_method bowtie2 \
---gene_trans_map "${gene_map}" \
---prep_reference \
---thread_count 23 \
-1> ${salmon_out_dir}/${salmon_stdout} \
-2> ${salmon_out_dir}/${salmon_stderr}
+#time ${trinity_abundance} \
+#--output_dir ${salmon_out_dir} \
+#--transcripts ${transcriptome} \
+#--seqType fq \
+#--samples_file ${samples} \
+#--SS_lib_type RF \
+#--est_method salmon \
+#--aln_method bowtie2 \
+#--gene_trans_map "${gene_map}" \
+#--prep_reference \
+#--thread_count 23 \
+#1> ${salmon_out_dir}/${salmon_stdout} \
+#2> ${salmon_out_dir}/${salmon_stderr}#
 
-# Move output folders
-mv ${trimmed_reads_dir}/[mfbn][aloe][elmn]* \
-${salmon_out_dir}
+## Move output folders
+#mv ${trimmed_reads_dir}/[mfbn][aloe][elmn]* \
+#${salmon_out_dir}#
 
-cd ${salmon_out_dir}
+#cd ${salmon_out_dir}#
 
-# Convert abundance estimates to matrix
-${trinity_matrix} \
---est_method salmon \
---gene_trans_map ${gene_map} \
---out_prefix salmon \
---name_sample_by_basedir \
-bleached_44_01/quant.sf \
-bleached_44_02/quant.sf \
-bleached_44_03/quant.sf \
-bleached_K5_01/quant.sf \
-bleached_K5_02/quant.sf \
-bleached_K5_03/quant.sf \
-bleached_K5_04/quant.sf \
-bleached_K5_05/quant.sf \
-bleached_K5_06/quant.sf \
-non-bleached_44_01/quant.sf \
-non-bleached_44_02/quant.sf \
-non-bleached_44_03/quant.sf \
-non-bleached_K5_01/quant.sf \
-non-bleached_K5_02/quant.sf \
-non-bleached_K5_03/quant.sf \
-1> ${matrix_stdout} \
-2> ${matrix_stderr}
+## Convert abundance estimates to matrix
+#${trinity_matrix} \
+#--est_method salmon \
+#--gene_trans_map ${gene_map} \
+#--out_prefix salmon \
+#--name_sample_by_basedir \
+#bleached_44_01/quant.sf \
+#bleached_44_02/quant.sf \
+#bleached_44_03/quant.sf \
+#bleached_K5_01/quant.sf \
+#bleached_K5_02/quant.sf \
+#bleached_K5_03/quant.sf \
+#bleached_K5_04/quant.sf \
+#bleached_K5_05/quant.sf \
+#bleached_K5_06/quant.sf \
+#non-bleached_44_01/quant.sf \
+#non-bleached_44_02/quant.sf \
+#non-bleached_44_03/quant.sf \
+#non-bleached_K5_01/quant.sf \
+#non-bleached_K5_02/quant.sf \
+#non-bleached_K5_03/quant.sf \
+#1> ${matrix_stdout} \
+#2> ${matrix_stderr}
 
 # Generate weighted gene lengths
 "${trinity_tpm_length}" \
@@ -93,13 +93,12 @@ non-bleached_K5_03/quant.sf \
 --trans_lengths "${fasta_seq_lengths}" \
 --TPM_matrix "${salmon_matrix}" \
 > Trinity.gene_lengths.txt \
-1> ${tpm_length_stdout} \
 2> ${tpm_length_stderr}
 
 # Differential expression analysis
 cd ${transcriptome_dir}
 ${trinity_DE} \
---matrix ${salmon_out_dir}/salmon.isoform.counts.matrix \
+--matrix ${salmon_out_dir}/salmon.gene.counts.matrix \
 --method edgeR \
 --samples_file ${samples} \
 1> ${trinity_DE_stdout} \
