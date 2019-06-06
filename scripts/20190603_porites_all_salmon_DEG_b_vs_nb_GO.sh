@@ -16,7 +16,8 @@ samples="/home/sam/gitrepos/coral_rnaseq_2017/scripts/porites_b_vs_nb_trinity_sa
 
 gene_map="${transcriptome_dir}/Trinity.fasta.gene_trans_map"
 salmon_matrix="${salmon_out_dir}/salmon.isoform.TMM.EXPR.matrix"
-go_annotations="/media/sam/4TB_toshiba/porites/20190530_trinotate_porites_all/go_annotations_isoforms.txt"
+go_annotations="/media/sam/4TB_toshiba/porites/20190530_trinotate_porites_all/go_annotations_transcripts.txt
+"
 
 
 # Standard output/error files
