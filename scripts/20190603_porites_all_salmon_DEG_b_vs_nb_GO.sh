@@ -17,8 +17,7 @@ samples="/home/sam/gitrepos/coral_rnaseq_2017/scripts/porites_b_vs_nb_trinity_sa
 gene_map="${transcriptome_dir}/Trinity.fasta.gene_trans_map"
 salmon_gene_matrix="${salmon_out_dir}/salmon.gene.TMM.EXPR.matrix"
 salmon_iso_matrix="${salmon_out_dir}/salmon.isoform.TMM.EXPR.matrix"
-go_annotations="/media/sam/4TB_toshiba/porites/20190530_trinotate_porites_all/go_annotations.txt
-"
+go_annotations="/media/sam/4TB_toshiba/porites/20190530_trinotate_porites_all/go_annotations.txt"
 
 
 # Standard output/error files
@@ -121,6 +120,7 @@ ${diff_expr} \
 --samples ${samples} \
 --examine_GO_enrichment \
 --GO_annots "${go_annotations}" \
+--include_GOplot \
 --gene_lengths ${salmon_out_dir}/Trinity.gene_lengths.txt \
 -C 1 \
 -P 0.05 \
