@@ -7,12 +7,12 @@ set -e
 
 ## Set input file locations
 trimmed_reads_dir="/mnt/data/coral_RNAseq_2017/porites/20180311_fastqc_trimming/trimmed"
-salmon_out_dir="/media/sam/4TB_toshiba/porites/20190603_all_salmon_DEG_b_vs_nb_GO"
+salmon_out_dir="/media/sam/4TB_toshiba/porites/20190610_all_DEG_f_vs_m_k5_GO"
 transcriptome_dir="/media/sam/4TB_toshiba/porites/20180419_trinity"
 transcriptome="${transcriptome_dir}/Trinity.fasta"
 fasta_index="${transcriptome_dir}/Trinity.fasta.fai"
 fasta_seq_lengths="${transcriptome_dir}/Trinity.fasta.seq_lens"
-samples="/home/sam/gitrepos/coral_rnaseq_2017/scripts/porites_b_vs_nb_trinity_sample_list.txt"
+samples="/home/sam/gitrepos/coral_rnaseq_2017/scripts/porites_male_vs_female_k5_trinity_sample_list.txt"
 
 gene_map="${transcriptome_dir}/Trinity.fasta.gene_trans_map"
 salmon_gene_matrix="${salmon_out_dir}/salmon.gene.TMM.EXPR.matrix"
