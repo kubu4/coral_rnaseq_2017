@@ -1,0 +1,242 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0044420	0.000291077599508243	0.999956956387485	7	286	extracellular matrix component	CC	0.9999999999	CC extracellular matrix component	TRINITY_DN156825_c7_g1, TRINITY_DN160531_c2_g1, TRINITY_DN161756_c4_g1, TRINITY_DN161820_c6_g2, TRINITY_DN172497_c3_g3, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1
+GO:0072307	0.000720010911706347	0.999971381929156	3	38	regulation of metanephric nephron tubule epithelial cell differentiation	BP	0.9999999999	BP regulation of metanephric nephron tubule epithelial cell differentiation	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0072137	0.000789354115989088	0.999967565465722	3	39	condensed mesenchymal cell proliferation	BP	0.9999999999	BP condensed mesenchymal cell proliferation	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0072182	0.000840878643531175	0.999964635566478	3	40	regulation of nephron tubule epithelial cell differentiation	BP	0.9999999999	BP regulation of nephron tubule epithelial cell differentiation	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0035329	0.000849720742908846	0.999964134011903	3	40	hippo signaling	BP	0.9999999999	BP hippo signaling	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0043931	0.000865857239597862	0.999963213987986	3	40	ossification involved in bone maturation	BP	0.9999999999	BP ossification involved in bone maturation	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0031528	0.000929598379949788	0.99998826489143	2	12	microvillus membrane	CC	0.9999999999	CC microvillus membrane	TRINITY_DN162197_c4_g5, TRINITY_DN174527_c7_g1
+GO:0001658	0.00105506141090659	0.999951713265218	3	45	branching involved in ureteric bud morphogenesis	BP	0.9999999999	BP branching involved in ureteric bud morphogenesis	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0010463	0.00110092022939135	0.999948974897155	3	43	mesenchymal cell proliferation	BP	0.9999999999	BP mesenchymal cell proliferation	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0033574	0.00119600024938914	0.999981983419569	2	18	response to testosterone	BP	0.9999999999	BP response to testosterone	TRINITY_DN162197_c4_g5, TRINITY_DN174527_c7_g1
+GO:2000696	0.00122654579564041	0.999940787695383	3	46	regulation of epithelial cell differentiation involved in kidney development	BP	0.9999999999	BP regulation of epithelial cell differentiation involved in kidney development	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0003007	0.00168129377448577	0.999908607363367	3	57	heart morphogenesis	BP	0.9999999999	BP heart morphogenesis	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0044421	0.00189014849918399	0.999330252429809	14	1408	extracellular region part	CC	0.9999999999	CC extracellular region part	TRINITY_DN156825_c7_g1, TRINITY_DN160531_c2_g1, TRINITY_DN161756_c4_g1, TRINITY_DN161820_c6_g2, TRINITY_DN167688_c4_g2, TRINITY_DN172497_c3_g3, TRINITY_DN176651_c2_g6, TRINITY_DN176935_c1_g1, TRINITY_DN180996_c1_g1, TRINITY_DN181359_c1_g2, TRINITY_DN182517_c9_g1, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0032579	0.00211661270762371	0.99995819691468	2	15	apical lamina of hyaline layer	CC	0.9999999999	CC apical lamina of hyaline layer	TRINITY_DN156825_c7_g1, TRINITY_DN160531_c2_g1
+GO:0045177	0.00215377243406276	0.999781434486262	4	122	apical part of cell	CC	0.9999999999	CC apical part of cell	TRINITY_DN176651_c2_g6, TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0007565	0.00218398496827132	0.999955106401041	2	19	female pregnancy	BP	0.9999999999	BP female pregnancy	TRINITY_DN176935_c1_g1, TRINITY_DN197499_c3_g1
+GO:0072215	0.0030580528819391	0.999793863476675	3	66	regulation of metanephros development	BP	0.9999999999	BP regulation of metanephros development	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0048565	0.00338609414104286	0.999763156378035	3	68	digestive tract development	BP	0.9999999999	BP digestive tract development	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0006310	0.00373492407546846	0.999398267174805	5	389	DNA recombination	BP	0.9999999999	BP DNA recombination	TRINITY_DN172480_c5_g2, TRINITY_DN173493_c9_g1, TRINITY_DN180010_c3_g2, TRINITY_DN196102_c4_g1, TRINITY_DN197708_c1_g1
+GO:0001503	0.00396944516628151	0.999354507279325	5	226	ossification	BP	0.9999999999	BP ossification	TRINITY_DN181359_c1_g2, TRINITY_DN182517_c9_g1, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0006532	0.004262712754826	1	1	1	aspartate biosynthetic process	BP	0.9999999999	BP aspartate biosynthetic process	TRINITY_DN176935_c1_g1
+GO:0019470	0.004262712754826	1	1	1	4-hydroxyproline catabolic process	BP	0.9999999999	BP 4-hydroxyproline catabolic process	TRINITY_DN176935_c1_g1
+GO:0019550	0.004262712754826	1	1	1	glutamate catabolic process to aspartate	BP	0.9999999999	BP glutamate catabolic process to aspartate	TRINITY_DN176935_c1_g1
+GO:0019551	0.004262712754826	1	1	1	glutamate catabolic process to 2-oxoglutarate	BP	0.9999999999	BP glutamate catabolic process to 2-oxoglutarate	TRINITY_DN176935_c1_g1
+GO:0047578	0.004262712754826	1	1	1	4-hydroxyglutamate transaminase activity	MF	0.9999999999	MF 4-hydroxyglutamate transaminase activity	TRINITY_DN176935_c1_g1
+GO:0090183	0.00439488545911243	0.999661823812651	3	75	regulation of kidney development	BP	0.9999999999	BP regulation of kidney development	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0005592	0.00478778773779017	1	1	1	collagen type XI trimer	CC	0.9999999999	CC collagen type XI trimer	TRINITY_DN183357_c1_g1
+GO:0035989	0.00478778773779017	1	1	1	tendon development	BP	0.9999999999	BP tendon development	TRINITY_DN183357_c1_g1
+GO:0005201	0.00489270575003619	0.998816080148451	7	479	extracellular matrix structural constituent	MF	0.9999999999	MF extracellular matrix structural constituent	TRINITY_DN161756_c4_g1, TRINITY_DN161820_c6_g2, TRINITY_DN167688_c4_g2, TRINITY_DN172497_c3_g3, TRINITY_DN182517_c9_g1, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1
+GO:0042472	0.00513823722921565	0.999831794997086	2	28	inner ear morphogenesis	BP	0.9999999999	BP inner ear morphogenesis	TRINITY_DN183357_c1_g1, TRINITY_DN194931_c1_g1
+GO:0006533	0.0051642070020736	0.999993330118771	1	2	aspartate catabolic process	BP	0.9999999999	BP aspartate catabolic process	TRINITY_DN176935_c1_g1
+GO:0070233	0.00530322463289869	1	1	1	negative regulation of T cell apoptotic process	BP	0.9999999999	BP negative regulation of T cell apoptotic process	TRINITY_DN183318_c1_g1
+GO:2000569	0.00530322463289869	1	1	1	regulation of T-helper 2 cell activation	BP	0.9999999999	BP regulation of T-helper 2 cell activation	TRINITY_DN183318_c1_g1
+GO:2000570	0.00530322463289869	1	1	1	positive regulation of T-helper 2 cell activation	BP	0.9999999999	BP positive regulation of T-helper 2 cell activation	TRINITY_DN183318_c1_g1
+GO:0007295	0.00540496239617174	1	1	1	growth of a germarium-derived egg chamber	BP	0.9999999999	BP growth of a germarium-derived egg chamber	TRINITY_DN189425_c1_g1
+GO:0031254	0.00540496239617174	1	1	1	cell trailing edge	CC	0.9999999999	CC cell trailing edge	TRINITY_DN189425_c1_g1
+GO:0042247	0.00540496239617174	1	1	1	establishment of planar polarity of follicular epithelium	BP	0.9999999999	BP establishment of planar polarity of follicular epithelium	TRINITY_DN189425_c1_g1
+GO:0048729	0.00550425213358818	0.998822013856676	6	386	tissue morphogenesis	BP	0.9999999999	BP tissue morphogenesis	TRINITY_DN162197_c4_g5, TRINITY_DN174527_c7_g1, TRINITY_DN181359_c1_g2, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0097409	0.00569977428034995	1	1	1	glial cytoplasmic inclusion	CC	0.9999999999	CC glial cytoplasmic inclusion	TRINITY_DN152703_c2_g1
+GO:0097414	0.00569977428034995	1	1	1	classical Lewy body	CC	0.9999999999	CC classical Lewy body	TRINITY_DN152703_c2_g1
+GO:0097462	0.00569977428034995	1	1	1	Lewy neurite	CC	0.9999999999	CC Lewy neurite	TRINITY_DN152703_c2_g1
+GO:1903207	0.00569977428034995	1	1	1	regulation of hydrogen peroxide-induced neuron death	BP	0.9999999999	BP regulation of hydrogen peroxide-induced neuron death	TRINITY_DN152703_c2_g1
+GO:1903208	0.00569977428034995	1	1	1	negative regulation of hydrogen peroxide-induced neuron death	BP	0.9999999999	BP negative regulation of hydrogen peroxide-induced neuron death	TRINITY_DN152703_c2_g1
+GO:1990038	0.00569977428034995	1	1	1	Lewy body corona	CC	0.9999999999	CC Lewy body corona	TRINITY_DN152703_c2_g1
+GO:0001787	0.00587016148977919	1	1	1	natural killer cell proliferation	BP	0.9999999999	BP natural killer cell proliferation	TRINITY_DN196962_c1_g4
+GO:0001866	0.00587016148977919	1	1	1	NK T cell proliferation	BP	0.9999999999	BP NK T cell proliferation	TRINITY_DN196962_c1_g4
+GO:0046633	0.00587016148977919	1	1	1	alpha-beta T cell proliferation	BP	0.9999999999	BP alpha-beta T cell proliferation	TRINITY_DN196962_c1_g4
+GO:0016212	0.00606479601509641	0.999987733188661	1	3	kynurenine-oxoglutarate transaminase activity	MF	0.9999999999	MF kynurenine-oxoglutarate transaminase activity	TRINITY_DN176935_c1_g1
+GO:0036137	0.00606479601509641	0.999987733188661	1	3	kynurenine aminotransferase activity	MF	0.9999999999	MF kynurenine aminotransferase activity	TRINITY_DN176935_c1_g1
+GO:0007431	0.00630533939419572	0.999990051051963	1	2	salivary gland development	BP	0.9999999999	BP salivary gland development	TRINITY_DN189425_c1_g1
+GO:0098683	0.0070467015486099	0.999987569341582	1	2	cochlear hair cell ribbon synapse	CC	0.9999999999	CC cochlear hair cell ribbon synapse	TRINITY_DN194931_c1_g1
+GO:0004089	0.00705936642508295	0.999724064261365	2	37	carbonate dehydratase activity	MF	0.9999999999	MF carbonate dehydratase activity	TRINITY_DN162197_c4_g5, TRINITY_DN174527_c7_g1
+GO:0097413	0.00753436510979183	0.999981055711654	1	3	Lewy body	CC	0.9999999999	CC Lewy body	TRINITY_DN152703_c2_g1
+GO:0003382	0.00759012701760611	0.999693132487062	2	34	epithelial cell morphogenesis	BP	0.9999999999	BP epithelial cell morphogenesis	TRINITY_DN180996_c1_g1, TRINITY_DN189425_c1_g1
+GO:0098684	0.00782850900363224	0.999984652007374	1	2	photoreceptor ribbon synapse	CC	0.9999999999	CC photoreceptor ribbon synapse	TRINITY_DN194931_c1_g1
+GO:0070232	0.00783306237784269	0.999984634112901	1	2	regulation of T cell apoptotic process	BP	0.9999999999	BP regulation of T cell apoptotic process	TRINITY_DN183318_c1_g1
+GO:1902463	0.00811071761558621	0.99997804084323	1	3	protein localization to cell leading edge	BP	0.9999999999	BP protein localization to cell leading edge	TRINITY_DN189425_c1_g1
+GO:0060122	0.00847434913310689	0.998731600611474	4	168	inner ear receptor cell stereocilium organization	BP	0.9999999999	BP inner ear receptor cell stereocilium organization	TRINITY_DN181359_c1_g2, TRINITY_DN182517_c9_g1, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0016339	0.008656340097623	0.999627667489194	2	30	calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules	BP	0.9999999999	BP calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules	TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0042491	0.0086780775055559	0.999974854830475	1	3	inner ear auditory receptor cell differentiation	BP	0.9999999999	BP inner ear auditory receptor cell differentiation	TRINITY_DN194931_c1_g1
+GO:0021987	0.00875746963666491	0.999131896630305	3	94	cerebral cortex development	BP	0.9999999999	BP cerebral cortex development	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0005586	0.00907302955563965	0.999979371355679	1	2	collagen type III trimer	CC	0.9999999999	CC collagen type III trimer	TRINITY_DN183357_c1_g1
+GO:0009913	0.00931270247112397	0.999580848842972	2	35	epidermal cell differentiation	BP	0.9999999999	BP epidermal cell differentiation	TRINITY_DN180996_c1_g1, TRINITY_DN194931_c1_g1
+GO:0060563	0.00957479307736362	0.999965558887424	1	4	neuroepithelial cell differentiation	BP	0.9999999999	BP neuroepithelial cell differentiation	TRINITY_DN194931_c1_g1
+GO:0005615	0.00959647171731316	0.996830195876802	9	857	extracellular space	CC	0.9999999999	CC extracellular space	TRINITY_DN156825_c7_g1, TRINITY_DN160531_c2_g1, TRINITY_DN161756_c4_g1, TRINITY_DN167688_c4_g2, TRINITY_DN172497_c3_g3, TRINITY_DN180996_c1_g1, TRINITY_DN182517_c9_g1, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1
+GO:1900062	0.00960212170690335	0.999976889124136	1	2	regulation of replicative cell aging	BP	0.9999999999	BP regulation of replicative cell aging	TRINITY_DN182665_c7_g1
+GO:0048754	0.00986218207339968	0.998977936995645	3	100	branching morphogenesis of an epithelial tube	BP	0.9999999999	BP branching morphogenesis of an epithelial tube	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0005509	0.00986622995736831	0.996289902227593	11	1462	calcium ion binding	MF	0.9999999999	MF calcium ion binding	TRINITY_DN147243_c2_g1, TRINITY_DN156825_c7_g1, TRINITY_DN160531_c2_g1, TRINITY_DN161756_c4_g1, TRINITY_DN170361_c1_g1, TRINITY_DN172497_c3_g3, TRINITY_DN181320_c3_g5, TRINITY_DN181359_c1_g2, TRINITY_DN188315_c2_g4, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0005604	0.010233126848546	0.998379952943453	4	195	basement membrane	CC	0.9999999999	CC basement membrane	TRINITY_DN161756_c4_g1, TRINITY_DN161820_c6_g2, TRINITY_DN172497_c3_g3, TRINITY_DN189425_c1_g1
+GO:1901244	0.0103655532954918	0.999973057718772	1	2	positive regulation of transcription from RNA polymerase II promoter involved in defense response to fungus	BP	0.9999999999	BP positive regulation of transcription from RNA polymerase II promoter involved in defense response to fungus	TRINITY_DN183318_c1_g1
+GO:1990874	0.0104369186149992	0.999963600558875	1	3	vascular smooth muscle cell proliferation	BP	0.9999999999	BP vascular smooth muscle cell proliferation	TRINITY_DN197499_c3_g1
+GO:0097014	0.0104980984944307	0.999963171559176	1	3	ciliary plasm	CC	0.9999999999	CC ciliary plasm	TRINITY_DN182665_c7_g1
+GO:0002009	0.0106046500517456	0.997814153284763	5	310	morphogenesis of an epithelium	BP	0.9999999999	BP morphogenesis of an epithelium	TRINITY_DN162197_c4_g5, TRINITY_DN174527_c7_g1, TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:1905767	0.0106760808275304	0.999971414801694	1	2	regulation of double-stranded telomeric DNA binding	BP	0.9999999999	BP regulation of double-stranded telomeric DNA binding	TRINITY_DN173493_c9_g1
+GO:1905768	0.0106760808275304	0.999971414801694	1	2	negative regulation of double-stranded telomeric DNA binding	BP	0.9999999999	BP negative regulation of double-stranded telomeric DNA binding	TRINITY_DN173493_c9_g1
+GO:0048570	0.0107488324755977	0.99995368669272	1	5	notochord morphogenesis	BP	0.9999999999	BP notochord morphogenesis	TRINITY_DN167688_c4_g2
+GO:1990037	0.0109728374395378	0.999969799056982	1	2	Lewy body core	CC	0.9999999999	CC Lewy body core	TRINITY_DN152703_c2_g1
+GO:0045076	0.0110462718748369	0.999969392336104	1	2	regulation of interleukin-2 biosynthetic process	BP	0.9999999999	BP regulation of interleukin-2 biosynthetic process	TRINITY_DN183318_c1_g1
+GO:0045086	0.0110462718748369	0.999969392336104	1	2	positive regulation of interleukin-2 biosynthetic process	BP	0.9999999999	BP positive regulation of interleukin-2 biosynthetic process	TRINITY_DN183318_c1_g1
+GO:1990599	0.0111246134824929	0.999958632996997	1	3	3' overhang single-stranded DNA endodeoxyribonuclease activity	MF	0.9999999999	MF 3' overhang single-stranded DNA endodeoxyribonuclease activity	TRINITY_DN173493_c9_g1
+GO:0007442	0.0111361256195207	0.999968890954317	1	2	hindgut morphogenesis	BP	0.9999999999	BP hindgut morphogenesis	TRINITY_DN189425_c1_g1
+GO:0051132	0.0113616970702874	0.999967614219702	1	2	NK T cell activation	BP	0.9999999999	BP NK T cell activation	TRINITY_DN196962_c1_g4
+GO:0006538	0.0114073980341823	0.999956497667897	1	3	glutamate catabolic process	BP	0.9999999999	BP glutamate catabolic process	TRINITY_DN176935_c1_g1
+GO:0097470	0.0114297952491864	0.999956326236457	1	3	ribbon synapse	CC	0.9999999999	CC ribbon synapse	TRINITY_DN194931_c1_g1
+GO:0007156	0.0115121854857083	0.997578444912857	5	320	homophilic cell adhesion via plasma membrane adhesion molecules	BP	0.9999999999	BP homophilic cell adhesion via plasma membrane adhesion molecules	TRINITY_DN147243_c2_g1, TRINITY_DN181359_c1_g2, TRINITY_DN188315_c2_g4, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0070062	0.0115914939037337	0.997095784838621	6	491	extracellular exosome	CC	0.9999999999	CC extracellular exosome	TRINITY_DN161820_c6_g2, TRINITY_DN176651_c2_g6, TRINITY_DN176935_c1_g1, TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0061138	0.0121397572118106	0.998640142565962	3	110	morphogenesis of a branching epithelium	BP	0.9999999999	BP morphogenesis of a branching epithelium	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:1903561	0.012271896009048	0.996887352458859	6	496	extracellular vesicle	CC	0.9999999999	CC extracellular vesicle	TRINITY_DN161820_c6_g2, TRINITY_DN176651_c2_g6, TRINITY_DN176935_c1_g1, TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0043230	0.0127475656895265	0.996740084004037	6	499	extracellular organelle	CC	0.9999999999	CC extracellular organelle	TRINITY_DN161820_c6_g2, TRINITY_DN176651_c2_g6, TRINITY_DN176935_c1_g1, TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0006107	0.0128242645416339	0.999934019973732	1	5	oxaloacetate metabolic process	BP	0.9999999999	BP oxaloacetate metabolic process	TRINITY_DN176935_c1_g1
+GO:0060091	0.0132586951096918	0.999941183082573	1	3	kinocilium	CC	0.9999999999	CC kinocilium	TRINITY_DN194931_c1_g1
+GO:0097732	0.0132586951096918	0.999941183082573	1	3	9+2 non-motile cilium	CC	0.9999999999	CC 9+2 non-motile cilium	TRINITY_DN194931_c1_g1
+GO:0090330	0.0137457481371016	0.999924169093173	1	5	regulation of platelet aggregation	BP	0.9999999999	BP regulation of platelet aggregation	TRINITY_DN183318_c1_g1
+GO:1905609	0.0141550246647625	0.999924581597687	1	4	positive regulation of smooth muscle cell-matrix adhesion	BP	0.9999999999	BP positive regulation of smooth muscle cell-matrix adhesion	TRINITY_DN197499_c3_g1
+GO:2000097	0.0141550246647625	0.999924581597687	1	4	regulation of smooth muscle cell-matrix adhesion	BP	0.9999999999	BP regulation of smooth muscle cell-matrix adhesion	TRINITY_DN197499_c3_g1
+GO:0048562	0.0141982365980235	0.998313118997061	3	118	embryonic organ morphogenesis	BP	0.9999999999	BP embryonic organ morphogenesis	TRINITY_DN167688_c4_g2, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1
+GO:0001763	0.0142708318934158	0.998301069531497	3	119	morphogenesis of a branching structure	BP	0.9999999999	BP morphogenesis of a branching structure	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0050957	0.0144896620198727	0.999912216065472	1	6	equilibrioception	BP	0.9999999999	BP equilibrioception	TRINITY_DN194931_c1_g1
+GO:1904353	0.0151582447251	0.999111044489821	2	46	regulation of telomere capping	BP	0.9999999999	BP regulation of telomere capping	TRINITY_DN173493_c9_g1, TRINITY_DN183318_c1_g1
+GO:0000110	0.0152107709772108	0.999922520878088	1	3	nucleotide-excision repair factor 1 complex	CC	0.9999999999	CC nucleotide-excision repair factor 1 complex	TRINITY_DN173493_c9_g1
+GO:0006295	0.0152107709772108	0.999922520878088	1	3	nucleotide-excision repair, DNA incision, 3'-to lesion	BP	0.9999999999	BP nucleotide-excision repair, DNA incision, 3'-to lesion	TRINITY_DN173493_c9_g1
+GO:1902106	0.0155926093491013	0.99907481078461	2	42	negative regulation of leukocyte differentiation	BP	0.9999999999	BP negative regulation of leukocyte differentiation	TRINITY_DN152703_c2_g1, TRINITY_DN189425_c1_g1
+GO:0006626	0.0157401157185109	0.999906682638484	1	4	protein targeting to mitochondrion	BP	0.9999999999	BP protein targeting to mitochondrion	TRINITY_DN152703_c2_g1
+GO:0001772	0.0159864011467017	0.999893080725958	1	6	immunological synapse	CC	0.9999999999	CC immunological synapse	TRINITY_DN183318_c1_g1
+GO:0005890	0.0160741974657213	0.999896204685969	1	5	sodium:potassium-exchanging ATPase complex	CC	0.9999999999	CC sodium:potassium-exchanging ATPase complex	TRINITY_DN157912_c1_g1
+GO:0090533	0.0160741974657213	0.999896204685969	1	5	cation-transporting ATPase complex	CC	0.9999999999	CC cation-transporting ATPase complex	TRINITY_DN157912_c1_g1
+GO:0061819	0.0161019189565259	0.999902328412678	1	4	telomeric DNA-containing double minutes formation	BP	0.9999999999	BP telomeric DNA-containing double minutes formation	TRINITY_DN173493_c9_g1
+GO:0070522	0.0161019189565259	0.999902328412678	1	4	ERCC4-ERCC1 complex	CC	0.9999999999	CC ERCC4-ERCC1 complex	TRINITY_DN173493_c9_g1
+GO:1904505	0.0161019189565259	0.999902328412678	1	4	regulation of telomere maintenance in response to DNA damage	BP	0.9999999999	BP regulation of telomere maintenance in response to DNA damage	TRINITY_DN173493_c9_g1
+GO:1904506	0.0161019189565259	0.999902328412678	1	4	negative regulation of telomere maintenance in response to DNA damage	BP	0.9999999999	BP negative regulation of telomere maintenance in response to DNA damage	TRINITY_DN173493_c9_g1
+GO:1905764	0.0161019189565259	0.999902328412678	1	4	regulation of protection from non-homologous end joining at telomere	BP	0.9999999999	BP regulation of protection from non-homologous end joining at telomere	TRINITY_DN173493_c9_g1
+GO:1905765	0.0161019189565259	0.999902328412678	1	4	negative regulation of protection from non-homologous end joining at telomere	BP	0.9999999999	BP negative regulation of protection from non-homologous end joining at telomere	TRINITY_DN173493_c9_g1
+GO:0004069	0.0161706521110404	0.999901489924896	1	4	L-aspartate:2-oxoglutarate aminotransferase activity	MF	0.9999999999	MF L-aspartate:2-oxoglutarate aminotransferase activity	TRINITY_DN176935_c1_g1
+GO:0034699	0.0162122200096562	0.999900981079858	1	4	response to luteinizing hormone	BP	0.9999999999	BP response to luteinizing hormone	TRINITY_DN197499_c3_g1
+GO:0060672	0.0163900171304879	0.999898789715743	1	4	epithelial cell morphogenesis involved in placental branching	BP	0.9999999999	BP epithelial cell morphogenesis involved in placental branching	TRINITY_DN180996_c1_g1
+GO:1903204	0.0166780812563962	0.999895188035302	1	4	negative regulation of oxidative stress-induced neuron death	BP	0.9999999999	BP negative regulation of oxidative stress-induced neuron death	TRINITY_DN152703_c2_g1
+GO:0032740	0.0167355466539702	0.999894461955415	1	4	positive regulation of interleukin-17 production	BP	0.9999999999	BP positive regulation of interleukin-17 production	TRINITY_DN183318_c1_g1
+GO:0048659	0.0168333085953209	0.999886134587884	1	5	smooth muscle cell proliferation	BP	0.9999999999	BP smooth muscle cell proliferation	TRINITY_DN197499_c3_g1
+GO:0047485	0.0172900352743896	0.998907615192966	2	55	protein N-terminus binding	MF	0.9999999999	MF protein N-terminus binding	TRINITY_DN173493_c9_g1, TRINITY_DN194931_c1_g1
+GO:0032426	0.0174394940215741	0.999872687455665	1	6	stereocilium tip	CC	0.9999999999	CC stereocilium tip	TRINITY_DN194931_c1_g1
+GO:0098533	0.0178638995980182	0.999862595498501	1	7	ATPase dependent transmembrane transport complex	CC	0.9999999999	CC ATPase dependent transmembrane transport complex	TRINITY_DN157912_c1_g1
+GO:0005583	0.0180046481995576	0.999860414170123	1	7	fibrillar collagen trimer	CC	0.9999999999	CC fibrillar collagen trimer	TRINITY_DN183357_c1_g1
+GO:1904356	0.0184340731932526	0.998796580208143	2	53	regulation of telomere maintenance via telomere lengthening	BP	0.9999999999	BP regulation of telomere maintenance via telomere lengthening	TRINITY_DN173493_c9_g1, TRINITY_DN183318_c1_g1
+GO:2000316	0.0189991225902896	0.999863851736732	1	4	regulation of T-helper 17 type immune response	BP	0.9999999999	BP regulation of T-helper 17 type immune response	TRINITY_DN183318_c1_g1
+GO:2000318	0.0189991225902896	0.999863851736732	1	4	positive regulation of T-helper 17 type immune response	BP	0.9999999999	BP positive regulation of T-helper 17 type immune response	TRINITY_DN183318_c1_g1
+GO:0007219	0.0190325236012026	0.997472759888525	3	138	Notch signaling pathway	BP	0.9999999999	BP Notch signaling pathway	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0062023	0.0191235026424732	0.994659683687922	6	471	collagen-containing extracellular matrix	CC	0.9999999999	CC collagen-containing extracellular matrix	TRINITY_DN161756_c4_g1, TRINITY_DN161820_c6_g2, TRINITY_DN172497_c3_g3, TRINITY_DN182517_c9_g1, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1
+GO:0006531	0.0195324406810171	0.999840163728706	1	6	aspartate metabolic process	BP	0.9999999999	BP aspartate metabolic process	TRINITY_DN176935_c1_g1
+GO:0071547	0.0199945053367096	0.999832481436176	1	6	piP-body	CC	0.9999999999	CC piP-body	TRINITY_DN248498_c0_g1
+GO:0014850	0.020070076979605	0.999826413012186	1	7	response to muscle activity	BP	0.9999999999	BP response to muscle activity	TRINITY_DN176935_c1_g1
+GO:0002225	0.0205220843489757	0.999818474332843	1	7	positive regulation of antimicrobial peptide production	BP	0.9999999999	BP positive regulation of antimicrobial peptide production	TRINITY_DN183318_c1_g1
+GO:0002760	0.0205220843489757	0.999818474332843	1	7	positive regulation of antimicrobial humoral response	BP	0.9999999999	BP positive regulation of antimicrobial humoral response	TRINITY_DN183318_c1_g1
+GO:0002784	0.0205220843489757	0.999818474332843	1	7	regulation of antimicrobial peptide production	BP	0.9999999999	BP regulation of antimicrobial peptide production	TRINITY_DN183318_c1_g1
+GO:0045736	0.0205918652400763	0.999822280310044	1	6	negative regulation of cyclin-dependent protein serine/threonine kinase activity	BP	0.9999999999	BP negative regulation of cyclin-dependent protein serine/threonine kinase activity	TRINITY_DN152703_c2_g1
+GO:1904030	0.0205918652400763	0.999822280310044	1	6	negative regulation of cyclin-dependent protein kinase activity	BP	0.9999999999	BP negative regulation of cyclin-dependent protein kinase activity	TRINITY_DN152703_c2_g1
+GO:0032673	0.0208530931845924	0.999835855237397	1	4	regulation of interleukin-4 production	BP	0.9999999999	BP regulation of interleukin-4 production	TRINITY_DN183318_c1_g1
+GO:0032753	0.0208530931845924	0.999835855237397	1	4	positive regulation of interleukin-4 production	BP	0.9999999999	BP positive regulation of interleukin-4 production	TRINITY_DN183318_c1_g1
+GO:0060088	0.0210845216140504	0.999808346291288	1	7	auditory receptor cell stereocilium organization	BP	0.9999999999	BP auditory receptor cell stereocilium organization	TRINITY_DN194931_c1_g1
+GO:0007157	0.0211132836267835	0.9970869891553	3	132	heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules	BP	0.9999999999	BP heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:1990635	0.0213336828336515	0.999803770941057	1	7	proximal dendrite	CC	0.9999999999	CC proximal dendrite	TRINITY_DN197499_c3_g1
+GO:0098742	0.0213386062221834	0.994760656237802	5	371	cell-cell adhesion via plasma-membrane adhesion molecules	BP	0.9999999999	BP cell-cell adhesion via plasma-membrane adhesion molecules	TRINITY_DN147243_c2_g1, TRINITY_DN181359_c1_g2, TRINITY_DN188315_c2_g4, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0002759	0.0214708069020954	0.999797114901504	1	8	regulation of antimicrobial humoral response	BP	0.9999999999	BP regulation of antimicrobial humoral response	TRINITY_DN183318_c1_g1
+GO:0009068	0.0217899905619721	0.999785080880976	1	10	aspartate family amino acid catabolic process	BP	0.9999999999	BP aspartate family amino acid catabolic process	TRINITY_DN176935_c1_g1
+GO:0016234	0.0225472166465522	0.998357259270544	2	60	inclusion body	CC	0.9999999999	CC inclusion body	TRINITY_DN152703_c2_g1, TRINITY_DN183318_c1_g1
+GO:1900150	0.0229470473857555	0.999779096510694	1	6	regulation of defense response to fungus	BP	0.9999999999	BP regulation of defense response to fungus	TRINITY_DN183318_c1_g1
+GO:1903203	0.0230305539885628	0.999777478445567	1	6	regulation of oxidative stress-induced neuron death	BP	0.9999999999	BP regulation of oxidative stress-induced neuron death	TRINITY_DN152703_c2_g1
+GO:0032660	0.0240184410659079	0.999757884304686	1	6	regulation of interleukin-17 production	BP	0.9999999999	BP regulation of interleukin-17 production	TRINITY_DN183318_c1_g1
+GO:0030950	0.0242359157237982	0.999753458735683	1	6	establishment or maintenance of actin cytoskeleton polarity	BP	0.9999999999	BP establishment or maintenance of actin cytoskeleton polarity	TRINITY_DN189425_c1_g1
+GO:0030952	0.0242359157237982	0.999753458735683	1	6	establishment or maintenance of cytoskeleton polarity	BP	0.9999999999	BP establishment or maintenance of cytoskeleton polarity	TRINITY_DN189425_c1_g1
+GO:0016984	0.0244099491559083	0.999737472625371	1	8	ribulose-bisphosphate carboxylase activity	MF	0.9999999999	MF ribulose-bisphosphate carboxylase activity	TRINITY_DN169101_c1_g1
+GO:0001094	0.0244179409411578	0.999749723443806	1	6	TFIID-class transcription factor complex binding	MF	0.9999999999	MF TFIID-class transcription factor complex binding	TRINITY_DN173493_c9_g1
+GO:0006296	0.0245267772425871	0.999734941817968	1	8	nucleotide-excision repair, DNA incision, 5'-to lesion	BP	0.9999999999	BP nucleotide-excision repair, DNA incision, 5'-to lesion	TRINITY_DN173493_c9_g1
+GO:0030198	0.0247932117333804	0.994888597118817	4	260	extracellular matrix organization	BP	0.9999999999	BP extracellular matrix organization	TRINITY_DN161820_c6_g2, TRINITY_DN167688_c4_g2, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1
+GO:0070229	0.0249610567089589	0.999748802752483	1	5	negative regulation of lymphocyte apoptotic process	BP	0.9999999999	BP negative regulation of lymphocyte apoptotic process	TRINITY_DN183318_c1_g1
+GO:1903599	0.0249624957206649	0.999725394899498	1	8	positive regulation of autophagy of mitochondrion	BP	0.9999999999	BP positive regulation of autophagy of mitochondrion	TRINITY_DN152703_c2_g1
+GO:0070268	0.0257679165829228	0.999732212331749	1	5	cornification	BP	0.9999999999	BP cornification	TRINITY_DN180996_c1_g1
+GO:0042098	0.0263535173176416	0.99968895258423	1	9	T cell proliferation	BP	0.9999999999	BP T cell proliferation	TRINITY_DN196962_c1_g4
+GO:0033625	0.0264831647428953	0.999697002101486	1	7	positive regulation of integrin activation	BP	0.9999999999	BP positive regulation of integrin activation	TRINITY_DN197499_c3_g1
+GO:0000014	0.0265358893286431	0.999689500193007	1	8	single-stranded DNA endodeoxyribonuclease activity	MF	0.9999999999	MF single-stranded DNA endodeoxyribonuclease activity	TRINITY_DN173493_c9_g1
+GO:2001046	0.0266152979477814	0.999693955319066	1	7	positive regulation of integrin-mediated signaling pathway	BP	0.9999999999	BP positive regulation of integrin-mediated signaling pathway	TRINITY_DN197499_c3_g1
+GO:1901654	0.0268088751370529	0.997849015910166	2	73	response to ketone	BP	0.9999999999	BP response to ketone	TRINITY_DN162197_c4_g5, TRINITY_DN174527_c7_g1
+GO:0004252	0.0271674228876862	0.995851925696444	3	236	serine-type endopeptidase activity	MF	0.9999999999	MF serine-type endopeptidase activity	TRINITY_DN180996_c1_g1, TRINITY_DN188833_c4_g1, TRINITY_DN197499_c3_g1
+GO:0022008	0.0274468525528535	0.995811437742209	3	149	neurogenesis	BP	0.9999999999	BP neurogenesis	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0043062	0.0274715588625368	0.994155734438467	4	269	extracellular structure organization	BP	0.9999999999	BP extracellular structure organization	TRINITY_DN161820_c6_g2, TRINITY_DN167688_c4_g2, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1
+GO:2001044	0.0274982645651094	0.999666447138446	1	8	regulation of integrin-mediated signaling pathway	BP	0.9999999999	BP regulation of integrin-mediated signaling pathway	TRINITY_DN197499_c3_g1
+GO:0010543	0.0276525214334325	0.999657364576353	1	9	regulation of platelet activation	BP	0.9999999999	BP regulation of platelet activation	TRINITY_DN183318_c1_g1
+GO:0016836	0.0278556487193987	0.997713396269709	2	83	hydro-lyase activity	MF	0.9999999999	MF hydro-lyase activity	TRINITY_DN162197_c4_g5, TRINITY_DN174527_c7_g1
+GO:0038095	0.0284635997765609	0.999649720885996	1	7	Fc-epsilon receptor signaling pathway	BP	0.9999999999	BP Fc-epsilon receptor signaling pathway	TRINITY_DN183318_c1_g1
+GO:0030510	0.0286267143641657	0.997629653512912	2	62	regulation of BMP signaling pathway	BP	0.9999999999	BP regulation of BMP signaling pathway	TRINITY_DN161756_c4_g1, TRINITY_DN189425_c1_g1
+GO:0046631	0.0287798807306534	0.999651716963898	1	6	alpha-beta T cell activation	BP	0.9999999999	BP alpha-beta T cell activation	TRINITY_DN196962_c1_g4
+GO:0030101	0.0287963544613298	0.99962366564529	1	10	natural killer cell activation	BP	0.9999999999	BP natural killer cell activation	TRINITY_DN196962_c1_g4
+GO:0033623	0.0290492458667365	0.999627537970486	1	8	regulation of integrin activation	BP	0.9999999999	BP regulation of integrin activation	TRINITY_DN197499_c3_g1
+GO:0032204	0.029927080119599	0.997453369884306	2	73	regulation of telomere maintenance	BP	0.9999999999	BP regulation of telomere maintenance	TRINITY_DN173493_c9_g1, TRINITY_DN183318_c1_g1
+GO:0045620	0.030214894885997	0.999596866693802	1	8	negative regulation of lymphocyte differentiation	BP	0.9999999999	BP negative regulation of lymphocyte differentiation	TRINITY_DN152703_c2_g1
+GO:0019253	0.0302427557331675	0.999589766106062	1	9	reductive pentose-phosphate cycle	BP	0.9999999999	BP reductive pentose-phosphate cycle	TRINITY_DN169101_c1_g1
+GO:1904354	0.0308598489400134	0.999579368657989	1	8	negative regulation of telomere capping	BP	0.9999999999	BP negative regulation of telomere capping	TRINITY_DN173493_c9_g1
+GO:0036119	0.0310705538886295	0.999553460218624	1	12	response to platelet-derived growth factor	BP	0.9999999999	BP response to platelet-derived growth factor	TRINITY_DN197499_c3_g1
+GO:0036120	0.0310705538886295	0.999553460218624	1	12	cellular response to platelet-derived growth factor stimulus	BP	0.9999999999	BP cellular response to platelet-derived growth factor stimulus	TRINITY_DN197499_c3_g1
+GO:0048563	0.0315857429894888	0.997245243777412	2	60	post-embryonic animal organ morphogenesis	BP	0.9999999999	BP post-embryonic animal organ morphogenesis	TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0019685	0.031772190076077	0.999541353446092	1	10	photosynthesis, dark reaction	BP	0.9999999999	BP photosynthesis, dark reaction	TRINITY_DN169101_c1_g1
+GO:0009065	0.0318120269238856	0.999535596726221	1	11	glutamine family amino acid catabolic process	BP	0.9999999999	BP glutamine family amino acid catabolic process	TRINITY_DN176935_c1_g1
+GO:0016323	0.0320778121635508	0.994793530317641	3	179	basolateral plasma membrane	CC	0.9999999999	CC basolateral plasma membrane	TRINITY_DN162197_c4_g5, TRINITY_DN174527_c7_g1, TRINITY_DN180996_c1_g1
+GO:0007595	0.0321011944881818	0.999531747722857	1	10	lactation	BP	0.9999999999	BP lactation	TRINITY_DN176935_c1_g1
+GO:0048680	0.0323119332383535	0.999538595092927	1	8	positive regulation of axon regeneration	BP	0.9999999999	BP positive regulation of axon regeneration	TRINITY_DN183318_c1_g1
+GO:0070572	0.0323119332383535	0.999538595092927	1	8	positive regulation of neuron projection regeneration	BP	0.9999999999	BP positive regulation of neuron projection regeneration	TRINITY_DN183318_c1_g1
+GO:1904949	0.0326374821150294	0.999511033083313	1	11	ATPase complex	CC	0.9999999999	CC ATPase complex	TRINITY_DN157912_c1_g1
+GO:0035315	0.0328432454199321	0.999515705600901	1	9	hair cell differentiation	BP	0.9999999999	BP hair cell differentiation	TRINITY_DN194931_c1_g1
+GO:0009887	0.032884746195733	0.990964448651308	5	449	animal organ morphogenesis	BP	0.9999999999	BP animal organ morphogenesis	TRINITY_DN167688_c4_g2, TRINITY_DN181359_c1_g2, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0004697	0.0334448149238754	0.999491472473565	1	10	protein kinase C activity	MF	0.9999999999	MF protein kinase C activity	TRINITY_DN183318_c1_g1
+GO:0016051	0.0340776806589862	0.996872458634527	2	104	carbohydrate biosynthetic process	BP	0.9999999999	BP carbohydrate biosynthetic process	TRINITY_DN169101_c1_g1, TRINITY_DN176935_c1_g1
+GO:0044331	0.0344848340364498	0.999465750042916	1	9	cell-cell adhesion mediated by cadherin	BP	0.9999999999	BP cell-cell adhesion mediated by cadherin	TRINITY_DN189425_c1_g1
+GO:0016334	0.0346989630998447	0.999467415965307	1	8	establishment or maintenance of polarity of follicular epithelium	BP	0.9999999999	BP establishment or maintenance of polarity of follicular epithelium	TRINITY_DN189425_c1_g1
+GO:0014072	0.0347045435046007	0.999458875535728	1	9	response to isoquinoline alkaloid	BP	0.9999999999	BP response to isoquinoline alkaloid	TRINITY_DN176935_c1_g1
+GO:0043278	0.0347045435046007	0.999458875535728	1	9	response to morphine	BP	0.9999999999	BP response to morphine	TRINITY_DN176935_c1_g1
+GO:2000516	0.0347475895809885	0.999457523446845	1	9	positive regulation of CD4-positive, alpha-beta T cell activation	BP	0.9999999999	BP positive regulation of CD4-positive, alpha-beta T cell activation	TRINITY_DN183318_c1_g1
+GO:0043649	0.0353481452460728	0.99942585883754	1	11	dicarboxylic acid catabolic process	BP	0.9999999999	BP dicarboxylic acid catabolic process	TRINITY_DN176935_c1_g1
+GO:0019471	0.0353714640754311	0.999416349356924	1	13	4-hydroxyproline metabolic process	BP	0.9999999999	BP 4-hydroxyproline metabolic process	TRINITY_DN176935_c1_g1
+GO:0050832	0.0355730960667843	0.999431263229308	1	9	defense response to fungus	BP	0.9999999999	BP defense response to fungus	TRINITY_DN183318_c1_g1
+GO:0009650	0.0355760554998383	0.999451273105393	1	7	UV protection	BP	0.9999999999	BP UV protection	TRINITY_DN173493_c9_g1
+GO:1903707	0.0358166993125566	0.996649131120134	2	67	negative regulation of hemopoiesis	BP	0.9999999999	BP negative regulation of hemopoiesis	TRINITY_DN152703_c2_g1, TRINITY_DN189425_c1_g1
+GO:0001502	0.0360274451843425	0.999425560444592	1	8	cartilage condensation	BP	0.9999999999	BP cartilage condensation	TRINITY_DN183357_c1_g1
+GO:0016835	0.036826123268761	0.996479399045796	2	97	carbon-oxygen lyase activity	MF	0.9999999999	MF carbon-oxygen lyase activity	TRINITY_DN162197_c4_g5, TRINITY_DN174527_c7_g1
+GO:0048598	0.0368460041150039	0.988054588236829	6	557	embryonic morphogenesis	BP	0.9999999999	BP embryonic morphogenesis	TRINITY_DN167688_c4_g2, TRINITY_DN180996_c1_g1, TRINITY_DN182517_c9_g1, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0005797	0.0369355561857666	0.999359477716253	1	14	Golgi medial cisterna	CC	0.9999999999	CC Golgi medial cisterna	TRINITY_DN197499_c3_g1
+GO:0030856	0.0373829368208114	0.993572721927909	3	156	regulation of epithelial cell differentiation	BP	0.9999999999	BP regulation of epithelial cell differentiation	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0060113	0.0376432623270278	0.999354764638758	1	10	inner ear receptor cell differentiation	BP	0.9999999999	BP inner ear receptor cell differentiation	TRINITY_DN194931_c1_g1
+GO:0033002	0.0378249758888259	0.999336552314333	1	12	muscle cell proliferation	BP	0.9999999999	BP muscle cell proliferation	TRINITY_DN197499_c3_g1
+GO:0070228	0.0386717669823215	0.999318759847795	1	10	regulation of lymphocyte apoptotic process	BP	0.9999999999	BP regulation of lymphocyte apoptotic process	TRINITY_DN183318_c1_g1
+GO:0008283	0.0386903801424456	0.988906019359576	5	435	cell proliferation	BP	0.9999999999	BP cell proliferation	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1, TRINITY_DN196962_c1_g4, TRINITY_DN197499_c3_g1
+GO:0031012	0.038827620056925	0.988858726670347	5	417	extracellular matrix	CC	0.9999999999	CC extracellular matrix	TRINITY_DN161756_c4_g1, TRINITY_DN167688_c4_g2, TRINITY_DN172497_c3_g3, TRINITY_DN183357_c1_g1, TRINITY_DN189425_c1_g1
+GO:0050910	0.0393236994909028	0.999304019116468	1	9	detection of mechanical stimulus involved in sensory perception of sound	BP	0.9999999999	BP detection of mechanical stimulus involved in sensory perception of sound	TRINITY_DN183357_c1_g1
+GO:0000109	0.0394511130748282	0.9992837405033	1	11	nucleotide-excision repair complex	CC	0.9999999999	CC nucleotide-excision repair complex	TRINITY_DN173493_c9_g1
+GO:0008236	0.0395145467106672	0.99302380244335	3	281	serine-type peptidase activity	MF	0.9999999999	MF serine-type peptidase activity	TRINITY_DN180996_c1_g1, TRINITY_DN188833_c4_g1, TRINITY_DN197499_c3_g1
+GO:0007009	0.0397170872340867	0.992993821510846	3	193	plasma membrane organization	BP	0.9999999999	BP plasma membrane organization	TRINITY_DN181359_c1_g2, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0006106	0.0399750064392874	0.999264446626519	1	11	fumarate metabolic process	BP	0.9999999999	BP fumarate metabolic process	TRINITY_DN176935_c1_g1
+GO:1903706	0.0401874750065508	0.992879647561573	3	189	regulation of hemopoiesis	BP	0.9999999999	BP regulation of hemopoiesis	TRINITY_DN152703_c2_g1, TRINITY_DN183318_c1_g1, TRINITY_DN189425_c1_g1
+GO:0033683	0.0411815383291755	0.999212597670786	1	12	nucleotide-excision repair, DNA incision	BP	0.9999999999	BP nucleotide-excision repair, DNA incision	TRINITY_DN173493_c9_g1
+GO:0017171	0.041260401925799	0.992591246891297	3	285	serine hydrolase activity	MF	0.9999999999	MF serine hydrolase activity	TRINITY_DN180996_c1_g1, TRINITY_DN188833_c4_g1, TRINITY_DN197499_c3_g1
+GO:0007155	0.0418895949505845	0.982258004373815	9	1095	cell adhesion	BP	0.9999999999	BP cell adhesion	TRINITY_DN147243_c2_g1, TRINITY_DN161756_c4_g1, TRINITY_DN161820_c6_g2, TRINITY_DN176651_c2_g6, TRINITY_DN178739_c0_g1, TRINITY_DN181359_c1_g2, TRINITY_DN188315_c2_g4, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0002063	0.0423551324208171	0.999181669125832	1	10	chondrocyte development	BP	0.9999999999	BP chondrocyte development	TRINITY_DN183357_c1_g1
+GO:0022610	0.0424802817969402	0.981962245188369	9	1101	biological adhesion	BP	0.9999999999	BP biological adhesion	TRINITY_DN147243_c2_g1, TRINITY_DN161756_c4_g1, TRINITY_DN161820_c6_g2, TRINITY_DN176651_c2_g6, TRINITY_DN178739_c0_g1, TRINITY_DN181359_c1_g2, TRINITY_DN188315_c2_g4, TRINITY_DN189425_c1_g1, TRINITY_DN194931_c1_g1
+GO:0001091	0.0425279209989459	0.999174924755301	1	10	RNA polymerase II basal transcription factor binding	MF	0.9999999999	MF RNA polymerase II basal transcription factor binding	TRINITY_DN173493_c9_g1
+GO:0042490	0.0425334213371355	0.999159629228117	1	12	mechanoreceptor differentiation	BP	0.9999999999	BP mechanoreceptor differentiation	TRINITY_DN194931_c1_g1
+GO:0045652	0.0427801995915751	0.999138878434636	1	14	regulation of megakaryocyte differentiation	BP	0.9999999999	BP regulation of megakaryocyte differentiation	TRINITY_DN183318_c1_g1
+GO:0071546	0.0433499728879749	0.999120763814761	1	13	pi-body	CC	0.9999999999	CC pi-body	TRINITY_DN248498_c0_g1
+GO:0007605	0.0437347861454826	0.995411268676983	2	96	sensory perception of sound	BP	0.9999999999	BP sensory perception of sound	TRINITY_DN183357_c1_g1, TRINITY_DN194931_c1_g1
+GO:0034698	0.0445592279943041	0.99906042972074	1	15	response to gonadotropin	BP	0.9999999999	BP response to gonadotropin	TRINITY_DN197499_c3_g1
+GO:2000107	0.0453587488807357	0.999060421189175	1	10	negative regulation of leukocyte apoptotic process	BP	0.9999999999	BP negative regulation of leukocyte apoptotic process	TRINITY_DN183318_c1_g1
+GO:0046627	0.0454248316463138	0.999033840431239	1	13	negative regulation of insulin receptor signaling pathway	BP	0.9999999999	BP negative regulation of insulin receptor signaling pathway	TRINITY_DN183318_c1_g1
+GO:1900077	0.0454248316463138	0.999033840431239	1	13	negative regulation of cellular response to insulin stimulus	BP	0.9999999999	BP negative regulation of cellular response to insulin stimulus	TRINITY_DN183318_c1_g1
+GO:0046487	0.0455486502028805	0.99900975111177	1	17	glyoxylate metabolic process	BP	0.9999999999	BP glyoxylate metabolic process	TRINITY_DN176935_c1_g1
+GO:0046635	0.0464263418269692	0.998997301676634	1	12	positive regulation of alpha-beta T cell activation	BP	0.9999999999	BP positive regulation of alpha-beta T cell activation	TRINITY_DN183318_c1_g1
+GO:0050954	0.0480290450081904	0.994692031897765	2	102	sensory perception of mechanical stimulus	BP	0.9999999999	BP sensory perception of mechanical stimulus	TRINITY_DN183357_c1_g1, TRINITY_DN194931_c1_g1
+GO:2000514	0.0485742718181859	0.99890149284264	1	12	regulation of CD4-positive, alpha-beta T cell activation	BP	0.9999999999	BP regulation of CD4-positive, alpha-beta T cell activation	TRINITY_DN183318_c1_g1
+GO:0000422	0.0488287939083292	0.998853249429521	1	19	autophagy of mitochondrion	BP	0.9999999999	BP autophagy of mitochondrion	TRINITY_DN152703_c2_g1
+GO:0061726	0.0488287939083292	0.998853249429521	1	19	mitochondrion disassembly	BP	0.9999999999	BP mitochondrion disassembly	TRINITY_DN152703_c2_g1
+GO:0032943	0.0491916994586554	0.998852961078453	1	15	mononuclear cell proliferation	BP	0.9999999999	BP mononuclear cell proliferation	TRINITY_DN196962_c1_g4
+GO:0046651	0.0491916994586554	0.998852961078453	1	15	lymphocyte proliferation	BP	0.9999999999	BP lymphocyte proliferation	TRINITY_DN196962_c1_g4
+GO:0070661	0.0491916994586554	0.998852961078453	1	15	leukocyte proliferation	BP	0.9999999999	BP leukocyte proliferation	TRINITY_DN196962_c1_g4
+GO:0016829	0.0494946556366418	0.990452633189685	3	299	lyase activity	MF	0.9999999999	MF lyase activity	TRINITY_DN162197_c4_g5, TRINITY_DN169101_c1_g1, TRINITY_DN174527_c7_g1
+GO:0006509	0.0498885323690237	0.998819930561385	1	15	membrane protein ectodomain proteolysis	BP	0.9999999999	BP membrane protein ectodomain proteolysis	TRINITY_DN183318_c1_g1

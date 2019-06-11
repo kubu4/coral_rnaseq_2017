@@ -1,0 +1,38 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0097159	0.999194286278496	0.00170379276013879	16	7215	organic cyclic compound binding	MF	0.9999999999	0.9999999999	MF organic cyclic compound binding
+GO:1901363	0.999116183958923	0.0018596231180521	16	7180	heterocyclic compound binding	MF	0.9999999999	0.9999999999	MF heterocyclic compound binding
+GO:0099600	1	0.00512663865257724	0	1218	NA	NA	0.9999999999	0.9999999999	none
+GO:0004888	1	0.00590858178670661	0	1168	transmembrane signaling receptor activity	MF	0.9999999999	0.9999999999	MF transmembrane signaling receptor activity
+GO:0044424	0.994984305829373	0.00785644895136623	37	10201	intracellular part	CC	0.9999999999	0.9999999999	CC intracellular part
+GO:0043231	0.995840292680127	0.00848634205788513	13	4730	intracellular membrane-bounded organelle	CC	0.9999999999	0.9999999999	CC intracellular membrane-bounded organelle
+GO:0034645	1	0.0132920867526566	0	843	cellular macromolecule biosynthetic process	BP	0.9999999999	0.9999999999	BP cellular macromolecule biosynthetic process
+GO:0022857	1	0.0142621314732596	0	1269	transmembrane transporter activity	MF	0.9999999999	0.9999999999	MF transmembrane transporter activity
+GO:0003676	0.993702716003765	0.0152313284947253	7	3512	nucleic acid binding	MF	0.9999999999	0.9999999999	MF nucleic acid binding
+GO:0009890	1	0.0159423242412887	0	724	negative regulation of biosynthetic process	BP	0.9999999999	0.9999999999	BP negative regulation of biosynthetic process
+GO:0031327	1	0.017145764322541	0	708	negative regulation of cellular biosynthetic process	BP	0.9999999999	0.9999999999	BP negative regulation of cellular biosynthetic process
+GO:0005634	0.992130252876682	0.0186533091789308	7	2937	nucleus	CC	0.9999999999	0.9999999999	CC nucleus
+GO:0010558	1	0.0190534062072164	0	686	negative regulation of macromolecule biosynthetic process	BP	0.9999999999	0.9999999999	BP negative regulation of macromolecule biosynthetic process
+GO:0044249	0.994414905971501	0.0193942699551561	3	1869	cellular biosynthetic process	BP	0.9999999999	0.9999999999	BP cellular biosynthetic process
+GO:2000113	1	0.0202923955638526	0	672	negative regulation of cellular macromolecule biosynthetic process	BP	0.9999999999	0.9999999999	BP negative regulation of cellular macromolecule biosynthetic process
+GO:0005737	0.989114857203883	0.0207108226329517	13	3910	cytoplasm	CC	0.9999999999	0.9999999999	CC cytoplasm
+GO:0043229	0.987359390300143	0.0207325313457508	23	6517	intracellular organelle	CC	0.9999999999	0.9999999999	CC intracellular organelle
+GO:0044271	0.996492200818429	0.0234668195592548	1	1128	cellular nitrogen compound biosynthetic process	BP	0.9999999999	0.9999999999	BP cellular nitrogen compound biosynthetic process
+GO:0010629	0.996132572356149	0.0255005110947798	1	946	negative regulation of gene expression	BP	0.9999999999	0.9999999999	BP negative regulation of gene expression
+GO:1902531	0.995855580312747	0.0270325121792113	1	1003	regulation of intracellular signal transduction	BP	0.9999999999	0.9999999999	BP regulation of intracellular signal transduction
+GO:0043226	0.981911006862192	0.0282947088962368	26	6967	organelle	CC	0.9999999999	0.9999999999	CC organelle
+GO:0005488	0.97859683085447	0.0293703720087923	55	15940	binding	MF	0.9999999999	0.9999999999	MF binding
+GO:0005783	1	0.0310176421984163	0	628	endoplasmic reticulum	CC	0.9999999999	0.9999999999	CC endoplasmic reticulum
+GO:0007186	1	0.0321391887983892	0	882	G protein-coupled receptor signaling pathway	BP	0.9999999999	0.9999999999	BP G protein-coupled receptor signaling pathway
+GO:0005515	0.976656972248705	0.0361825880052491	25	7791	protein binding	MF	0.9999999999	0.9999999999	MF protein binding
+GO:0009059	0.993534027115565	0.039264256860841	1	979	macromolecule biosynthetic process	BP	0.9999999999	0.9999999999	BP macromolecule biosynthetic process
+GO:0022891	1	0.0399582718771591	0	932	NA	NA	0.9999999999	0.9999999999	none
+GO:0005524	0.981998527802084	0.0413597037577413	6	2813	ATP binding	MF	0.9999999999	0.9999999999	MF ATP binding
+GO:0007275	1	0.0419787343508757	0	553	multicellular organism development	BP	0.9999999999	0.9999999999	BP multicellular organism development
+GO:0030163	1	0.0421070248421613	0	504	protein catabolic process	BP	0.9999999999	0.9999999999	BP protein catabolic process
+GO:0044877	0.992160000716783	0.0460983189813491	1	812	protein-containing complex binding	MF	0.9999999999	0.9999999999	MF protein-containing complex binding
+GO:0005215	0.992051126752851	0.0465788864889109	1	1409	transporter activity	MF	0.9999999999	0.9999999999	MF transporter activity
+GO:0046914	0.98238556372209	0.0469869638741792	4	1893	transition metal ion binding	MF	0.9999999999	0.9999999999	MF transition metal ion binding
+GO:0015075	1	0.047943955718044	0	877	ion transmembrane transporter activity	MF	0.9999999999	0.9999999999	MF ion transmembrane transporter activity
+GO:0031324	0.987206781275989	0.0481715027458841	2	1117	negative regulation of cellular metabolic process	BP	0.9999999999	0.9999999999	BP negative regulation of cellular metabolic process
+GO:0008092	1	0.0486164120000604	0	630	cytoskeletal protein binding	MF	0.9999999999	0.9999999999	MF cytoskeletal protein binding
+GO:0009892	0.983729438731464	0.0492747602717556	3	1365	negative regulation of metabolic process	BP	0.9999999999	0.9999999999	BP negative regulation of metabolic process

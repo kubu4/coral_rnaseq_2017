@@ -1,0 +1,10 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0097159	0.994724688447297	0.0111756305323145	11	7215	organic cyclic compound binding	MF	0.9999999999	0.9999999999	MF organic cyclic compound binding
+GO:1901363	0.994379460499807	0.0118498156510506	11	7180	heterocyclic compound binding	MF	0.9999999999	0.9999999999	MF heterocyclic compound binding
+GO:0044424	0.991799692931721	0.0138869081154562	23	10201	intracellular part	CC	0.9999999999	0.9999999999	CC intracellular part
+GO:0044249	0.997726968582427	0.0162235851247313	1	1869	cellular biosynthetic process	BP	0.9999999999	0.9999999999	BP cellular biosynthetic process
+GO:0043231	0.991251143896813	0.0196812269634099	8	4730	intracellular membrane-bounded organelle	CC	0.9999999999	0.9999999999	CC intracellular membrane-bounded organelle
+GO:0044271	1	0.0235427362513056	0	1128	cellular nitrogen compound biosynthetic process	BP	0.9999999999	0.9999999999	BP cellular nitrogen compound biosynthetic process
+GO:0099600	1	0.02871711011331	0	1218	NA	NA	0.9999999999	0.9999999999	none
+GO:0004888	1	0.0317732913317392	0	1168	transmembrane signaling receptor activity	MF	0.9999999999	0.9999999999	MF transmembrane signaling receptor activity
+GO:0009059	1	0.035630911142219	0	979	macromolecule biosynthetic process	BP	0.9999999999	0.9999999999	BP macromolecule biosynthetic process

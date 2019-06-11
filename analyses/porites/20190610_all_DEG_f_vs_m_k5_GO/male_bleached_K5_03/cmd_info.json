@@ -1,0 +1,10 @@
+{
+    "salmon_version": "0.12.0",
+    "index": "/media/sam/4TB_toshiba/porites/20180419_trinity/Trinity.fasta.salmon_quasi.idx",
+    "libType": "ISR",
+    "mates1": "/mnt/data/coral_RNAseq_2017/porites/20180311_fastqc_trimming/trimmed/4R041-L7-P07-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz",
+    "mates2": "/mnt/data/coral_RNAseq_2017/porites/20180311_fastqc_trimming/trimmed/4R041-L7-P07-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz",
+    "output": "male_bleached_K5_03",
+    "threads": "23",
+    "auxDir": "aux_info"
+}
