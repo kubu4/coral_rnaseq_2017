@@ -1,0 +1,163 @@
+Category	ID	Term	Genes	adj_pval
+BP	GO:0009266	response to temperature stimulus	TRINITY_DN181470_c1_g1, TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0060544	regulation of necroptotic process	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0030225	macrophage differentiation	TRINITY_DN193167_c4_g1	0.9999999999
+CC	GO:0005576	extracellular region	TRINITY_DN162514_c5_g1, TRINITY_DN167547_c1_g2, TRINITY_DN175605_c4_g1, TRINITY_DN181470_c1_g1	0.9999999999
+BP	GO:0006956	complement activation	TRINITY_DN162514_c5_g1	0.9999999999
+MF	GO:0016443	bidentate ribonuclease III activity	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0048869	cellular developmental process	TRINITY_DN169391_c1_g1, TRINITY_DN181470_c1_g1, TRINITY_DN189885_c0_g5, TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0007365	periodic partitioning	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0045649	regulation of macrophage differentiation	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0032989	cellular component morphogenesis	TRINITY_DN169391_c1_g1, TRINITY_DN181470_c1_g1	0.9999999999
+CC	GO:0031332	RNAi effector complex	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0070228	regulation of lymphocyte apoptotic process	TRINITY_DN193167_c4_g1	0.9999999999
+MF	GO:0005123	death receptor binding	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0009653	anatomical structure morphogenesis	TRINITY_DN169391_c1_g1, TRINITY_DN175605_c4_g1, TRINITY_DN181470_c1_g1	0.9999999999
+CC	GO:0042600	chorion	TRINITY_DN167547_c1_g2	0.9999999999
+BP	GO:0097305	response to alcohol	TRINITY_DN167547_c1_g2, TRINITY_DN193167_c4_g1	0.9999999999
+MF	GO:0004536	deoxyribonuclease activity	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0048134	germ-line cyst formation	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0097110	scaffold protein binding	TRINITY_DN193167_c4_g1	0.9999999999
+MF	GO:0016888	endodeoxyribonuclease activity, producing 5'-phosphomonoesters	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0048738	cardiac muscle tissue development	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0014706	striated muscle tissue development	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0043038	amino acid activation	TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0007294	germarium-derived oocyte fate determination	TRINITY_DN169391_c1_g1	0.9999999999
+CC	GO:0009986	cell surface	TRINITY_DN175581_c5_g2, TRINITY_DN181470_c1_g1	0.9999999999
+BP	GO:0006309	apoptotic DNA fragmentation	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0004525	ribonuclease III activity	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0097199	cysteine-type endopeptidase activity involved in apoptotic signaling pathway	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0072376	protein activation cascade	TRINITY_DN162514_c5_g1	0.9999999999
+BP	GO:0071260	cellular response to mechanical stimulus	TRINITY_DN193167_c4_g1	0.9999999999
+MF	GO:0016836	hydro-lyase activity	TRINITY_DN175581_c5_g2, TRINITY_DN175605_c4_g1	0.9999999999
+CC	GO:0031233	intrinsic component of external side of plasma membrane	TRINITY_DN175581_c5_g2	0.9999999999
+BP	GO:0045639	positive regulation of myeloid cell differentiation	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0042078	germ-line stem cell division	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0001709	cell fate determination	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0097194	execution phase of apoptosis	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0001838	embryonic epithelial tube formation	TRINITY_DN193167_c4_g1	0.9999999999
+CC	GO:0031264	death-inducing signaling complex	TRINITY_DN193167_c4_g1	0.9999999999
+CC	GO:0030312	external encapsulating structure	TRINITY_DN167547_c1_g2	0.9999999999
+BP	GO:0007367	segment polarity determination	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0022412	cellular process involved in reproduction in multicellular organism	TRINITY_DN167547_c1_g2, TRINITY_DN169391_c1_g1	0.9999999999
+CC	GO:1902555	endoribonuclease complex	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0045471	response to ethanol	TRINITY_DN167547_c1_g2, TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0034612	response to tumor necrosis factor	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0002763	positive regulation of myeloid leukocyte differentiation	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0070922	small RNA loading onto RISC	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0015696	ammonium transport	TRINITY_DN191336_c0_g4	0.9999999999
+BP	GO:0050896	response to stimulus	TRINITY_DN162514_c5_g1, TRINITY_DN167547_c1_g2, TRINITY_DN169391_c1_g1, TRINITY_DN175605_c4_g1, TRINITY_DN181470_c1_g1, TRINITY_DN193167_c4_g1	0.9999999999
+CC	GO:0031526	brush border membrane	TRINITY_DN175581_c5_g2	0.9999999999
+BP	GO:2000106	regulation of leukocyte apoptotic process	TRINITY_DN193167_c4_g1	0.9999999999
+CC	GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	TRINITY_DN175581_c5_g2	0.9999999999
+CC	GO:0043230	extracellular organelle	TRINITY_DN175581_c5_g2, TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0030727	germarium-derived female germ-line cyst formation	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0097284	hepatocyte apoptotic process	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:1901654	response to ketone	TRINITY_DN175605_c4_g1	0.9999999999
+BP	GO:0003006	developmental process involved in reproduction	TRINITY_DN167547_c1_g2, TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0030422	production of siRNA involved in RNA interference	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0022613	ribonucleoprotein complex biogenesis	TRINITY_DN159319_c0_g4	0.9999999999
+MF	GO:0016829	lyase activity	TRINITY_DN175581_c5_g2, TRINITY_DN175605_c4_g1	0.9999999999
+CC	GO:0016442	RISC complex	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0043039	tRNA aminoacylation	TRINITY_DN189885_c0_g5	0.9999999999
+MF	GO:0004812	aminoacyl-tRNA ligase activity	TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0010378	temperature compensation of the circadian clock	TRINITY_DN181470_c1_g1	0.9999999999
+BP	GO:0042744	hydrogen peroxide catabolic process	TRINITY_DN167547_c1_g2	0.9999999999
+MF	GO:0032296	double-stranded RNA-specific ribonuclease activity	TRINITY_DN169391_c1_g1	0.9999999999
+CC	GO:0044421	extracellular region part	TRINITY_DN162514_c5_g1, TRINITY_DN175581_c5_g2, TRINITY_DN181470_c1_g1, TRINITY_DN189885_c0_g5	0.9999999999
+CC	GO:0005791	rough endoplasmic reticulum	TRINITY_DN175581_c5_g2	0.9999999999
+BP	GO:0060547	negative regulation of necrotic cell death	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0001539	cilium or flagellum-dependent cell motility	TRINITY_DN45203_c0_g1	0.9999999999
+CC	GO:0031253	cell projection membrane	TRINITY_DN175581_c5_g2, TRINITY_DN175605_c4_g1	0.9999999999
+BP	GO:0048135	female germ-line cyst formation	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0004822	isoleucine-tRNA ligase activity	TRINITY_DN189885_c0_g5	0.9999999999
+CC	GO:0031528	microvillus membrane	TRINITY_DN175605_c4_g1	0.9999999999
+BP	GO:0060546	negative regulation of necroptotic process	TRINITY_DN193167_c4_g1	0.9999999999
+CC	GO:0017101	aminoacyl-tRNA synthetase multienzyme complex	TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0033227	dsRNA transport	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:2001238	positive regulation of extrinsic apoptotic signaling pathway	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0048813	dendrite morphogenesis	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0017145	stem cell division	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0033574	response to testosterone	TRINITY_DN175605_c4_g1	0.9999999999
+MF	GO:0070883	pre-miRNA binding	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0070232	regulation of T cell apoptotic process	TRINITY_DN193167_c4_g1	0.9999999999
+MF	GO:0016875	ligase activity, forming carbon-oxygen bonds	TRINITY_DN189885_c0_g5	0.9999999999
+CC	GO:0070062	extracellular exosome	TRINITY_DN175581_c5_g2, TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0006959	humoral immune response	TRINITY_DN162514_c5_g1	0.9999999999
+BP	GO:0042752	regulation of circadian rhythm	TRINITY_DN181470_c1_g1	0.9999999999
+MF	GO:0004089	carbonate dehydratase activity	TRINITY_DN175581_c5_g2, TRINITY_DN175605_c4_g1	0.9999999999
+MF	GO:0016891	endoribonuclease activity, producing 5'-phosphomonoesters	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0097202	activation of cysteine-type endopeptidase activity	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0045651	positive regulation of macrophage differentiation	TRINITY_DN193167_c4_g1	0.9999999999
+MF	GO:0002161	aminoacyl-tRNA editing activity	TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0001649	osteoblast differentiation	TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0072175	epithelial tube formation	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0001841	neural tube formation	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0009628	response to abiotic stimulus	TRINITY_DN175605_c4_g1, TRINITY_DN181470_c1_g1, TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0032025	response to cobalt ion	TRINITY_DN193167_c4_g1	0.9999999999
+CC	GO:0097730	non-motile cilium	TRINITY_DN181470_c1_g1	0.9999999999
+BP	GO:0014070	response to organic cyclic compound	TRINITY_DN175605_c4_g1, TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:1901700	response to oxygen-containing compound	TRINITY_DN167547_c1_g2, TRINITY_DN175605_c4_g1, TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0048646	anatomical structure formation involved in morphogenesis	TRINITY_DN167547_c1_g2, TRINITY_DN169391_c1_g1, TRINITY_DN193167_c4_g1	0.9999999999
+CC	GO:0030690	Noc1p-Noc2p complex	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0006418	tRNA aminoacylation for protein translation	TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:1901216	positive regulation of neuron death	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0045448	mitotic cell cycle, embryonic	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0003727	single-stranded RNA binding	TRINITY_DN169391_c1_g1	0.9999999999
+CC	GO:0097342	ripoptosome	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0031638	zymogen activation	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0042254	ribosome biogenesis	TRINITY_DN159319_c0_g4	0.9999999999
+BP	GO:0036462	TRAIL-activated apoptotic signaling pathway	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:1903708	positive regulation of hemopoiesis	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0097191	extrinsic apoptotic signaling pathway	TRINITY_DN193167_c4_g1	0.9999999999
+CC	GO:0030689	Noc complex	TRINITY_DN193167_c4_g1	0.9999999999
+MF	GO:0035877	death effector domain binding	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0000737	DNA catabolic process, endonucleolytic	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0006950	response to stress	TRINITY_DN162514_c5_g1, TRINITY_DN167547_c1_g2, TRINITY_DN169391_c1_g1, TRINITY_DN175605_c4_g1, TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0015701	bicarbonate transport	TRINITY_DN175581_c5_g2	0.9999999999
+MF	GO:0097153	cysteine-type endopeptidase activity involved in apoptotic process	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0006958	complement activation, classical pathway	TRINITY_DN162514_c5_g1	0.9999999999
+BP	GO:0016441	posttranscriptional gene silencing	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0046677	response to antibiotic	TRINITY_DN193167_c4_g1	0.9999999999
+CC	GO:0035068	micro-ribonucleoprotein complex	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0009409	response to cold	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0042052	rhabdomere development	TRINITY_DN181470_c1_g1	0.9999999999
+BP	GO:0031054	pre-miRNA processing	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0002684	positive regulation of immune system process	TRINITY_DN162514_c5_g1, TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0035194	posttranscriptional gene silencing by RNA	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0004530	deoxyribonuclease I activity	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0000049	tRNA binding	TRINITY_DN189885_c0_g5	0.9999999999
+CC	GO:0046658	anchored component of plasma membrane	TRINITY_DN175581_c5_g2	0.9999999999
+CC	GO:1905348	endonuclease complex	TRINITY_DN169391_c1_g1	0.9999999999
+CC	GO:0070578	RISC-loading complex	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0003725	double-stranded RNA binding	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0016835	carbon-oxygen lyase activity	TRINITY_DN175581_c5_g2, TRINITY_DN175605_c4_g1	0.9999999999
+BP	GO:0042743	hydrogen peroxide metabolic process	TRINITY_DN167547_c1_g2	0.9999999999
+BP	GO:1904019	epithelial cell apoptotic process	TRINITY_DN193167_c4_g1	0.9999999999
+MF	GO:0008519	ammonium transmembrane transporter activity	TRINITY_DN191336_c0_g4	0.9999999999
+MF	GO:0004520	endodeoxyribonuclease activity	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0007306	eggshell chorion assembly	TRINITY_DN167547_c1_g2	0.9999999999
+BP	GO:0010033	response to organic substance	TRINITY_DN167547_c1_g2, TRINITY_DN175605_c4_g1, TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0030099	myeloid cell differentiation	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0006308	DNA catabolic process	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0033993	response to lipid	TRINITY_DN175605_c4_g1, TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0007279	pole cell formation	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0060537	muscle tissue development	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0007349	cellularization	TRINITY_DN169391_c1_g1	0.9999999999
+CC	GO:1903561	extracellular vesicle	TRINITY_DN175581_c5_g2, TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0006957	complement activation, alternative pathway	TRINITY_DN162514_c5_g1	0.9999999999
+BP	GO:0032502	developmental process	TRINITY_DN167547_c1_g2, TRINITY_DN169391_c1_g1, TRINITY_DN175605_c4_g1, TRINITY_DN181470_c1_g1, TRINITY_DN189885_c0_g5, TRINITY_DN193167_c4_g1	0.9999999999
+CC	GO:0031265	CD95 death-inducing signaling complex	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0070243	regulation of thymocyte apoptotic process	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0060285	cilium-dependent cell motility	TRINITY_DN45203_c0_g1	0.9999999999
+BP	GO:0010939	regulation of necrotic cell death	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0016246	RNA interference	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0035087	siRNA loading onto RISC involved in RNA interference	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0008625	extrinsic apoptotic signaling pathway via death domain receptors	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0032355	response to estradiol	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0002573	myeloid leukocyte differentiation	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:1902107	positive regulation of leukocyte differentiation	TRINITY_DN193167_c4_g1	0.9999999999
+BP	GO:0006428	isoleucyl-tRNA aminoacylation	TRINITY_DN189885_c0_g5	0.9999999999
+CC	GO:0031362	anchored component of external side of plasma membrane	TRINITY_DN175581_c5_g2	0.9999999999
+BP	GO:0035196	production of miRNAs involved in gene silencing by miRNA	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0030716	oocyte fate determination	TRINITY_DN169391_c1_g1	0.9999999999

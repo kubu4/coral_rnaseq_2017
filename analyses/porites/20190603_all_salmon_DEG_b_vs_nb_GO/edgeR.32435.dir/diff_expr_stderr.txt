@@ -1,0 +1,239 @@
+CMD: /home/shared/Trinityrnaseq-v2.8.5/Analysis/DifferentialExpression/run_GOseq.pl --GO_assignments /media/sam/4TB_toshiba/porites/20190530_trinotate_porites_all/go_annotations.txt  --lengths /media/sam/4TB_toshiba/porites/20190603_all_salmon_DEG_b_vs_nb_GO/Trinity.gene_lengths.txt --genes_single_factor salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.bleached-UP.subset --background salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.count_matrix 
+Loading required package: BiasedUrn
+Loading required package: geneLenDataBase
+
+Loading required package: AnnotationDbi
+Loading required package: stats4
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which, which.max, which.min
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:base’:
+
+    expand.grid
+
+Registered S3 methods overwritten by 'ggplot2':
+  method         from 
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+Warning message:
+In pcls(G) : initial point very close to some inequality constraints
+Processing category: custom_list
+Using manually entered categories.
+Calculating the p-values...
+'select()' returned 1:1 mapping between keys and columns
+
+
+Done.
+
+CMD: /home/shared/Trinityrnaseq-v2.8.5/Analysis/DifferentialExpression/run_GOseq.pl --GO_assignments /media/sam/4TB_toshiba/porites/20190530_trinotate_porites_all/go_annotations.txt  --lengths /media/sam/4TB_toshiba/porites/20190603_all_salmon_DEG_b_vs_nb_GO/Trinity.gene_lengths.txt --genes_single_factor salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.non-bleached-UP.subset --background salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.count_matrix 
+Loading required package: BiasedUrn
+Loading required package: geneLenDataBase
+
+Loading required package: AnnotationDbi
+Loading required package: stats4
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which, which.max, which.min
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:base’:
+
+    expand.grid
+
+Registered S3 methods overwritten by 'ggplot2':
+  method         from 
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+Processing category: custom_list
+Using manually entered categories.
+Calculating the p-values...
+'select()' returned 1:1 mapping between keys and columns
+
+
+Done.
+
+CMD: /home/shared/Trinityrnaseq-v2.8.5/Analysis/DifferentialExpression/run_GOseq.pl --GO_assignments /media/sam/4TB_toshiba/porites/20190530_trinotate_porites_all/go_annotations.txt  --lengths /media/sam/4TB_toshiba/porites/20190603_all_salmon_DEG_b_vs_nb_GO/Trinity.gene_lengths.txt --genes_single_factor salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset --background salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.count_matrix 
+Loading required package: BiasedUrn
+Loading required package: geneLenDataBase
+
+Loading required package: AnnotationDbi
+Loading required package: stats4
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which, which.max, which.min
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:base’:
+
+    expand.grid
+
+Registered S3 methods overwritten by 'ggplot2':
+  method         from 
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+Processing category: custom_list
+Using manually entered categories.
+Calculating the p-values...
+'select()' returned 1:1 mapping between keys and columns
+
+
+Done.
+
+CMD: /home/shared/Trinityrnaseq-v2.8.5/Analysis/DifferentialExpression/prep_n_run_GOplot.pl --GO_annots /media/sam/4TB_toshiba/porites/20190530_trinotate_porites_all/go_annotations.txt  --DE_subset salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset  --DE_GO_enriched salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset.GOseq.enriched  --tmpdir salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset.GOseq.enriched.GOplot_dat --pdf_filename salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset.GOseq.enriched.GOplot_dat.pdf
+CMD: mkdir -p salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset.GOseq.enriched.GOplot_dat
+WARNING, no GO term info found for: GO:0016876, skipping...
+WARNING, no GO term info found for: GO:0044767, skipping...
+CMD: /home/shared/Trinityrnaseq-v2.8.5/Analysis/DifferentialExpression/GOplot.Rscript --EC_david salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset.GOseq.enriched.GOplot_dat/EC.david --EC_genelist salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset.GOseq.enriched.GOplot_dat/EC.genelist --pdf_outfile salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset.GOseq.enriched.GOplot_dat.pdf
+Error in library("argparse") : there is no package called ‘argparse’
+Calls: suppressPackageStartupMessages -> withCallingHandlers -> library
+Execution halted
+Error, CMD: /home/shared/Trinityrnaseq-v2.8.5/Analysis/DifferentialExpression/GOplot.Rscript --EC_david salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset.GOseq.enriched.GOplot_dat/EC.david --EC_genelist salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset.GOseq.enriched.GOplot_dat/EC.genelist --pdf_outfile salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset.GOseq.enriched.GOplot_dat.pdf died with ret 256 at /home/shared/Trinityrnaseq-v2.8.5/Analysis/DifferentialExpression/prep_n_run_GOplot.pl line 247.
+WARNING: GOplot failed to run successfully on salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset.GOseq.enriched
+
+
+** Found 92 features as differentially expressed.
+
+CMD: /home/shared/Trinityrnaseq-v2.8.5/Analysis/DifferentialExpression/PtR -m diffExpr.P0.05_C1.matrix --log2 --heatmap --min_colSums 0 --min_rowSums 0 --gene_dist euclidean --sample_dist euclidean --sample_cor_matrix --center_rows --save  -s /home/sam/gitrepos/coral_rnaseq_2017/scripts/porites_b_vs_nb_trinity_sample_list.txt
+CMD: R --no-save --no-restore --no-site-file --no-init-file -q < diffExpr.P0.05_C1.matrix.R
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which, which.max, which.min
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Registered S3 methods overwritten by 'ggplot2':
+  method         from 
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+
+Attaching package: ‘fastcluster’
+
+The following object is masked from ‘package:stats’:
+
+    hclust
+
+for plotting:: min.raw: -0.563974477485472 max.raw: 1
+for plotting:: min.raw: -8.89558310201559 max.raw: 8.89558310201559
