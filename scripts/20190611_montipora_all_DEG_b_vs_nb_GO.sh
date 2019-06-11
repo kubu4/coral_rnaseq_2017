@@ -12,7 +12,7 @@ transcriptome_dir="/media/sam/4TB_toshiba/montipora/20180416_trinity"
 transcriptome="${transcriptome_dir}/Trinity.fasta"
 fasta_index="${transcriptome_dir}/Trinity.fasta.fai"
 fasta_seq_lengths="${transcriptome_dir}/Trinity.fasta.seq_lens"
-samples="/home/sam/gitrepos/coral_rnaseq_2017/scripts/montipora_b_vs_nb_trinity_sample_list.tx"
+samples="/home/sam/gitrepos/coral_rnaseq_2017/scripts/montipora_b_vs_nb_trinity_sample_list.txt"
 
 gene_map="${transcriptome_dir}/Trinity.fasta.gene_trans_map"
 salmon_gene_matrix="${salmon_out_dir}/salmon.gene.TMM.EXPR.matrix"
