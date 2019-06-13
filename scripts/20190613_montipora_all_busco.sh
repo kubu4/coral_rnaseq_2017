@@ -49,7 +49,7 @@ if [ ! -d "${augustus_dir}" ]; then
 fi
 
 # Copy Augustus config directory
-cp --preserve -r ${augustus_orig_config_dir} "${augustus_dir}"
+cp --preserve --recursive ${augustus_orig_config_dir} "${augustus_dir}"
 
 # Edit BUSCO config file
 ## Set paths to various programs
