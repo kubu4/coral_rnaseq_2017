@@ -73,7 +73,7 @@ ${busco} \
 --in ${transcriptome_fasta} \
 --out ${base_name} \
 --lineage_path ${busco_db} \
---mode genome \
+--mode transcriptome \
 --cpu "${threads}" \
 --long \
 --species ${augustus_species} \
