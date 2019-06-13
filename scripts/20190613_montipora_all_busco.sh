@@ -79,3 +79,6 @@ ${busco} \
 --species ${augustus_species} \
 --tarzip \
 --augustus_parameters='--progress=true'
+
+# Email me when job is complete
+sed '/^Subject:/ s/ / JOB COMPLETE/' ~/.default-subject.mail | msmtp "$EMAIL"
