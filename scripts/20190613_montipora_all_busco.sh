@@ -7,7 +7,7 @@ set -e
 
 ## Input files and settings
 base_name=montipora_all
-busco_db=/home/shared/busco_v3/metazoa_odb9
+busco_db=/home/shared/busco-v3/metazoa_odb9
 transcriptome_fasta=/media/sam/4TB_toshiba/montipora/20180416_trinity/Trinity.fasta
 augustus_species=fly
 threads=23
