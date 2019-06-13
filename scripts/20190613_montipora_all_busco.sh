@@ -39,10 +39,6 @@ export PATH="${augustus_bin}:$PATH"
 export PATH="${augustus_scripts}:$PATH"
 export AUGUSTUS_CONFIG_PATH="${augustus_config_dir}"
 
-
-# Copy BUSCO config file
-cp ${busco_config_default} "${busco_config_ini}"
-
 # Make Augustus directory if it doesn't exist
 if [ ! -d "${augustus_dir}" ]; then
   mkdir --parents "${augustus_dir}"
