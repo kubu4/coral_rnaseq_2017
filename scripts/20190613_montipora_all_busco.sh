@@ -9,7 +9,6 @@ set -e
 base_name=montipora_all
 busco_db=/home/shared/busco_v3/metazoa_odb9
 transcriptome_fasta=/media/sam/4TB_toshiba/montipora/20180416_trinity/Trinity.fasta
-transcriptome_index=${genome_fasta}.fai
 augustus_species=fly
 threads=28
 
@@ -19,11 +18,9 @@ wd=$(pwd)
 ## Set program paths
 augustus_bin=/home/shared/Augustus-3.3.2/bin
 augustus_scripts=/home/shared/Augustus-3.3.2/scripts
-bedtools=/home/shared/bedtools-2.27.1/bin/bedtools
 blast_dir=/home/shared/ncbi-blast-2.8.1+/bin/
 busco=/home/shared/busco-v3/scripts/run_BUSCO.py
 hmm_dir=/home/shared/hmmer-3.2.1/src/
-samtools=/home/shared/samtools-1.9/samtools
 
 ## Augustus configs
 augustus_dir=${wd}/augustus
@@ -44,15 +41,15 @@ export AUGUSTUS_CONFIG_PATH="${augustus_config_dir}"
 
 
 # Copy BUSCO config file
-cp ${busco_config_default} ${busco_config_ini}
+cp ${busco_config_default} "${busco_config_ini}"
 
 # Make Augustus directory if it doesn't exist
-if [ ! -d ${augustus_dir} ]; then
-  mkdir --parents ${augustus_dir}
+if [ ! -d "${augustus_dir}" ]; then
+  mkdir --parents "${augustus_dir}"
 fi
 
 # Copy Augustus config directory
-cp --preserve -r ${augustus_orig_config_dir} ${augustus_dir}
+cp --preserve -r ${augustus_orig_config_dir} "${augustus_dir}"
 
 # Edit BUSCO config file
 ## Set paths to various programs
@@ -73,7 +70,7 @@ sed -i "/^hmmsearch_path/ s%hmmsearch_path = /home/osboxes/BUSCOVM/hmmer/hmmer-3
 
 # Run BUSCO/Augustus training
 ${busco} \
---in ${genome_fasta} \
+--in ${transcriptome_fasta} \
 --out ${base_name} \
 --lineage_path ${busco_db} \
 --mode genome \
