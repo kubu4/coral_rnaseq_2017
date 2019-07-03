@@ -1,0 +1,21 @@
+{
+    "read_files": "[ /mnt/data/coral_RNAseq_2017/montipora/20180311_fastqc_trimming/trimmed/4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz, /mnt/data/coral_RNAseq_2017/montipora/20180311_fastqc_trimming/trimmed/4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 18049042,
+    "num_assigned_fragments": 18049042,
+    "num_frags_with_consistent_mappings": 17546452,
+    "num_frags_with_inconsistent_or_orphan_mappings": 502590,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 0,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 17546452,
+    "SF": 110155,
+    "SR": 392435,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

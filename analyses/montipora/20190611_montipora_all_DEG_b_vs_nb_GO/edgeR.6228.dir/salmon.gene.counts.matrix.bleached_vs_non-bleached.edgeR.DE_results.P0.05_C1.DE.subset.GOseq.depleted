@@ -1,0 +1,210 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0003964	1	0	16	1767	RNA-directed DNA polymerase activity	MF	0.9999999999	0	MF RNA-directed DNA polymerase activity
+GO:0032196	1	0	8	999	transposition	BP	0.9999999999	0	BP transposition
+GO:0034061	1	0	24	1888	DNA polymerase activity	MF	0.9999999999	0	MF DNA polymerase activity
+GO:0006313	1.00000000000001	0	7	828	transposition, DNA-mediated	BP	0.9999999999	0	BP transposition, DNA-mediated
+GO:0016779	1.00000000000037	0	67	2374	nucleotidyltransferase activity	MF	0.9999999999	0	MF nucleotidyltransferase activity
+GO:0015074	1.00000000000081	0	10	842	DNA integration	BP	0.9999999999	0	BP DNA integration
+GO:0044435	0.999999999814885	6.46641339790164e-10	19	1084	plastid part	CC	0.9999999999	2.17363867503751e-06	CC plastid part
+GO:0006310	0.999999999583936	8.90100379559007e-10	66	2096	DNA recombination	BP	0.9999999999	2.61800774137793e-06	BP DNA recombination
+GO:0044434	0.999999999621694	1.30175024299031e-09	19	1060	chloroplast part	CC	0.9999999999	3.40335369084023e-06	CC chloroplast part
+GO:0005272	0.99999999984905	3.69387868326107e-09	1	314	sodium channel activity	MF	0.9999999999	8.69169654171329e-06	MF sodium channel activity
+GO:1905030	1	7.68726984676653e-09	0	252	voltage-gated ion channel activity involved in regulation of postsynaptic membrane potential	MF	0.9999999999	1.6443769044947e-05	MF voltage-gated ion channel activity involved in regulation of postsynaptic membrane potential
+GO:0005248	1	2.28460752158284e-08	0	238	voltage-gated sodium channel activity	MF	0.9999999999	4.47973458190369e-05	MF voltage-gated sodium channel activity
+GO:0086010	0.999999992429351	6.66941730317715e-08	3	338	membrane depolarization during action potential	BP	0.9999999999	0.000120716453187506	BP membrane depolarization during action potential
+GO:0044436	0.999999938485316	2.66839236655138e-07	8	632	thylakoid part	CC	0.9999999999	0.000448480517035386	CC thylakoid part
+GO:0001518	1	4.68585267086764e-07	0	197	voltage-gated sodium channel complex	CC	0.9999999999	0.000735054088970104	CC voltage-gated sodium channel complex
+GO:0009536	0.999999667778123	7.87012979235342e-07	27	1066	plastid	CC	0.9999999999	0.00115740096258797	CC plastid
+GO:0051899	0.999999695841089	1.34347599052195e-06	7	409	membrane depolarization	BP	0.9999999999	0.00177764277954048	BP membrane depolarization
+GO:0070001	0.99999957217807	1.35986272978022e-06	13	625	aspartic-type peptidase activity	MF	0.9999999999	0.00177764277954048	MF aspartic-type peptidase activity
+GO:0004190	0.999999454659292	1.71855209682554e-06	13	620	aspartic-type endopeptidase activity	MF	0.9999999999	0.00203904933657349	MF aspartic-type endopeptidase activity
+GO:0034357	0.999999569224647	1.73314860737229e-06	8	576	photosynthetic membrane	CC	0.9999999999	0.00203904933657349	CC photosynthetic membrane
+GO:0042651	0.999999530904883	1.88076862029219e-06	8	574	thylakoid membrane	CC	0.9999999999	0.00210735645883216	CC thylakoid membrane
+GO:0005261	0.999998760489494	2.22656722712247e-06	60	1553	cation channel activity	MF	0.9999999999	0.00238141485700871	MF cation channel activity
+GO:0005244	0.999998521284619	2.98818869030152e-06	39	1103	voltage-gated ion channel activity	MF	0.9999999999	0.00285713604475993	MF voltage-gated ion channel activity
+GO:0022832	0.999998521284619	2.98818869030152e-06	39	1103	voltage-gated channel activity	MF	0.9999999999	0.00285713604475993	MF voltage-gated channel activity
+GO:0034706	0.999999821068286	3.0656706725269e-06	1	211	sodium channel complex	CC	0.9999999999	0.00285713604475993	CC sodium channel complex
+GO:0009507	0.99999857623499	3.23772315949594e-06	27	1025	chloroplast	CC	0.9999999999	0.00285713604475993	CC chloroplast
+GO:0004518	0.999998125390639	3.27848164932078e-06	64	1805	nuclease activity	MF	0.9999999999	0.00285713604475993	MF nuclease activity
+GO:0022838	0.999997094425481	4.76994899437863e-06	81	1958	substrate-specific channel activity	MF	0.9999999999	0.00400846070849033	MF substrate-specific channel activity
+GO:0005216	0.999996335993526	6.00413455554666e-06	80	1929	ion channel activity	MF	0.9999999999	0.004871630554897	MF ion channel activity
+GO:0015267	0.999996162513969	6.21552155940857e-06	84	2005	channel activity	MF	0.9999999999	0.00487504074309612	MF channel activity
+GO:0022843	0.9999969864775	6.72522030090629e-06	27	830	voltage-gated cation channel activity	MF	0.9999999999	0.00510465915097822	MF voltage-gated cation channel activity
+GO:0055035	0.999997769698754	8.36562979242769e-06	8	541	plastid thylakoid membrane	CC	0.9999999999	0.00615135215674449	CC plastid thylakoid membrane
+GO:0022803	0.999994139648294	9.38903305975448e-06	85	2007	passive transmembrane transporter activity	MF	0.9999999999	0.00669466508775827	MF passive transmembrane transporter activity
+GO:0004519	0.999994627405079	1.01852538363055e-05	43	1301	endonuclease activity	MF	0.9999999999	0.00704879478730202	MF endonuclease activity
+GO:0009535	0.999996819216705	1.17412366222714e-05	8	534	chloroplast thylakoid membrane	CC	0.9999999999	0.00789346564920133	CC chloroplast thylakoid membrane
+GO:0034703	0.999993818226929	1.2215091953555e-05	37	1035	cation channel complex	CC	0.9999999999	0.00798391982408747	CC cation channel complex
+GO:0032197	0.999990216668466	0.000126426478347474	1	178	transposition, RNA-mediated	BP	0.9999999999	0.0804004063652987	BP transposition, RNA-mediated
+GO:0042170	0.999979179598933	0.000155321481554486	2	219	plastid membrane	CC	0.9999999999	0.0961766963415015	CC plastid membrane
+GO:0019228	0.999944632534303	0.000161638453168599	10	384	neuronal action potential	BP	0.9999999999	0.097521866745055	BP neuronal action potential
+GO:0022836	0.99988571992064	0.000179408498084285	68	1551	gated channel activity	MF	0.9999999999	0.105537048998081	MF gated channel activity
+GO:0031969	0.999972572927383	0.000200462332297094	2	213	chloroplast membrane	CC	0.9999999999	0.112674618335025	CC chloroplast membrane
+GO:0001508	0.999909712640789	0.000201119165748875	19	601	action potential	BP	0.9999999999	0.112674618335025	BP action potential
+GO:0015079	0.999884502459421	0.000254650578997248	19	588	potassium ion transmembrane transporter activity	MF	0.9999999999	0.139347165669889	MF potassium ion transmembrane transporter activity
+GO:0009738	0.999953955990349	0.000323681056082645	2	196	abscisic acid-activated signaling pathway	BP	0.9999999999	0.173095801127833	BP abscisic acid-activated signaling pathway
+GO:0005249	0.999785552901451	0.00054157436499922	12	409	voltage-gated potassium channel activity	MF	0.9999999999	0.283183217965148	MF voltage-gated potassium channel activity
+GO:0008332	1	0.000592692749712676	0	99	low voltage-gated calcium channel activity	MF	0.9999999999	0.303175226103027	MF low voltage-gated calcium channel activity
+GO:0005267	0.999667786627077	0.000739620333596895	16	485	potassium channel activity	MF	0.9999999999	0.370282264883722	MF potassium channel activity
+GO:0009532	0.999701759467055	0.00107691401581782	5	272	plastid stroma	CC	0.9999999999	0.527912224837362	CC plastid stroma
+GO:0051273	0.999878027502312	0.00125721788250205	1	142	beta-glucan metabolic process	BP	0.9999999999	0.603721158679047	BP beta-glucan metabolic process
+GO:0009765	0.999763279913117	0.00143707275195598	2	233	photosynthesis, light harvesting	BP	0.9999999999	0.676286437070483	BP photosynthesis, light harvesting
+GO:0009570	0.999581586995671	0.00147339241528088	5	266	chloroplast stroma	CC	0.9999999999	0.679782814344297	CC chloroplast stroma
+GO:0004523	0.999617834908981	0.00151742924474558	4	219	RNA-DNA hybrid ribonuclease activity	MF	0.9999999999	0.686636733247373	MF RNA-DNA hybrid ribonuclease activity
+GO:0008528	0.999384322813897	0.00163119339873481	9	361	G protein-coupled peptide receptor activity	MF	0.9999999999	0.720305595079455	MF G protein-coupled peptide receptor activity
+GO:0030312	0.999363749694177	0.00168290402926444	9	352	external encapsulating structure	CC	0.9999999999	0.720305595079455	CC external encapsulating structure
+GO:0009523	0.999634948136902	0.00168367223669231	3	268	photosystem II	CC	0.9999999999	0.720305595079455	CC photosystem II
+GO:0048580	0.999697077852506	0.00180902234789703	2	171	regulation of post-embryonic development	BP	0.9999999999	0.754843506566745	BP regulation of post-embryonic development
+GO:0006814	0.999086281916894	0.00182856268059092	19	554	sodium ion transport	BP	0.9999999999	0.754843506566745	BP sodium ion transport
+GO:0005618	0.999225782257722	0.00202203726239446	9	346	cell wall	CC	0.9999999999	0.820319599726581	CC cell wall
+GO:0044036	0.999605635545979	0.00229983414070868	2	158	cell wall macromolecule metabolic process	BP	0.9999999999	0.917205039506359	BP cell wall macromolecule metabolic process
+GO:0005891	0.998962561504289	0.00247227421821583	11	341	voltage-gated calcium channel complex	CC	0.9999999999	0.96954353924364	CC voltage-gated calcium channel complex
+GO:0030245	1	0.00265693938070504	0	91	cellulose catabolic process	BP	0.9999999999	0.9999999999	BP cellulose catabolic process
+GO:0051275	1	0.00265693938070504	0	91	beta-glucan catabolic process	BP	0.9999999999	0.9999999999	BP beta-glucan catabolic process
+GO:0035725	0.998928746372184	0.00274319153385957	9	308	sodium ion transmembrane transport	BP	0.9999999999	0.9999999999	BP sodium ion transmembrane transport
+GO:0004984	1	0.00300297437893591	0	86	olfactory receptor activity	MF	0.9999999999	0.9999999999	MF olfactory receptor activity
+GO:0009579	0.999655755245875	0.00317423029515027	1	133	thylakoid	CC	0.9999999999	0.9999999999	CC thylakoid
+GO:0099120	0.9992600545677	0.00322121376836076	3	195	socially cooperative development	BP	0.9999999999	0.9999999999	BP socially cooperative development
+GO:0004930	0.997793220443304	0.00335790089425989	50	1219	G protein-coupled receptor activity	MF	0.9999999999	0.9999999999	MF G protein-coupled receptor activity
+GO:0071554	0.999091170763103	0.0033585186560329	4	201	cell wall organization or biogenesis	BP	0.9999999999	0.9999999999	BP cell wall organization or biogenesis
+GO:0008188	0.998960627046552	0.00340885353790317	5	243	neuropeptide receptor activity	MF	0.9999999999	0.9999999999	MF neuropeptide receptor activity
+GO:0015780	1	0.00374012418520006	0	92	nucleotide-sugar transmembrane transport	BP	0.9999999999	0.9999999999	BP nucleotide-sugar transmembrane transport
+GO:0005221	1	0.00421339353235114	0	73	intracellular cyclic nucleotide activated cation channel activity	MF	0.9999999999	0.9999999999	MF intracellular cyclic nucleotide activated cation channel activity
+GO:0043855	1	0.00421339353235114	0	73	cyclic nucleotide-gated ion channel activity	MF	0.9999999999	0.9999999999	MF cyclic nucleotide-gated ion channel activity
+GO:0010857	0.998674243120492	0.0042692156740442	5	218	calcium-dependent protein kinase activity	MF	0.9999999999	0.9999999999	MF calcium-dependent protein kinase activity
+GO:0015994	1	0.00444422859531494	0	90	chlorophyll metabolic process	BP	0.9999999999	0.9999999999	BP chlorophyll metabolic process
+GO:0046184	1	0.00456263865082503	0	77	aldehyde biosynthetic process	BP	0.9999999999	0.9999999999	BP aldehyde biosynthetic process
+GO:0071804	0.997596717353203	0.00464287334983124	18	482	cellular potassium ion transport	BP	0.9999999999	0.9999999999	BP cellular potassium ion transport
+GO:0071805	0.997596717353203	0.00464287334983124	18	482	potassium ion transmembrane transport	BP	0.9999999999	0.9999999999	BP potassium ion transmembrane transport
+GO:0030243	0.99945404791586	0.00478359009533082	1	117	cellulose metabolic process	BP	0.9999999999	0.9999999999	BP cellulose metabolic process
+GO:0009534	1	0.004944817683247	0	89	chloroplast thylakoid	CC	0.9999999999	0.9999999999	CC chloroplast thylakoid
+GO:0031976	1	0.004944817683247	0	89	plastid thylakoid	CC	0.9999999999	0.9999999999	CC plastid thylakoid
+GO:0009521	0.998124796826327	0.00582202491253125	5	298	photosystem	CC	0.9999999999	0.9999999999	CC photosystem
+GO:0010383	0.999306822785643	0.00590600427665369	1	111	cell wall polysaccharide metabolic process	BP	0.9999999999	0.9999999999	BP cell wall polysaccharide metabolic process
+GO:0009931	0.997940913156621	0.0063831366990462	5	209	calcium-dependent protein serine/threonine kinase activity	MF	0.9999999999	0.9999999999	MF calcium-dependent protein serine/threonine kinase activity
+GO:0048831	1	0.00664074857787705	0	76	regulation of shoot system development	BP	0.9999999999	0.9999999999	BP regulation of shoot system development
+GO:0001653	0.996877651244818	0.00670149824953519	12	389	peptide receptor activity	MF	0.9999999999	0.9999999999	MF peptide receptor activity
+GO:0005222	1	0.00685512324855277	0	66	intracellular cAMP-activated cation channel activity	MF	0.9999999999	0.9999999999	MF intracellular cAMP-activated cation channel activity
+GO:0008227	0.997020693245678	0.00707543234119143	9	320	G protein-coupled amine receptor activity	MF	0.9999999999	0.9999999999	MF G protein-coupled amine receptor activity
+GO:0034702	0.994839809043144	0.00737370110908546	60	1243	ion channel complex	CC	0.9999999999	0.9999999999	CC ion channel complex
+GO:0043327	1	0.00835050335783095	0	75	chemotaxis to cAMP	BP	0.9999999999	0.9999999999	BP chemotaxis to cAMP
+GO:0016893	0.99541254689285	0.00839602065175628	19	536	endonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters	MF	0.9999999999	0.9999999999	MF endonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters
+GO:0009737	0.998177576945642	0.00902115019860522	2	148	response to abscisic acid	BP	0.9999999999	0.9999999999	BP response to abscisic acid
+GO:0006813	0.99478376885548	0.0090421007844165	23	554	potassium ion transport	BP	0.9999999999	0.9999999999	BP potassium ion transport
+GO:0005338	0.998863063103275	0.0090872460724883	1	111	nucleotide-sugar transmembrane transporter activity	MF	0.9999999999	0.9999999999	MF nucleotide-sugar transmembrane transporter activity
+GO:0009651	0.996618185548939	0.00927932795369581	6	235	response to salt stress	BP	0.9999999999	0.9999999999	BP response to salt stress
+GO:0044299	1	0.00947151002336418	0	62	C-fiber	CC	0.9999999999	0.9999999999	CC C-fiber
+GO:0005245	0.995080145301387	0.00959039306800957	15	387	voltage-gated calcium channel activity	MF	0.9999999999	0.9999999999	MF voltage-gated calcium channel activity
+GO:0031154	1	0.0105484082158329	0	74	culmination involved in sorocarp development	BP	0.9999999999	0.9999999999	BP culmination involved in sorocarp development
+GO:0004536	0.994539401903631	0.0109902832905999	13	412	deoxyribonuclease activity	MF	0.9999999999	0.9999999999	MF deoxyribonuclease activity
+GO:0003887	0.994641027022508	0.0110768895575838	12	366	DNA-directed DNA polymerase activity	MF	0.9999999999	0.9999999999	MF DNA-directed DNA polymerase activity
+GO:0086016	1	0.0111160387143588	0	61	AV node cell action potential	BP	0.9999999999	0.9999999999	BP AV node cell action potential
+GO:0086001	0.996105917287859	0.0113904554716848	5	191	cardiac muscle cell action potential	BP	0.9999999999	0.9999999999	BP cardiac muscle cell action potential
+GO:0015995	1	0.01167349814513	0	74	chlorophyll biosynthetic process	BP	0.9999999999	0.9999999999	BP chlorophyll biosynthetic process
+GO:0000272	0.99462057466675	0.0117923697547351	10	304	polysaccharide catabolic process	BP	0.9999999999	0.9999999999	BP polysaccharide catabolic process
+GO:0046873	0.990728840726074	0.012052138652852	101	1959	metal ion transmembrane transporter activity	MF	0.9999999999	0.9999999999	MF metal ion transmembrane transporter activity
+GO:0009506	0.995082393490404	0.012290080422797	7	259	plasmodesma	CC	0.9999999999	0.9999999999	CC plasmodesma
+GO:0004983	0.998381148485267	0.012346380930993	1	106	neuropeptide Y receptor activity	MF	0.9999999999	0.9999999999	MF neuropeptide Y receptor activity
+GO:0022821	1	0.0128715260304457	0	70	potassium ion antiporter activity	MF	0.9999999999	0.9999999999	MF potassium ion antiporter activity
+GO:0019685	1	0.0134787865309703	0	93	photosynthesis, dark reaction	BP	0.9999999999	0.9999999999	BP photosynthesis, dark reaction
+GO:0009657	1	0.013514360059286	0	72	plastid organization	BP	0.9999999999	0.9999999999	BP plastid organization
+GO:0051339	0.993798244508823	0.0139140818032046	9	286	regulation of lyase activity	BP	0.9999999999	0.9999999999	BP regulation of lyase activity
+GO:0001171	0.998134696801297	0.013974728808954	1	98	reverse transcription	BP	0.9999999999	0.9999999999	BP reverse transcription
+GO:0043194	0.994257327486038	0.0141575681074373	7	254	axon initial segment	CC	0.9999999999	0.9999999999	CC axon initial segment
+GO:0009036	0.997937609452192	0.0152347518370003	1	97	type II site-specific deoxyribonuclease activity	MF	0.9999999999	0.9999999999	MF type II site-specific deoxyribonuclease activity
+GO:0015666	0.997937609452192	0.0152347518370003	1	97	restriction endodeoxyribonuclease activity	MF	0.9999999999	0.9999999999	MF restriction endodeoxyribonuclease activity
+GO:0015781	1	0.0152422670989161	0	69	NA	NA	0.9999999999	0.9999999999	none
+GO:0034704	0.991526607288226	0.0156432707765588	16	387	calcium channel complex	CC	0.9999999999	0.9999999999	CC calcium channel complex
+GO:0032199	0.997834675355868	0.0158872533970187	1	96	reverse transcription involved in RNA-mediated transposition	BP	0.9999999999	0.9999999999	BP reverse transcription involved in RNA-mediated transposition
+GO:0009658	1	0.0159439162535862	0	69	chloroplast organization	BP	0.9999999999	0.9999999999	BP chloroplast organization
+GO:0005262	0.989381423237854	0.0162672351571785	34	741	calcium channel activity	MF	0.9999999999	0.9999999999	MF calcium channel activity
+GO:0019253	1	0.0168154617860143	0	89	reductive pentose-phosphate cycle	BP	0.9999999999	0.9999999999	BP reductive pentose-phosphate cycle
+GO:0007631	0.993828373990622	0.0172052749494886	5	206	feeding behavior	BP	0.9999999999	0.9999999999	BP feeding behavior
+GO:0030799	0.992167947633226	0.0172317919329556	9	280	NA	NA	0.9999999999	0.9999999999	none
+GO:0030802	0.992167947633226	0.0172317919329556	9	280	NA	NA	0.9999999999	0.9999999999	none
+GO:0022834	0.989848841168207	0.0176946046728944	19	478	ligand-gated channel activity	MF	0.9999999999	0.9999999999	MF ligand-gated channel activity
+GO:1900225	0.994148480418665	0.0179313205831886	4	235	regulation of NLRP3 inflammasome complex assembly	BP	0.9999999999	0.9999999999	BP regulation of NLRP3 inflammasome complex assembly
+GO:0015276	0.989416453208144	0.0183980173453679	19	476	ligand-gated ion channel activity	MF	0.9999999999	0.9999999999	MF ligand-gated ion channel activity
+GO:0000943	0.995902666644302	0.0184125201606201	2	124	retrotransposon nucleocapsid	CC	0.9999999999	0.9999999999	CC retrotransposon nucleocapsid
+GO:1900226	0.994647816178595	0.0188605433343799	3	209	negative regulation of NLRP3 inflammasome complex assembly	BP	0.9999999999	0.9999999999	BP negative regulation of NLRP3 inflammasome complex assembly
+GO:0080154	0.997357839644554	0.0188779824438353	1	87	regulation of fertilization	BP	0.9999999999	0.9999999999	BP regulation of fertilization
+GO:0090481	1	0.0193103591091565	0	65	pyrimidine nucleotide-sugar transmembrane transport	BP	0.9999999999	0.9999999999	BP pyrimidine nucleotide-sugar transmembrane transport
+GO:0009526	0.991781528769817	0.0196129764098836	7	241	plastid envelope	CC	0.9999999999	0.9999999999	CC plastid envelope
+GO:0009941	0.991781528769817	0.0196129764098836	7	241	chloroplast envelope	CC	0.9999999999	0.9999999999	CC chloroplast envelope
+GO:0015979	0.994412238713646	0.0196394138770419	3	180	photosynthesis	BP	0.9999999999	0.9999999999	BP photosynthesis
+GO:0060371	1	0.0203232549297197	0	53	regulation of atrial cardiac muscle cell membrane depolarization	BP	0.9999999999	0.9999999999	BP regulation of atrial cardiac muscle cell membrane depolarization
+GO:0032652	0.992112288992754	0.0213723263606752	5	239	regulation of interleukin-1 production	BP	0.9999999999	0.9999999999	BP regulation of interleukin-1 production
+GO:1904645	0.995097414381668	0.0215597637893154	2	113	response to amyloid-beta	BP	0.9999999999	0.9999999999	BP response to amyloid-beta
+GO:0008211	1	0.0218604945454997	0	51	glucocorticoid metabolic process	BP	0.9999999999	0.9999999999	BP glucocorticoid metabolic process
+GO:0036128	1	0.0219296640834333	0	52	CatSper complex	CC	0.9999999999	0.9999999999	CC CatSper complex
+GO:0009277	1	0.022290901447535	0	58	fungal-type cell wall	CC	0.9999999999	0.9999999999	CC fungal-type cell wall
+GO:0071555	0.992487231864066	0.0225540748799366	4	157	cell wall organization	BP	0.9999999999	0.9999999999	BP cell wall organization
+GO:0006704	1	0.0234104322501595	0	50	glucocorticoid biosynthetic process	BP	0.9999999999	0.9999999999	BP glucocorticoid biosynthetic process
+GO:0009310	0.996492470372916	0.0239549437879927	1	93	amine catabolic process	BP	0.9999999999	0.9999999999	BP amine catabolic process
+GO:0042402	0.996492470372916	0.0239549437879927	1	93	cellular biogenic amine catabolic process	BP	0.9999999999	0.9999999999	BP cellular biogenic amine catabolic process
+GO:1901223	0.990728992102447	0.0246619111475945	5	255	negative regulation of NIK/NF-kappaB signaling	BP	0.9999999999	0.9999999999	BP negative regulation of NIK/NF-kappaB signaling
+GO:0005982	1	0.0248226416885877	0	59	starch metabolic process	BP	0.9999999999	0.9999999999	BP starch metabolic process
+GO:0002027	0.987509143916611	0.0255515177056371	10	279	regulation of heart rate	BP	0.9999999999	0.9999999999	BP regulation of heart rate
+GO:0004935	0.992111769233507	0.0266948083505706	3	141	adrenergic receptor activity	MF	0.9999999999	0.9999999999	MF adrenergic receptor activity
+GO:0006705	1	0.0269928342199207	0	48	mineralocorticoid biosynthetic process	BP	0.9999999999	0.9999999999	BP mineralocorticoid biosynthetic process
+GO:0008212	1	0.0269928342199207	0	48	mineralocorticoid metabolic process	BP	0.9999999999	0.9999999999	BP mineralocorticoid metabolic process
+GO:0032341	1	0.0269928342199207	0	48	aldosterone metabolic process	BP	0.9999999999	0.9999999999	BP aldosterone metabolic process
+GO:0032342	1	0.0269928342199207	0	48	aldosterone biosynthetic process	BP	0.9999999999	0.9999999999	BP aldosterone biosynthetic process
+GO:0034650	1	0.0269928342199207	0	48	cortisol metabolic process	BP	0.9999999999	0.9999999999	BP cortisol metabolic process
+GO:0034651	1	0.0269928342199207	0	48	cortisol biosynthetic process	BP	0.9999999999	0.9999999999	BP cortisol biosynthetic process
+GO:0007632	0.99071869746731	0.0271421954820309	4	168	visual behavior	BP	0.9999999999	0.9999999999	BP visual behavior
+GO:0030594	0.985454679422227	0.02721436546006	13	364	neurotransmitter receptor activity	MF	0.9999999999	0.9999999999	MF neurotransmitter receptor activity
+GO:0086046	0.99587380927922	0.0275715077803258	1	81	membrane depolarization during SA node cell action potential	BP	0.9999999999	0.9999999999	BP membrane depolarization during SA node cell action potential
+GO:0019043	0.991680676990599	0.0279895833028799	3	135	establishment of viral latency	BP	0.9999999999	0.9999999999	BP establishment of viral latency
+GO:0075713	0.991680676990599	0.0279895833028799	3	135	establishment of integrated proviral latency	BP	0.9999999999	0.9999999999	BP establishment of integrated proviral latency
+GO:0016160	1	0.0281337558161156	0	50	amylase activity	MF	0.9999999999	0.9999999999	MF amylase activity
+GO:0015165	0.995678031043069	0.0285910919080997	1	89	pyrimidine nucleotide-sugar transmembrane transporter activity	MF	0.9999999999	0.9999999999	MF pyrimidine nucleotide-sugar transmembrane transporter activity
+GO:0032153	1	0.028907440715719	0	58	cell division site	CC	0.9999999999	0.9999999999	CC cell division site
+GO:0032651	0.988336207394367	0.0302978317690202	5	228	regulation of interleukin-1 beta production	BP	0.9999999999	0.9999999999	BP regulation of interleukin-1 beta production
+GO:0015081	0.979737751664277	0.0308555951748311	29	639	sodium ion transmembrane transporter activity	MF	0.9999999999	0.9999999999	MF sodium ion transmembrane transporter activity
+GO:0010287	1	0.0311726292909426	0	54	plastoglobule	CC	0.9999999999	0.9999999999	CC plastoglobule
+GO:0016999	0.987882833285353	0.0314887597584526	5	175	antibiotic metabolic process	BP	0.9999999999	0.9999999999	BP antibiotic metabolic process
+GO:0004683	0.982991831909201	0.0321266275173723	12	323	calmodulin-dependent protein kinase activity	MF	0.9999999999	0.9999999999	MF calmodulin-dependent protein kinase activity
+GO:0000329	0.994997473262235	0.032364713132828	1	84	fungal-type vacuole membrane	CC	0.9999999999	0.9999999999	CC fungal-type vacuole membrane
+GO:0004803	0.994965462853577	0.0326561848695446	1	74	transposase activity	MF	0.9999999999	0.9999999999	MF transposase activity
+GO:0045907	0.991919252565969	0.0331949748018026	2	104	positive regulation of vasoconstriction	BP	0.9999999999	0.9999999999	BP positive regulation of vasoconstriction
+GO:0030248	1	0.0333248842622068	0	49	cellulose binding	MF	0.9999999999	0.9999999999	MF cellulose binding
+GO:0004520	0.982214651511743	0.033425331025872	12	350	endodeoxyribonuclease activity	MF	0.9999999999	0.9999999999	MF endodeoxyribonuclease activity
+GO:0042546	1	0.0336474984865622	0	54	cell wall biogenesis	BP	0.9999999999	0.9999999999	BP cell wall biogenesis
+GO:0005217	0.986172520979188	0.035417886878567	5	168	intracellular ligand-gated ion channel activity	MF	0.9999999999	0.9999999999	MF intracellular ligand-gated ion channel activity
+GO:0034765	0.972014473938078	0.0356208594720691	87	1629	regulation of ion transmembrane transport	BP	0.9999999999	0.9999999999	BP regulation of ion transmembrane transport
+GO:1900016	0.98719105644783	0.0358648945360931	4	217	negative regulation of cytokine production involved in inflammatory response	BP	0.9999999999	0.9999999999	BP negative regulation of cytokine production involved in inflammatory response
+GO:1902495	0.972217612872921	0.0363002841224354	70	1330	transmembrane transporter complex	CC	0.9999999999	0.9999999999	CC transmembrane transporter complex
+GO:0044826	0.988343815058998	0.0375565328590196	3	127	viral genome integration into host DNA	BP	0.9999999999	0.9999999999	BP viral genome integration into host DNA
+GO:0001609	0.993870926198109	0.0383401663050127	1	83	G protein-coupled adenosine receptor activity	MF	0.9999999999	0.9999999999	MF G protein-coupled adenosine receptor activity
+GO:0032687	0.985891801175154	0.0390249417819065	4	219	negative regulation of interferon-alpha production	BP	0.9999999999	0.9999999999	BP negative regulation of interferon-alpha production
+GO:0030808	0.979468610796359	0.0390687904994651	11	297	regulation of nucleotide biosynthetic process	BP	0.9999999999	0.9999999999	BP regulation of nucleotide biosynthetic process
+GO:0099589	0.987777465540709	0.0390811386346792	3	134	serotonin receptor activity	MF	0.9999999999	0.9999999999	MF serotonin receptor activity
+GO:0086012	0.987647601615895	0.0395537718220473	3	118	membrane depolarization during cardiac muscle cell action potential	BP	0.9999999999	0.9999999999	BP membrane depolarization during cardiac muscle cell action potential
+GO:0001964	1	0.0395905975384451	0	51	startle response	BP	0.9999999999	0.9999999999	BP startle response
+GO:0048509	1	0.0396674018871557	0	49	regulation of meristem development	BP	0.9999999999	0.9999999999	BP regulation of meristem development
+GO:0014048	0.993597725178721	0.039818017872649	1	78	regulation of glutamate secretion	BP	0.9999999999	0.9999999999	BP regulation of glutamate secretion
+GO:0006566	1	0.0398574902761488	0	55	threonine metabolic process	BP	0.9999999999	0.9999999999	BP threonine metabolic process
+GO:0030814	0.980226294425347	0.0399993898347193	9	254	NA	NA	0.9999999999	0.9999999999	none
+GO:0030817	0.980226294425347	0.0399993898347193	9	254	NA	NA	0.9999999999	0.9999999999	none
+GO:0045761	0.980226294425347	0.0399993898347193	9	254	regulation of adenylate cyclase activity	BP	0.9999999999	0.9999999999	BP regulation of adenylate cyclase activity
+GO:0004936	1	0.0401505191251865	0	51	alpha-adrenergic receptor activity	MF	0.9999999999	0.9999999999	MF alpha-adrenergic receptor activity
+GO:1900371	0.978723361963208	0.0403560331501862	11	296	regulation of purine nucleotide biosynthetic process	BP	0.9999999999	0.9999999999	BP regulation of purine nucleotide biosynthetic process
+GO:0009606	1	0.0403635379124017	0	46	tropism	BP	0.9999999999	0.9999999999	BP tropism
+GO:0009405	0.98724064370918	0.0405578403798979	3	134	pathogenesis	BP	0.9999999999	0.9999999999	BP pathogenesis
+GO:0015969	1	0.0405756147544135	0	55	guanosine tetraphosphate metabolic process	BP	0.9999999999	0.9999999999	BP guanosine tetraphosphate metabolic process
+GO:0004993	0.987092384259555	0.0409703878913777	3	133	G protein-coupled serotonin receptor activity	MF	0.9999999999	0.9999999999	MF G protein-coupled serotonin receptor activity
+GO:1903524	0.983598318281455	0.0411694081069786	5	168	positive regulation of blood circulation	BP	0.9999999999	0.9999999999	BP positive regulation of blood circulation
+GO:0086015	0.98952392637552	0.0414306626089656	2	101	SA node cell action potential	BP	0.9999999999	0.9999999999	BP SA node cell action potential
+GO:0098659	0.989262324034084	0.0422954942980744	2	102	inorganic cation import across plasma membrane	BP	0.9999999999	0.9999999999	BP inorganic cation import across plasma membrane
+GO:0099587	0.989262324034084	0.0422954942980744	2	102	inorganic ion import across plasma membrane	BP	0.9999999999	0.9999999999	BP inorganic ion import across plasma membrane
+GO:0010119	1	0.0423354682726106	0	50	regulation of stomatal movement	BP	0.9999999999	0.9999999999	BP regulation of stomatal movement
+GO:0071852	1	0.0429655625095604	0	50	fungal-type cell wall organization or biogenesis	BP	0.9999999999	0.9999999999	BP fungal-type cell wall organization or biogenesis
+GO:0060080	1	0.0440494779301946	0	50	inhibitory postsynaptic potential	BP	0.9999999999	0.9999999999	BP inhibitory postsynaptic potential
+GO:0004556	1	0.0460869170062814	0	43	alpha-amylase activity	MF	0.9999999999	0.9999999999	MF alpha-amylase activity
+GO:0048147	0.979526810786206	0.0467022798845063	6	261	negative regulation of fibroblast proliferation	BP	0.9999999999	0.9999999999	BP negative regulation of fibroblast proliferation
+GO:0030983	1	0.0470585216779966	0	48	mismatched DNA binding	MF	0.9999999999	0.9999999999	MF mismatched DNA binding
+GO:0015976	1	0.0472458940512091	0	59	carbon utilization	BP	0.9999999999	0.9999999999	BP carbon utilization
+GO:0004529	0.987694288115451	0.0474093246084358	2	107	exodeoxyribonuclease activity	MF	0.9999999999	0.9999999999	MF exodeoxyribonuclease activity
+GO:1901016	0.976555924203067	0.0482669652778303	8	236	regulation of potassium ion transmembrane transporter activity	BP	0.9999999999	0.9999999999	BP regulation of potassium ion transmembrane transporter activity
+GO:2000024	1	0.0485762076082	0	45	regulation of leaf development	BP	0.9999999999	0.9999999999	BP regulation of leaf development
