@@ -10,16 +10,24 @@
 # Exit if command fails
 set -e
 
-# Set variables
+# RAM to use for Java (in gigabytes)
+ram=
+
+# Path to programs
+gatk=
+
+# Input/output files
 ref_assembly_fasta=
+brc_out=
+htc_out=
 
 
 
 #Identify regions in need of realignment:
 
-java -Xmx2g -jar ~/programs/GATK/dist/GenomeAnalysisTK.jar \
+java -Xmx${ram}g -jar "${gatk}" \
   -T RealignerTargetCreator \
-  -R REFERENCE_ASSEMBLY_NAME.fasta \
+  -R "${ref_assembly_fasta}" \
   -o merged_output.intervals \
   -I merged.bam \
   --minReadsAtLocus 3
@@ -35,9 +43,9 @@ java -Xmx2g -jar ~/programs/GATK/dist/GenomeAnalysisTK.jar \
 
 #  Run realigner over intervals:
 
-java -Xmx4g -jar ~/programs/GATK/dist/GenomeAnalysisTK.jar \
+java -Xmx${ram}g -jar "${gatk}" \
   -I merged.bam \
-  -R REFERENCE_ASSEMBLY_NAME.fasta \
+  -R $"{ref_assembly_fasta}" \
   -T IndelRealigner \
   -targetIntervals merged_output.intervals \
   -o merged_realigned.bam \
