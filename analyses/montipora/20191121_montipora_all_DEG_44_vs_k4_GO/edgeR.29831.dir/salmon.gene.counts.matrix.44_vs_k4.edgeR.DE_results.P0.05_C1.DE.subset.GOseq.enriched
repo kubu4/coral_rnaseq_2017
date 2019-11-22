@@ -1,0 +1,17 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0042754	1.65515609060623e-05	0.999999970553364	2	52	negative regulation of circadian rhythm	BP	0.389458228119646	BP negative regulation of circadian rhythm	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0042752	0.000672024751922476	0.999992124879752	2	333	regulation of circadian rhythm	BP	0.9999999999	BP regulation of circadian rhythm	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0031225	0.00103658893396171	0.999984865365901	2	406	anchored component of membrane	CC	0.9999999999	CC anchored component of membrane	TRINITY_DN174506_c6_g2, TRINITY_DN182639_c1_g1
+GO:0005576	0.00972107317119197	0.999033911253648	3	3885	extracellular region	CC	0.9999999999	CC extracellular region	TRINITY_DN174506_c6_g2, TRINITY_DN182639_c1_g1, TRINITY_DN191947_c2_g3
+GO:0045892	0.024088632502233	0.998214595247279	2	2114	negative regulation of transcription, DNA-templated	BP	0.9999999999	BP negative regulation of transcription, DNA-templated	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:1903507	0.0242097048969922	0.998200823379499	2	2120	negative regulation of nucleic acid-templated transcription	BP	0.9999999999	BP negative regulation of nucleic acid-templated transcription	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:1902679	0.0245936782381479	0.998156899334953	2	2138	negative regulation of RNA biosynthetic process	BP	0.9999999999	BP negative regulation of RNA biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0051253	0.0284720823383248	0.997692583603058	2	2314	negative regulation of RNA metabolic process	BP	0.9999999999	BP negative regulation of RNA metabolic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0005913	0.0354711334643376	0.999384315204774	1	318	cell-cell adherens junction	CC	0.9999999999	CC cell-cell adherens junction	TRINITY_DN191947_c2_g3
+GO:0007157	0.0394276798776807	0.9992380173426	1	351	heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules	BP	0.9999999999	BP heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules	TRINITY_DN191947_c2_g3
+GO:0045934	0.0403246215559027	0.996057036037256	2	2805	negative regulation of nucleobase-containing compound metabolic process	BP	0.9999999999	BP negative regulation of nucleobase-containing compound metabolic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:2000113	0.0430324287477061	0.995640737352132	2	2900	negative regulation of cellular macromolecule biosynthetic process	BP	0.9999999999	BP negative regulation of cellular macromolecule biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0010558	0.0450929630455966	0.995313879856102	2	2976	negative regulation of macromolecule biosynthetic process	BP	0.9999999999	BP negative regulation of macromolecule biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0032154	0.0467835949480758	0.99892388502013	1	418	cleavage furrow	CC	0.9999999999	CC cleavage furrow	TRINITY_DN191947_c2_g3
+GO:0097610	0.0467835949480758	0.99892388502013	1	418	cell surface furrow	CC	0.9999999999	CC cell surface furrow	TRINITY_DN191947_c2_g3
+GO:0031327	0.0497863219904852	0.994537739480186	2	3147	negative regulation of cellular biosynthetic process	BP	0.9999999999	BP negative regulation of cellular biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1

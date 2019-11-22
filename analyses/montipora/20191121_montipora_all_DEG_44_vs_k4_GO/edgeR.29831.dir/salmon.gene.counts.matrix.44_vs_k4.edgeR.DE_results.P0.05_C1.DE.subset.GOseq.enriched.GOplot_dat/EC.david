@@ -1,0 +1,17 @@
+Category	ID	Term	Genes	adj_pval
+BP	GO:0045934	negative regulation of nucleobase-containing compound metabolic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1	0.9999999999
+BP	GO:2000113	negative regulation of cellular macromolecule biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1	0.9999999999
+CC	GO:0032154	cleavage furrow	TRINITY_DN191947_c2_g3	0.9999999999
+CC	GO:0097610	cell surface furrow	TRINITY_DN191947_c2_g3	0.9999999999
+CC	GO:0005576	extracellular region	TRINITY_DN174506_c6_g2, TRINITY_DN182639_c1_g1, TRINITY_DN191947_c2_g3	0.9999999999
+BP	GO:1902679	negative regulation of RNA biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1	0.9999999999
+BP	GO:0051253	negative regulation of RNA metabolic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1	0.9999999999
+BP	GO:0045892	negative regulation of transcription, DNA-templated	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1	0.9999999999
+CC	GO:0031225	anchored component of membrane	TRINITY_DN174506_c6_g2, TRINITY_DN182639_c1_g1	0.9999999999
+BP	GO:0031327	negative regulation of cellular biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1	0.9999999999
+CC	GO:0005913	cell-cell adherens junction	TRINITY_DN191947_c2_g3	0.9999999999
+BP	GO:0042752	regulation of circadian rhythm	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1	0.9999999999
+BP	GO:0007157	heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules	TRINITY_DN191947_c2_g3	0.9999999999
+BP	GO:1903507	negative regulation of nucleic acid-templated transcription	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1	0.9999999999
+BP	GO:0042754	negative regulation of circadian rhythm	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1	0.389458228119646
+BP	GO:0010558	negative regulation of macromolecule biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1	0.9999999999

@@ -1,0 +1,20 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0042754	6.81169287480157e-06	0.999999992448586	2	52	negative regulation of circadian rhythm	BP	0.160279133344081	BP negative regulation of circadian rhythm	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0042752	0.000279297459504754	0.999997956188283	2	333	regulation of circadian rhythm	BP	0.9999999999	BP regulation of circadian rhythm	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0045892	0.0104716855837833	0.999512753849238	2	2114	negative regulation of transcription, DNA-templated	BP	0.9999999999	BP negative regulation of transcription, DNA-templated	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:1903507	0.0105267862544967	0.999508848082505	2	2120	negative regulation of nucleic acid-templated transcription	BP	0.9999999999	BP negative regulation of nucleic acid-templated transcription	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:1902679	0.0106984254088644	0.999496612421307	2	2138	negative regulation of RNA biosynthetic process	BP	0.9999999999	BP negative regulation of RNA biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0051253	0.0124404419781817	0.999366649771809	2	2314	negative regulation of RNA metabolic process	BP	0.9999999999	BP negative regulation of RNA metabolic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0045934	0.0178600603111217	0.998900361561968	2	2805	negative regulation of nucleobase-containing compound metabolic process	BP	0.9999999999	BP negative regulation of nucleobase-containing compound metabolic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:2000113	0.0190754286254258	0.998783927476462	2	2900	negative regulation of cellular macromolecule biosynthetic process	BP	0.9999999999	BP negative regulation of cellular macromolecule biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0010558	0.0200260041398817	0.998690014421831	2	2976	negative regulation of macromolecule biosynthetic process	BP	0.9999999999	BP negative regulation of macromolecule biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0031327	0.0222140424939936	0.998464638491991	2	3147	negative regulation of cellular biosynthetic process	BP	0.9999999999	BP negative regulation of cellular biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0009890	0.0228220961718503	0.998399783099898	2	3193	negative regulation of biosynthetic process	BP	0.9999999999	BP negative regulation of biosynthetic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0005913	0.023102420357093	0.99974457189474	1	318	cell-cell adherens junction	CC	0.9999999999	CC cell-cell adherens junction	TRINITY_DN191947_c2_g3
+GO:0007157	0.0256184805788385	0.999685531406586	1	351	heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules	BP	0.9999999999	BP heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules	TRINITY_DN191947_c2_g3
+GO:0032154	0.0304384915969902	0.999555101682487	1	418	cleavage furrow	CC	0.9999999999	CC cleavage furrow	TRINITY_DN191947_c2_g3
+GO:0097610	0.0304384915969902	0.999555101682487	1	418	cell surface furrow	CC	0.9999999999	CC cell surface furrow	TRINITY_DN191947_c2_g3
+GO:0032155	0.0339938702529239	0.999444251625935	1	468	cell division site part	CC	0.9999999999	CC cell division site part	TRINITY_DN191947_c2_g3
+GO:0010629	0.0343174833419966	0.997005324156831	2	3976	negative regulation of gene expression	BP	0.9999999999	BP negative regulation of gene expression	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1
+GO:0005604	0.0432860195776526	0.999095470554583	1	599	basement membrane	CC	0.9999999999	CC basement membrane	TRINITY_DN191947_c2_g3
+GO:0051172	0.0480557584043248	0.994962030809217	2	4795	negative regulation of nitrogen compound metabolic process	BP	0.9999999999	BP negative regulation of nitrogen compound metabolic process	TRINITY_DN178574_c9_g1, TRINITY_DN21105_c0_g1

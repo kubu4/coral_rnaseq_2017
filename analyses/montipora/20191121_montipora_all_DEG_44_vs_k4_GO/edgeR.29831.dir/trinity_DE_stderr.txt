@@ -1,0 +1,26 @@
+Got 12 samples, and got: 13 data fields.
+Header: b_44_01	b_44_02	b_44_03	nb_44_04	nb_44_05	nb_44_06	b_k4_01	b_k4_02	b_k4_03	nb_k4_04	nb_k4_05	nb_k4_06
+Next: TRINITY_DN100001_c0_g1	0.00	0.00	36.09	0.00	0.00	0.00	9.43	38.93	0.00	0.00	0.00	0.00
+
+$VAR1 = {
+          'b_k4_01' => 7,
+          'b_k4_03' => 9,
+          'b_k4_02' => 8,
+          'nb_44_04' => 4,
+          'b_44_03' => 3,
+          'b_44_02' => 2,
+          'b_44_01' => 1,
+          'nb_k4_04' => 10,
+          'nb_44_05' => 5,
+          'nb_k4_06' => 12,
+          'nb_44_06' => 6,
+          'nb_k4_05' => 11
+        };
+Contrasts to perform are: $VAR1 = [
+          [
+            '44',
+            'k4'
+          ]
+        ];
+Loading required package: edgeR
+Loading required package: limma

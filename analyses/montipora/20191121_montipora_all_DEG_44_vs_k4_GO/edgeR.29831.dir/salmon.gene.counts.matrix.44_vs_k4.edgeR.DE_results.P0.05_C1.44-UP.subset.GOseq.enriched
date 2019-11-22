@@ -1,0 +1,3 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0031225	0.000137334831191646	0.999999338974481	2	406	anchored component of membrane	CC	0.9999999999	CC anchored component of membrane	TRINITY_DN174506_c6_g2, TRINITY_DN182639_c1_g1
+GO:0005576	0.0114707458076935	0.99947316015055	2	3885	extracellular region	CC	0.9999999999	CC extracellular region	TRINITY_DN174506_c6_g2, TRINITY_DN182639_c1_g1
