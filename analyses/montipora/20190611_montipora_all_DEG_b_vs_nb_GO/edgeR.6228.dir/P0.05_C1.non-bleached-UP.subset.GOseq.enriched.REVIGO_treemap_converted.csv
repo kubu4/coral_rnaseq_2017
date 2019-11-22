@@ -1,0 +1,150 @@
+description	log10pvalue	representative
+immune system process	29.6179	immune system process
+cell adhesion	23.2241	cell adhesion
+biological_process	300.0	biological_process
+metabolic process	130.9462	metabolism
+catabolic process	40.4896	catabolism
+cellular process	300.0	cellular process
+biological adhesion	22.8875	biological adhesion
+multicellular organismal process	70.8558	multicellular organismal process
+developmental process	159.2737	developmental process
+locomotion	21.7116	locomotion
+single-organism process	282.2344	single-organism process
+single-organism developmental process	155.6394	single-organism developmental process
+pattern specification process	19.1167	single-organism developmental process
+single-organism metabolic process	50.1597	single-organism developmental process
+carboxylic acid metabolic process	23.8798	single-organism developmental process
+single-organism cellular process	221.9555	single-organism developmental process
+embryonic morphogenesis	18.3157	single-organism developmental process
+cell part morphogenesis	18.865	single-organism developmental process
+epithelial cell differentiation	22.5591	single-organism developmental process
+alcohol metabolic process	17.2177	single-organism developmental process
+lipid metabolic process	24.2951	single-organism developmental process
+organic acid metabolic process	25.1876	single-organism developmental process
+small molecule metabolic process	45.7194	single-organism developmental process
+rhythmic process	17.0754	rhythmic process
+positive regulation of cellular process	164.0489	positive regulation of cellular process
+negative regulation of cellular process	114.0307	positive regulation of cellular process
+negative regulation of biological process	120.7063	positive regulation of cellular process
+positive regulation of biological process	178.3192	positive regulation of cellular process
+response to nitrogen compound	34.3302	positive regulation of cellular process
+response to oxygen-containing compound	25.5602	positive regulation of cellular process
+regulation of signaling	89.5441	positive regulation of cellular process
+phosphate-containing compound metabolic process	32.2225	positive regulation of cellular process
+regulation of primary metabolic process	152.2384	positive regulation of cellular process
+regulation of cellular protein metabolic process	64.2577	positive regulation of cellular process
+cellular response to stimulus	63.896	positive regulation of cellular process
+regulation of cell cycle	21.4621	positive regulation of cellular process
+regulation of protein metabolic process	72.7995	positive regulation of cellular process
+regulation of multicellular organismal process	67.3481	positive regulation of cellular process
+regulation of response to stimulus	95.8017	positive regulation of cellular process
+regulation of transcription from RNA polymerase II promoter	69.723	positive regulation of cellular process
+intracellular signal transduction	29.4293	positive regulation of cellular process
+homeostatic process	27.5499	positive regulation of cellular process
+regulation of cell communication	86.6802	positive regulation of cellular process
+cellular protein metabolic process	62.6593	positive regulation of cellular process
+regulation of metabolic process	157.2187	positive regulation of cellular process
+regulation of cellular process	245.3376	positive regulation of cellular process
+regulation of cell proliferation	28.24	positive regulation of cellular process
+regulation of catalytic activity	35.7501	positive regulation of cellular process
+response to external stimulus	18.794	positive regulation of cellular process
+cellular response to organic substance	40.8392	positive regulation of cellular process
+enzyme linked receptor protein signaling pathway	19.948	positive regulation of cellular process
+regulation of molecular function	49.1713	positive regulation of cellular process
+cell surface receptor signaling pathway	51.3112	positive regulation of cellular process
+response to chemical	50.1365	positive regulation of cellular process
+regulation of biological quality	78.5674	positive regulation of cellular process
+response to organic substance	48.6568	positive regulation of cellular process
+regulation of cell death	41.6127	positive regulation of cellular process
+regulation of cellular component size	20.2103	positive regulation of cellular process
+regulation of immune system process	25.2142	positive regulation of cellular process
+response to endogenous stimulus	27.242	positive regulation of cellular process
+regulation of phosphorylation	33.3837	positive regulation of cellular process
+cellular response to stress	35.0409	positive regulation of cellular process
+regulation of growth	23.2102	positive regulation of cellular process
+regulation of signal transduction	80.3243	positive regulation of cellular process
+response to stress	54.4883	positive regulation of cellular process
+cellular protein modification process	45.3929	positive regulation of cellular process
+regulation of phosphorus metabolic process	34.1955	positive regulation of cellular process
+proteolysis	30.0863	positive regulation of cellular process
+response to stimulus	85.1087	response to stimulus
+localization	112.0048	localization
+cellular localization	91.3941	cellular localization
+regulation of cell migration	44.4501	cellular localization
+transport	86.0184	cellular localization
+single-organism transport	47.6598	cellular localization
+regulation of localization	73.3585	cellular localization
+endocytosis	29.0002	cellular localization
+organic substance transport	84.8257	cellular localization
+nitrogen compound transport	75.9266	cellular localization
+secretion by cell	20.7777	cellular localization
+intracellular transport	68.5265	cellular localization
+secretion	23.9092	cellular localization
+vesicle-mediated transport	69.1807	cellular localization
+endosomal transport	20.0762	cellular localization
+protein localization	89.3356	cellular localization
+macromolecule localization	89.7776	cellular localization
+amide transport	69.8748	cellular localization
+peptide transport	68.9549	cellular localization
+single-organism localization	53.0176	cellular localization
+biological regulation	272.876	biological regulation
+cellular component organization or biogenesis	182.9878	cellular component organization or biogenesis
+autophagy	21.2193	autophagy
+biosynthetic process	41.7643	biosynthesis
+cellular component assembly	85.1966	cellular component assembly
+ribonucleoprotein complex subunit organization	22.2832	cellular component assembly
+regulation of cell projection organization	36.9411	cellular component assembly
+ribonucleoprotein complex assembly	23.8607	cellular component assembly
+single-organism organelle organization	41.2035	cellular component assembly
+membrane organization	33.854	cellular component assembly
+chromatin remodeling	17.0674	cellular component assembly
+single-organism membrane organization	26.4157	cellular component assembly
+supramolecular fiber organization	32.1566	cellular component assembly
+regulation of cellular component biogenesis	29.8929	cellular component assembly
+regulation of actin cytoskeleton organization	21.1747	cellular component assembly
+macromolecular complex subunit organization	63.1395	cellular component assembly
+regulation of organelle organization	32.282	cellular component assembly
+regulation of supramolecular fiber organization	21.7195	cellular component assembly
+organelle organization	77.8726	cellular component assembly
+regulation of cellular component organization	82.7995	cellular component assembly
+cell projection organization	36.7031	cellular component assembly
+cellular catabolic process	36.4662	cellular catabolism
+regulation of cellular catabolic process	25.397	cellular catabolism
+regulation of catabolic process	36.3218	cellular catabolism
+proteolysis involved in cellular protein catabolic process	19.7324	cellular catabolism
+mRNA metabolic process	30.6832	mRNA metabolism
+RNA metabolic process	38.1337	mRNA metabolism
+cellular macromolecule metabolic process	81.8879	mRNA metabolism
+organonitrogen compound metabolic process	97.5071	mRNA metabolism
+organonitrogen compound biosynthetic process	21.9869	mRNA metabolism
+nucleobase-containing compound metabolic process	28.7808	mRNA metabolism
+cellular amide metabolic process	30.3807	mRNA metabolism
+nucleic acid metabolic process	19.8209	mRNA metabolism
+protein metabolic process	84.6586	mRNA metabolism
+peptide metabolic process	31.1248	mRNA metabolism
+macromolecule modification	46.8067	mRNA metabolism
+RNA processing	20.8893	mRNA metabolism
+RNA splicing	22.914	mRNA metabolism
+mRNA processing	29.1298	mRNA metabolism
+cellular nitrogen compound metabolic process	46.6619	mRNA metabolism
+nucleobase-containing compound biosynthetic process	18.2343	mRNA metabolism
+cellular metabolic process	125.6923	cellular metabolism
+phosphorus metabolic process	36.5529	cellular metabolism
+primary metabolic process	122.5411	cellular metabolism
+heterocycle metabolic process	28.3656	cellular metabolism
+organic substance metabolic process	125.4875	cellular metabolism
+cellular aromatic compound metabolic process	27.325	cellular metabolism
+nitrogen compound metabolic process	105.1617	nitrogen compound metabolism
+macromolecule metabolic process	92.9164	macromolecule metabolism
+macromolecule biosynthetic process	32.7097	macromolecule metabolism
+cellular biosynthetic process	39.984	macromolecule metabolism
+cellular nitrogen compound biosynthetic process	33.3055	macromolecule metabolism
+organic substance biosynthetic process	43.8374	macromolecule metabolism
+carbohydrate derivative metabolic process	17.0857	macromolecule metabolism
+organic cyclic compound metabolic process	32.7712	macromolecule metabolism
+cellular macromolecule biosynthetic process	27.1828	macromolecule metabolism
+single organism reproductive process	23.1456	single organism reproductive process
+movement of cell or subcellular component	39.5208	movement of cell or subcellular component
+cell death	20.0923	movement of cell or subcellular component
+microtubule-based process	24.8307	movement of cell or subcellular component
+actin filament-based process	20.3288	movement of cell or subcellular component
