@@ -66,12 +66,6 @@ ${trinity_matrix} \
 --gene_trans_map ${gene_map} \
 --out_prefix salmon \
 --name_sample_by_basedir \
-bleached_k4_01/quant.sf \
-bleached_44_01/quant.sf \
-bleached_k4_02/quant.sf \
-bleached_44_02/quant.sf \
-bleached_44_03/quant.sf \
-bleached_k4_03/quant.sf \
 b_44_01/quant.sf \
 b_44_02/quant.sf \
 b_44_03/quant.sf \
