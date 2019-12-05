@@ -1,0 +1,145 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0004725	0.000752621830763087	0.999915539305888	5	378	protein tyrosine phosphatase activity	MF	0.9999999999	MF protein tyrosine phosphatase activity	TRINITY_DN109694_c0_g1, TRINITY_DN126188_c0_g2, TRINITY_DN180343_c0_g1, TRINITY_DN188554_c4_g1, TRINITY_DN190946_c0_g2
+GO:0016791	0.000753626638013438	0.999847266839263	8	1132	phosphatase activity	MF	0.9999999999	MF phosphatase activity	TRINITY_DN109694_c0_g1, TRINITY_DN126188_c0_g2, TRINITY_DN130013_c0_g1, TRINITY_DN133951_c0_g1, TRINITY_DN163010_c1_g6, TRINITY_DN180343_c0_g1, TRINITY_DN188554_c4_g1, TRINITY_DN190946_c0_g2
+GO:0042578	0.000820376013938169	0.9998110886072	9	1431	phosphoric ester hydrolase activity	MF	0.9999999999	MF phosphoric ester hydrolase activity	TRINITY_DN109694_c0_g1, TRINITY_DN126188_c0_g2, TRINITY_DN130013_c0_g1, TRINITY_DN131861_c0_g1, TRINITY_DN133951_c0_g1, TRINITY_DN163010_c1_g6, TRINITY_DN180343_c0_g1, TRINITY_DN188554_c4_g1, TRINITY_DN190946_c0_g2
+GO:0042264	0.00112732652769257	0.999982882097113	2	30	peptidyl-aspartic acid hydroxylation	BP	0.9999999999	BP peptidyl-aspartic acid hydroxylation	TRINITY_DN103474_c0_g2, TRINITY_DN155577_c0_g2
+GO:0018197	0.0013922714383376	0.999976324400446	2	34	peptidyl-aspartic acid modification	BP	0.9999999999	BP peptidyl-aspartic acid modification	TRINITY_DN103474_c0_g2, TRINITY_DN155577_c0_g2
+GO:1990482	0.0026697304601382	1	1	1	sphingolipid alpha-glucuronosyltransferase activity	MF	0.9999999999	MF sphingolipid alpha-glucuronosyltransferase activity	TRINITY_DN92470_c0_g1
+GO:0032791	0.00438039463480969	0.999995199189642	1	2	lead ion binding	MF	0.9999999999	MF lead ion binding	TRINITY_DN154205_c0_g1
+GO:0048619	0.00481425325660369	0.999994199831522	1	2	embryonic hindgut morphogenesis	BP	0.9999999999	BP embryonic hindgut morphogenesis	TRINITY_DN136100_c0_g3
+GO:0033277	0.00523209921012848	0.999990866486198	1	3	abortive mitotic cell cycle	BP	0.9999999999	BP abortive mitotic cell cycle	TRINITY_DN180343_c0_g1
+GO:0051463	0.00523209921012848	0.999990866486198	1	3	negative regulation of cortisol secretion	BP	0.9999999999	BP negative regulation of cortisol secretion	TRINITY_DN180343_c0_g1
+GO:0050053	0.00657859189611093	0.999983748778014	1	4	levansucrase activity	MF	0.9999999999	MF levansucrase activity	TRINITY_DN166731_c3_g2
+GO:0060672	0.00688290455207949	0.999982208234998	1	4	epithelial cell morphogenesis involved in placental branching	BP	0.9999999999	BP epithelial cell morphogenesis involved in placental branching	TRINITY_DN168356_c6_g3
+GO:0008101	0.00699929136824056	0.999983641736907	1	3	decapentaplegic signaling pathway	BP	0.9999999999	BP decapentaplegic signaling pathway	TRINITY_DN136100_c0_g3
+GO:0051428	0.0079068455658252	0.999973906628009	1	6	peptide hormone receptor binding	MF	0.9999999999	MF peptide hormone receptor binding	TRINITY_DN180343_c0_g1
+GO:0044325	0.00796970005246632	0.99881556357743	4	490	ion channel binding	MF	0.9999999999	MF ion channel binding	TRINITY_DN135286_c0_g2, TRINITY_DN137753_c0_g1, TRINITY_DN155577_c0_g2, TRINITY_DN175388_c7_g1
+GO:0009758	0.00826222261779923	0.999971504392408	1	6	carbohydrate utilization	BP	0.9999999999	BP carbohydrate utilization	TRINITY_DN166731_c3_g2
+GO:0015459	0.0082727382957394	0.999640190967914	2	87	potassium channel regulator activity	MF	0.9999999999	MF potassium channel regulator activity	TRINITY_DN135286_c0_g2, TRINITY_DN175388_c7_g1
+GO:0004721	0.0104325652171223	0.997843593032202	5	765	phosphoprotein phosphatase activity	MF	0.9999999999	MF phosphoprotein phosphatase activity	TRINITY_DN109694_c0_g1, TRINITY_DN126188_c0_g2, TRINITY_DN180343_c0_g1, TRINITY_DN188554_c4_g1, TRINITY_DN190946_c0_g2
+GO:0061515	0.0109581957717072	0.999449239336359	2	81	myeloid cell development	BP	0.9999999999	BP myeloid cell development	TRINITY_DN137753_c0_g1, TRINITY_DN180343_c0_g1
+GO:0000213	0.0113680058843914	0.999942400556571	1	9	tRNA-intron endonuclease activity	MF	0.9999999999	MF tRNA-intron endonuclease activity	TRINITY_DN65846_c0_g1
+GO:0021697	0.0115780768824859	0.999943969861972	1	6	cerebellar cortex formation	BP	0.9999999999	BP cerebellar cortex formation	TRINITY_DN180343_c0_g1
+GO:0030579	0.011822417505321	0.999941574413274	1	6	ubiquitin-dependent SMAD protein catabolic process	BP	0.9999999999	BP ubiquitin-dependent SMAD protein catabolic process	TRINITY_DN136100_c0_g3
+GO:0014701	0.0118552649540277	0.99994124854475	1	6	junctional sarcoplasmic reticulum membrane	CC	0.9999999999	CC junctional sarcoplasmic reticulum membrane	TRINITY_DN155577_c0_g2
+GO:1990879	0.0121010420118027	0.999935731325109	1	8	CST complex	CC	0.9999999999	CC CST complex	TRINITY_DN80345_c0_g1
+GO:0102008	0.0123073025888811	0.999934868560229	1	7	cytosolic dipeptidase activity	MF	0.9999999999	MF cytosolic dipeptidase activity	TRINITY_DN164620_c0_g1
+GO:0103046	0.0123073025888811	0.999934868560229	1	7	alanylglutamate dipeptidase activity	MF	0.9999999999	MF alanylglutamate dipeptidase activity	TRINITY_DN164620_c0_g1
+GO:0010881	0.0127230636788721	0.999305537290733	2	109	regulation of cardiac muscle contraction by regulation of the release of sequestered calcium ion	BP	0.9999999999	BP regulation of cardiac muscle contraction by regulation of the release of sequestered calcium ion	TRINITY_DN135286_c0_g2, TRINITY_DN155577_c0_g2
+GO:0018315	0.0129526831404564	0.999929837864144	1	6	molybdenum incorporation into molybdenum-molybdopterin complex	BP	0.9999999999	BP molybdenum incorporation into molybdenum-molybdopterin complex	TRINITY_DN22358_c0_g1
+GO:0042040	0.0129526831404564	0.999929837864144	1	6	metal incorporation into metallo-molybdopterin complex	BP	0.9999999999	BP metal incorporation into metallo-molybdopterin complex	TRINITY_DN22358_c0_g1
+GO:0051462	0.0131846952230996	0.999925225801311	1	7	regulation of cortisol secretion	BP	0.9999999999	BP regulation of cortisol secretion	TRINITY_DN180343_c0_g1
+GO:0042586	0.0134367597953543	0.99992233187276	1	7	peptide deformylase activity	MF	0.9999999999	MF peptide deformylase activity	TRINITY_DN94908_c0_g1
+GO:0060020	0.0139540600527503	0.999912048449938	1	10	Bergmann glial cell differentiation	BP	0.9999999999	BP Bergmann glial cell differentiation	TRINITY_DN180343_c0_g1
+GO:0060151	0.0141302718225176	0.999912302179826	1	8	peroxisome localization	BP	0.9999999999	BP peroxisome localization	TRINITY_DN261868_c0_g1
+GO:0010880	0.014391010650793	0.999161218578821	2	120	regulation of release of sequestered calcium ion into cytosol by sarcoplasmic reticulum	BP	0.9999999999	BP regulation of release of sequestered calcium ion into cytosol by sarcoplasmic reticulum	TRINITY_DN135286_c0_g2, TRINITY_DN155577_c0_g2
+GO:0009793	0.014566371044596	0.999145863831633	2	117	embryo development ending in seed dormancy	BP	0.9999999999	BP embryo development ending in seed dormancy	TRINITY_DN104943_c0_g1, TRINITY_DN261024_c0_g1
+GO:0060316	0.014690258977391	0.999905193325725	1	8	positive regulation of ryanodine-sensitive calcium-release channel activity	BP	0.9999999999	BP positive regulation of ryanodine-sensitive calcium-release channel activity	TRINITY_DN155577_c0_g2
+GO:0033629	0.014766183854225	0.999901483345572	1	10	negative regulation of cell adhesion mediated by integrin	BP	0.9999999999	BP negative regulation of cell adhesion mediated by integrin	TRINITY_DN180343_c0_g1
+GO:0001700	0.0147766976643823	0.999904071197133	1	8	embryonic development via the syncytial blastoderm	BP	0.9999999999	BP embryonic development via the syncytial blastoderm	TRINITY_DN136100_c0_g3
+GO:0036138	0.0153311752230051	0.999893777861721	1	10	peptidyl-histidine hydroxylation	BP	0.9999999999	BP peptidyl-histidine hydroxylation	TRINITY_DN103474_c0_g2
+GO:0036139	0.0153311752230051	0.999893777861721	1	10	peptidyl-histidine dioxygenase activity	MF	0.9999999999	MF peptidyl-histidine dioxygenase activity	TRINITY_DN103474_c0_g2
+GO:0036140	0.0153311752230051	0.999893777861721	1	10	peptidyl-asparagine 3-dioxygenase activity	MF	0.9999999999	MF peptidyl-asparagine 3-dioxygenase activity	TRINITY_DN103474_c0_g2
+GO:0042265	0.0153311752230051	0.999893777861721	1	10	peptidyl-asparagine hydroxylation	BP	0.9999999999	BP peptidyl-asparagine hydroxylation	TRINITY_DN103474_c0_g2
+GO:0102113	0.0153311752230051	0.999893777861721	1	10	hypoxia-inducible factor-asparagine oxygenase activity	MF	0.9999999999	MF hypoxia-inducible factor-asparagine oxygenase activity	TRINITY_DN103474_c0_g2
+GO:0004441	0.0158959442041553	0.999887187145596	1	9	inositol-1,4-bisphosphate 1-phosphatase activity	MF	0.9999999999	MF inositol-1,4-bisphosphate 1-phosphatase activity	TRINITY_DN130013_c0_g1
+GO:0071532	0.0160136795075837	0.999882915345577	1	11	ankyrin repeat binding	MF	0.9999999999	MF ankyrin repeat binding	TRINITY_DN103474_c0_g2
+GO:0045299	0.0163376777475846	0.999885047084566	1	7	otolith mineralization	BP	0.9999999999	BP otolith mineralization	TRINITY_DN166731_c3_g2
+GO:0008441	0.0163700443444757	0.999882196923292	1	8	3'(2'),5'-bisphosphate nucleotidase activity	MF	0.9999999999	MF 3'(2'),5'-bisphosphate nucleotidase activity	TRINITY_DN130013_c0_g1
+GO:0003373	0.0171201878238807	0.999862570297917	1	15	dynamin family protein polymerization involved in membrane fission	BP	0.9999999999	BP dynamin family protein polymerization involved in membrane fission	TRINITY_DN261868_c0_g1
+GO:0003374	0.0171201878238807	0.999862570297917	1	15	dynamin family protein polymerization involved in mitochondrial fission	BP	0.9999999999	BP dynamin family protein polymerization involved in mitochondrial fission	TRINITY_DN261868_c0_g1
+GO:0034309	0.0173844730926763	0.999864994479827	1	9	primary alcohol biosynthetic process	BP	0.9999999999	BP primary alcohol biosynthetic process	TRINITY_DN133951_c0_g1
+GO:0046295	0.0173844730926763	0.999864994479827	1	9	glycolate biosynthetic process	BP	0.9999999999	BP glycolate biosynthetic process	TRINITY_DN133951_c0_g1
+GO:1901021	0.0179694003254649	0.998823520728464	2	117	positive regulation of calcium ion transmembrane transporter activity	BP	0.9999999999	BP positive regulation of calcium ion transmembrane transporter activity	TRINITY_DN135286_c0_g2, TRINITY_DN155577_c0_g2
+GO:0010882	0.0188855206508879	0.998727946555827	2	142	regulation of cardiac muscle contraction by calcium ion signaling	BP	0.9999999999	BP regulation of cardiac muscle contraction by calcium ion signaling	TRINITY_DN135286_c0_g2, TRINITY_DN155577_c0_g2
+GO:0004306	0.0193183514316896	0.999831092975925	1	10	ethanolamine-phosphate cytidylyltransferase activity	MF	0.9999999999	MF ethanolamine-phosphate cytidylyltransferase activity	TRINITY_DN141287_c0_g2
+GO:0060325	0.0195125022773611	0.998664731329136	2	125	face morphogenesis	BP	0.9999999999	BP face morphogenesis	TRINITY_DN155577_c0_g2, TRINITY_DN180343_c0_g1
+GO:0008466	0.0195468366562803	0.999823875903058	1	12	glycogenin glucosyltransferase activity	MF	0.9999999999	MF glycogenin glucosyltransferase activity	TRINITY_DN92470_c0_g1
+GO:0102751	0.0195468366562803	0.999823875903058	1	12	UDP-alpha-D-glucose:glucosyl-glycogenin alpha-D-glucosyltransferase activity	MF	0.9999999999	MF UDP-alpha-D-glucose:glucosyl-glycogenin alpha-D-glucosyltransferase activity	TRINITY_DN92470_c0_g1
+GO:0005967	0.0196794171588419	0.999820229101041	1	13	mitochondrial pyruvate dehydrogenase complex	CC	0.9999999999	CC mitochondrial pyruvate dehydrogenase complex	TRINITY_DN140297_c0_g1
+GO:0035855	0.0200617553259335	0.999812044690699	1	14	megakaryocyte development	BP	0.9999999999	BP megakaryocyte development	TRINITY_DN180343_c0_g1
+GO:0042585	0.0202290500456432	0.999812869882667	1	11	germinal vesicle	CC	0.9999999999	CC germinal vesicle	TRINITY_DN142878_c0_g1
+GO:0030366	0.0206001524755356	0.999810200904665	1	9	molybdopterin synthase activity	MF	0.9999999999	MF molybdopterin synthase activity	TRINITY_DN22358_c0_g1
+GO:0061428	0.0212460059594492	0.999789109072325	1	14	negative regulation of transcription from RNA polymerase II promoter in response to hypoxia	BP	0.9999999999	BP negative regulation of transcription from RNA polymerase II promoter in response to hypoxia	TRINITY_DN103474_c0_g2
+GO:0019826	0.0213965338690349	0.999788822683789	1	12	oxygen sensor activity	MF	0.9999999999	MF oxygen sensor activity	TRINITY_DN103474_c0_g2
+GO:0060125	0.0216611294142361	0.999779637702141	1	15	negative regulation of growth hormone secretion	BP	0.9999999999	BP negative regulation of growth hormone secretion	TRINITY_DN180343_c0_g1
+GO:0062101	0.0218616021322931	0.999775523679459	1	15	NA	NA	0.9999999999	none	TRINITY_DN155577_c0_g2
+GO:0009441	0.0219232474619542	0.999778254841311	1	12	glycolate metabolic process	BP	0.9999999999	BP glycolate metabolic process	TRINITY_DN133951_c0_g1
+GO:0010510	0.0220450986591981	0.999770712427198	1	16	regulation of acetyl-CoA biosynthetic process from pyruvate	BP	0.9999999999	BP regulation of acetyl-CoA biosynthetic process from pyruvate	TRINITY_DN140297_c0_g1
+GO:0050812	0.0220450986591981	0.999770712427198	1	16	regulation of acyl-CoA biosynthetic process	BP	0.9999999999	BP regulation of acyl-CoA biosynthetic process	TRINITY_DN140297_c0_g1
+GO:1990415	0.022060319936077	0.999782221213716	1	9	Pex17p-Pex14p docking complex	CC	0.9999999999	CC Pex17p-Pex14p docking complex	TRINITY_DN279886_c0_g1
+GO:1990429	0.022060319936077	0.999782221213716	1	9	peroxisomal importomer complex	CC	0.9999999999	CC peroxisomal importomer complex	TRINITY_DN279886_c0_g1
+GO:0004726	0.022135678184511	0.999772348982116	1	13	non-membrane spanning protein tyrosine phosphatase activity	MF	0.9999999999	MF non-membrane spanning protein tyrosine phosphatase activity	TRINITY_DN180343_c0_g1
+GO:0055120	0.0222390906510718	0.999762430508894	1	22	striated muscle dense body	CC	0.9999999999	CC striated muscle dense body	TRINITY_DN92470_c0_g1
+GO:0030220	0.0224719565341486	0.999763963937104	1	14	platelet formation	BP	0.9999999999	BP platelet formation	TRINITY_DN180343_c0_g1
+GO:0070573	0.0225125185301421	0.999764499497318	1	13	metallodipeptidase activity	MF	0.9999999999	MF metallodipeptidase activity	TRINITY_DN164620_c0_g1
+GO:0016312	0.0226481344165862	0.999760233089026	1	14	inositol bisphosphate phosphatase activity	MF	0.9999999999	MF inositol bisphosphate phosphatase activity	TRINITY_DN130013_c0_g1
+GO:2001295	0.0236281129777898	0.999735424740674	1	17	malonyl-CoA biosynthetic process	BP	0.9999999999	BP malonyl-CoA biosynthetic process	TRINITY_DN135194_c0_g1
+GO:0061649	0.0237824730444195	0.99973887105644	1	12	ubiquitin modification-dependent histone binding	MF	0.9999999999	MF ubiquitin modification-dependent histone binding	TRINITY_DN163390_c3_g4
+GO:0048011	0.0240971625772781	0.999723821434545	1	18	neurotrophin TRK receptor signaling pathway	BP	0.9999999999	BP neurotrophin TRK receptor signaling pathway	TRINITY_DN180343_c0_g1
+GO:2001214	0.02438293723582	0.999720504574268	1	15	positive regulation of vasculogenesis	BP	0.9999999999	BP positive regulation of vasculogenesis	TRINITY_DN103474_c0_g2
+GO:1903779	0.0256460898547726	0.997968228384974	2	145	regulation of cardiac conduction	BP	0.9999999999	BP regulation of cardiac conduction	TRINITY_DN135286_c0_g2, TRINITY_DN155577_c0_g2
+GO:0003989	0.0257149675423824	0.999685310738838	1	18	acetyl-CoA carboxylase activity	MF	0.9999999999	MF acetyl-CoA carboxylase activity	TRINITY_DN135194_c0_g1
+GO:0032929	0.0259221769768763	0.999676803244928	1	22	negative regulation of superoxide anion generation	BP	0.9999999999	BP negative regulation of superoxide anion generation	TRINITY_DN163010_c1_g6
+GO:0005742	0.0259520391868633	0.999680554378823	1	17	mitochondrial outer membrane translocase complex	CC	0.9999999999	CC mitochondrial outer membrane translocase complex	TRINITY_DN179196_c3_g1
+GO:0008967	0.0264221853487891	0.999670102244695	1	16	phosphoglycolate phosphatase activity	MF	0.9999999999	MF phosphoglycolate phosphatase activity	TRINITY_DN133951_c0_g1
+GO:0106029	0.0273871693724026	0.999645441757468	1	16	tRNA pseudouridine synthase activity	MF	0.9999999999	MF tRNA pseudouridine synthase activity	TRINITY_DN111933_c0_g2
+GO:2001212	0.0282703566093313	0.999619310541782	1	18	regulation of vasculogenesis	BP	0.9999999999	BP regulation of vasculogenesis	TRINITY_DN103474_c0_g2
+GO:0016892	0.0285218155129598	0.999610214410727	1	20	endoribonuclease activity, producing 3'-phosphomonoesters	MF	0.9999999999	MF endoribonuclease activity, producing 3'-phosphomonoesters	TRINITY_DN65846_c0_g1
+GO:2000832	0.0290540061154922	0.999599178325769	1	17	negative regulation of steroid hormone secretion	BP	0.9999999999	BP negative regulation of steroid hormone secretion	TRINITY_DN180343_c0_g1
+GO:2000847	0.0290540061154922	0.999599178325769	1	17	negative regulation of corticosteroid hormone secretion	BP	0.9999999999	BP negative regulation of corticosteroid hormone secretion	TRINITY_DN180343_c0_g1
+GO:2000850	0.0290540061154922	0.999599178325769	1	17	negative regulation of glucocorticoid secretion	BP	0.9999999999	BP negative regulation of glucocorticoid secretion	TRINITY_DN180343_c0_g1
+GO:0004075	0.029149316814908	0.999592783258407	1	20	biotin carboxylase activity	MF	0.9999999999	MF biotin carboxylase activity	TRINITY_DN135194_c0_g1
+GO:0018126	0.0294272851564414	0.997488175982884	2	165	protein hydroxylation	BP	0.9999999999	BP protein hydroxylation	TRINITY_DN103474_c0_g2, TRINITY_DN155577_c0_g2
+GO:0005739	0.0294674158358198	0.985941303209628	13	3959	mitochondrion	CC	0.9999999999	CC mitochondrion	TRINITY_DN104943_c0_g1, TRINITY_DN117311_c0_g1, TRINITY_DN134755_c0_g1, TRINITY_DN135286_c0_g2, TRINITY_DN138512_c0_g1, TRINITY_DN140297_c0_g1, TRINITY_DN141287_c0_g2, TRINITY_DN142878_c0_g1, TRINITY_DN179196_c3_g1, TRINITY_DN227078_c0_g1, TRINITY_DN255097_c0_g1, TRINITY_DN261024_c0_g1, TRINITY_DN2915_c0_g1
+GO:0010239	0.0305902892058151	0.999566890693483	1	12	chloroplast mRNA processing	BP	0.9999999999	BP chloroplast mRNA processing	TRINITY_DN261024_c0_g1
+GO:0031425	0.0305902892058151	0.999566890693483	1	12	chloroplast RNA processing	BP	0.9999999999	BP chloroplast RNA processing	TRINITY_DN261024_c0_g1
+GO:2001293	0.0310368549725171	0.99953687971333	1	21	malonyl-CoA metabolic process	BP	0.9999999999	BP malonyl-CoA metabolic process	TRINITY_DN135194_c0_g1
+GO:0001674	0.0314971950613247	0.999528517265664	1	17	female germ cell nucleus	CC	0.9999999999	CC female germ cell nucleus	TRINITY_DN142878_c0_g1
+GO:0008138	0.0322358245243779	0.997111671881326	2	159	protein tyrosine/serine/threonine phosphatase activity	MF	0.9999999999	MF protein tyrosine/serine/threonine phosphatase activity	TRINITY_DN109694_c0_g1, TRINITY_DN126188_c0_g2
+GO:0036302	0.0328648074779426	0.999480381835087	1	21	atrioventricular canal development	BP	0.9999999999	BP atrioventricular canal development	TRINITY_DN180343_c0_g1
+GO:0004597	0.033099886703248	0.999474181134469	1	20	peptide-aspartate beta-dioxygenase activity	MF	0.9999999999	MF peptide-aspartate beta-dioxygenase activity	TRINITY_DN155577_c0_g2
+GO:1904427	0.0335368621710906	0.996926970852033	2	183	positive regulation of calcium ion transmembrane transport	BP	0.9999999999	BP positive regulation of calcium ion transmembrane transport	TRINITY_DN135286_c0_g2, TRINITY_DN155577_c0_g2
+GO:0003913	0.0336284346044741	0.999451499617567	1	25	DNA photolyase activity	MF	0.9999999999	MF DNA photolyase activity	TRINITY_DN134755_c0_g1
+GO:0009755	0.0337206738224994	0.994380457387336	3	439	hormone-mediated signaling pathway	BP	0.9999999999	BP hormone-mediated signaling pathway	TRINITY_DN180343_c0_g1, TRINITY_DN22358_c0_g1, TRINITY_DN61697_c0_g1
+GO:0000782	0.0346313033598526	0.999421358940111	1	22	telomere cap complex	CC	0.9999999999	CC telomere cap complex	TRINITY_DN80345_c0_g1
+GO:0000783	0.0346313033598526	0.999421358940111	1	22	nuclear telomere cap complex	CC	0.9999999999	CC nuclear telomere cap complex	TRINITY_DN80345_c0_g1
+GO:0005513	0.035531604957254	0.999385375404735	1	27	detection of calcium ion	BP	0.9999999999	BP detection of calcium ion	TRINITY_DN155577_c0_g2
+GO:0045254	0.0361865581274036	0.999366574816632	1	23	pyruvate dehydrogenase complex	CC	0.9999999999	CC pyruvate dehydrogenase complex	TRINITY_DN140297_c0_g1
+GO:0099106	0.0364343461907991	0.99650857100866	2	187	ion channel regulator activity	MF	0.9999999999	MF ion channel regulator activity	TRINITY_DN135286_c0_g2, TRINITY_DN175388_c7_g1
+GO:0019008	0.0372167423038016	0.999340374204408	1	17	molybdopterin synthase complex	CC	0.9999999999	CC molybdopterin synthase complex	TRINITY_DN22358_c0_g1
+GO:2000849	0.0374840533633603	0.999321409403538	1	22	regulation of glucocorticoid secretion	BP	0.9999999999	BP regulation of glucocorticoid secretion	TRINITY_DN180343_c0_g1
+GO:0051279	0.0375782190225378	0.996337111951207	2	201	regulation of release of sequestered calcium ion into cytosol	BP	0.9999999999	BP regulation of release of sequestered calcium ion into cytosol	TRINITY_DN135286_c0_g2, TRINITY_DN155577_c0_g2
+GO:0043686	0.0381452547756774	0.999298666024918	1	21	co-translational protein modification	BP	0.9999999999	BP co-translational protein modification	TRINITY_DN94908_c0_g1
+GO:0000917	0.0394512869382507	0.999246245452278	1	23	division septum assembly	BP	0.9999999999	BP division septum assembly	TRINITY_DN53714_c0_g1
+GO:0047134	0.0397121074601285	0.999233433165499	1	25	protein-disulfide reductase activity	MF	0.9999999999	MF protein-disulfide reductase activity	TRINITY_DN136250_c0_g1
+GO:0098904	0.0398460192093224	0.999230977877901	1	23	regulation of AV node cell action potential	BP	0.9999999999	BP regulation of AV node cell action potential	TRINITY_DN135286_c0_g2
+GO:0046628	0.0400573611453524	0.999219950213094	1	25	positive regulation of insulin receptor signaling pathway	BP	0.9999999999	BP positive regulation of insulin receptor signaling pathway	TRINITY_DN180343_c0_g1
+GO:0090529	0.0409601530256982	0.9991841304302	1	25	cell septum assembly	BP	0.9999999999	BP cell septum assembly	TRINITY_DN53714_c0_g1
+GO:0004740	0.0416098881380298	0.999155282253957	1	27	pyruvate dehydrogenase (acetyl-transferring) kinase activity	MF	0.9999999999	MF pyruvate dehydrogenase (acetyl-transferring) kinase activity	TRINITY_DN140297_c0_g1
+GO:0097201	0.0416137460087474	0.999157688775191	1	25	negative regulation of transcription from RNA polymerase II promoter in response to stress	BP	0.9999999999	BP negative regulation of transcription from RNA polymerase II promoter in response to stress	TRINITY_DN103474_c0_g2
+GO:0000331	0.0417445222467024	0.999153798340587	1	24	contractile vacuole	CC	0.9999999999	CC contractile vacuole	TRINITY_DN261868_c0_g1
+GO:0032237	0.0418151935229511	0.999148108329441	1	26	activation of store-operated calcium channel activity	BP	0.9999999999	BP activation of store-operated calcium channel activity	TRINITY_DN155577_c0_g2
+GO:0032928	0.0427027283414583	0.999102267816073	1	35	regulation of superoxide anion generation	BP	0.9999999999	BP regulation of superoxide anion generation	TRINITY_DN163010_c1_g6
+GO:0070268	0.0428034458496271	0.999108459520599	1	25	cornification	BP	0.9999999999	BP cornification	TRINITY_DN168356_c6_g3
+GO:0048708	0.0429425851330877	0.999101191341819	1	26	astrocyte differentiation	BP	0.9999999999	BP astrocyte differentiation	TRINITY_DN180343_c0_g1
+GO:0009734	0.0436678175137638	0.999064423705617	1	31	auxin-activated signaling pathway	BP	0.9999999999	BP auxin-activated signaling pathway	TRINITY_DN22358_c0_g1
+GO:0016788	0.0439845204051728	0.978504180710145	12	4036	hydrolase activity, acting on ester bonds	MF	0.9999999999	MF hydrolase activity, acting on ester bonds	TRINITY_DN109694_c0_g1, TRINITY_DN126188_c0_g2, TRINITY_DN130013_c0_g1, TRINITY_DN131861_c0_g1, TRINITY_DN133951_c0_g1, TRINITY_DN137361_c0_g2, TRINITY_DN163010_c1_g6, TRINITY_DN180343_c0_g1, TRINITY_DN188554_c4_g1, TRINITY_DN190946_c0_g2, TRINITY_DN65846_c0_g1, TRINITY_DN85303_c0_g2
+GO:0005095	0.044307198006733	0.999042693240473	1	26	GTPase inhibitor activity	MF	0.9999999999	MF GTPase inhibitor activity	TRINITY_DN131861_c0_g1
+GO:1901341	0.0447263737617296	0.999020370018941	1	29	positive regulation of store-operated calcium channel activity	BP	0.9999999999	BP positive regulation of store-operated calcium channel activity	TRINITY_DN155577_c0_g2
+GO:0009514	0.0448057487662945	0.99903004385764	1	21	glyoxysome	CC	0.9999999999	CC glyoxysome	TRINITY_DN154205_c0_g1
+GO:0071476	0.0450926604438211	0.999006724707814	1	27	cellular hypotonic response	BP	0.9999999999	BP cellular hypotonic response	TRINITY_DN261868_c0_g1
+GO:2000846	0.0452248015628023	0.998999495486949	1	28	regulation of corticosteroid hormone secretion	BP	0.9999999999	BP regulation of corticosteroid hormone secretion	TRINITY_DN180343_c0_g1
+GO:1900078	0.0458436296113776	0.998970407146999	1	29	positive regulation of cellular response to insulin stimulus	BP	0.9999999999	BP positive regulation of cellular response to insulin stimulus	TRINITY_DN180343_c0_g1
+GO:0031672	0.046188758705404	0.994969349790557	2	173	A band	CC	0.9999999999	CC A band	TRINITY_DN135286_c0_g2, TRINITY_DN137753_c0_g1
+GO:0031585	0.0465176141478062	0.998939656146032	1	29	regulation of inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity	BP	0.9999999999	BP regulation of inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity	TRINITY_DN155577_c0_g2
+GO:0007253	0.0465670259358345	0.998947133566416	1	23	cytoplasmic sequestering of NF-kappaB	BP	0.9999999999	BP cytoplasmic sequestering of NF-kappaB	TRINITY_DN154205_c0_g1
+GO:0042345	0.0465670259358345	0.998947133566416	1	23	NA	NA	0.9999999999	none	TRINITY_DN154205_c0_g1
+GO:0042347	0.0465670259358345	0.998947133566416	1	23	NA	NA	0.9999999999	none	TRINITY_DN154205_c0_g1
+GO:0098751	0.0466708420063703	0.998936932233969	1	26	bone cell development	BP	0.9999999999	BP bone cell development	TRINITY_DN180343_c0_g1
+GO:0035331	0.0467690937328599	0.998925632536947	1	31	negative regulation of hippo signaling	BP	0.9999999999	BP negative regulation of hippo signaling	TRINITY_DN136100_c0_g3
+GO:0031143	0.0482582066197019	0.998853246606337	1	33	pseudopodium	CC	0.9999999999	CC pseudopodium	TRINITY_DN261868_c0_g1
+GO:0033018	0.0483848349271623	0.998848276538345	1	32	sarcoplasmic reticulum lumen	CC	0.9999999999	CC sarcoplasmic reticulum lumen	TRINITY_DN155577_c0_g2
+GO:1901019	0.0488316763866686	0.994509419528723	2	212	regulation of calcium ion transmembrane transporter activity	BP	0.9999999999	BP regulation of calcium ion transmembrane transporter activity	TRINITY_DN135286_c0_g2, TRINITY_DN155577_c0_g2
+GO:0090201	0.0492980194766666	0.998807930100787	1	29	negative regulation of release of cytochrome c from mitochondria	BP	0.9999999999	BP negative regulation of release of cytochrome c from mitochondria	TRINITY_DN154205_c0_g1
+GO:0070567	0.0496124317915105	0.998795682750611	1	27	cytidylyltransferase activity	MF	0.9999999999	MF cytidylyltransferase activity	TRINITY_DN141287_c0_g2
