@@ -1,0 +1,16 @@
+health	sex	site	read1	read2
+B	female	K5	4R041-L7-P13-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P13-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz
+B	female	K5	4R041-L7-P08-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P08-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz
+NB	female	44	4R041-L7-P04-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P04-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz
+B	male	K5	4R041-L7-P07-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P07-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz
+B	female	44	4R041-L7-P14-GTGGCC-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P14-GTGGCC-READ2-Sequences.txt.gz_val_2.fq.gz
+B	female	44	4R041-L7-P03-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P03-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz
+NB	female	44	4R041-L7-P05-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P05-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz
+B	male	K5	4R041-L7-P01-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P01-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz
+NB	female	K5	4R041-L7-P02-ACAGTG-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P02-ACAGTG-READ2-Sequences.txt.gz_val_2.fq.gz
+NB	female	K5	4R041-L7-P10-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P10-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz
+B	female	44	4R041-L7-P11-ACTTGA-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P11-ACTTGA-READ2-Sequences.txt.gz_val_2.fq.gz
+B	male	K5	4R041-L7-P06-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P06-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz
+NB	female	K5	4R041-L7-P15-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P15-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz
+NB	female	44	4R041-L7-P12-TGACCA-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P12-TGACCA-READ2-Sequences.txt.gz_val_2.fq.gz
+B	female	K5	4R041-L7-P09-GTGAAA-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P09-GTGAAA-READ2-Sequences.txt.gz_val_2.fq.gz
