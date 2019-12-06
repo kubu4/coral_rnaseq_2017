@@ -57,7 +57,7 @@ time ${trinity_abundance} \
 1> ${salmon_out_dir}/${salmon_stdout} \
 2> ${salmon_out_dir}/${salmon_stderr}
 # Move output folders
-mv ${trimmed_reads_dir}/[mfbn][aloe][elmn]* \
+mv ${trimmed_reads_dir}/[bn][b_]* \
 ${salmon_out_dir}
 cd ${salmon_out_dir}
 # Convert abundance estimates to matrix
@@ -66,21 +66,12 @@ ${trinity_matrix} \
 --gene_trans_map ${gene_map} \
 --out_prefix salmon \
 --name_sample_by_basedir \
-bleached_44_01/quant.sf \
-bleached_44_02/quant.sf \
-bleached_44_03/quant.sf \
-bleached_K5_01/quant.sf \
-bleached_K5_02/quant.sf \
-bleached_K5_03/quant.sf \
-bleached_K5_04/quant.sf \
-bleached_K5_05/quant.sf \
-bleached_K5_06/quant.sf \
-non-bleached_44_01/quant.sf \
-non-bleached_44_02/quant.sf \
-non-bleached_44_03/quant.sf \
-non-bleached_K5_01/quant.sf \
-non-bleached_K5_02/quant.sf \
-non-bleached_K5_03/quant.sf \
+b_F_K5_04/quant.sf \
+b_F_K5_05/quant.sf \
+b_F_K5_06/quant.sf \
+nb_F_K5_07/quant.sf \
+nb_F_K5_08/quant.sf \
+nb_F_K5_09/quant.sf \
 1> ${matrix_stdout} \
 2> ${matrix_stderr}
 
