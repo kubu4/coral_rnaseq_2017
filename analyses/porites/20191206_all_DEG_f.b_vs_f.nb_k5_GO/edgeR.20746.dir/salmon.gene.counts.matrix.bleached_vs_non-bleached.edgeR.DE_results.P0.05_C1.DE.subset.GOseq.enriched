@@ -1,0 +1,76 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0045471	0.000473333765683716	0.999983464466138	3	54	response to ethanol	BP	0.9999999999	BP response to ethanol	TRINITY_DN155020_c3_g1, TRINITY_DN163812_c3_g1, TRINITY_DN193258_c2_g1
+GO:0048284	0.00107249813886148	0.999949753428159	3	76	organelle fusion	BP	0.9999999999	BP organelle fusion	TRINITY_DN159283_c1_g1, TRINITY_DN163812_c3_g1, TRINITY_DN168081_c5_g1
+GO:0090258	0.00139419409818664	1	1	1	negative regulation of mitochondrial fission	BP	0.9999999999	BP negative regulation of mitochondrial fission	TRINITY_DN163812_c3_g1
+GO:1905395	0.00139419409818664	1	1	1	response to flavonoid	BP	0.9999999999	BP response to flavonoid	TRINITY_DN163812_c3_g1
+GO:1990613	0.00139419409818664	1	1	1	mitochondrial membrane fusion	BP	0.9999999999	BP mitochondrial membrane fusion	TRINITY_DN163812_c3_g1
+GO:1990910	0.00218491675808547	0.999998808430732	1	2	response to hypobaric hypoxia	BP	0.9999999999	BP response to hypobaric hypoxia	TRINITY_DN163812_c3_g1
+GO:1902617	0.00224081689989525	0.999998746644024	1	2	response to fluoride	BP	0.9999999999	BP response to fluoride	TRINITY_DN163812_c3_g1
+GO:0090174	0.0028837342737158	0.999928934173864	2	36	organelle membrane fusion	BP	0.9999999999	BP organelle membrane fusion	TRINITY_DN159283_c1_g1, TRINITY_DN163812_c3_g1
+GO:0051412	0.00398461355588857	0.999996033434105	1	2	response to corticosterone	BP	0.9999999999	BP response to corticosterone	TRINITY_DN163812_c3_g1
+GO:0050691	0.00404251960636282	0.999882242877159	2	32	regulation of defense response to virus by host	BP	0.9999999999	BP regulation of defense response to virus by host	TRINITY_DN155734_c0_g2, TRINITY_DN196876_c1_g1
+GO:0072347	0.0044795972239522	1	1	1	response to anesthetic	BP	0.9999999999	BP response to anesthetic	TRINITY_DN193258_c2_g1
+GO:1901424	0.0044795972239522	1	1	1	response to toluene	BP	0.9999999999	BP response to toluene	TRINITY_DN193258_c2_g1
+GO:0090389	0.00460172287587897	1	1	1	phagosome-lysosome fusion involved in apoptotic cell clearance	BP	0.9999999999	BP phagosome-lysosome fusion involved in apoptotic cell clearance	TRINITY_DN159283_c1_g1
+GO:0048072	0.00537180341618974	0.999992785843251	1	2	compound eye pigmentation	BP	0.9999999999	BP compound eye pigmentation	TRINITY_DN155020_c3_g1
+GO:0050250	0.00548499399216006	0.999992478189111	1	2	retinal oxidase activity	MF	0.9999999999	MF retinal oxidase activity	TRINITY_DN155020_c3_g1
+GO:0102797	0.00548499399216006	0.999992478189111	1	2	geranial:oxygen oxidoreductase activity	MF	0.9999999999	MF geranial:oxygen oxidoreductase activity	TRINITY_DN155020_c3_g1
+GO:0102798	0.00548499399216006	0.999992478189111	1	2	heptaldehyde:oxygen oxidoreductase activity	MF	0.9999999999	MF heptaldehyde:oxygen oxidoreductase activity	TRINITY_DN155020_c3_g1
+GO:0048069	0.00615937537983624	0.999987353213065	1	3	eye pigmentation	BP	0.9999999999	BP eye pigmentation	TRINITY_DN155020_c3_g1
+GO:0010636	0.0066285787549145	0.999985349956061	1	3	positive regulation of mitochondrial fusion	BP	0.9999999999	BP positive regulation of mitochondrial fusion	TRINITY_DN163812_c3_g1
+GO:0097305	0.00732450810055396	0.999316552394085	3	126	response to alcohol	BP	0.9999999999	BP response to alcohol	TRINITY_DN155020_c3_g1, TRINITY_DN163812_c3_g1, TRINITY_DN193258_c2_g1
+GO:0072527	0.00885181206392482	0.999605264238258	2	59	pyrimidine-containing compound metabolic process	BP	0.9999999999	BP pyrimidine-containing compound metabolic process	TRINITY_DN155020_c3_g1, TRINITY_DN166641_c7_g1
+GO:0044801	0.00890091434864659	0.99960248017107	2	56	NA	NA	0.9999999999	none	TRINITY_DN159283_c1_g1, TRINITY_DN163812_c3_g1
+GO:0090385	0.00993045221046883	0.999967070963786	1	3	phagosome-lysosome fusion	BP	0.9999999999	BP phagosome-lysosome fusion	TRINITY_DN159283_c1_g1
+GO:0010635	0.0101036119951276	0.999959110402601	1	5	regulation of mitochondrial fusion	BP	0.9999999999	BP regulation of mitochondrial fusion	TRINITY_DN163812_c3_g1
+GO:0090649	0.0104743978641013	0.999963355807437	1	3	response to oxygen-glucose deprivation	BP	0.9999999999	BP response to oxygen-glucose deprivation	TRINITY_DN163812_c3_g1
+GO:0090650	0.0104743978641013	0.999963355807437	1	3	cellular response to oxygen-glucose deprivation	BP	0.9999999999	BP cellular response to oxygen-glucose deprivation	TRINITY_DN163812_c3_g1
+GO:0008333	0.011137410270234	0.999441433873254	2	55	endosome to lysosome transport	BP	0.9999999999	BP endosome to lysosome transport	TRINITY_DN168081_c5_g1, TRINITY_DN196876_c1_g1
+GO:0035853	0.0118033586343132	0.999947636763542	1	4	chromosome passenger complex localization to spindle midzone	BP	0.9999999999	BP chromosome passenger complex localization to spindle midzone	TRINITY_DN193747_c1_g3
+GO:0061025	0.0119710387781862	0.999373990956524	2	65	membrane fusion	BP	0.9999999999	BP membrane fusion	TRINITY_DN159283_c1_g1, TRINITY_DN163812_c3_g1
+GO:0014850	0.0131617688956871	0.999927641458586	1	6	response to muscle activity	BP	0.9999999999	BP response to muscle activity	TRINITY_DN163812_c3_g1
+GO:0070584	0.0135594751729266	0.999919365328339	1	8	mitochondrion morphogenesis	BP	0.9999999999	BP mitochondrion morphogenesis	TRINITY_DN163812_c3_g1
+GO:0008053	0.0141232773581042	0.999914280035185	1	7	mitochondrial fusion	BP	0.9999999999	BP mitochondrial fusion	TRINITY_DN163812_c3_g1
+GO:0004031	0.0142679683377396	0.999923406678369	1	4	aldehyde oxidase activity	MF	0.9999999999	MF aldehyde oxidase activity	TRINITY_DN155020_c3_g1
+GO:0016623	0.0142679683377396	0.999923406678369	1	4	oxidoreductase activity, acting on the aldehyde or oxo group of donors, oxygen as acceptor	MF	0.9999999999	MF oxidoreductase activity, acting on the aldehyde or oxo group of donors, oxygen as acceptor	TRINITY_DN155020_c3_g1
+GO:0051385	0.0143970549716417	0.999913379672394	1	6	response to mineralocorticoid	BP	0.9999999999	BP response to mineralocorticoid	TRINITY_DN163812_c3_g1
+GO:0061003	0.0196972599314332	0.999837522784897	1	6	positive regulation of dendritic spine morphogenesis	BP	0.9999999999	BP positive regulation of dendritic spine morphogenesis	TRINITY_DN163812_c3_g1
+GO:0050688	0.0215772703137367	0.998458928111167	2	72	regulation of defense response to virus	BP	0.9999999999	BP regulation of defense response to virus	TRINITY_DN155734_c0_g2, TRINITY_DN196876_c1_g1
+GO:0048167	0.0224613527149708	0.998358329267533	2	79	regulation of synaptic plasticity	BP	0.9999999999	BP regulation of synaptic plasticity	TRINITY_DN159283_c1_g1, TRINITY_DN182757_c1_g6
+GO:0017151	0.0233013690519828	0.999765838005693	1	7	DEAD/H-box RNA helicase binding	MF	0.9999999999	MF DEAD/H-box RNA helicase binding	TRINITY_DN155734_c0_g2
+GO:0005827	0.0259629289105193	0.999698294425256	1	9	polar microtubule	CC	0.9999999999	CC polar microtubule	TRINITY_DN193747_c1_g3
+GO:0000083	0.0303540266013235	0.999581807550878	1	10	regulation of transcription involved in G1/S transition of mitotic cell cycle	BP	0.9999999999	BP regulation of transcription involved in G1/S transition of mitotic cell cycle	TRINITY_DN158583_c3_g1
+GO:0031306	0.0307049090222785	0.999567744866495	1	11	intrinsic component of mitochondrial outer membrane	CC	0.9999999999	CC intrinsic component of mitochondrial outer membrane	TRINITY_DN163812_c3_g1
+GO:0031307	0.0307049090222785	0.999567744866495	1	11	integral component of mitochondrial outer membrane	CC	0.9999999999	CC integral component of mitochondrial outer membrane	TRINITY_DN163812_c3_g1
+GO:0007041	0.0313919241948164	0.997248727079477	2	95	lysosomal transport	BP	0.9999999999	BP lysosomal transport	TRINITY_DN168081_c5_g1, TRINITY_DN196876_c1_g1
+GO:0071549	0.032013025046318	0.9995174916033	1	15	cellular response to dexamethasone stimulus	BP	0.9999999999	BP cellular response to dexamethasone stimulus	TRINITY_DN163812_c3_g1
+GO:1901664	0.0342339883970707	0.999461964350732	1	11	regulation of NAD+ ADP-ribosyltransferase activity	BP	0.9999999999	BP regulation of NAD+ ADP-ribosyltransferase activity	TRINITY_DN196876_c1_g1
+GO:1901666	0.0342339883970707	0.999461964350732	1	11	positive regulation of NAD+ ADP-ribosyltransferase activity	BP	0.9999999999	BP positive regulation of NAD+ ADP-ribosyltransferase activity	TRINITY_DN196876_c1_g1
+GO:2000646	0.0349987637476699	0.999432859647782	1	12	positive regulation of receptor catabolic process	BP	0.9999999999	BP positive regulation of receptor catabolic process	TRINITY_DN196876_c1_g1
+GO:0004855	0.0354384698719517	0.999435859766027	1	9	xanthine oxidase activity	MF	0.9999999999	MF xanthine oxidase activity	TRINITY_DN155020_c3_g1
+GO:0016727	0.0354384698719517	0.999435859766027	1	9	oxidoreductase activity, acting on CH or CH2 groups, oxygen as acceptor	MF	0.9999999999	MF oxidoreductase activity, acting on CH or CH2 groups, oxygen as acceptor	TRINITY_DN155020_c3_g1
+GO:0033523	0.0358386539469755	0.999401014304327	1	13	histone H2B ubiquitination	BP	0.9999999999	BP histone H2B ubiquitination	TRINITY_DN196876_c1_g1
+GO:0044380	0.0359375319902228	0.999386008038363	1	17	protein localization to cytoskeleton	BP	0.9999999999	BP protein localization to cytoskeleton	TRINITY_DN193747_c1_g3
+GO:0009115	0.0363119815998887	0.999400185416768	1	10	xanthine catabolic process	BP	0.9999999999	BP xanthine catabolic process	TRINITY_DN155020_c3_g1
+GO:0034629	0.0378028216879571	0.999325754387846	1	15	cellular protein-containing complex localization	BP	0.9999999999	BP cellular protein-containing complex localization	TRINITY_DN193747_c1_g3
+GO:0035563	0.0394944326460528	0.999267315926515	1	14	positive regulation of chromatin binding	BP	0.9999999999	BP positive regulation of chromatin binding	TRINITY_DN196876_c1_g1
+GO:0032727	0.0422164387969609	0.999172602761942	1	12	positive regulation of interferon-alpha production	BP	0.9999999999	BP positive regulation of interferon-alpha production	TRINITY_DN155734_c0_g2
+GO:2001034	0.0427182492392667	0.99914180158333	1	14	positive regulation of double-strand break repair via nonhomologous end joining	BP	0.9999999999	BP positive regulation of double-strand break repair via nonhomologous end joining	TRINITY_DN196876_c1_g1
+GO:2001032	0.0434762524022885	0.999106329727673	1	15	regulation of double-strand break repair via nonhomologous end joining	BP	0.9999999999	BP regulation of double-strand break repair via nonhomologous end joining	TRINITY_DN196876_c1_g1
+GO:0007033	0.0436473528871325	0.995415502275603	2	119	vacuole organization	BP	0.9999999999	BP vacuole organization	TRINITY_DN159283_c1_g1, TRINITY_DN168081_c5_g1
+GO:2000644	0.0438026995416087	0.999088756478386	1	16	regulation of receptor catabolic process	BP	0.9999999999	BP regulation of receptor catabolic process	TRINITY_DN196876_c1_g1
+GO:0006525	0.0438754785617978	0.999085701509556	1	16	arginine metabolic process	BP	0.9999999999	BP arginine metabolic process	TRINITY_DN155020_c3_g1
+GO:0090140	0.0441580709183792	0.999070209406269	1	17	regulation of mitochondrial fission	BP	0.9999999999	BP regulation of mitochondrial fission	TRINITY_DN163812_c3_g1
+GO:0004854	0.0446727934262569	0.999072668136873	1	12	xanthine dehydrogenase activity	MF	0.9999999999	MF xanthine dehydrogenase activity	TRINITY_DN155020_c3_g1
+GO:0097677	0.0449236497938602	0.999050129423921	1	14	STAT family protein binding	MF	0.9999999999	MF STAT family protein binding	TRINITY_DN196876_c1_g1
+GO:0051444	0.0452581412702412	0.999026675607448	1	16	negative regulation of ubiquitin-protein transferase activity	BP	0.9999999999	BP negative regulation of ubiquitin-protein transferase activity	TRINITY_DN196876_c1_g1
+GO:0014823	0.0455258677572705	0.999011223224466	1	17	response to activity	BP	0.9999999999	BP response to activity	TRINITY_DN163812_c3_g1
+GO:1900246	0.0458113531193587	0.999002533160327	1	16	positive regulation of RIG-I signaling pathway	BP	0.9999999999	BP positive regulation of RIG-I signaling pathway	TRINITY_DN155734_c0_g2
+GO:0006145	0.0464199748511253	0.998985237611273	1	14	purine nucleobase catabolic process	BP	0.9999999999	BP purine nucleobase catabolic process	TRINITY_DN155020_c3_g1
+GO:0046110	0.0469203773860372	0.998969094855426	1	13	xanthine metabolic process	BP	0.9999999999	BP xanthine metabolic process	TRINITY_DN155020_c3_g1
+GO:0048066	0.0469652291796122	0.998955800772427	1	15	developmental pigmentation	BP	0.9999999999	BP developmental pigmentation	TRINITY_DN155020_c3_g1
+GO:0090659	0.0475742192738272	0.998904325507968	1	22	walking behavior	BP	0.9999999999	BP walking behavior	TRINITY_DN159283_c1_g1
+GO:0039535	0.0482231880746718	0.998882299565784	1	19	regulation of RIG-I signaling pathway	BP	0.9999999999	BP regulation of RIG-I signaling pathway	TRINITY_DN155734_c0_g2
+GO:0051602	0.0484677761806968	0.998882412122419	1	16	response to electrical stimulus	BP	0.9999999999	BP response to electrical stimulus	TRINITY_DN163812_c3_g1
+GO:0016726	0.0485523934776888	0.99888898841758	1	14	oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor	MF	0.9999999999	MF oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor	TRINITY_DN155020_c3_g1
+GO:0002831	0.0486721468287732	0.994576897219646	2	115	regulation of response to biotic stimulus	BP	0.9999999999	BP regulation of response to biotic stimulus	TRINITY_DN155734_c0_g2, TRINITY_DN196876_c1_g1

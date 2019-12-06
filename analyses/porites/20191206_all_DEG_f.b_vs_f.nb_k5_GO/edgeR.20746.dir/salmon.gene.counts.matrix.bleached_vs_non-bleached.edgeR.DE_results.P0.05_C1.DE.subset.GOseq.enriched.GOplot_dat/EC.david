@@ -1,0 +1,75 @@
+Category	ID	Term	Genes	adj_pval
+BP	GO:0034629	cellular protein-containing complex localization	TRINITY_DN193747_c1_g3	0.9999999999
+BP	GO:0090385	phagosome-lysosome fusion	TRINITY_DN159283_c1_g1	0.9999999999
+BP	GO:2000646	positive regulation of receptor catabolic process	TRINITY_DN196876_c1_g1	0.9999999999
+BP	GO:0002831	regulation of response to biotic stimulus	TRINITY_DN155734_c0_g2, TRINITY_DN196876_c1_g1	0.9999999999
+CC	GO:0031306	intrinsic component of mitochondrial outer membrane	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0072527	pyrimidine-containing compound metabolic process	TRINITY_DN155020_c3_g1, TRINITY_DN166641_c7_g1	0.9999999999
+BP	GO:1900246	positive regulation of RIG-I signaling pathway	TRINITY_DN155734_c0_g2	0.9999999999
+BP	GO:1901666	positive regulation of NAD+ ADP-ribosyltransferase activity	TRINITY_DN196876_c1_g1	0.9999999999
+BP	GO:0048167	regulation of synaptic plasticity	TRINITY_DN159283_c1_g1, TRINITY_DN182757_c1_g6	0.9999999999
+BP	GO:0097305	response to alcohol	TRINITY_DN155020_c3_g1, TRINITY_DN163812_c3_g1, TRINITY_DN193258_c2_g1	0.9999999999
+BP	GO:0071549	cellular response to dexamethasone stimulus	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0014850	response to muscle activity	TRINITY_DN163812_c3_g1	0.9999999999
+MF	GO:0016727	oxidoreductase activity, acting on CH or CH2 groups, oxygen as acceptor	TRINITY_DN155020_c3_g1	0.9999999999
+MF	GO:0004854	xanthine dehydrogenase activity	TRINITY_DN155020_c3_g1	0.9999999999
+BP	GO:0045471	response to ethanol	TRINITY_DN155020_c3_g1, TRINITY_DN163812_c3_g1, TRINITY_DN193258_c2_g1	0.9999999999
+BP	GO:0050688	regulation of defense response to virus	TRINITY_DN155734_c0_g2, TRINITY_DN196876_c1_g1	0.9999999999
+BP	GO:0044380	protein localization to cytoskeleton	TRINITY_DN193747_c1_g3	0.9999999999
+BP	GO:1901664	regulation of NAD+ ADP-ribosyltransferase activity	TRINITY_DN196876_c1_g1	0.9999999999
+BP	GO:0090389	phagosome-lysosome fusion involved in apoptotic cell clearance	TRINITY_DN159283_c1_g1	0.9999999999
+BP	GO:1902617	response to fluoride	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0009115	xanthine catabolic process	TRINITY_DN155020_c3_g1	0.9999999999
+BP	GO:0046110	xanthine metabolic process	TRINITY_DN155020_c3_g1	0.9999999999
+CC	GO:0031307	integral component of mitochondrial outer membrane	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0039535	regulation of RIG-I signaling pathway	TRINITY_DN155734_c0_g2	0.9999999999
+BP	GO:0008053	mitochondrial fusion	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0051444	negative regulation of ubiquitin-protein transferase activity	TRINITY_DN196876_c1_g1	0.9999999999
+BP	GO:0072347	response to anesthetic	TRINITY_DN193258_c2_g1	0.9999999999
+BP	GO:0010635	regulation of mitochondrial fusion	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0090649	response to oxygen-glucose deprivation	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0035563	positive regulation of chromatin binding	TRINITY_DN196876_c1_g1	0.9999999999
+BP	GO:0010636	positive regulation of mitochondrial fusion	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0090650	cellular response to oxygen-glucose deprivation	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:1990613	mitochondrial membrane fusion	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0007041	lysosomal transport	TRINITY_DN168081_c5_g1, TRINITY_DN196876_c1_g1	0.9999999999
+BP	GO:0000083	regulation of transcription involved in G1/S transition of mitotic cell cycle	TRINITY_DN158583_c3_g1	0.9999999999
+MF	GO:0004031	aldehyde oxidase activity	TRINITY_DN155020_c3_g1	0.9999999999
+BP	GO:0051412	response to corticosterone	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0061003	positive regulation of dendritic spine morphogenesis	TRINITY_DN163812_c3_g1	0.9999999999
+MF	GO:0102797	geranial:oxygen oxidoreductase activity	TRINITY_DN155020_c3_g1	0.9999999999
+MF	GO:0050250	retinal oxidase activity	TRINITY_DN155020_c3_g1	0.9999999999
+BP	GO:0061025	membrane fusion	TRINITY_DN159283_c1_g1, TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0033523	histone H2B ubiquitination	TRINITY_DN196876_c1_g1	0.9999999999
+MF	GO:0102798	heptaldehyde:oxygen oxidoreductase activity	TRINITY_DN155020_c3_g1	0.9999999999
+BP	GO:0035853	chromosome passenger complex localization to spindle midzone	TRINITY_DN193747_c1_g3	0.9999999999
+BP	GO:0090140	regulation of mitochondrial fission	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:2001034	positive regulation of double-strand break repair via nonhomologous end joining	TRINITY_DN196876_c1_g1	0.9999999999
+BP	GO:0051385	response to mineralocorticoid	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0051602	response to electrical stimulus	TRINITY_DN163812_c3_g1	0.9999999999
+MF	GO:0016623	oxidoreductase activity, acting on the aldehyde or oxo group of donors, oxygen as acceptor	TRINITY_DN155020_c3_g1	0.9999999999
+BP	GO:1990910	response to hypobaric hypoxia	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0014823	response to activity	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0090174	organelle membrane fusion	TRINITY_DN159283_c1_g1, TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0048072	compound eye pigmentation	TRINITY_DN155020_c3_g1	0.9999999999
+BP	GO:0008333	endosome to lysosome transport	TRINITY_DN168081_c5_g1, TRINITY_DN196876_c1_g1	0.9999999999
+MF	GO:0017151	DEAD/H-box RNA helicase binding	TRINITY_DN155734_c0_g2	0.9999999999
+BP	GO:0006525	arginine metabolic process	TRINITY_DN155020_c3_g1	0.9999999999
+BP	GO:0048284	organelle fusion	TRINITY_DN159283_c1_g1, TRINITY_DN163812_c3_g1, TRINITY_DN168081_c5_g1	0.9999999999
+BP	GO:0070584	mitochondrion morphogenesis	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0006145	purine nucleobase catabolic process	TRINITY_DN155020_c3_g1	0.9999999999
+BP	GO:0048069	eye pigmentation	TRINITY_DN155020_c3_g1	0.9999999999
+BP	GO:1901424	response to toluene	TRINITY_DN193258_c2_g1	0.9999999999
+MF	GO:0097677	STAT family protein binding	TRINITY_DN196876_c1_g1	0.9999999999
+BP	GO:2000644	regulation of receptor catabolic process	TRINITY_DN196876_c1_g1	0.9999999999
+BP	GO:2001032	regulation of double-strand break repair via nonhomologous end joining	TRINITY_DN196876_c1_g1	0.9999999999
+BP	GO:0090258	negative regulation of mitochondrial fission	TRINITY_DN163812_c3_g1	0.9999999999
+CC	GO:0005827	polar microtubule	TRINITY_DN193747_c1_g3	0.9999999999
+BP	GO:0050691	regulation of defense response to virus by host	TRINITY_DN155734_c0_g2, TRINITY_DN196876_c1_g1	0.9999999999
+BP	GO:1905395	response to flavonoid	TRINITY_DN163812_c3_g1	0.9999999999
+BP	GO:0032727	positive regulation of interferon-alpha production	TRINITY_DN155734_c0_g2	0.9999999999
+MF	GO:0016726	oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor	TRINITY_DN155020_c3_g1	0.9999999999
+BP	GO:0007033	vacuole organization	TRINITY_DN159283_c1_g1, TRINITY_DN168081_c5_g1	0.9999999999
+BP	GO:0090659	walking behavior	TRINITY_DN159283_c1_g1	0.9999999999
+MF	GO:0004855	xanthine oxidase activity	TRINITY_DN155020_c3_g1	0.9999999999
+BP	GO:0048066	developmental pigmentation	TRINITY_DN155020_c3_g1	0.9999999999

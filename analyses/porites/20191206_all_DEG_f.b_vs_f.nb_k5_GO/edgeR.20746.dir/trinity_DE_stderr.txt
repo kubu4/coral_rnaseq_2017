@@ -1,0 +1,20 @@
+Got 6 samples, and got: 7 data fields.
+Header: b_F_K5_04	b_F_K5_05	b_F_K5_06	nb_F_K5_07	nb_F_K5_08	nb_F_K5_09
+Next: TRINITY_DN100001_c0_g1	3.29	0.00	0.00	5.66	0.00	14.59
+
+$VAR1 = {
+          'b_F_K5_06' => 3,
+          'nb_F_K5_09' => 6,
+          'nb_F_K5_07' => 4,
+          'b_F_K5_04' => 1,
+          'b_F_K5_05' => 2,
+          'nb_F_K5_08' => 5
+        };
+Contrasts to perform are: $VAR1 = [
+          [
+            'bleached',
+            'non-bleached'
+          ]
+        ];
+Loading required package: edgeR
+Loading required package: limma
