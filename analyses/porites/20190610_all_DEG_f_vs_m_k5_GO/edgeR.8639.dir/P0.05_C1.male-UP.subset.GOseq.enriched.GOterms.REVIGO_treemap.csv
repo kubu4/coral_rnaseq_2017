@@ -1,8 +1,0 @@
-% WARNING - This is exported REVIGO data useful only for the specific purpose of constructing a TreeMap visualization.
-% Do not use this table as a general list of non-redundant GO categories, as it sets an extremely permissive 
-% threshold to detect redundancies (c=0.10) and fill the 'representative' column, while normally c>=0.4 is recommended.
-% To export a reduced-redundancy set of GO terms, go to the Scatterplot & Table tab, and export to CSV from there.
-term_ID,description,frequencyInDb,uniqueness,dispensability,representative
-GO:0044249,"cellular biosynthetic process",30.048%,0.006,0.000,"cellular biosynthesis"
-GO:0009059,"macromolecule biosynthetic process",19.548%,0.005,0.556,"cellular biosynthesis"
-GO:0044271,"cellular nitrogen compound biosynthetic process",22.502%,0.005,0.585,"cellular biosynthesis"
