@@ -1,0 +1,8 @@
+% WARNING - This is exported REVIGO data useful only for the specific purpose of constructing a TreeMap visualization.
+% Do not use this table as a general list of non-redundant GO categories, as it sets an extremely permissive 
+% threshold to detect redundancies (c=0.10) and fill the 'representative' column, while normally c>=0.4 is recommended.
+% To export a reduced-redundancy set of GO terms, go to the Scatterplot & Table tab, and export to CSV from there.
+term_ID,description,frequencyInDb,log10pvalue,uniqueness,dispensability,representative
+GO:0004674,"protein serine/threonine kinase activity",0.996%,-1.9649,0.034,0.000,"protein serine/threonine kinase activity"
+GO:0016772,"transferase activity, transferring phosphorus-containing groups",8.504%,-1.3854,0.123,0.348,"protein serine/threonine kinase activity"
+GO:0016773,"phosphotransferase activity, alcohol group as acceptor",4.703%,-1.5360,0.018,0.588,"protein serine/threonine kinase activity"
