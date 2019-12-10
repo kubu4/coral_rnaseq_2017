@@ -1,0 +1,74 @@
+[2019-12-10 14:04:46.791] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2019-12-10 14:04:46.791] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2019-12-10 14:04:46.791] [jointLog] [info] parsing read library format
+[2019-12-10 14:04:46.791] [jointLog] [info] There is 1 library.
+[2019-12-10 14:04:46.850] [jointLog] [info] Loading Quasi index
+[2019-12-10 14:04:46.850] [jointLog] [info] Loading 32-bit quasi index
+[2019-12-10 14:05:03.700] [jointLog] [info] done
+[2019-12-10 14:05:03.700] [jointLog] [info] Index contained 861,197 targets
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 8.88% zero probability fragments
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 9.34% zero probability fragments
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 9.36% zero probability fragments
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 9.24% zero probability fragments
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 9.18% zero probability fragments
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 8.86% zero probability fragments
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 9.34% zero probability fragments
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 9.70% zero probability fragments
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 8.78% zero probability fragments
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 9.36% zero probability fragments
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 9.18% zero probability fragments
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 8.74% zero probability fragments
+[2019-12-10 14:06:03.529] [jointLog] [info] Thread saw mini-batch with a maximum of 9.14% zero probability fragments
+[2019-12-10 14:06:03.540] [jointLog] [info] Thread saw mini-batch with a maximum of 9.02% zero probability fragments
+[2019-12-10 14:06:03.542] [jointLog] [info] Thread saw mini-batch with a maximum of 8.86% zero probability fragments
+[2019-12-10 14:06:03.563] [jointLog] [info] Thread saw mini-batch with a maximum of 9.04% zero probability fragments
+[2019-12-10 14:06:03.587] [jointLog] [info] Thread saw mini-batch with a maximum of 8.98% zero probability fragments
+[2019-12-10 14:06:03.591] [jointLog] [info] Thread saw mini-batch with a maximum of 9.00% zero probability fragments
+[2019-12-10 14:06:03.602] [jointLog] [info] Thread saw mini-batch with a maximum of 9.24% zero probability fragments
+[2019-12-10 14:06:03.615] [jointLog] [info] Thread saw mini-batch with a maximum of 9.06% zero probability fragments
+[2019-12-10 14:06:03.621] [jointLog] [info] Thread saw mini-batch with a maximum of 9.12% zero probability fragments
+[2019-12-10 14:06:03.640] [jointLog] [info] Thread saw mini-batch with a maximum of 9.26% zero probability fragments
+[2019-12-10 14:06:03.653] [jointLog] [info] Thread saw mini-batch with a maximum of 9.26% zero probability fragments
+[2019-12-10 14:06:04.153] [jointLog] [info] Computed 550,508 rich equivalence classes for further processing
+[2019-12-10 14:06:04.153] [jointLog] [info] Counted 15,676,050 total reads in the equivalence classes 
+[2019-12-10 14:06:04.189] [jointLog] [warning] 0.0188665% of fragments were shorter than the k used to build the index (31).
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2019-12-10 14:06:04.189] [jointLog] [info] Mapping rate = 68.0828%
+
+[2019-12-10 14:06:04.189] [jointLog] [info] finished quantifyLibrary()
+[2019-12-10 14:06:04.189] [jointLog] [info] Starting optimizer
+[2019-12-10 14:06:04.154] [fileLog] [info] 
+At end of round 0
+==================
+Observed 23024986 total fragments (23024986 in most recent round)
+
+[2019-12-10 14:06:04.556] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2019-12-10 14:06:04.594] [jointLog] [info] iteration = 0 | max rel diff. = 942.956
+[2019-12-10 14:06:07.015] [jointLog] [info] iteration = 100 | max rel diff. = 18.8634
+[2019-12-10 14:06:09.365] [jointLog] [info] iteration = 200 | max rel diff. = 6.33403
+[2019-12-10 14:06:11.775] [jointLog] [info] iteration = 300 | max rel diff. = 9.5979
+[2019-12-10 14:06:14.143] [jointLog] [info] iteration = 400 | max rel diff. = 1.82211
+[2019-12-10 14:06:16.483] [jointLog] [info] iteration = 500 | max rel diff. = 1.93459
+[2019-12-10 14:06:18.908] [jointLog] [info] iteration = 600 | max rel diff. = 3.75488
+[2019-12-10 14:06:21.325] [jointLog] [info] iteration = 700 | max rel diff. = 0.682371
+[2019-12-10 14:06:23.755] [jointLog] [info] iteration = 800 | max rel diff. = 1.07194
+[2019-12-10 14:06:26.193] [jointLog] [info] iteration = 900 | max rel diff. = 0.375544
+[2019-12-10 14:06:28.565] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.101756
+[2019-12-10 14:06:30.957] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.0504793
+[2019-12-10 14:06:33.362] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.0258961
+[2019-12-10 14:06:35.708] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.020407
+[2019-12-10 14:06:38.123] [jointLog] [info] iteration = 1,400 | max rel diff. = 19.7596
+[2019-12-10 14:06:38.953] [jointLog] [info] iteration = 1,436 | max rel diff. = 0.00500552
+[2019-12-10 14:06:39.019] [jointLog] [info] Finished optimizer
+[2019-12-10 14:06:39.019] [jointLog] [info] writing output 
+

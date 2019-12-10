@@ -1,0 +1,3 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0003674	0.996696445569426	0.0158394776694116	2	27642	molecular_function	MF	0.9999999999	0.9999999999	MF molecular_function
+GO:0003824	1	0.0295278785329673	0	12751	catalytic activity	MF	0.9999999999	0.9999999999	MF catalytic activity

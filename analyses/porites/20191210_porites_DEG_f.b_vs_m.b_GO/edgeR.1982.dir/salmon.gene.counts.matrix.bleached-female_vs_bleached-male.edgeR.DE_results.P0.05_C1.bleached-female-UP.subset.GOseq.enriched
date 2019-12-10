@@ -1,0 +1,93 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0090143	0.000319297156341953	1	1	1	nucleoid organization	BP	0.746756224394743	BP nucleoid organization	TRINITY_DN174848_c6_g1
+GO:0090144	0.000319297156341953	1	1	1	mitochondrial nucleoid organization	BP	0.746756224394743	BP mitochondrial nucleoid organization	TRINITY_DN174848_c6_g1
+GO:1903108	0.000319297156341953	1	1	1	regulation of mitochondrial transcription	BP	0.746756224394743	BP regulation of mitochondrial transcription	TRINITY_DN174848_c6_g1
+GO:1903109	0.000319297156341953	1	1	1	positive regulation of mitochondrial transcription	BP	0.746756224394743	BP positive regulation of mitochondrial transcription	TRINITY_DN174848_c6_g1
+GO:1903850	0.000319297156341953	1	1	1	regulation of cristae formation	BP	0.746756224394743	BP regulation of cristae formation	TRINITY_DN174848_c6_g1
+GO:1903852	0.000319297156341953	1	1	1	positive regulation of cristae formation	BP	0.746756224394743	BP positive regulation of cristae formation	TRINITY_DN174848_c6_g1
+GO:1904734	0.000319297156341953	1	1	1	positive regulation of electron transfer activity	BP	0.746756224394743	BP positive regulation of electron transfer activity	TRINITY_DN174848_c6_g1
+GO:1904960	0.000319297156341953	1	1	1	positive regulation of cytochrome-c oxidase activity	BP	0.746756224394743	BP positive regulation of cytochrome-c oxidase activity	TRINITY_DN174848_c6_g1
+GO:1904732	0.000952900466413157	0.999999703135163	1	3	regulation of electron transfer activity	BP	0.9999999999	BP regulation of electron transfer activity	TRINITY_DN174848_c6_g1
+GO:1904959	0.000952900466413157	0.999999703135163	1	3	regulation of cytochrome-c oxidase activity	BP	0.9999999999	BP regulation of cytochrome-c oxidase activity	TRINITY_DN174848_c6_g1
+GO:0006119	0.0011444691031144	0.999999518220864	1	4	oxidative phosphorylation	BP	0.9999999999	BP oxidative phosphorylation	TRINITY_DN174848_c6_g1
+GO:0010155	0.00125859937385622	0.999999417312178	1	4	regulation of proton transport	BP	0.9999999999	BP regulation of proton transport	TRINITY_DN174848_c6_g1
+GO:0050808	0.00238480912770549	0.999946084119595	2	244	synapse organization	BP	0.9999999999	BP synapse organization	TRINITY_DN174848_c6_g1, TRINITY_DN174882_c3_g2
+GO:0030322	0.00261935295555689	0.999996970133002	1	10	stabilization of membrane potential	BP	0.9999999999	BP stabilization of membrane potential	TRINITY_DN174848_c6_g1
+GO:0061617	0.00334107664102256	0.999995019348748	1	11	MICOS complex	CC	0.9999999999	CC MICOS complex	TRINITY_DN174848_c6_g1
+GO:0090200	0.00360235925618018	0.999994120334695	1	13	positive regulation of release of cytochrome c from mitochondria	BP	0.9999999999	BP positive regulation of release of cytochrome c from mitochondria	TRINITY_DN174848_c6_g1
+GO:0099558	0.00380226867008253	0.999993410228514	1	14	maintenance of synapse structure	BP	0.9999999999	BP maintenance of synapse structure	TRINITY_DN174848_c6_g1
+GO:1901030	0.00396254033863754	0.999992884861544	1	13	positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	BP	0.9999999999	BP positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	TRINITY_DN174848_c6_g1
+GO:1901028	0.00427662989204713	0.999991661972688	1	14	regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	BP	0.9999999999	BP regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	TRINITY_DN174848_c6_g1
+GO:0046902	0.00581317305566804	0.999984230418153	1	20	regulation of mitochondrial membrane permeability	BP	0.9999999999	BP regulation of mitochondrial membrane permeability	TRINITY_DN174848_c6_g1
+GO:0090199	0.00581913020484172	0.999984158518455	1	21	regulation of release of cytochrome c from mitochondria	BP	0.9999999999	BP regulation of release of cytochrome c from mitochondria	TRINITY_DN174848_c6_g1
+GO:0090559	0.00873225222407147	0.999963756306686	1	30	regulation of membrane permeability	BP	0.9999999999	BP regulation of membrane permeability	TRINITY_DN174848_c6_g1
+GO:0051353	0.00993188646897	0.999952947536546	1	33	positive regulation of oxidoreductase activity	BP	0.9999999999	BP positive regulation of oxidoreductase activity	TRINITY_DN174848_c6_g1
+GO:0043954	0.0103188979363537	0.99994903118992	1	37	cellular component maintenance	BP	0.9999999999	BP cellular component maintenance	TRINITY_DN174848_c6_g1
+GO:0048692	0.0114195655594364	0.999937508455511	1	38	negative regulation of axon extension involved in regeneration	BP	0.9999999999	BP negative regulation of axon extension involved in regeneration	TRINITY_DN174882_c3_g2
+GO:0048688	0.0116601569757308	0.999934797039286	1	39	negative regulation of sprouting of injured axon	BP	0.9999999999	BP negative regulation of sprouting of injured axon	TRINITY_DN174882_c3_g2
+GO:0072534	0.0116949824508382	0.999934406170736	1	39	perineuronal net	CC	0.9999999999	CC perineuronal net	TRINITY_DN174882_c3_g2
+GO:0051971	0.0117355216335566	0.999933906411953	1	40	positive regulation of transmission of nerve impulse	BP	0.9999999999	BP positive regulation of transmission of nerve impulse	TRINITY_DN174882_c3_g2
+GO:0048690	0.0129473611604369	0.999919374056615	1	43	regulation of axon extension involved in regeneration	BP	0.9999999999	BP regulation of axon extension involved in regeneration	TRINITY_DN174882_c3_g2
+GO:0048686	0.0131875880405561	0.999916302296216	1	44	regulation of sprouting of injured axon	BP	0.9999999999	BP regulation of sprouting of injured axon	TRINITY_DN174882_c3_g2
+GO:0060291	0.0134893321846412	0.99991228962799	1	47	long-term synaptic potentiation	BP	0.9999999999	BP long-term synaptic potentiation	TRINITY_DN174882_c3_g2
+GO:0007006	0.0136810270779608	0.999909732301576	1	48	mitochondrial membrane organization	BP	0.9999999999	BP mitochondrial membrane organization	TRINITY_DN174848_c6_g1
+GO:0051969	0.0139029478757834	0.999906772828899	1	48	regulation of transmission of nerve impulse	BP	0.9999999999	BP regulation of transmission of nerve impulse	TRINITY_DN174882_c3_g2
+GO:0051968	0.0142608983401502	0.999901898208689	1	48	positive regulation of synaptic transmission, glutamatergic	BP	0.9999999999	BP positive regulation of synaptic transmission, glutamatergic	TRINITY_DN174882_c3_g2
+GO:0035641	0.0151485920134363	0.99988913275532	1	51	locomotory exploration behavior	BP	0.9999999999	BP locomotory exploration behavior	TRINITY_DN174882_c3_g2
+GO:0051341	0.0158303992745789	0.999878765600327	1	54	regulation of oxidoreductase activity	BP	0.9999999999	BP regulation of oxidoreductase activity	TRINITY_DN174848_c6_g1
+GO:0031646	0.0158822380905967	0.999877926449366	1	55	positive regulation of neurological system process	BP	0.9999999999	BP positive regulation of neurological system process	TRINITY_DN174882_c3_g2
+GO:0032414	0.0162187102172523	0.999872602036807	1	57	positive regulation of ion transmembrane transporter activity	BP	0.9999999999	BP positive regulation of ion transmembrane transporter activity	TRINITY_DN174848_c6_g1
+GO:0010822	0.0176834388361581	0.999848257549311	1	62	positive regulation of mitochondrion organization	BP	0.9999999999	BP positive regulation of mitochondrion organization	TRINITY_DN174848_c6_g1
+GO:0035640	0.0181235239860838	0.999840628840321	1	61	exploration behavior	BP	0.9999999999	BP exploration behavior	TRINITY_DN174882_c3_g2
+GO:0032411	0.0182031191256047	0.999839096596641	1	64	positive regulation of transporter activity	BP	0.9999999999	BP positive regulation of transporter activity	TRINITY_DN174848_c6_g1
+GO:0005758	0.0182472021522859	0.999838199624982	1	67	mitochondrial intermembrane space	CC	0.9999999999	CC mitochondrial intermembrane space	TRINITY_DN174848_c6_g1
+GO:0021885	0.0185130184746451	0.9998335950032	1	63	forebrain cell migration	BP	0.9999999999	BP forebrain cell migration	TRINITY_DN174882_c3_g2
+GO:0022029	0.0185130184746451	0.9998335950032	1	63	telencephalon cell migration	BP	0.9999999999	BP telencephalon cell migration	TRINITY_DN174882_c3_g2
+GO:0048681	0.0195725941943794	0.999813797373748	1	66	negative regulation of axon regeneration	BP	0.9999999999	BP negative regulation of axon regeneration	TRINITY_DN174882_c3_g2
+GO:0070571	0.0195725941943794	0.999813797373748	1	66	negative regulation of neuron projection regeneration	BP	0.9999999999	BP negative regulation of neuron projection regeneration	TRINITY_DN174882_c3_g2
+GO:0031970	0.0200999457107786	0.999803267688465	1	74	organelle envelope lumen	CC	0.9999999999	CC organelle envelope lumen	TRINITY_DN174848_c6_g1
+GO:0051966	0.0202764868054708	0.999799981688746	1	69	regulation of synaptic transmission, glutamatergic	BP	0.9999999999	BP regulation of synaptic transmission, glutamatergic	TRINITY_DN174882_c3_g2
+GO:0030517	0.0223994498121133	0.999755353168747	1	77	negative regulation of axon extension	BP	0.9999999999	BP negative regulation of axon extension	TRINITY_DN174882_c3_g2
+GO:0007158	0.0229551275595062	0.999742971445646	1	78	neuron cell-cell adhesion	BP	0.9999999999	BP neuron cell-cell adhesion	TRINITY_DN174882_c3_g2
+GO:0050805	0.0234095984176884	0.999732482768612	1	82	negative regulation of synaptic transmission	BP	0.9999999999	BP negative regulation of synaptic transmission	TRINITY_DN174882_c3_g2
+GO:0048679	0.0237136648447811	0.999725542965988	1	80	regulation of axon regeneration	BP	0.9999999999	BP regulation of axon regeneration	TRINITY_DN174882_c3_g2
+GO:0070570	0.0237136648447811	0.999725542965988	1	80	regulation of neuron projection regeneration	BP	0.9999999999	BP regulation of neuron projection regeneration	TRINITY_DN174882_c3_g2
+GO:1904064	0.0237920914812114	0.999723512938896	1	85	positive regulation of cation transmembrane transport	BP	0.9999999999	BP positive regulation of cation transmembrane transport	TRINITY_DN174848_c6_g1
+GO:0008306	0.0238479929284452	0.999722245779411	1	84	associative learning	BP	0.9999999999	BP associative learning	TRINITY_DN174882_c3_g2
+GO:0098685	0.0242459972928979	0.999712777673763	1	86	Schaffer collateral - CA1 synapse	CC	0.9999999999	CC Schaffer collateral - CA1 synapse	TRINITY_DN174882_c3_g2
+GO:0034504	0.0242805423588536	0.999711841872465	1	89	protein localization to nucleus	BP	0.9999999999	BP protein localization to nucleus	TRINITY_DN174848_c6_g1
+GO:0034767	0.0245281132399137	0.999705947860251	1	88	positive regulation of ion transmembrane transport	BP	0.9999999999	BP positive regulation of ion transmembrane transport	TRINITY_DN174848_c6_g1
+GO:0022408	0.0249946390869174	0.999694686855045	1	86	negative regulation of cell-cell adhesion	BP	0.9999999999	BP negative regulation of cell-cell adhesion	TRINITY_DN174882_c3_g2
+GO:0031644	0.0253493873276841	0.999685680876588	1	92	regulation of neurological system process	BP	0.9999999999	BP regulation of neurological system process	TRINITY_DN174882_c3_g2
+GO:0098800	0.0254050278835078	0.999684256412522	1	93	inner mitochondrial membrane protein complex	CC	0.9999999999	CC inner mitochondrial membrane protein complex	TRINITY_DN174848_c6_g1
+GO:0034764	0.0266565810849596	0.999652111326174	1	96	positive regulation of transmembrane transport	BP	0.9999999999	BP positive regulation of transmembrane transport	TRINITY_DN174848_c6_g1
+GO:0050771	0.0270743334481072	0.999641149122093	1	94	negative regulation of axonogenesis	BP	0.9999999999	BP negative regulation of axonogenesis	TRINITY_DN174882_c3_g2
+GO:0048167	0.0274722533196132	0.99963027307105	1	99	regulation of synaptic plasticity	BP	0.9999999999	BP regulation of synaptic plasticity	TRINITY_DN174882_c3_g2
+GO:1903035	0.0281076772085867	0.999612966577405	1	97	negative regulation of response to wounding	BP	0.9999999999	BP negative regulation of response to wounding	TRINITY_DN174882_c3_g2
+GO:0032412	0.0287470265737466	0.999594863703244	1	102	regulation of ion transmembrane transporter activity	BP	0.9999999999	BP regulation of ion transmembrane transporter activity	TRINITY_DN174848_c6_g1
+GO:0022898	0.0293466649692252	0.999577617595882	1	104	regulation of transmembrane transporter activity	BP	0.9999999999	BP regulation of transmembrane transporter activity	TRINITY_DN174848_c6_g1
+GO:0010821	0.0297504613853804	0.999565735707615	1	107	regulation of mitochondrion organization	BP	0.9999999999	BP regulation of mitochondrion organization	TRINITY_DN174848_c6_g1
+GO:0032984	0.029830961667121	0.999563408580465	1	106	protein-containing complex disassembly	BP	0.9999999999	BP protein-containing complex disassembly	TRINITY_DN174848_c6_g1
+GO:0010771	0.0309005015201235	0.999531283534428	1	108	negative regulation of cell morphogenesis involved in differentiation	BP	0.9999999999	BP negative regulation of cell morphogenesis involved in differentiation	TRINITY_DN174882_c3_g2
+GO:0032409	0.0310084286590068	0.999527906411531	1	110	regulation of transporter activity	BP	0.9999999999	BP regulation of transporter activity	TRINITY_DN174848_c6_g1
+GO:0050806	0.0317501022592386	0.999504883727873	1	111	positive regulation of synaptic transmission	BP	0.9999999999	BP positive regulation of synaptic transmission	TRINITY_DN174882_c3_g2
+GO:2001235	0.0336099154627796	0.999444483070231	1	119	positive regulation of apoptotic signaling pathway	BP	0.9999999999	BP positive regulation of apoptotic signaling pathway	TRINITY_DN174848_c6_g1
+GO:1904062	0.0356861294435132	0.999372867223009	1	129	regulation of cation transmembrane transport	BP	0.9999999999	BP regulation of cation transmembrane transport	TRINITY_DN174848_c6_g1
+GO:0030308	0.0360674639432852	0.999359345669351	1	128	negative regulation of cell growth	BP	0.9999999999	BP negative regulation of cell growth	TRINITY_DN174882_c3_g2
+GO:0050885	0.0374272254628895	0.999309841808458	1	127	neuromuscular process controlling balance	BP	0.9999999999	BP neuromuscular process controlling balance	TRINITY_DN174882_c3_g2
+GO:0098798	0.0375551402409018	0.999304687624055	1	137	mitochondrial protein complex	CC	0.9999999999	CC mitochondrial protein complex	TRINITY_DN174848_c6_g1
+GO:0043270	0.0379085720370438	0.999291450895453	1	137	positive regulation of ion transport	BP	0.9999999999	BP positive regulation of ion transport	TRINITY_DN174848_c6_g1
+GO:0007612	0.03923918423609	0.999240325548561	1	141	learning	BP	0.9999999999	BP learning	TRINITY_DN174882_c3_g2
+GO:0048640	0.0404134282401376	0.999193805420024	1	142	negative regulation of developmental growth	BP	0.9999999999	BP negative regulation of developmental growth	TRINITY_DN174882_c3_g2
+GO:0030516	0.0416536030999227	0.999143068646504	1	145	regulation of axon extension	BP	0.9999999999	BP regulation of axon extension	TRINITY_DN174882_c3_g2
+GO:0023056	0.0428601800251597	0.995602286652076	2	1150	positive regulation of signaling	BP	0.9999999999	BP positive regulation of signaling	TRINITY_DN174848_c6_g1, TRINITY_DN174882_c3_g2
+GO:0046034	0.0434198614740243	0.99906750188832	1	165	ATP metabolic process	BP	0.9999999999	BP ATP metabolic process	TRINITY_DN174848_c6_g1
+GO:0010977	0.043513833532252	0.999063911289331	1	152	negative regulation of neuron projection development	BP	0.9999999999	BP negative regulation of neuron projection development	TRINITY_DN174882_c3_g2
+GO:0022411	0.0439681885530994	0.999043795844617	1	160	cellular component disassembly	BP	0.9999999999	BP cellular component disassembly	TRINITY_DN174848_c6_g1
+GO:0061387	0.0441150421678717	0.999037540254732	1	155	regulation of extent of cell growth	BP	0.9999999999	BP regulation of extent of cell growth	TRINITY_DN174882_c3_g2
+GO:0010647	0.0442746163680361	0.995376023915521	2	1170	positive regulation of cell communication	BP	0.9999999999	BP positive regulation of cell communication	TRINITY_DN174848_c6_g1, TRINITY_DN174882_c3_g2
+GO:0050905	0.0461901397851408	0.998943882126509	1	160	neuromuscular process	BP	0.9999999999	BP neuromuscular process	TRINITY_DN174882_c3_g2
+GO:0031345	0.0473716095915988	0.998888411813814	1	167	negative regulation of cell projection organization	BP	0.9999999999	BP negative regulation of cell projection organization	TRINITY_DN174882_c3_g2
+GO:1903034	0.0476645818006666	0.998874543654249	1	166	regulation of response to wounding	BP	0.9999999999	BP regulation of response to wounding	TRINITY_DN174882_c3_g2
+GO:0016337	0.0478307632932835	0.99886661567794	1	166	NA	NA	0.9999999999	none	TRINITY_DN174882_c3_g2
+GO:0044455	0.0486666441252642	0.998825837776284	1	178	mitochondrial membrane part	CC	0.9999999999	CC mitochondrial membrane part	TRINITY_DN174848_c6_g1

@@ -1,0 +1,27 @@
+if (! require(edgeR)) {
+   source("https://bioconductor.org/biocLite.R")
+   biocLite("edgeR")
+   library(edgeR)
+}
+
+data = read.table("/media/sam/4TB_toshiba/porites/20191210_porites_DEG_f.b_vs_m.b_GO/salmon.gene.counts.matrix", header=T, row.names=1, com='')
+col_ordering = c(1,2,3,4,5,6,7,8,9)
+rnaseqMatrix = data[,col_ordering]
+rnaseqMatrix = round(rnaseqMatrix)
+rnaseqMatrix = rnaseqMatrix[rowSums(cpm(rnaseqMatrix) > 1) >= 2,]
+conditions = factor(c(rep("bleached-female", 6), rep("bleached-male", 3)))
+
+exp_study = DGEList(counts=rnaseqMatrix, group=conditions)
+exp_study = calcNormFactors(exp_study)
+exp_study = estimateDisp(exp_study)
+et = exactTest(exp_study, pair=c("bleached-female", "bleached-male"))
+tTags = topTags(et,n=NULL)
+result_table = tTags$table
+result_table = data.frame(sampleA="bleached-female", sampleB="bleached-male", result_table)
+result_table$logFC = -1 * result_table$logFC
+write.table(result_table, file='salmon.gene.counts.matrix.bleached-female_vs_bleached-male.edgeR.DE_results', sep='	', quote=F, row.names=T)
+write.table(rnaseqMatrix, file='salmon.gene.counts.matrix.bleached-female_vs_bleached-male.edgeR.count_matrix', sep='	', quote=F, row.names=T)
+source("/home/shared/Trinityrnaseq-v2.8.5/Analysis/DifferentialExpression/R/rnaseq_plot_funcs.R")
+pdf("salmon.gene.counts.matrix.bleached-female_vs_bleached-male.edgeR.DE_results.MA_n_Volcano.pdf")
+plot_MA_and_Volcano(rownames(result_table), result_table$logCPM, result_table$logFC, result_table$FDR)
+dev.off()

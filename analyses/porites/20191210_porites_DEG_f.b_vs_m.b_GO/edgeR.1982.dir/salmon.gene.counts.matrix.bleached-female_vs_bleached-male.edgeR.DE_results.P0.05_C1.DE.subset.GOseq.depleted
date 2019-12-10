@@ -1,0 +1,11 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0016491	1	0.00699941923480709	0	2006	oxidoreductase activity	MF	0.9999999999	0.9999999999	MF oxidoreductase activity
+GO:0044710	0.990243139944209	0.0256418045458793	5	4617	NA	NA	0.9999999999	0.9999999999	none
+GO:1901360	0.990829576610535	0.0265145601870061	4	3984	organic cyclic compound metabolic process	BP	0.9999999999	0.9999999999	BP organic cyclic compound metabolic process
+GO:0070647	1	0.0343524677692139	0	1212	protein modification by small protein conjugation or removal	BP	0.9999999999	0.9999999999	BP protein modification by small protein conjugation or removal
+GO:0006725	0.985732835664429	0.039121722255664	4	3754	cellular aromatic compound metabolic process	BP	0.9999999999	0.9999999999	BP cellular aromatic compound metabolic process
+GO:0043005	1	0.0412075645316501	0	1142	neuron projection	CC	0.9999999999	0.9999999999	CC neuron projection
+GO:0055114	1	0.0430156315762063	0	1348	oxidation-reduction process	BP	0.9999999999	0.9999999999	BP oxidation-reduction process
+GO:0046483	0.983681375365784	0.0439994816163242	4	3684	heterocycle metabolic process	BP	0.9999999999	0.9999999999	BP heterocycle metabolic process
+GO:0006464	0.983644507171151	0.0440867493505536	4	3633	cellular protein modification process	BP	0.9999999999	0.9999999999	BP cellular protein modification process
+GO:0036211	0.983644507171151	0.0440867493505536	4	3633	protein modification process	BP	0.9999999999	0.9999999999	BP protein modification process
