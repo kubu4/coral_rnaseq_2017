@@ -1,0 +1,20 @@
+% WARNING - This is exported REVIGO data useful only for the specific purpose of constructing a TreeMap visualization.
+% Do not use this table as a general list of non-redundant GO categories, as it sets an extremely permissive 
+% threshold to detect redundancies (c=0.10) and fill the 'representative' column, while normally c>=0.4 is recommended.
+% To export a reduced-redundancy set of GO terms, go to the Scatterplot & Table tab, and export to CSV from there.
+term_ID,description,frequencyInDb,log10pvalue,uniqueness,dispensability,representative
+GO:0035853,"chromosome passenger complex localization to spindle midzone",0.001%,-2.0814,0.799,0.000,"chromosome passenger complex localization to spindle midzone"
+GO:0044380,"protein localization to cytoskeleton",0.017%,-1.5767,0.808,0.487,"chromosome passenger complex localization to spindle midzone"
+GO:0016080,"synaptic vesicle targeting",0.001%,-1.3307,0.654,0.319,"chromosome passenger complex localization to spindle midzone"
+GO:0048069,"eye pigmentation",0.005%,-2.3413,0.763,0.000,"eye pigmentation"
+GO:0072527,"pyrimidine-containing compound metabolic process",1.037%,-2.3250,0.747,0.000,"pyrimidine-containing compound metabolism"
+GO:0006525,"arginine metabolic process",0.386%,-1.5060,0.686,0.279,"pyrimidine-containing compound metabolism"
+GO:0046113,"nucleobase catabolic process",0.051%,-1.4411,0.593,0.688,"pyrimidine-containing compound metabolism"
+GO:0006568,"tryptophan metabolic process",0.279%,-1.3710,0.645,0.559,"pyrimidine-containing compound metabolism"
+GO:0006145,"purine nucleobase catabolic process",0.039%,-1.4911,0.578,0.228,"pyrimidine-containing compound metabolism"
+GO:0006221,"pyrimidine nucleotide biosynthetic process",0.591%,-1.4209,0.588,0.441,"pyrimidine-containing compound metabolism"
+GO:0071360,"cellular response to exogenous dsRNA",0.002%,-1.3402,0.868,0.021,"cellular response to exogenous dsRNA"
+GO:0032727,"positive regulation of interferon-alpha production",0.003%,-1.5353,0.652,0.040,"positive regulation of interferon-alpha production"
+GO:0032781,"positive regulation of ATPase activity",0.033%,-1.3920,0.810,0.611,"positive regulation of interferon-alpha production"
+GO:0032889,"regulation of vacuole fusion, non-autophagic",0.005%,-1.3113,0.766,0.131,"positive regulation of interferon-alpha production"
+GO:0043462,"regulation of ATPase activity",0.059%,-1.3071,0.808,0.145,"positive regulation of interferon-alpha production"
