@@ -66,15 +66,15 @@ ${trinity_matrix} \
 --gene_trans_map ${gene_map} \
 --out_prefix salmon \
 --name_sample_by_basedir \
-B_female_44_01 \
-B_female_44_02 \
-B_female_44_03 \
-B_female_K5_01 \
-B_female_K5_02 \
-B_female_K5_03 \
-B_male_K5_01 \
-B_male_K5_02 \
-B_male_K5_03 \
+B_female_44_01/quant.sf \
+B_female_44_02/quant.sf \
+B_female_44_03/quant.sf \
+B_female_K5_01/quant.sf \
+B_female_K5_02/quant.sf \
+B_female_K5_03/quant.sf \
+B_male_K5_01/quant.sf \
+B_male_K5_02/quant.sf \
+B_male_K5_03/quant.sf \
 1> ${matrix_stdout} \
 2> ${matrix_stderr}
 
