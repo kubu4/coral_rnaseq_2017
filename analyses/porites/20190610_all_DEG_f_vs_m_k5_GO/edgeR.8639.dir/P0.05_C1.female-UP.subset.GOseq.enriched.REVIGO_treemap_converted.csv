@@ -1,0 +1,57 @@
+description	log10pvalue	representative
+behavior	1.3565	behavior
+synapse organization	3.0932	synapse organization
+positive regulation of apoptotic signaling pathway	1.7187	synapse organization
+mitochondrial respiratory chain complex I biogenesis	1.3079	synapse organization
+glycerol catabolic process	2.2957	synapse organization
+oxidative phosphorylation	2.079	synapse organization
+negative regulation of insulin secretion	1.6982	synapse organization
+iron ion transmembrane transport	1.7713	synapse organization
+regulation of proton transport	2.0764	synapse organization
+protein processing involved in protein targeting to mitochondrion	1.8386	synapse organization
+medium-chain fatty acid metabolic process	1.6097	synapse organization
+mitochondrial respiratory chain complex assembly	2.3351	synapse organization
+glycerol-3-phosphate metabolic process	2.0693	synapse organization
+regulation of vascular associated smooth muscle cell migration	1.3948	synapse organization
+positive regulation of cytochrome-c oxidase activity	2.5468	synapse organization
+dermatan sulfate metabolic process	1.8719	synapse organization
+regulation of electron carrier activity	2.0764	synapse organization
+carbohydrate derivative catabolic process	1.7071	synapse organization
+alditol phosphate metabolic process	1.9475	synapse organization
+cGMP metabolic process	1.4163	synapse organization
+NADH dehydrogenase complex assembly	1.3079	synapse organization
+mitochondrial nucleoid organization	2.5468	synapse organization
+nucleoid organization	2.5468	synapse organization
+mitochondrial respiratory chain complex I assembly	1.3079	synapse organization
+positive regulation of cristae formation	2.5468	synapse organization
+regulation of cristae formation	2.5468	synapse organization
+cognition	2.2181	cognition
+neuromuscular process	1.4434	cognition
+system process	1.5131	cognition
+sensory processing	2.3215	cognition
+neuromuscular process controlling balance	1.6092	cognition
+pancreas development	1.5587	cognition
+ovarian follicle development	1.3906	cognition
+ovulation	1.7341	cognition
+compound eye cone cell differentiation	2.0476	cognition
+cerebellum vasculature development	1.9368	cognition
+maintenance of synapse structure	1.717	cognition
+synapse maturation	1.7383	cognition
+regulation of transcription from mitochondrial promoter	2.5468	regulation of transcription from mitochondrial promoter
+regulation of membrane permeability	1.3181	regulation of transcription from mitochondrial promoter
+cellular iron ion homeostasis	1.3243	regulation of transcription from mitochondrial promoter
+stabilization of membrane potential	1.9197	regulation of transcription from mitochondrial promoter
+carbohydrate derivative metabolic process	1.4797	carbohydrate derivative metabolism
+generation of precursor metabolites and energy	1.3362	generation of precursor metabolites and energy
+type B pancreatic cell proliferation	2.2543	type B pancreatic cell proliferation
+mushroom body development	1.4439	type B pancreatic cell proliferation
+interkinetic nuclear migration	2.2464	type B pancreatic cell proliferation
+olfactory behavior	2.9793	olfactory behavior
+T cell mediated immunity	1.8358	olfactory behavior
+mitotic G1 DNA damage checkpoint	1.8474	olfactory behavior
+regulation of cell cycle arrest	1.4331	olfactory behavior
+signal transduction in response to DNA damage	1.4183	olfactory behavior
+receptor guanylyl cyclase signaling pathway	1.5999	olfactory behavior
+superoxide metabolic process	1.3253	superoxide metabolism
+protein carboxylation	2.088	protein carboxylation
+tRNA wobble uridine modification	1.5427	protein carboxylation
