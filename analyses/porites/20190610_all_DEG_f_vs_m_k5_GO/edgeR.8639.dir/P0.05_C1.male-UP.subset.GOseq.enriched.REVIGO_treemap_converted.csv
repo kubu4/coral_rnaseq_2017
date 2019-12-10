@@ -1,0 +1,85 @@
+description	log10pvalue	representative
+biological adhesion	1.3718	biological adhesion
+hippo signaling	3.0707	hippo signaling
+response to gonadotropin	1.3511	hippo signaling
+response to luteinizing hormone	1.7902	hippo signaling
+negative regulation of hydrogen peroxide-induced neuron death	2.2441	hippo signaling
+natural killer cell activation	1.5407	hippo signaling
+regulation of platelet aggregation	1.8618	hippo signaling
+positive regulation of transcription from RNA polymerase II promoter involved in defense response to fungus	1.9844	hippo signaling
+negative regulation of insulin receptor signaling pathway	1.3427	hippo signaling
+positive regulation of T-helper 2 cell activation	2.2755	hippo signaling
+regulation of BMP signaling pathway	1.5432	hippo signaling
+regulation of smooth muscle cell-matrix adhesion	1.8491	hippo signaling
+regulation of T-helper 17 type immune response	1.7213	hippo signaling
+calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules	2.0627	hippo signaling
+regulation of T cell apoptotic process	2.1061	hippo signaling
+response to testosterone	2.9223	hippo signaling
+regulation of antimicrobial humoral response	1.6682	hippo signaling
+cell-cell adhesion mediated by cadherin	1.4624	hippo signaling
+natural killer cell proliferation	2.2313	hippo signaling
+negative regulation of leukocyte differentiation	1.8071	hippo signaling
+UV protection	1.4488	hippo signaling
+Fc-epsilon receptor signaling pathway	1.5457	hippo signaling
+negative regulation of double-stranded telomeric DNA binding	1.9716	hippo signaling
+response to muscle activity	1.6975	hippo signaling
+response to platelet-derived growth factor	1.5077	hippo signaling
+cellular response to platelet-derived growth factor stimulus	1.5077	hippo signaling
+Notch signaling pathway	1.7205	hippo signaling
+positive regulation of integrin-mediated signaling pathway	1.5749	hippo signaling
+regulation of integrin-mediated signaling pathway	1.5607	hippo signaling
+negative regulation of cyclin-dependent protein serine/threonine kinase activity	1.6863	hippo signaling
+response to morphine	1.4596	hippo signaling
+response to ketone	1.5717	hippo signaling
+protein localization to cell leading edge	2.0909	protein localization to cell leading edge
+protein targeting to mitochondrion	1.803	protein localization to cell leading edge
+positive regulation of mitophagy	1.6027	protein localization to cell leading edge
+DNA recombination	2.4277	DNA recombination
+nucleotide-excision repair, DNA incision, 3'-to lesion	1.8178	DNA recombination
+regulation of integrin activation	1.5369	DNA recombination
+telomeric DNA-containing double minutes formation	1.7931	DNA recombination
+regulation of telomere capping	1.8194	DNA recombination
+nucleotide-excision repair, DNA incision	1.3853	DNA recombination
+ossification involved in bone maturation	3.0626	ossification involved in bone maturation
+equilibrioception	1.8389	ossification involved in bone maturation
+sensory perception of mechanical stimulus	1.3185	ossification involved in bone maturation
+sensory perception of sound	1.3592	ossification involved in bone maturation
+cerebral cortex development	2.0576	ossification involved in bone maturation
+mechanoreceptor differentiation	1.3713	ossification involved in bone maturation
+establishment of planar polarity of follicular epithelium	2.2672	ossification involved in bone maturation
+female pregnancy	2.6608	ossification involved in bone maturation
+regulation of interleukin-2 biosynthetic process	1.9568	ossification involved in bone maturation
+growth of a germarium-derived egg chamber	2.2672	ossification involved in bone maturation
+tendon development	2.3199	ossification involved in bone maturation
+ossification	2.4013	ossification involved in bone maturation
+establishment or maintenance of cytoskeleton polarity	1.6155	ossification involved in bone maturation
+regulation of interleukin-17 production	1.6195	ossification involved in bone maturation
+morphogenesis of a branching structure	1.8456	ossification involved in bone maturation
+epithelial cell morphogenesis	2.1198	ossification involved in bone maturation
+salivary gland development	2.2003	ossification involved in bone maturation
+tissue morphogenesis	2.2593	ossification involved in bone maturation
+branching involved in ureteric bud morphogenesis	2.9767	ossification involved in bone maturation
+regulation of replicative cell aging	2.0176	ossification involved in bone maturation
+positive regulation of interleukin-4 production	1.6808	ossification involved in bone maturation
+mesenchymal cell proliferation	2.9582	mesenchymal cell proliferation
+condensed mesenchymal cell proliferation	3.1027	mesenchymal cell proliferation
+leukocyte proliferation	1.3081	mesenchymal cell proliferation
+vascular smooth muscle cell proliferation	1.9814	mesenchymal cell proliferation
+muscle cell proliferation	1.4222	mesenchymal cell proliferation
+cell proliferation	1.4124	cell proliferation
+4-hydroxyproline catabolic process	2.3703	4-hydroxyproline catabolism
+aspartate metabolic process	1.7092	4-hydroxyproline catabolism
+aspartate biosynthetic process	2.3703	4-hydroxyproline catabolism
+4-hydroxyproline metabolic process	1.4513	4-hydroxyproline catabolism
+oxaloacetate metabolic process	1.892	4-hydroxyproline catabolism
+fumarate metabolic process	1.3982	4-hydroxyproline catabolism
+dicarboxylic acid catabolic process	1.4516	4-hydroxyproline catabolism
+aspartate family amino acid catabolic process	1.6617	4-hydroxyproline catabolism
+glyoxylate metabolic process	1.3415	4-hydroxyproline catabolism
+membrane protein ectodomain proteolysis	1.302	membrane protein ectodomain proteolysis
+carbohydrate biosynthetic process	1.4675	carbohydrate biosynthesis
+reductive pentose-phosphate cycle	1.5194	carbohydrate biosynthesis
+photosynthesis, dark reaction	1.498	carbohydrate biosynthesis
+extracellular matrix organization	1.6057	extracellular matrix organization
+extracellular structure organization	1.5611	extracellular matrix organization
+plasma membrane organization	1.401	extracellular matrix organization
