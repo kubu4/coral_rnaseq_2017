@@ -1,0 +1,16 @@
+% WARNING - This is exported REVIGO data useful only for the specific purpose of constructing a TreeMap visualization.
+% Do not use this table as a general list of non-redundant GO categories, as it sets an extremely permissive 
+% threshold to detect redundancies (c=0.10) and fill the 'representative' column, while normally c>=0.4 is recommended.
+% To export a reduced-redundancy set of GO terms, go to the Scatterplot & Table tab, and export to CSV from there.
+term_ID,description,frequencyInDb,log10pvalue,uniqueness,dispensability,representative
+GO:0048593,"camera-type eye morphogenesis",0.028%,-2.4300,0.464,0.000,"camera-type eye morphogenesis"
+GO:0000902,"cell morphogenesis",0.948%,-1.3731,0.380,0.649,"camera-type eye morphogenesis"
+GO:0003382,"epithelial cell morphogenesis",0.008%,-2.2155,0.476,0.467,"camera-type eye morphogenesis"
+GO:0051604,"protein maturation",0.293%,-1.4978,0.843,0.000,"protein maturation"
+GO:0016485,"protein processing",0.211%,-1.5534,0.843,0.229,"protein maturation"
+GO:0061245,"establishment or maintenance of bipolar cell polarity",0.015%,-1.8946,0.591,0.048,"establishment or maintenance of bipolar cell polarity"
+GO:0007267,"cell-cell signaling",0.407%,-1.3430,0.705,0.162,"establishment or maintenance of bipolar cell polarity"
+GO:0007015,"actin filament organization",0.240%,-1.5583,0.632,0.126,"establishment or maintenance of bipolar cell polarity"
+GO:0007163,"establishment or maintenance of cell polarity",0.099%,-1.4978,0.719,0.144,"establishment or maintenance of bipolar cell polarity"
+GO:0051048,"negative regulation of secretion",0.033%,-1.7927,0.713,0.050,"negative regulation of secretion"
+GO:0051051,"negative regulation of transport",0.089%,-1.3950,0.787,0.693,"negative regulation of secretion"
