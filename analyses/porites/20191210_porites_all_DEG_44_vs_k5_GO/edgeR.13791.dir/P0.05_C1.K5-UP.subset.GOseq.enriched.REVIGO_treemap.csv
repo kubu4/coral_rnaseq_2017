@@ -1,0 +1,13 @@
+% WARNING - This is exported REVIGO data useful only for the specific purpose of constructing a TreeMap visualization.
+% Do not use this table as a general list of non-redundant GO categories, as it sets an extremely permissive 
+% threshold to detect redundancies (c=0.10) and fill the 'representative' column, while normally c>=0.4 is recommended.
+% To export a reduced-redundancy set of GO terms, go to the Scatterplot & Table tab, and export to CSV from there.
+term_ID,description,frequencyInDb,log10pvalue,uniqueness,dispensability,representative
+GO:0042754,"negative regulation of circadian rhythm",0.003%,-6.6156,0.459,0.000,"negative regulation of circadian rhythm"
+GO:0048519,"negative regulation of biological process",1.984%,-1.6478,0.465,0.183,"negative regulation of circadian rhythm"
+GO:0045892,"negative regulation of transcription, DNA-templated",0.592%,-3.2065,0.136,0.490,"negative regulation of circadian rhythm"
+GO:0006355,"regulation of transcription, DNA-templated",9.917%,-2.1327,0.139,0.558,"negative regulation of circadian rhythm"
+GO:0019222,"regulation of metabolic process",11.942%,-1.5016,0.343,0.597,"negative regulation of circadian rhythm"
+GO:0045292,"mRNA cis splicing, via spliceosome",0.031%,-2.6491,0.592,0.000,"mRNA cis splicing, via spliceosome"
+GO:0016071,"mRNA metabolic process",0.798%,-1.3560,0.628,0.239,"mRNA cis splicing, via spliceosome"
+GO:0008380,"RNA splicing",0.413%,-1.6419,0.572,0.490,"mRNA cis splicing, via spliceosome"
