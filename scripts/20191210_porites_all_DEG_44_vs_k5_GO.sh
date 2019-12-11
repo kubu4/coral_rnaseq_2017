@@ -57,7 +57,7 @@ time ${trinity_abundance} \
 1> ${salmon_out_dir}/${salmon_stdout} \
 2> ${salmon_out_dir}/${salmon_stderr}
 # Move output folders
-mv ${trimmed_reads_dir}/[BN][_Bf][me]* \
+mv ${trimmed_reads_dir}/[BN]* \
 ${salmon_out_dir}
 cd ${salmon_out_dir}
 # Convert abundance estimates to matrix
