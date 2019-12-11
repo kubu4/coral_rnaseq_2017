@@ -1,0 +1,21 @@
+{
+    "read_files": "[ /mnt/data/coral_RNAseq_2017/porites/20180311_fastqc_trimming/trimmed/4R041-L7-P06-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz, /mnt/data/coral_RNAseq_2017/porites/20180311_fastqc_trimming/trimmed/4R041-L7-P06-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 11221145,
+    "num_assigned_fragments": 11221145,
+    "num_frags_with_consistent_mappings": 10564000,
+    "num_frags_with_inconsistent_or_orphan_mappings": 657145,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 0,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 10564000,
+    "SF": 210917,
+    "SR": 446228,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

@@ -1,0 +1,29 @@
+Got 15 samples, and got: 16 data fields.
+Header: B_female_44_01	B_female_44_02	B_female_44_03	NB_female_44_01	NB_female_44_02	NB_female_44_03	B_female_K5_01	B_female_K5_02	B_female_K5_03	B_male_K5_01	B_male_K5_02	B_male_K5_03	NB_female_K5_01	NB_female_K5_02	NB_female_K5_03
+Next: TRINITY_DN100001_c0_g1	13.02	6.50	0.00	0.00	0.00	6.20	3.29	0.00	0.00	0.00	0.00	0.00	5.66	0.00	14.59
+
+$VAR1 = {
+          'NB_female_K5_03' => 15,
+          'B_female_K5_02' => 8,
+          'NB_female_K5_02' => 14,
+          'NB_female_44_01' => 4,
+          'B_male_K5_02' => 11,
+          'B_female_44_02' => 2,
+          'B_female_K5_01' => 7,
+          'B_female_K5_03' => 9,
+          'NB_female_44_02' => 5,
+          'B_female_44_01' => 1,
+          'NB_female_44_03' => 6,
+          'NB_female_K5_01' => 13,
+          'B_male_K5_01' => 10,
+          'B_male_K5_03' => 12,
+          'B_female_44_03' => 3
+        };
+Contrasts to perform are: $VAR1 = [
+          [
+            '44',
+            'K5'
+          ]
+        ];
+Loading required package: edgeR
+Loading required package: limma

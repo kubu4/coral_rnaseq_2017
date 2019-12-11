@@ -1,0 +1,34 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0048593	0.00371509731898932	0.999993505838552	1	36	camera-type eye morphogenesis	BP	0.9999999999	BP camera-type eye morphogenesis	TRINITY_DN199629_c5_g1
+GO:0003382	0.00608812585903504	0.999982351144587	1	59	epithelial cell morphogenesis	BP	0.9999999999	BP epithelial cell morphogenesis	TRINITY_DN199629_c5_g1
+GO:0030175	0.00896283821909813	0.999961498660043	1	87	filopodium	CC	0.9999999999	CC filopodium	TRINITY_DN199629_c5_g1
+GO:0030173	0.00998716565658318	0.999952121145891	1	97	integral component of Golgi membrane	CC	0.9999999999	CC integral component of Golgi membrane	TRINITY_DN183482_c4_g1
+GO:0031228	0.00998716565658318	0.999952121145891	1	97	intrinsic component of Golgi membrane	CC	0.9999999999	CC intrinsic component of Golgi membrane	TRINITY_DN183482_c4_g1
+GO:0045197	0.0120319965668976	0.999930334872888	1	117	establishment or maintenance of epithelial cell apical/basal polarity	BP	0.9999999999	BP establishment or maintenance of epithelial cell apical/basal polarity	TRINITY_DN199629_c5_g1
+GO:0035088	0.0123388954332663	0.999926712065902	1	120	establishment or maintenance of apical/basal cell polarity	BP	0.9999999999	BP establishment or maintenance of apical/basal cell polarity	TRINITY_DN199629_c5_g1
+GO:0061245	0.0127479505707603	0.999921739958053	1	124	establishment or maintenance of bipolar cell polarity	BP	0.9999999999	BP establishment or maintenance of bipolar cell polarity	TRINITY_DN199629_c5_g1
+GO:0051048	0.0161181209024778	0.999874530327027	1	157	negative regulation of secretion	BP	0.9999999999	BP negative regulation of secretion	TRINITY_DN183482_c4_g1
+GO:0030027	0.0171299089444669	0.999858179246547	1	167	lamellipodium	CC	0.9999999999	CC lamellipodium	TRINITY_DN199629_c5_g1
+GO:0048592	0.0212954871735136	0.999780238539908	1	208	eye morphogenesis	BP	0.9999999999	BP eye morphogenesis	TRINITY_DN199629_c5_g1
+GO:0090596	0.0219036170653011	0.999767427060674	1	214	sensory organ morphogenesis	BP	0.9999999999	BP sensory organ morphogenesis	TRINITY_DN199629_c5_g1
+GO:0098858	0.0237209250739908	0.999726960798559	1	232	actin-based cell projection	CC	0.9999999999	CC actin-based cell projection	TRINITY_DN199629_c5_g1
+GO:0005925	0.0257378656815795	0.999678217195356	1	252	focal adhesion	CC	0.9999999999	CC focal adhesion	TRINITY_DN199629_c5_g1
+GO:0007015	0.0276507608322096	0.999628255435025	1	271	actin filament organization	BP	0.9999999999	BP actin filament organization	TRINITY_DN199629_c5_g1
+GO:0005924	0.0276539201329872	0.999628170067284	1	271	cell-substrate adherens junction	CC	0.9999999999	CC cell-substrate adherens junction	TRINITY_DN199629_c5_g1
+GO:0016485	0.0279659792423657	0.999619673846888	1	274	protein processing	BP	0.9999999999	BP protein processing	TRINITY_DN183482_c4_g1
+GO:0030055	0.0282582425160093	0.999611627731075	1	277	cell-substrate junction	CC	0.9999999999	CC cell-substrate junction	TRINITY_DN199629_c5_g1
+GO:0031301	0.0288683889695175	0.999594557342463	1	283	integral component of organelle membrane	CC	0.9999999999	CC integral component of organelle membrane	TRINITY_DN183482_c4_g1
+GO:0005802	0.0301680066443318	0.999556959367022	1	296	trans-Golgi network	CC	0.9999999999	CC trans-Golgi network	TRINITY_DN183482_c4_g1
+GO:0031300	0.0301757098075263	0.999556731879627	1	296	intrinsic component of organelle membrane	CC	0.9999999999	CC intrinsic component of organelle membrane	TRINITY_DN183482_c4_g1
+GO:0000904	0.0308828044002676	0.999535562820006	1	303	cell morphogenesis involved in differentiation	BP	0.9999999999	BP cell morphogenesis involved in differentiation	TRINITY_DN199629_c5_g1
+GO:0007163	0.0317824303312689	0.999507907570785	1	312	establishment or maintenance of cell polarity	BP	0.9999999999	BP establishment or maintenance of cell polarity	TRINITY_DN199629_c5_g1
+GO:0051604	0.0317849405533205	0.999507829399111	1	312	protein maturation	BP	0.9999999999	BP protein maturation	TRINITY_DN183482_c4_g1
+GO:0098791	0.0370741732168602	0.999328836148744	1	365	Golgi subcompartment	CC	0.9999999999	CC Golgi subcompartment	TRINITY_DN183482_c4_g1
+GO:0051051	0.0402746823397305	0.999206882350815	1	397	negative regulation of transport	BP	0.9999999999	BP negative regulation of transport	TRINITY_DN183482_c4_g1
+GO:0000902	0.0423522946149158	0.99912218690947	1	418	cell morphogenesis	BP	0.9999999999	BP cell morphogenesis	TRINITY_DN199629_c5_g1
+GO:0031984	0.0424485461079005	0.999118157328935	1	419	organelle subcompartment	CC	0.9999999999	CC organelle subcompartment	TRINITY_DN183482_c4_g1
+GO:0016324	0.0445237579702036	0.99902900163228	1	440	apical plasma membrane	CC	0.9999999999	CC apical plasma membrane	TRINITY_DN199629_c5_g1
+GO:0007267	0.0453957901550709	0.998990234828395	1	449	cell-cell signaling	BP	0.9999999999	BP cell-cell signaling	TRINITY_DN199629_c5_g1
+GO:0004252	0.0460676318800495	0.99895984136036	1	456	serine-type endopeptidase activity	MF	0.9999999999	MF serine-type endopeptidase activity	TRINITY_DN183482_c4_g1
+GO:0005912	0.0492606400182843	0.99880913088083	1	488	adherens junction	CC	0.9999999999	CC adherens junction	TRINITY_DN199629_c5_g1
+GO:0070161	0.0495563526263685	0.9987946482177	1	491	anchoring junction	CC	0.9999999999	CC anchoring junction	TRINITY_DN199629_c5_g1

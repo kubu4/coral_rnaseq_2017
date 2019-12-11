@@ -1,0 +1,46 @@
+Category	ID	Term	Genes	adj_pval
+BP	GO:0010629	negative regulation of gene expression	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+BP	GO:2000113	negative regulation of cellular macromolecule biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+BP	GO:0048592	eye morphogenesis	TRINITY_DN199629_c5_g1	0.9999999999
+BP	GO:0007163	establishment or maintenance of cell polarity	TRINITY_DN199629_c5_g1	0.9999999999
+BP	GO:0051048	negative regulation of secretion	TRINITY_DN183482_c4_g1	0.9999999999
+CC	GO:0005924	cell-substrate adherens junction	TRINITY_DN199629_c5_g1	0.9999999999
+BP	GO:0045934	negative regulation of nucleobase-containing compound metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+BP	GO:0048519	negative regulation of biological process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1, TRINITY_DN183482_c4_g1	0.9999999999
+BP	GO:0000377	RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	TRINITY_DN167014_c6_g1	0.9999999999
+BP	GO:0000904	cell morphogenesis involved in differentiation	TRINITY_DN199629_c5_g1	0.9999999999
+BP	GO:0010558	negative regulation of macromolecule biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+BP	GO:0031327	negative regulation of cellular biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+BP	GO:0007015	actin filament organization	TRINITY_DN199629_c5_g1	0.9999999999
+BP	GO:0090596	sensory organ morphogenesis	TRINITY_DN199629_c5_g1	0.9999999999
+CC	GO:0005802	trans-Golgi network	TRINITY_DN183482_c4_g1	0.9999999999
+BP	GO:0051172	negative regulation of nitrogen compound metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+BP	GO:0009890	negative regulation of biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+BP	GO:0051604	protein maturation	TRINITY_DN183482_c4_g1	0.9999999999
+CC	GO:0030175	filopodium	TRINITY_DN199629_c5_g1	0.9999999999
+CC	GO:0005681	spliceosomal complex	TRINITY_DN167014_c6_g1	0.9999999999
+CC	GO:0071013	catalytic step 2 spliceosome	TRINITY_DN167014_c6_g1	0.9999999999
+CC	GO:0031300	intrinsic component of organelle membrane	TRINITY_DN183482_c4_g1	0.9999999999
+BP	GO:0035088	establishment or maintenance of apical/basal cell polarity	TRINITY_DN199629_c5_g1	0.9999999999
+CC	GO:0030173	integral component of Golgi membrane	TRINITY_DN183482_c4_g1	0.9999999999
+BP	GO:0051253	negative regulation of RNA metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+BP	GO:0003382	epithelial cell morphogenesis	TRINITY_DN199629_c5_g1	0.9999999999
+BP	GO:0048593	camera-type eye morphogenesis	TRINITY_DN199629_c5_g1	0.9999999999
+CC	GO:0031228	intrinsic component of Golgi membrane	TRINITY_DN183482_c4_g1	0.9999999999
+CC	GO:0005925	focal adhesion	TRINITY_DN199629_c5_g1	0.9999999999
+BP	GO:0000375	RNA splicing, via transesterification reactions	TRINITY_DN167014_c6_g1	0.9999999999
+BP	GO:1903507	negative regulation of nucleic acid-templated transcription	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+BP	GO:0016485	protein processing	TRINITY_DN183482_c4_g1	0.9999999999
+BP	GO:0045197	establishment or maintenance of epithelial cell apical/basal polarity	TRINITY_DN199629_c5_g1	0.9999999999
+BP	GO:0042752	regulation of circadian rhythm	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+CC	GO:0030055	cell-substrate junction	TRINITY_DN199629_c5_g1	0.9999999999
+CC	GO:0030027	lamellipodium	TRINITY_DN199629_c5_g1	0.9999999999
+BP	GO:0000398	mRNA splicing, via spliceosome	TRINITY_DN167014_c6_g1	0.9999999999
+BP	GO:0031324	negative regulation of cellular metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+BP	GO:0045892	negative regulation of transcription, DNA-templated	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+BP	GO:0042754	negative regulation of circadian rhythm	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.0653923536658165
+CC	GO:0031301	integral component of organelle membrane	TRINITY_DN183482_c4_g1	0.9999999999
+CC	GO:0098858	actin-based cell projection	TRINITY_DN199629_c5_g1	0.9999999999
+BP	GO:0061245	establishment or maintenance of bipolar cell polarity	TRINITY_DN199629_c5_g1	0.9999999999
+BP	GO:1902679	negative regulation of RNA biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1	0.9999999999
+BP	GO:0045292	mRNA cis splicing, via spliceosome	TRINITY_DN167014_c6_g1	0.9999999999

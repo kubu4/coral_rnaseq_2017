@@ -1,0 +1,53 @@
+$VAR1 = {
+          'K5' => [
+                    'B_female_K5_01',
+                    'B_female_K5_02',
+                    'B_female_K5_03',
+                    'B_male_K5_01',
+                    'B_male_K5_02',
+                    'B_male_K5_03',
+                    'NB_female_K5_01',
+                    'NB_female_K5_02',
+                    'NB_female_K5_03'
+                  ],
+          '44' => [
+                    'B_female_44_01',
+                    'B_female_44_02',
+                    'B_female_44_03',
+                    'NB_female_44_01',
+                    'NB_female_44_02',
+                    'NB_female_44_03'
+                  ]
+        };
+CMD: R --no-save --no-restore --no-site-file --no-init-file -q < salmon.gene.counts.matrix.44_vs_K5.44.vs.K5.EdgeR.Rscript
+> if (! require(edgeR)) {
++    source("https://bioconductor.org/biocLite.R")
++    biocLite("edgeR")
++    library(edgeR)
++ }
+> 
+> data = read.table("/media/sam/4TB_toshiba/porites/20191210_porites_all_DEG_44_vs_k5_GO/salmon.gene.counts.matrix", header=T, row.names=1, com='')
+> col_ordering = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15)
+> rnaseqMatrix = data[,col_ordering]
+> rnaseqMatrix = round(rnaseqMatrix)
+> rnaseqMatrix = rnaseqMatrix[rowSums(cpm(rnaseqMatrix) > 1) >= 2,]
+> conditions = factor(c(rep("44", 6), rep("K5", 9)))
+> 
+> exp_study = DGEList(counts=rnaseqMatrix, group=conditions)
+> exp_study = calcNormFactors(exp_study)
+> exp_study = estimateDisp(exp_study)
+Design matrix not provided. Switch to the classic mode.
+> et = exactTest(exp_study, pair=c("44", "K5"))
+> tTags = topTags(et,n=NULL)
+> result_table = tTags$table
+> result_table = data.frame(sampleA="44", sampleB="K5", result_table)
+> result_table$logFC = -1 * result_table$logFC
+> write.table(result_table, file='salmon.gene.counts.matrix.44_vs_K5.edgeR.DE_results', sep='	', quote=F, row.names=T)
+> write.table(rnaseqMatrix, file='salmon.gene.counts.matrix.44_vs_K5.edgeR.count_matrix', sep='	', quote=F, row.names=T)
+> source("/home/shared/Trinityrnaseq-v2.8.5/Analysis/DifferentialExpression/R/rnaseq_plot_funcs.R")
+> pdf("salmon.gene.counts.matrix.44_vs_K5.edgeR.DE_results.MA_n_Volcano.pdf")
+> plot_MA_and_Volcano(rownames(result_table), result_table$logCPM, result_table$logFC, result_table$FDR)
+> dev.off()
+null device 
+          1 
+> 

@@ -1,0 +1,43 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0042754	2.42333898753303e-07	0.999999999955226	2	18	negative regulation of circadian rhythm	BP	0.00507229083480539	BP negative regulation of circadian rhythm	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0042752	1.23948915526158e-05	0.999999982283878	2	126	regulation of circadian rhythm	BP	0.1297187375439	BP regulation of circadian rhythm	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0045892	0.000621516467740045	0.999993588878653	2	898	negative regulation of transcription, DNA-templated	BP	0.9999999999	BP negative regulation of transcription, DNA-templated	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:1903507	0.000624244379027686	0.999993546455969	2	900	negative regulation of nucleic acid-templated transcription	BP	0.9999999999	BP negative regulation of nucleic acid-templated transcription	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:1902679	0.000631123319007747	0.999993439061844	2	905	negative regulation of RNA biosynthetic process	BP	0.9999999999	BP negative regulation of RNA biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0051253	0.000719530481222839	0.999992006888574	2	967	negative regulation of RNA metabolic process	BP	0.9999999999	BP negative regulation of RNA metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0045934	0.00106612739824598	0.999985545214757	2	1180	negative regulation of nucleobase-containing compound metabolic process	BP	0.9999999999	BP negative regulation of nucleobase-containing compound metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:2000113	0.00147467478721553	0.999976425031151	2	1392	negative regulation of cellular macromolecule biosynthetic process	BP	0.9999999999	BP negative regulation of cellular macromolecule biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0010558	0.00154220437933042	0.999974777655013	2	1424	negative regulation of macromolecule biosynthetic process	BP	0.9999999999	BP negative regulation of macromolecule biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0031327	0.00166616156941597	0.999971657213311	2	1481	negative regulation of cellular biosynthetic process	BP	0.9999999999	BP negative regulation of cellular biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0009890	0.00171539188916754	0.999970384064458	2	1503	negative regulation of biosynthetic process	BP	0.9999999999	BP negative regulation of biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0045292	0.0022436138575485	0.999997733702426	1	54	mRNA cis splicing, via spliceosome	BP	0.9999999999	BP mRNA cis splicing, via spliceosome	TRINITY_DN167014_c6_g1
+GO:0010629	0.00274659526866936	0.999939710775738	2	1911	negative regulation of gene expression	BP	0.9999999999	BP negative regulation of gene expression	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0051172	0.00363744553177026	0.999907802773398	2	2206	negative regulation of nitrogen compound metabolic process	BP	0.9999999999	BP negative regulation of nitrogen compound metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0031324	0.00413552943369862	0.99988803949379	2	2356	negative regulation of cellular metabolic process	BP	0.9999999999	BP negative regulation of cellular metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0010605	0.00507449274150991	0.999847366913198	2	2618	negative regulation of macromolecule metabolic process	BP	0.9999999999	BP negative regulation of macromolecule metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0071013	0.00574788738149348	0.999984934954929	1	139	catalytic step 2 spliceosome	CC	0.9999999999	CC catalytic step 2 spliceosome	TRINITY_DN167014_c6_g1
+GO:0009892	0.00594689038153519	0.999805870202984	2	2841	negative regulation of metabolic process	BP	0.9999999999	BP negative regulation of metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0006355	0.00736705118880436	0.999731324531466	2	3168	regulation of transcription, DNA-templated	BP	0.9999999999	BP regulation of transcription, DNA-templated	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:1903506	0.00738496543658946	0.999730331802806	2	3172	regulation of nucleic acid-templated transcription	BP	0.9999999999	BP regulation of nucleic acid-templated transcription	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:2001141	0.00739836949878422	0.999729588181064	2	3175	regulation of RNA biosynthetic process	BP	0.9999999999	BP regulation of RNA biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0051252	0.00841521294081441	0.999671153669636	2	3395	regulation of RNA metabolic process	BP	0.9999999999	BP regulation of RNA metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0019219	0.0106428000154822	0.999529961077084	2	3838	regulation of nucleobase-containing compound metabolic process	BP	0.9999999999	BP regulation of nucleobase-containing compound metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:2000112	0.0112550560175431	0.999488170492687	2	3953	regulation of cellular macromolecule biosynthetic process	BP	0.9999999999	BP regulation of cellular macromolecule biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0010556	0.0116825204741097	0.999458264876552	2	4031	regulation of macromolecule biosynthetic process	BP	0.9999999999	BP regulation of macromolecule biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0031326	0.0123092188364627	0.999413360782296	2	4143	regulation of cellular biosynthetic process	BP	0.9999999999	BP regulation of cellular biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0009889	0.0128464524074716	0.999373882772517	2	4237	regulation of biosynthetic process	BP	0.9999999999	BP regulation of biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0000398	0.0134940650914478	0.999916388128156	1	327	mRNA splicing, via spliceosome	BP	0.9999999999	BP mRNA splicing, via spliceosome	TRINITY_DN167014_c6_g1
+GO:0005681	0.0135684438393143	0.999915459989874	1	329	spliceosomal complex	CC	0.9999999999	CC spliceosomal complex	TRINITY_DN167014_c6_g1
+GO:0000377	0.0135751962864556	0.999915375615973	1	329	RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	BP	0.9999999999	BP RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	TRINITY_DN167014_c6_g1
+GO:0000375	0.0136567096471847	0.999914352174668	1	331	RNA splicing, via transesterification reactions	BP	0.9999999999	BP RNA splicing, via transesterification reactions	TRINITY_DN167014_c6_g1
+GO:0010468	0.0153985765569167	0.999174428936338	2	4662	regulation of gene expression	BP	0.9999999999	BP regulation of gene expression	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0048523	0.0178217993350639	0.998967785450704	2	5044	negative regulation of cellular process	BP	0.9999999999	BP negative regulation of cellular process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0048519	0.0224988922750898	0.998525019825167	2	5711	negative regulation of biological process	BP	0.9999999999	BP negative regulation of biological process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0008380	0.0228087501487436	0.999759999926463	1	555	RNA splicing	BP	0.9999999999	BP RNA splicing	TRINITY_DN167014_c6_g1
+GO:0051171	0.0229585287795706	0.998478548029411	2	5766	regulation of nitrogen compound metabolic process	BP	0.9999999999	BP regulation of nitrogen compound metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0080090	0.0242067182464513	0.998349780357045	2	5932	regulation of primary metabolic process	BP	0.9999999999	BP regulation of primary metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0031323	0.0260576060194053	0.998152063533306	2	6172	regulation of cellular metabolic process	BP	0.9999999999	BP regulation of cellular metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0060255	0.0263833452424505	0.99811644533265	2	6213	regulation of macromolecule metabolic process	BP	0.9999999999	BP regulation of macromolecule metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0006397	0.0273577823833802	0.999654038608617	1	667	mRNA processing	BP	0.9999999999	BP mRNA processing	TRINITY_DN167014_c6_g1
+GO:0019222	0.0315067003935364	0.997524994775644	2	6839	regulation of metabolic process	BP	0.9999999999	BP regulation of metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0016071	0.0440522434627915	0.999096898985692	1	1084	mRNA metabolic process	BP	0.9999999999	BP mRNA metabolic process	TRINITY_DN167014_c6_g1

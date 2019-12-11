@@ -1,0 +1,46 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0042754	3.12418678829566e-06	0.999999997703314	2	18	negative regulation of circadian rhythm	BP	0.0653923536658165	BP negative regulation of circadian rhythm	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0042752	0.000159085512614989	0.999999094888915	2	126	regulation of circadian rhythm	BP	0.9999999999	BP regulation of circadian rhythm	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0048593	0.00519044436404816	0.999987192341505	1	36	camera-type eye morphogenesis	BP	0.9999999999	BP camera-type eye morphogenesis	TRINITY_DN199629_c5_g1
+GO:0045892	0.0075845590405126	0.999690315417781	2	898	negative regulation of transcription, DNA-templated	BP	0.9999999999	BP negative regulation of transcription, DNA-templated	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:1903507	0.00761708779582756	0.999688297180355	2	900	negative regulation of nucleic acid-templated transcription	BP	0.9999999999	BP negative regulation of nucleic acid-templated transcription	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:1902679	0.00769866624040713	0.99968321581558	2	905	negative regulation of RNA biosynthetic process	BP	0.9999999999	BP negative regulation of RNA biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0045292	0.00778202979744343	0.999970909659874	1	54	mRNA cis splicing, via spliceosome	BP	0.9999999999	BP mRNA cis splicing, via spliceosome	TRINITY_DN167014_c6_g1
+GO:0003382	0.00851310694216226	0.99996512276447	1	59	epithelial cell morphogenesis	BP	0.9999999999	BP epithelial cell morphogenesis	TRINITY_DN199629_c5_g1
+GO:0051253	0.00874038803839439	0.99961588744894	2	967	negative regulation of RNA metabolic process	BP	0.9999999999	BP negative regulation of RNA metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0030175	0.0125278615562594	0.999923945967703	1	87	filopodium	CC	0.9999999999	CC filopodium	TRINITY_DN199629_c5_g1
+GO:0045934	0.0127703770739451	0.999316190650655	2	1180	negative regulation of nucleobase-containing compound metabolic process	BP	0.9999999999	BP negative regulation of nucleobase-containing compound metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0030173	0.0139451919337571	0.999905604873333	1	97	integral component of Golgi membrane	CC	0.9999999999	CC integral component of Golgi membrane	TRINITY_DN183482_c4_g1
+GO:0031228	0.0139451919337571	0.999905604873333	1	97	intrinsic component of Golgi membrane	CC	0.9999999999	CC intrinsic component of Golgi membrane	TRINITY_DN183482_c4_g1
+GO:0045197	0.0167925991945719	0.99986274269517	1	117	establishment or maintenance of epithelial cell apical/basal polarity	BP	0.9999999999	BP establishment or maintenance of epithelial cell apical/basal polarity	TRINITY_DN199629_c5_g1
+GO:0035088	0.0172204881690252	0.999855606288646	1	120	establishment or maintenance of apical/basal cell polarity	BP	0.9999999999	BP establishment or maintenance of apical/basal cell polarity	TRINITY_DN199629_c5_g1
+GO:2000113	0.0174374273726293	0.998900361140731	2	1392	negative regulation of cellular macromolecule biosynthetic process	BP	0.9999999999	BP negative regulation of cellular macromolecule biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0061245	0.017790574770276	0.999845815566018	1	124	establishment or maintenance of bipolar cell polarity	BP	0.9999999999	BP establishment or maintenance of bipolar cell polarity	TRINITY_DN199629_c5_g1
+GO:0010558	0.0181921503290234	0.9988268351455	2	1424	negative regulation of macromolecule biosynthetic process	BP	0.9999999999	BP negative regulation of macromolecule biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0031327	0.0195781934724237	0.998687506753272	2	1481	negative regulation of cellular biosynthetic process	BP	0.9999999999	BP negative regulation of cellular biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0071013	0.0199121834277271	0.999806537110969	1	139	catalytic step 2 spliceosome	CC	0.9999999999	CC catalytic step 2 spliceosome	TRINITY_DN167014_c6_g1
+GO:0009890	0.0201237064927058	0.998631174292733	2	1503	negative regulation of biosynthetic process	BP	0.9999999999	BP negative regulation of biosynthetic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0051048	0.0224851680530805	0.999752884656111	1	157	negative regulation of secretion	BP	0.9999999999	BP negative regulation of secretion	TRINITY_DN183482_c4_g1
+GO:0030027	0.0238792684983325	0.999721050224038	1	167	lamellipodium	CC	0.9999999999	CC lamellipodium	TRINITY_DN199629_c5_g1
+GO:0048592	0.0296784958050797	0.999567726682613	1	208	eye morphogenesis	BP	0.9999999999	BP eye morphogenesis	TRINITY_DN199629_c5_g1
+GO:0090596	0.0305230707489953	0.999542577328235	1	214	sensory organ morphogenesis	BP	0.9999999999	BP sensory organ morphogenesis	TRINITY_DN199629_c5_g1
+GO:0010629	0.0313636506710164	0.997297103588232	2	1911	negative regulation of gene expression	BP	0.9999999999	BP negative regulation of gene expression	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0098858	0.0330378653234391	0.999463432681946	1	232	actin-based cell projection	CC	0.9999999999	CC actin-based cell projection	TRINITY_DN199629_c5_g1
+GO:0005925	0.0358201900279482	0.999368421470682	1	252	focal adhesion	CC	0.9999999999	CC focal adhesion	TRINITY_DN199629_c5_g1
+GO:0007015	0.0384702489988287	0.999270633665897	1	271	actin filament organization	BP	0.9999999999	BP actin filament organization	TRINITY_DN199629_c5_g1
+GO:0005924	0.0384759441560601	0.999270416237189	1	271	cell-substrate adherens junction	CC	0.9999999999	CC cell-substrate adherens junction	TRINITY_DN199629_c5_g1
+GO:0016485	0.0389202351065619	0.999253323067602	1	274	protein processing	BP	0.9999999999	BP protein processing	TRINITY_DN183482_c4_g1
+GO:0030055	0.0393130494298492	0.999238039780571	1	277	cell-substrate junction	CC	0.9999999999	CC cell-substrate junction	TRINITY_DN199629_c5_g1
+GO:0031301	0.0401686967228433	0.999204210893977	1	283	integral component of organelle membrane	CC	0.9999999999	CC integral component of organelle membrane	TRINITY_DN183482_c4_g1
+GO:0051172	0.0406997544874264	0.995962202829864	2	2206	negative regulation of nitrogen compound metabolic process	BP	0.9999999999	BP negative regulation of nitrogen compound metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0005802	0.0419422922741435	0.999131710026352	1	296	trans-Golgi network	CC	0.9999999999	CC trans-Golgi network	TRINITY_DN183482_c4_g1
+GO:0031300	0.0419782141206795	0.999130211070069	1	296	intrinsic component of organelle membrane	CC	0.9999999999	CC intrinsic component of organelle membrane	TRINITY_DN183482_c4_g1
+GO:0000904	0.0429633112216768	0.999088522888558	1	303	cell morphogenesis involved in differentiation	BP	0.9999999999	BP cell morphogenesis involved in differentiation	TRINITY_DN199629_c5_g1
+GO:0007163	0.0441987985009704	0.999034835525493	1	312	establishment or maintenance of cell polarity	BP	0.9999999999	BP establishment or maintenance of cell polarity	TRINITY_DN199629_c5_g1
+GO:0051604	0.0442022601897193	0.999034683155322	1	312	protein maturation	BP	0.9999999999	BP protein maturation	TRINITY_DN183482_c4_g1
+GO:0031324	0.0457992743767272	0.995154384977876	2	2356	negative regulation of cellular metabolic process	BP	0.9999999999	BP negative regulation of cellular metabolic process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1
+GO:0000398	0.0462215016895776	0.998943567547284	1	327	mRNA splicing, via spliceosome	BP	0.9999999999	BP mRNA splicing, via spliceosome	TRINITY_DN167014_c6_g1
+GO:0000377	0.0464985160210511	0.998930742522186	1	329	RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	BP	0.9999999999	BP RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	TRINITY_DN167014_c6_g1
+GO:0005681	0.0465142131525993	0.998930014537569	1	329	spliceosomal complex	CC	0.9999999999	CC spliceosomal complex	TRINITY_DN167014_c6_g1
+GO:0000375	0.0467753933844975	0.998917845235208	1	331	RNA splicing, via transesterification reactions	BP	0.9999999999	BP RNA splicing, via transesterification reactions	TRINITY_DN167014_c6_g1
+GO:0048519	0.0495740224350482	0.990741593665906	3	5711	negative regulation of biological process	BP	0.9999999999	BP negative regulation of biological process	TRINITY_DN167014_c6_g1, TRINITY_DN171044_c5_g1, TRINITY_DN183482_c4_g1
