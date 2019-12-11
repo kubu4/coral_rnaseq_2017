@@ -1,0 +1,100 @@
+description	log10pvalue	representative
+cytoplasmic translation	6.7811	cytoplasmic translation
+protein metabolic process	5.0404	cytoplasmic translation
+regulation of MHC class II biosynthetic process	1.9552	cytoplasmic translation
+cellular macromolecule metabolic process	3.0156	cytoplasmic translation
+macromolecule biosynthetic process	13.251	cytoplasmic translation
+cellular biosynthetic process	8.3623	cytoplasmic translation
+cellular nitrogen compound biosynthetic process	12.9034	cytoplasmic translation
+cellular protein metabolic process	5.181	cytoplasmic translation
+translation	20.1499	cytoplasmic translation
+organic substance biosynthetic process	8.7277	cytoplasmic translation
+organonitrogen compound metabolic process	3.7402	cytoplasmic translation
+organonitrogen compound biosynthetic process	13.5155	cytoplasmic translation
+cellular amide metabolic process	16.6448	cytoplasmic translation
+cellular nitrogen compound metabolic process	4.8608	cytoplasmic translation
+cellular macromolecule biosynthetic process	14.6301	cytoplasmic translation
+biological_process	2.8469	biological_process
+metabolic process	1.4426	metabolism
+cellular process	2.3072	cellular process
+biosynthetic process	8.0409	biosynthesis
+negative regulation of keratinocyte proliferation	3.9042	negative regulation of keratinocyte proliferation
+copper ion export	1.96	negative regulation of keratinocyte proliferation
+fatty acid homeostasis	2.3116	negative regulation of keratinocyte proliferation
+cellular response to antibiotic	1.7012	negative regulation of keratinocyte proliferation
+osteoclast fusion	1.9393	negative regulation of keratinocyte proliferation
+cellular response to lipopolysaccharide	1.8173	negative regulation of keratinocyte proliferation
+sodium ion homeostasis	1.6125	negative regulation of keratinocyte proliferation
+system process	1.3551	negative regulation of keratinocyte proliferation
+water homeostasis	2.6697	negative regulation of keratinocyte proliferation
+response to insulin-like growth factor stimulus	2.2571	negative regulation of keratinocyte proliferation
+negative regulation of homotypic cell-cell adhesion	1.8788	negative regulation of keratinocyte proliferation
+regulation of epidermal cell division	1.8625	negative regulation of keratinocyte proliferation
+regulation of body fluid levels	3.079	negative regulation of keratinocyte proliferation
+regulation of myoblast proliferation	2.5651	negative regulation of keratinocyte proliferation
+serotonin transport	2.213	negative regulation of keratinocyte proliferation
+positive regulation of transcription from RNA polymerase II promoter involved in cellular response to chemical stimulus	1.5495	negative regulation of keratinocyte proliferation
+cellular homeostasis	2.4437	negative regulation of keratinocyte proliferation
+cellular copper ion homeostasis	1.6698	negative regulation of keratinocyte proliferation
+mitotic G1 DNA damage checkpoint	1.735	negative regulation of keratinocyte proliferation
+forebrain morphogenesis	1.4915	negative regulation of keratinocyte proliferation
+sensory perception	2.7068	negative regulation of keratinocyte proliferation
+positive regulation of hepatocyte proliferation	2.2229	negative regulation of keratinocyte proliferation
+response to interleukin-4	1.6155	negative regulation of keratinocyte proliferation
+response to testosterone	1.3643	negative regulation of keratinocyte proliferation
+cellular response to biotic stimulus	1.6968	negative regulation of keratinocyte proliferation
+multicellular organismal homeostasis	2.4834	negative regulation of keratinocyte proliferation
+protein localization to Golgi apparatus	1.4905	negative regulation of keratinocyte proliferation
+monoamine transport	1.5146	negative regulation of keratinocyte proliferation
+choline transport	1.7034	negative regulation of keratinocyte proliferation
+cellular response to interleukin-4	1.6155	negative regulation of keratinocyte proliferation
+positive regulation of lactation	2.5479	negative regulation of keratinocyte proliferation
+positive regulation of plasma cell differentiation	2.5479	negative regulation of keratinocyte proliferation
+neurotransmitter secretion	1.4278	negative regulation of keratinocyte proliferation
+protein destabilization	1.3022	negative regulation of keratinocyte proliferation
+positive regulation of transcription from RNA polymerase II promoter involved in unfolded protein response	2.0944	negative regulation of keratinocyte proliferation
+skin development	1.5493	negative regulation of keratinocyte proliferation
+negative regulation of wound healing	2.5955	negative regulation of keratinocyte proliferation
+cellular response to glucose starvation	1.5424	negative regulation of keratinocyte proliferation
+intrinsic apoptotic signaling pathway in response to DNA damage	2.443	negative regulation of keratinocyte proliferation
+response to electrical stimulus	1.3714	negative regulation of keratinocyte proliferation
+serotonin secretion, neurotransmission	2.5479	negative regulation of keratinocyte proliferation
+DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator	2.0261	negative regulation of keratinocyte proliferation
+muscle organ development	2.0886	negative regulation of keratinocyte proliferation
+muscle structure development	1.9008	negative regulation of keratinocyte proliferation
+regulation of skeletal muscle satellite cell proliferation	1.9765	negative regulation of keratinocyte proliferation
+ammonium transport	1.8834	negative regulation of keratinocyte proliferation
+negative regulation of response to biotic stimulus	1.5954	negative regulation of keratinocyte proliferation
+dendrite regeneration	2.0668	negative regulation of keratinocyte proliferation
+regulation of transforming growth factor beta activation	1.8054	negative regulation of keratinocyte proliferation
+regeneration	1.5252	negative regulation of keratinocyte proliferation
+regulation of cellular response to transforming growth factor beta stimulus	1.5345	negative regulation of keratinocyte proliferation
+regulation of biological quality	1.563	negative regulation of keratinocyte proliferation
+positive regulation of protein export from nucleus	1.4837	negative regulation of keratinocyte proliferation
+cellular response to laminar fluid shear stress	2.281	negative regulation of keratinocyte proliferation
+epidermal cell differentiation	2.1822	negative regulation of keratinocyte proliferation
+establishment of skin barrier	3.5867	negative regulation of keratinocyte proliferation
+ribosomal small subunit assembly	3.48	ribosomal small subunit assembly
+ribosomal large subunit biogenesis	2.7088	ribosomal small subunit assembly
+vesicle uncoating	1.7799	ribosomal small subunit assembly
+clathrin coat disassembly	1.8564	ribosomal small subunit assembly
+positive regulation of histone methylation	1.4048	ribosomal small subunit assembly
+ribonucleoprotein complex biogenesis	3.0474	ribosomal small subunit assembly
+protein depolymerization	1.3284	ribosomal small subunit assembly
+negative regulation of Arp2/3 complex-mediated actin nucleation	2.1632	ribosomal small subunit assembly
+clathrin-coated pit assembly	1.9824	ribosomal small subunit assembly
+cellular component biogenesis	2.2069	ribosomal small subunit assembly
+Golgi to lysosome transport	1.6585	ribosomal small subunit assembly
+phospholipid catabolic process	3.4103	phospholipid catabolism
+phosphatidylethanolamine metabolic process	1.9143	phospholipid catabolism
+organophosphate catabolic process	1.8386	phospholipid catabolism
+phosphatidylinositol catabolic process	2.6456	phospholipid catabolism
+fertilization	2.083	fertilization
+DNA methylation involved in gamete generation	1.333	fertilization
+macromolecule metabolic process	2.9842	macromolecule metabolism
+nitrogen compound metabolic process	2.3474	nitrogen compound metabolism
+piRNA metabolic process	1.3761	piRNA metabolism
+primary metabolic process	2.4609	primary metabolism
+cellular metabolic process	1.5834	primary metabolism
+organic substance metabolic process	2.0906	primary metabolism
+microtubule sliding	2.1902	microtubule sliding
