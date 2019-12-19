@@ -1,0 +1,162 @@
+description	log10pvalue	representative
+biological_process	3.9104	biological_process
+metabolic process	3.1081	metabolism
+cellular process	3.9577	cellular process
+biological adhesion	1.5912	biological adhesion
+developmental process	4.4574	developmental process
+single-organism process	4.0837	single-organism process
+single-organism developmental process	4.4405	single-organism developmental process
+Leydig cell differentiation	1.8568	single-organism developmental process
+single-organism cellular process	4.1131	single-organism developmental process
+cellular metabolic process	3.8183	single-organism developmental process
+macrophage differentiation	1.7491	single-organism developmental process
+keratinization	1.9515	single-organism developmental process
+skeletal system development	2.2688	single-organism developmental process
+negative regulation of dendrite morphogenesis	3.5901	single-organism developmental process
+nose development	3.659	single-organism developmental process
+male sex determination	1.858	single-organism developmental process
+muscle structure development	1.8043	single-organism developmental process
+Schwann cell differentiation	1.9727	single-organism developmental process
+osteoblast differentiation	2.0932	single-organism developmental process
+organ growth	2.0739	single-organism developmental process
+sex determination	1.5623	single-organism developmental process
+regulation of myotube differentiation	2.8547	single-organism developmental process
+bone development	1.984	single-organism developmental process
+lumen formation, open tracheal system	1.7266	single-organism developmental process
+biological regulation	3.7541	biological regulation
+cellular component organization or biogenesis	1.8687	cellular component organization or biogenesis
+regulation of double-strand break repair via nonhomologous end joining	4.6367	regulation of double-strand break repair via nonhomologous end joining
+double-strand break repair	2.1486	regulation of double-strand break repair via nonhomologous end joining
+regulation of cofactor metabolic process	2.4095	regulation of double-strand break repair via nonhomologous end joining
+positive regulation of biological process	2.371	regulation of double-strand break repair via nonhomologous end joining
+single-organism carbohydrate metabolic process	3.0645	regulation of double-strand break repair via nonhomologous end joining
+positive regulation of feeding behavior	1.595	regulation of double-strand break repair via nonhomologous end joining
+chromatin organization involved in regulation of transcription	3.4972	regulation of double-strand break repair via nonhomologous end joining
+hydrogen transport	1.572	regulation of double-strand break repair via nonhomologous end joining
+negative regulation of glycolytic process	4.4873	regulation of double-strand break repair via nonhomologous end joining
+cellular response to stimulus	2.0636	regulation of double-strand break repair via nonhomologous end joining
+fructose 1,6-bisphosphate metabolic process	1.8827	regulation of double-strand break repair via nonhomologous end joining
+cellular response to mechanical stimulus	2.5537	regulation of double-strand break repair via nonhomologous end joining
+regulation of cell-matrix adhesion	1.9025	regulation of double-strand break repair via nonhomologous end joining
+cellular component organization	1.6455	regulation of double-strand break repair via nonhomologous end joining
+manganese ion transport	1.5512	regulation of double-strand break repair via nonhomologous end joining
+response to drug	2.7037	regulation of double-strand break repair via nonhomologous end joining
+regulation of multicellular organismal process	1.8405	regulation of double-strand break repair via nonhomologous end joining
+negative regulation of DNA recombination	2.4952	regulation of double-strand break repair via nonhomologous end joining
+ERBB2-ERBB3 signaling pathway	1.6406	regulation of double-strand break repair via nonhomologous end joining
+dephosphorylation	1.8523	regulation of double-strand break repair via nonhomologous end joining
+regulation of transcription from RNA polymerase II promoter	1.6481	regulation of double-strand break repair via nonhomologous end joining
+COPI-coated vesicle budding	2.6705	regulation of double-strand break repair via nonhomologous end joining
+regulation of chromatin binding	2.5144	regulation of double-strand break repair via nonhomologous end joining
+negative regulation of chromatin binding	1.6803	regulation of double-strand break repair via nonhomologous end joining
+urate metabolic process	1.6141	regulation of double-strand break repair via nonhomologous end joining
+positive regulation of neuron death	1.7628	regulation of double-strand break repair via nonhomologous end joining
+response to amphetamine	1.6845	regulation of double-strand break repair via nonhomologous end joining
+cellular homeostasis	3.223	regulation of double-strand break repair via nonhomologous end joining
+chromatin remodeling	3.0364	regulation of double-strand break repair via nonhomologous end joining
+regulation of localization	1.9146	regulation of double-strand break repair via nonhomologous end joining
+chromatin organization	2.455	regulation of double-strand break repair via nonhomologous end joining
+regulation of developmental pigmentation	1.8324	regulation of double-strand break repair via nonhomologous end joining
+positive regulation by host of viral process	1.9598	regulation of double-strand break repair via nonhomologous end joining
+cellular carbohydrate catabolic process	2.2903	regulation of double-strand break repair via nonhomologous end joining
+cellular response to abiotic stimulus	1.9648	regulation of double-strand break repair via nonhomologous end joining
+cellular carbohydrate metabolic process	2.9968	regulation of double-strand break repair via nonhomologous end joining
+regulation of membrane hyperpolarization	2.3265	regulation of double-strand break repair via nonhomologous end joining
+regulation of cell motility	4.3	regulation of double-strand break repair via nonhomologous end joining
+organic substance transport	1.8386	regulation of double-strand break repair via nonhomologous end joining
+organonitrogen compound metabolic process	2.6074	regulation of double-strand break repair via nonhomologous end joining
+response to metal ion	2.3506	regulation of double-strand break repair via nonhomologous end joining
+endosomal lumen acidification	2.5045	regulation of double-strand break repair via nonhomologous end joining
+TRAIL-activated apoptotic signaling pathway	1.8207	regulation of double-strand break repair via nonhomologous end joining
+cellular response to parathyroid hormone stimulus	1.7711	regulation of double-strand break repair via nonhomologous end joining
+release of cytochrome c from mitochondria	1.8098	regulation of double-strand break repair via nonhomologous end joining
+mRNA splicing, via spliceosome	1.9178	regulation of double-strand break repair via nonhomologous end joining
+heterochromatin organization involved in chromatin silencing	3.4972	regulation of double-strand break repair via nonhomologous end joining
+secretion	1.6865	regulation of double-strand break repair via nonhomologous end joining
+positive regulation of molecular function	1.7739	regulation of double-strand break repair via nonhomologous end joining
+G-protein coupled acetylcholine receptor signaling pathway	1.6232	regulation of double-strand break repair via nonhomologous end joining
+response to inactivity	2.0302	regulation of double-strand break repair via nonhomologous end joining
+heterochromatin organization	2.7813	regulation of double-strand break repair via nonhomologous end joining
+NADH metabolic process	1.7335	regulation of double-strand break repair via nonhomologous end joining
+regulation of molecular function	1.7443	regulation of double-strand break repair via nonhomologous end joining
+regulation of biological quality	2.3368	regulation of double-strand break repair via nonhomologous end joining
+response to inorganic substance	1.732	regulation of double-strand break repair via nonhomologous end joining
+energy coupled proton transmembrane transport, against electrochemical gradient	2.2346	regulation of double-strand break repair via nonhomologous end joining
+negative regulation of Ras protein signal transduction	2.2724	regulation of double-strand break repair via nonhomologous end joining
+energy derivation by oxidation of organic compounds	2.9593	regulation of double-strand break repair via nonhomologous end joining
+muscle adaptation	3.3454	regulation of double-strand break repair via nonhomologous end joining
+nuclear body organization	1.6555	regulation of double-strand break repair via nonhomologous end joining
+ATP hydrolysis coupled ion transmembrane transport	2.2547	regulation of double-strand break repair via nonhomologous end joining
+negative regulation of posttranscriptional gene silencing	2.1535	regulation of double-strand break repair via nonhomologous end joining
+phospholipase C-activating dopamine receptor signaling pathway	2.8741	regulation of double-strand break repair via nonhomologous end joining
+regulation of generation of precursor metabolites and energy	3.0715	regulation of double-strand break repair via nonhomologous end joining
+regulation of epidermal cell division	1.7571	regulation of double-strand break repair via nonhomologous end joining
+response to cobalt ion	1.6765	regulation of double-strand break repair via nonhomologous end joining
+negative regulation of cell proliferation	1.7563	regulation of double-strand break repair via nonhomologous end joining
+regulation of phosphorylation	2.4474	regulation of double-strand break repair via nonhomologous end joining
+negative regulation of pri-miRNA transcription from RNA polymerase II promoter	2.5038	regulation of double-strand break repair via nonhomologous end joining
+histone H3 deacetylation	2.0829	regulation of double-strand break repair via nonhomologous end joining
+regulation of cell adhesion	2.1028	regulation of double-strand break repair via nonhomologous end joining
+fermentation	2.8741	regulation of double-strand break repair via nonhomologous end joining
+regulation of carbohydrate metabolic process	2.6149	regulation of double-strand break repair via nonhomologous end joining
+oxaloacetate metabolic process	1.8542	regulation of double-strand break repair via nonhomologous end joining
+malate metabolic process	1.8083	regulation of double-strand break repair via nonhomologous end joining
+dosage compensation	2.8565	regulation of double-strand break repair via nonhomologous end joining
+phototransduction, visible light	2.0985	regulation of double-strand break repair via nonhomologous end joining
+acetyl-CoA biosynthetic process from pyruvate	1.7212	regulation of double-strand break repair via nonhomologous end joining
+oligosaccharide metabolic process	2.4125	regulation of double-strand break repair via nonhomologous end joining
+oligosaccharide biosynthetic process	3.0443	regulation of double-strand break repair via nonhomologous end joining
+negative regulation of keratinocyte proliferation	1.6743	regulation of double-strand break repair via nonhomologous end joining
+ERBB3 signaling pathway	1.6406	regulation of double-strand break repair via nonhomologous end joining
+calcineurin-NFAT signaling cascade	2.0994	regulation of double-strand break repair via nonhomologous end joining
+regulation of sequence-specific DNA binding transcription factor activity	2.446	regulation of double-strand break repair via nonhomologous end joining
+positive regulation of sequence-specific DNA binding transcription factor activity	3.2518	regulation of double-strand break repair via nonhomologous end joining
+regulation of gene expression, epigenetic	2.0348	regulation of double-strand break repair via nonhomologous end joining
+regulation of membrane potential	2.0581	regulation of double-strand break repair via nonhomologous end joining
+inactivation of X chromosome by DNA methylation	3.8893	regulation of double-strand break repair via nonhomologous end joining
+non-glycolytic fermentation	2.8741	regulation of double-strand break repair via nonhomologous end joining
+response to parathyroid hormone	1.7438	regulation of double-strand break repair via nonhomologous end joining
+cellular response to drug	3.0392	regulation of double-strand break repair via nonhomologous end joining
+response to tumor necrosis factor	1.7107	regulation of double-strand break repair via nonhomologous end joining
+positive regulation of extracellular matrix organization	1.7226	regulation of double-strand break repair via nonhomologous end joining
+cellular nitrogen compound metabolic process	2.1414	regulation of double-strand break repair via nonhomologous end joining
+collagen-activated tyrosine kinase receptor signaling pathway	1.8003	regulation of double-strand break repair via nonhomologous end joining
+collagen-activated signaling pathway	1.7712	regulation of double-strand break repair via nonhomologous end joining
+anaerobic glycerol catabolic process	2.8741	regulation of double-strand break repair via nonhomologous end joining
+ATP hydrolysis coupled transmembrane transport	2.2547	regulation of double-strand break repair via nonhomologous end joining
+polysaccharide metabolic process	1.6509	regulation of double-strand break repair via nonhomologous end joining
+sucrose biosynthetic process	1.9884	regulation of double-strand break repair via nonhomologous end joining
+arachidonic acid secretion	1.6205	regulation of double-strand break repair via nonhomologous end joining
+non-canonical Wnt signaling pathway via JNK cascade	1.6256	regulation of double-strand break repair via nonhomologous end joining
+regulation of connective tissue replacement	2.5161	regulation of double-strand break repair via nonhomologous end joining
+SCF complex assembly	2.3539	regulation of double-strand break repair via nonhomologous end joining
+urate catabolic process	2.4911	regulation of double-strand break repair via nonhomologous end joining
+positive regulation of synaptic transmission, cholinergic	1.632	regulation of double-strand break repair via nonhomologous end joining
+primary metabolic process	3.8599	primary metabolism
+organic substance metabolic process	3.3839	primary metabolism
+chaperone-mediated protein folding	2.1333	chaperone-mediated protein folding
+generation of precursor metabolites and energy	1.8194	generation of precursor metabolites and energy
+carbohydrate metabolic process	2.8472	carbohydrate metabolism
+bioluminescence	1.6027	bioluminescence
+nitrogen compound metabolic process	2.5474	nitrogen compound metabolism
+peptidyl-amino acid modification	3.1102	peptidyl-amino acid modification
+regulation of primary metabolic process	4.1912	peptidyl-amino acid modification
+regulation of cellular protein metabolic process	2.2905	peptidyl-amino acid modification
+tricarboxylic acid metabolic process	1.9177	peptidyl-amino acid modification
+regulation of protein metabolic process	2.495	peptidyl-amino acid modification
+protein O-linked glycosylation via threonine	1.8759	peptidyl-amino acid modification
+cellular macromolecule metabolic process	3.3938	peptidyl-amino acid modification
+macromolecule metabolic process	3.1458	peptidyl-amino acid modification
+cellular protein metabolic process	2.657	peptidyl-amino acid modification
+regulation of metabolic process	3.3407	peptidyl-amino acid modification
+regulation of cellular process	3.5675	peptidyl-amino acid modification
+amino acid activation	1.6822	peptidyl-amino acid modification
+protein metabolic process	2.196	peptidyl-amino acid modification
+regulation of beta-amyloid formation	1.5859	peptidyl-amino acid modification
+protein polyglutamylation	1.6575	peptidyl-amino acid modification
+translation	2.3494	peptidyl-amino acid modification
+isoleucyl-tRNA aminoacylation	1.9627	peptidyl-amino acid modification
+glutaminyl-tRNA aminoacylation	1.9241	peptidyl-amino acid modification
+cellular protein modification process	1.5718	peptidyl-amino acid modification
+regulation of phosphorus metabolic process	2.179	peptidyl-amino acid modification
+positive regulation of protein sumoylation	2.2324	peptidyl-amino acid modification
