@@ -1,0 +1,6 @@
+bleached-female	B_female_44_01	4R041-L7-P14-GTGGCC-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P14-GTGGCC-READ2-Sequences.txt.gz_val_2.fq.gz
+bleached-female	B_female_44_02	4R041-L7-P03-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P03-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz
+bleached-female	B_female_44_03	4R041-L7-P11-ACTTGA-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P11-ACTTGA-READ2-Sequences.txt.gz_val_2.fq.gz
+non-bleached-female	NB_female_44_01	4R041-L7-P04-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P04-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz
+non-bleached-female	NB_female_44_02	4R041-L7-P05-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P05-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz
+non-bleached-female	NB_female_44_03	4R041-L7-P12-TGACCA-READ1-Sequences.txt.gz_val_1.fq.gz	4R041-L7-P12-TGACCA-READ2-Sequences.txt.gz_val_2.fq.gz
