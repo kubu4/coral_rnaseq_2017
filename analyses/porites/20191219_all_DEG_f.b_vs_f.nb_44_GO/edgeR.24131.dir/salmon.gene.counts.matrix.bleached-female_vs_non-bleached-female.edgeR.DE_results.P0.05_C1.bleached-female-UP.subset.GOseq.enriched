@@ -1,0 +1,84 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0090143	0.00123187121339671	1	1	1	nucleoid organization	BP	0.9999999999	BP nucleoid organization	TRINITY_DN174848_c6_g1
+GO:0090144	0.00123187121339671	1	1	1	mitochondrial nucleoid organization	BP	0.9999999999	BP mitochondrial nucleoid organization	TRINITY_DN174848_c6_g1
+GO:1903108	0.00123187121339671	1	1	1	regulation of mitochondrial transcription	BP	0.9999999999	BP regulation of mitochondrial transcription	TRINITY_DN174848_c6_g1
+GO:1903109	0.00123187121339671	1	1	1	positive regulation of mitochondrial transcription	BP	0.9999999999	BP positive regulation of mitochondrial transcription	TRINITY_DN174848_c6_g1
+GO:1903850	0.00123187121339671	1	1	1	regulation of cristae formation	BP	0.9999999999	BP regulation of cristae formation	TRINITY_DN174848_c6_g1
+GO:1903852	0.00123187121339671	1	1	1	positive regulation of cristae formation	BP	0.9999999999	BP positive regulation of cristae formation	TRINITY_DN174848_c6_g1
+GO:1904734	0.00123187121339671	1	1	1	positive regulation of electron transfer activity	BP	0.9999999999	BP positive regulation of electron transfer activity	TRINITY_DN174848_c6_g1
+GO:1904960	0.00123187121339671	1	1	1	positive regulation of cytochrome-c oxidase activity	BP	0.9999999999	BP positive regulation of cytochrome-c oxidase activity	TRINITY_DN174848_c6_g1
+GO:1904732	0.00242071943625729	0.999998541829311	1	2	regulation of electron transfer activity	BP	0.9999999999	BP regulation of electron transfer activity	TRINITY_DN174848_c6_g1
+GO:1904959	0.00242071943625729	0.999998541829311	1	2	regulation of cytochrome-c oxidase activity	BP	0.9999999999	BP regulation of cytochrome-c oxidase activity	TRINITY_DN174848_c6_g1
+GO:0006119	0.00381792447753024	0.999994557079042	1	4	oxidative phosphorylation	BP	0.9999999999	BP oxidative phosphorylation	TRINITY_DN174848_c6_g1
+GO:0031960	0.00437172867138682	0.999863652429057	2	101	response to corticosteroid	BP	0.9999999999	BP response to corticosteroid	TRINITY_DN161224_c0_g1, TRINITY_DN198225_c0_g1
+GO:0010155	0.00469923956890511	0.999991751149522	1	4	regulation of proton transport	BP	0.9999999999	BP regulation of proton transport	TRINITY_DN174848_c6_g1
+GO:0071389	0.00637391723853272	0.99998264800803	1	7	cellular response to mineralocorticoid stimulus	BP	0.9999999999	BP cellular response to mineralocorticoid stimulus	TRINITY_DN161224_c0_g1
+GO:1904045	0.00637391723853272	0.99998264800803	1	7	cellular response to aldosterone	BP	0.9999999999	BP cellular response to aldosterone	TRINITY_DN161224_c0_g1
+GO:0048545	0.006382508733607	0.999757550567015	2	124	response to steroid hormone	BP	0.9999999999	BP response to steroid hormone	TRINITY_DN161224_c0_g1, TRINITY_DN198225_c0_g1
+GO:0005222	0.00687795350012928	0.999979044327127	1	9	intracellular cAMP-activated cation channel activity	MF	0.9999999999	MF intracellular cAMP-activated cation channel activity	TRINITY_DN161224_c0_g1
+GO:2001235	0.00688238325938643	0.999728198232096	2	124	positive regulation of apoptotic signaling pathway	BP	0.9999999999	BP positive regulation of apoptotic signaling pathway	TRINITY_DN167839_c2_g3, TRINITY_DN174848_c6_g1
+GO:1904044	0.00720148495573258	0.999977381956278	1	8	response to aldosterone	BP	0.9999999999	BP response to aldosterone	TRINITY_DN161224_c0_g1
+GO:0072718	0.00803340323353683	0.999971043093428	1	10	response to cisplatin	BP	0.9999999999	BP response to cisplatin	TRINITY_DN161224_c0_g1
+GO:0051385	0.00806171173715327	0.999971197500495	1	9	response to mineralocorticoid	BP	0.9999999999	BP response to mineralocorticoid	TRINITY_DN161224_c0_g1
+GO:0097232	0.00812925325641404	0.999971168647347	1	8	lamellar body membrane	CC	0.9999999999	CC lamellar body membrane	TRINITY_DN198225_c0_g1
+GO:0097233	0.00812925325641404	0.999971168647347	1	8	alveolar lamellar body membrane	CC	0.9999999999	CC alveolar lamellar body membrane	TRINITY_DN198225_c0_g1
+GO:0007249	0.0085679199180385	0.999620701535737	2	135	I-kappaB kinase/NF-kappaB signaling	BP	0.9999999999	BP I-kappaB kinase/NF-kappaB signaling	TRINITY_DN167839_c2_g3, TRINITY_DN191296_c1_g2
+GO:0000347	0.00869771906673638	0.999966465649808	1	9	THO complex	CC	0.9999999999	CC THO complex	TRINITY_DN130558_c0_g2
+GO:0097208	0.00903998053085573	0.999963769873721	1	9	alveolar lamellar body	CC	0.9999999999	CC alveolar lamellar body	TRINITY_DN198225_c0_g1
+GO:0005221	0.00913320623999048	0.999961865027446	1	12	intracellular cyclic nucleotide activated cation channel activity	MF	0.9999999999	MF intracellular cyclic nucleotide activated cation channel activity	TRINITY_DN161224_c0_g1
+GO:0043855	0.00913320623999048	0.999961865027446	1	12	cyclic nucleotide-gated ion channel activity	MF	0.9999999999	MF cyclic nucleotide-gated ion channel activity	TRINITY_DN161224_c0_g1
+GO:0042599	0.0100359302310126	0.999954773701357	1	10	lamellar body	CC	0.9999999999	CC lamellar body	TRINITY_DN198225_c0_g1
+GO:0030322	0.0104268381603629	0.999950273532302	1	12	stabilization of membrane potential	BP	0.9999999999	BP stabilization of membrane potential	TRINITY_DN174848_c6_g1
+GO:0090200	0.0117141045356889	0.999936770374791	1	13	positive regulation of release of cytochrome c from mitochondria	BP	0.9999999999	BP positive regulation of release of cytochrome c from mitochondria	TRINITY_DN174848_c6_g1
+GO:1901030	0.0123164606499905	0.999931140456658	1	11	positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	BP	0.9999999999	BP positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	TRINITY_DN174848_c6_g1
+GO:0061617	0.0133979656780624	0.999917807424131	1	12	MICOS complex	CC	0.9999999999	CC MICOS complex	TRINITY_DN174848_c6_g1
+GO:0048699	0.014116383032587	0.999907552451986	1	14	generation of neurons	BP	0.9999999999	BP generation of neurons	TRINITY_DN130558_c0_g2
+GO:0033993	0.0142499518598837	0.998295675025885	3	513	response to lipid	BP	0.9999999999	BP response to lipid	TRINITY_DN161224_c0_g1, TRINITY_DN191296_c1_g2, TRINITY_DN198225_c0_g1
+GO:1901028	0.0146359801183282	0.999901188298925	1	13	regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	BP	0.9999999999	BP regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	TRINITY_DN174848_c6_g1
+GO:0099558	0.0155722287017349	0.999885920792601	1	17	maintenance of synapse structure	BP	0.9999999999	BP maintenance of synapse structure	TRINITY_DN174848_c6_g1
+GO:1901222	0.0194451766479966	0.998674043875635	2	210	regulation of NIK/NF-kappaB signaling	BP	0.9999999999	BP regulation of NIK/NF-kappaB signaling	TRINITY_DN167839_c2_g3, TRINITY_DN191296_c1_g2
+GO:0046902	0.0202925827370667	0.999804141429499	1	20	regulation of mitochondrial membrane permeability	BP	0.9999999999	BP regulation of mitochondrial membrane permeability	TRINITY_DN174848_c6_g1
+GO:0090199	0.0212848263483636	0.99978297344939	1	23	regulation of release of cytochrome c from mitochondria	BP	0.9999999999	BP regulation of release of cytochrome c from mitochondria	TRINITY_DN174848_c6_g1
+GO:1990597	0.0215059762227985	0.999779375364302	1	21	AIP1-IRE1 complex	CC	0.9999999999	CC AIP1-IRE1 complex	TRINITY_DN167839_c2_g3
+GO:0005174	0.0224892087155586	0.999758111598271	1	22	CD40 receptor binding	MF	0.9999999999	MF CD40 receptor binding	TRINITY_DN167839_c2_g3
+GO:0097057	0.0224892087155586	0.999758111598271	1	22	TRAF2-GSTP1 complex	CC	0.9999999999	CC TRAF2-GSTP1 complex	TRINITY_DN167839_c2_g3
+GO:1903719	0.0224892087155586	0.999758111598271	1	22	regulation of I-kappaB phosphorylation	BP	0.9999999999	BP regulation of I-kappaB phosphorylation	TRINITY_DN167839_c2_g3
+GO:1903721	0.0224892087155586	0.999758111598271	1	22	positive regulation of I-kappaB phosphorylation	BP	0.9999999999	BP positive regulation of I-kappaB phosphorylation	TRINITY_DN167839_c2_g3
+GO:0030552	0.0250280441649067	0.999696725196347	1	29	cAMP binding	MF	0.9999999999	MF cAMP binding	TRINITY_DN161224_c0_g1
+GO:0071320	0.025623271900374	0.999681686345646	1	30	cellular response to cAMP	BP	0.9999999999	BP cellular response to cAMP	TRINITY_DN161224_c0_g1
+GO:0071550	0.026694784023349	0.9996567395675	1	25	death-inducing signaling complex assembly	BP	0.9999999999	BP death-inducing signaling complex assembly	TRINITY_DN167839_c2_g3
+GO:2001233	0.0279848044612048	0.997681908660458	2	261	regulation of apoptotic signaling pathway	BP	0.9999999999	BP regulation of apoptotic signaling pathway	TRINITY_DN167839_c2_g3, TRINITY_DN174848_c6_g1
+GO:1990604	0.028009690907135	0.999620241728649	1	28	IRE1-TRAF2-ASK1 complex	CC	0.9999999999	CC IRE1-TRAF2-ASK1 complex	TRINITY_DN167839_c2_g3
+GO:0034351	0.0290324588069189	0.99959133772185	1	29	negative regulation of glial cell apoptotic process	BP	0.9999999999	BP negative regulation of glial cell apoptotic process	TRINITY_DN167839_c2_g3
+GO:0032695	0.0298927482083637	0.999565191273604	1	32	negative regulation of interleukin-12 production	BP	0.9999999999	BP negative regulation of interleukin-12 production	TRINITY_DN191296_c1_g2
+GO:0034350	0.0301214225225633	0.999559417897871	1	30	regulation of glial cell apoptotic process	BP	0.9999999999	BP regulation of glial cell apoptotic process	TRINITY_DN167839_c2_g3
+GO:0005217	0.0308353772912247	0.999535540727439	1	36	intracellular ligand-gated ion channel activity	MF	0.9999999999	MF intracellular ligand-gated ion channel activity	TRINITY_DN161224_c0_g1
+GO:1902042	0.0313302192584976	0.999522617664198	1	31	negative regulation of extrinsic apoptotic signaling pathway via death domain receptors	BP	0.9999999999	BP negative regulation of extrinsic apoptotic signaling pathway via death domain receptors	TRINITY_DN167839_c2_g3
+GO:0051353	0.0314762068370835	0.999518663436303	1	30	positive regulation of oxidoreductase activity	BP	0.9999999999	BP positive regulation of oxidoreductase activity	TRINITY_DN174848_c6_g1
+GO:0034765	0.0316651410257708	0.997195437274768	2	308	regulation of ion transmembrane transport	BP	0.9999999999	BP regulation of ion transmembrane transport	TRINITY_DN161224_c0_g1, TRINITY_DN174848_c6_g1
+GO:0032691	0.0319820228542419	0.999501438549553	1	33	negative regulation of interleukin-1 beta production	BP	0.9999999999	BP negative regulation of interleukin-1 beta production	TRINITY_DN191296_c1_g2
+GO:0090559	0.0323180306923206	0.999491339121453	1	32	regulation of membrane permeability	BP	0.9999999999	BP regulation of membrane permeability	TRINITY_DN174848_c6_g1
+GO:1903265	0.0342258594227033	0.99942805487682	1	34	positive regulation of tumor necrosis factor-mediated signaling pathway	BP	0.9999999999	BP positive regulation of tumor necrosis factor-mediated signaling pathway	TRINITY_DN167839_c2_g3
+GO:0034762	0.0342830648634508	0.996830595436238	2	321	regulation of transmembrane transport	BP	0.9999999999	BP regulation of transmembrane transport	TRINITY_DN161224_c0_g1, TRINITY_DN174848_c6_g1
+GO:0071732	0.0350804356717175	0.999397955205335	1	36	cellular response to nitric oxide	BP	0.9999999999	BP cellular response to nitric oxide	TRINITY_DN167839_c2_g3
+GO:0071731	0.0371493241662101	0.999323352332891	1	38	response to nitric oxide	BP	0.9999999999	BP response to nitric oxide	TRINITY_DN167839_c2_g3
+GO:1902041	0.0375880957945713	0.999307166830634	1	38	regulation of extrinsic apoptotic signaling pathway via death domain receptors	BP	0.9999999999	BP regulation of extrinsic apoptotic signaling pathway via death domain receptors	TRINITY_DN167839_c2_g3
+GO:0070059	0.037591130403787	0.99930705421435	1	38	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	BP	0.9999999999	BP intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	TRINITY_DN167839_c2_g3
+GO:0043122	0.0376959497070816	0.996333475967589	2	296	regulation of I-kappaB kinase/NF-kappaB signaling	BP	0.9999999999	BP regulation of I-kappaB kinase/NF-kappaB signaling	TRINITY_DN167839_c2_g3, TRINITY_DN191296_c1_g2
+GO:1902170	0.0385582228455656	0.999269719307068	1	40	cellular response to reactive nitrogen species	BP	0.9999999999	BP cellular response to reactive nitrogen species	TRINITY_DN167839_c2_g3
+GO:0006672	0.0390613865614147	0.999246310858804	1	51	ceramide metabolic process	BP	0.9999999999	BP ceramide metabolic process	TRINITY_DN167667_c6_g1
+GO:0043954	0.0402030585004399	0.999204666925024	1	42	cellular component maintenance	BP	0.9999999999	BP cellular component maintenance	TRINITY_DN174848_c6_g1
+GO:0031625	0.0403327019515395	0.995928614008283	2	335	ubiquitin protein ligase binding	MF	0.9999999999	MF ubiquitin protein ligase binding	TRINITY_DN151629_c1_g1, TRINITY_DN167839_c2_g3
+GO:0032692	0.0406148532144081	0.99918864894765	1	41	negative regulation of interleukin-1 production	BP	0.9999999999	BP negative regulation of interleukin-1 production	TRINITY_DN191296_c1_g2
+GO:0071384	0.0409502449731156	0.999173708979025	1	44	cellular response to corticosteroid stimulus	BP	0.9999999999	BP cellular response to corticosteroid stimulus	TRINITY_DN161224_c0_g1
+GO:0097300	0.0426560601150991	0.999102895770066	1	44	programmed necrotic cell death	BP	0.9999999999	BP programmed necrotic cell death	TRINITY_DN167839_c2_g3
+GO:0051023	0.0434126155486395	0.999071038270136	1	43	regulation of immunoglobulin secretion	BP	0.9999999999	BP regulation of immunoglobulin secretion	TRINITY_DN167839_c2_g3
+GO:0044389	0.0439792333234978	0.995346030518043	2	351	ubiquitin-like protein ligase binding	MF	0.9999999999	MF ubiquitin-like protein ligase binding	TRINITY_DN151629_c1_g1, TRINITY_DN167839_c2_g3
+GO:0070265	0.044752436812823	0.999010834828428	1	46	necrotic cell death	BP	0.9999999999	BP necrotic cell death	TRINITY_DN167839_c2_g3
+GO:1901655	0.0453078282978355	0.998983756078161	1	51	cellular response to ketone	BP	0.9999999999	BP cellular response to ketone	TRINITY_DN161224_c0_g1
+GO:2001237	0.0456309725698475	0.998970818754491	1	47	negative regulation of extrinsic apoptotic signaling pathway	BP	0.9999999999	BP negative regulation of extrinsic apoptotic signaling pathway	TRINITY_DN167839_c2_g3
+GO:0090073	0.0465107957977142	0.998930415780185	1	47	positive regulation of protein homodimerization activity	BP	0.9999999999	BP positive regulation of protein homodimerization activity	TRINITY_DN167839_c2_g3
+GO:0071383	0.0468253411634202	0.998913959827862	1	51	cellular response to steroid hormone stimulus	BP	0.9999999999	BP cellular response to steroid hormone stimulus	TRINITY_DN161224_c0_g1
+GO:0030551	0.0481729380699598	0.998848356706781	1	55	cyclic nucleotide binding	MF	0.9999999999	MF cyclic nucleotide binding	TRINITY_DN161224_c0_g1
+GO:0005272	0.0483888720978828	0.998834392434199	1	66	sodium channel activity	MF	0.9999999999	MF sodium channel activity	TRINITY_DN161224_c0_g1
+GO:0046625	0.0494197057244978	0.998790144221977	1	49	sphingolipid binding	MF	0.9999999999	MF sphingolipid binding	TRINITY_DN167839_c2_g3

@@ -1,0 +1,4 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0040011	1	0.0299976805014088	0	1016	locomotion	BP	0.9999999999	0.9999999999	BP locomotion
+GO:0048870	1	0.048406258092877	0	872	cell motility	BP	0.9999999999	0.9999999999	BP cell motility
+GO:1901362	1	0.0494738461773609	0	1082	organic cyclic compound biosynthetic process	BP	0.9999999999	0.9999999999	BP organic cyclic compound biosynthetic process
