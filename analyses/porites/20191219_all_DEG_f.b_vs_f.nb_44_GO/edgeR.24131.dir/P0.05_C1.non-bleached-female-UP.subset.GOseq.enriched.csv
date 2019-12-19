@@ -1,0 +1,73 @@
+,Count,Percent,Term
+GO:0000003,3,0.29585798816568,reproduction
+GO:0000278,0,0,mitotic cell cycle
+GO:0000902,3,0.29585798816568,cell morphogenesis
+GO:0002376,3,0.29585798816568,immune system process
+GO:0003013,1,0.0986193293885602,circulatory system process
+GO:0005975,31,3.05719921104536,carbohydrate metabolic process
+GO:0006091,14,1.38067061143984,generation of precursor metabolites...
+GO:0006259,16,1.57790927021696,DNA metabolic process
+GO:0006397,1,0.0986193293885602,mRNA processing
+GO:0006399,4,0.394477317554241,tRNA metabolic process
+GO:0006412,4,0.394477317554241,translation
+GO:0006457,1,0.0986193293885602,protein folding
+GO:0006464,19,1.87376725838264,cellular protein modification proce...
+GO:0006520,5,0.493096646942801,cellular amino acid metabolic proce...
+GO:0006605,0,0,protein targeting
+GO:0006629,1,0.0986193293885602,lipid metabolic process
+GO:0006790,2,0.19723865877712,sulfur compound metabolic process
+GO:0006810,25,2.465483234714,transport
+GO:0006913,3,0.29585798816568,nucleocytoplasmic transport
+GO:0006914,0,0,autophagy
+GO:0006950,20,1.9723865877712,response to stress
+GO:0007005,1,0.0986193293885602,mitochondrion organization
+GO:0007009,0,0,plasma membrane organization
+GO:0007010,2,0.19723865877712,cytoskeleton organization
+GO:0007034,0,0,vacuolar transport
+GO:0007049,0,0,cell cycle
+GO:0007059,0,0,chromosome segregation
+GO:0007155,6,0.591715976331361,cell adhesion
+GO:0007165,30,2.9585798816568,signal transduction
+GO:0007267,7,0.690335305719921,cell-cell signaling
+GO:0007568,0,0,aging
+GO:0008150,462,45.5621301775148,biological_process
+GO:0008219,4,0.394477317554241,cell death
+GO:0008283,5,0.493096646942801,cell proliferation
+GO:0009056,16,1.57790927021696,catabolic process
+GO:0009058,35,3.45167652859961,biosynthetic process
+GO:0009790,1,0.0986193293885602,embryo development
+GO:0015031,4,0.394477317554241,protein transport
+GO:0015979,0,0,photosynthesis
+GO:0016192,2,0.19723865877712,vesicle-mediated transport
+GO:0019748,0,0,secondary metabolic process
+GO:0021700,1,0.0986193293885602,developmental maturation
+GO:0022607,10,0.986193293885602,cellular component assembly
+GO:0022618,0,0,ribonucleoprotein complex assembly
+GO:0030154,29,2.85996055226824,cell differentiation
+GO:0030198,3,0.29585798816568,extracellular matrix organization
+GO:0030705,0,0,cytoskeleton-dependent intracellula...
+GO:0032196,0,0,transposition
+GO:0034330,0,0,cell junction organization
+GO:0034641,69,6.80473372781065,cellular nitrogen compound metaboli...
+GO:0034655,2,0.19723865877712,nucleobase-containing compound cata...
+GO:0040007,9,0.887573964497041,growth
+GO:0040011,11,1.08481262327416,locomotion
+GO:0042254,0,0,ribosome biogenesis
+GO:0042592,10,0.986193293885602,homeostatic process
+GO:0043473,3,0.29585798816568,pigmentation
+GO:0044281,34,3.35305719921105,small molecule metabolic process
+GO:0044403,5,0.493096646942801,symbiont process
+GO:0048646,2,0.19723865877712,anatomical structure formation invo...
+GO:0048856,42,4.14201183431953,anatomical structure development
+GO:0048870,9,0.887573964497041,cell motility
+GO:0050877,1,0.0986193293885602,nervous system process
+GO:0051186,9,0.887573964497041,cofactor metabolic process
+GO:0051276,17,1.67652859960552,chromosome organization
+GO:0051301,1,0.0986193293885602,cell division
+GO:0051604,1,0.0986193293885602,protein maturation
+GO:0055085,8,0.788954635108481,transmembrane transport
+GO:0061024,3,0.29585798816568,membrane organization
+GO:0065003,4,0.394477317554241,protein-containing complex assembly
+GO:0071554,0,0,cell wall organization or biogenesi...
+GO:0071941,0,0,nitrogen cycle metabolic process
+GO:0140014,0,0,mitotic nuclear division
