@@ -12,7 +12,7 @@ transcriptome_dir="/media/sam/4TB_toshiba/porites/20180419_trinity"
 transcriptome="${transcriptome_dir}/Trinity.fasta"
 fasta_index="${transcriptome_dir}/Trinity.fasta.fai"
 fasta_seq_lengths="${transcriptome_dir}/Trinity.fasta.seq_lens"
-samples="/home/sam/gitrepos/coral_rnaseq_2017/scripts/porites_b-f_vs_b-m_trinity_sample_list.txt"
+samples="/home/sam/gitrepos/coral_rnaseq_2017/scripts/porites_b_vs_nb_female_44_trinity_sample_list.txt"
 
 gene_map="${transcriptome_dir}/Trinity.fasta.gene_trans_map"
 salmon_gene_matrix="${salmon_out_dir}/salmon.gene.TMM.EXPR.matrix"
