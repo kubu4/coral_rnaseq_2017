@@ -1,0 +1,8 @@
+% WARNING - This is exported REVIGO data useful only for the specific purpose of constructing a TreeMap visualization.
+% Do not use this table as a general list of non-redundant GO categories, as it sets an extremely permissive 
+% threshold to detect redundancies (c=0.10) and fill the 'representative' column, while normally c>=0.4 is recommended.
+% To export a reduced-redundancy set of GO terms, go to the Scatterplot & Table tab, and export to CSV from there.
+term_ID,description,frequencyInDb,log10pvalue,uniqueness,dispensability,representative
+GO:0007157,"heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules",0.008%,-1.5914,0.852,0.000,"heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules"
+GO:0042754,"negative regulation of circadian rhythm",0.003%,-5.1667,0.196,0.000,"negative regulation of circadian rhythm"
+GO:0045892,"negative regulation of transcription, DNA-templated",0.592%,-1.9800,0.022,0.490,"negative regulation of circadian rhythm"
