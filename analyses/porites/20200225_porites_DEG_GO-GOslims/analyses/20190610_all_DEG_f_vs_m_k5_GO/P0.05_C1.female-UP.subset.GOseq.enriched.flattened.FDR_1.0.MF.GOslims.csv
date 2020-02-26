@@ -1,0 +1,41 @@
+GOslim,Count,Percent,Term,go_terms
+GO:0003674,16,51.6129032258064,molecular_function,GO:0003995;GO:0004367;GO:0004368;GO:0004383;GO:0004466;GO:0008607;GO:0015020;GO:0016505;GO:0016901;GO:0017099;GO:0031404;GO:0048365;GO:0052590;GO:0052591;GO:0070287;GO:0070991
+GO:0003677,0,0,DNA binding,
+GO:0003700,0,0,DNA-binding transcription factor ac...,
+GO:0003723,0,0,RNA binding,
+GO:0003729,0,0,mRNA binding,
+GO:0003735,0,0,structural constituent of ribosome,
+GO:0003924,0,0,GTPase activity,
+GO:0004386,0,0,helicase activity,
+GO:0004518,0,0,nuclease activity,
+GO:0005198,0,0,structural molecule activity,
+GO:0008092,0,0,cytoskeletal protein binding,
+GO:0008134,0,0,transcription factor binding,
+GO:0008135,0,0,translation factor activity, RNA bi...,
+GO:0008168,0,0,methyltransferase activity,
+GO:0008233,0,0,peptidase activity,
+GO:0008289,0,0,lipid binding,
+GO:0016301,0,0,kinase activity,
+GO:0016491,9,29.0322580645161,oxidoreductase activity,GO:0003995;GO:0004367;GO:0004368;GO:0004466;GO:0016901;GO:0017099;GO:0052590;GO:0052591;GO:0070991
+GO:0016746,0,0,transferase activity, transferring ...,
+GO:0016757,1,3.2258064516129,transferase activity, transferring ...,GO:0015020
+GO:0016765,0,0,transferase activity, transferring ...,
+GO:0016779,0,0,nucleotidyltransferase activity,
+GO:0016791,0,0,phosphatase activity,
+GO:0016798,0,0,hydrolase activity, acting on glyco...,
+GO:0016810,0,0,hydrolase activity, acting on carbo...,
+GO:0016829,1,3.2258064516129,lyase activity,GO:0004383
+GO:0016853,0,0,isomerase activity,
+GO:0016874,0,0,ligase activity,
+GO:0016887,0,0,ATPase activity,
+GO:0019843,0,0,rRNA binding,
+GO:0019899,1,3.2258064516129,enzyme binding,GO:0048365
+GO:0022857,0,0,transmembrane transporter activity,
+GO:0030234,2,6.45161290322581,enzyme regulator activity,GO:0008607;GO:0016505
+GO:0030533,0,0,triplet codon-amino acid adaptor ac...,
+GO:0030555,0,0,RNA modification guide activity,
+GO:0030674,0,0,protein binding, bridging,
+GO:0032182,0,0,ubiquitin-like protein binding,
+GO:0042393,0,0,histone binding,
+GO:0043167,1,3.2258064516129,ion binding,GO:0031404
+GO:0051082,0,0,unfolded protein binding,
