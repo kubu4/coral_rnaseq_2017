@@ -13,7 +13,7 @@ fdr <- as.character("1.0")
 
 ### Create list of files
 goseq_files <- list.files(path = "./data",
-                          pattern = "\\.GOseq.[de]",
+                          pattern = "\\.flattened",
                           recursive = TRUE,
                           full.names = TRUE)
 
