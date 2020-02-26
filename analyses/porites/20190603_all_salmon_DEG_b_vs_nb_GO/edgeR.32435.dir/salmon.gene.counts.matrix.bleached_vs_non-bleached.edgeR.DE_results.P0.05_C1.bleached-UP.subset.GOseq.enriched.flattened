@@ -1,0 +1,6 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	gene_ids
+GO:0004674	0.0108423915013432	0.999960661568638	1	1051	protein_serine/threonine_kinase_activity	MF	0.9999999999	TRINITY_DN197493_c3_g2
+GO:0004672	0.0263299246672686	0.999766256134664	1	2563	protein_kinase_activity	MF	0.9999999999	TRINITY_DN197493_c3_g2
+GO:0016773	0.0291069579173444	0.999713978985508	1	2836	phosphotransferase_activity,_alcohol_group_as_acceptor	MF	0.9999999999	TRINITY_DN197493_c3_g2
+GO:0016301	0.0308539562699446	0.999678353022452	1	3008	kinase_activity	MF	0.9999999999	TRINITY_DN197493_c3_g2
+GO:0016772	0.0411705591333807	0.999424543456763	1	4028	transferase_activity,_transferring_phosphorus-containing_groups	MF	0.9999999999	TRINITY_DN197493_c3_g2
