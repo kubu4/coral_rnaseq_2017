@@ -43,7 +43,7 @@ ggplot(df3, aes(x = Term, fill = treatment,
                             yes = -Percent, 
                             no = Percent))) + 
   geom_bar(stat = "identity") + 
-  scale_y_discrete(labels = abs, limits = max(df3$Percent) * c(-1,1)) + 
+  scale_y_continuous(labels = abs, limits = max(df3$Percent) * c(-1,1)) + 
   labs(title = "Percentages of GO terms assigned to GOslims", x = "GOslim", y = "Percent GO terms") + 
   scale_x_discrete(expand = c(-1,0)) + 
   coord_flip()
