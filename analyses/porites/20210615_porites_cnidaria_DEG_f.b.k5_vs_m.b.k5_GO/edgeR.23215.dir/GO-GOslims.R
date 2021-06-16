@@ -45,7 +45,7 @@ for (item in goseq_files) {
   # I downloaded goslim_generic.obo from http://geneontology.org/docs/go-subset-guide/
   # then i moved it to the R library for GSEABase in the extdata folder
   # in addition to using the command here - I think they're both required.
-  slim <- getOBOCollection("./data/goslim_generic.obo")
+  slim <- getOBOCollection("~/data/goslim_generic.obo")
   
   ## Map GO terms to GOslims and select Biological Processes group
   slims <- goSlim(myCollection, slim, "BP", verbose = TRUE)
@@ -68,7 +68,7 @@ for (item in goseq_files) {
   outfile_dest <- file.path("./analyses/", outfilename)
   
   ## Write output file
-  # write.csv(slims, file = outfile_dest, quote = FALSE)
+  write.csv(slims, file = outfile_dest, quote = FALSE)
   
   
 }
