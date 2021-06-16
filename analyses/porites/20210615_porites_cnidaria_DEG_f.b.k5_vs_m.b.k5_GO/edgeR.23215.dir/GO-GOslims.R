@@ -7,7 +7,7 @@ library(tidyverse)
 
 ### Create list of files
 goseq_files <- list.files(path = "./data",
-                          pattern = "\\.GOseq.[de]",
+                          pattern = "\\.enriched.flattened",
                           full.names = TRUE)
 
 ### Set output filename suffix
@@ -22,7 +22,7 @@ for (item in goseq_files) {
   
   ## Get max number of fields
   # Needed to handle reading in file with different number of columns in each row
-  max_fields <- max(count.fields(item, sep = "\t"))
+  max_fields <- max(na.omit((count.fields(item, sep = "\t", blank.lines.skip = TRUE))))
   
   ## Read in tab-delimited GOseq file
   # Use "max_fields" to populate all columns with a sequentially numbered header
