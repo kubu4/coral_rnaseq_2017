@@ -1,0 +1,161 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0050325	1.94223173470691e-06	0.99999999216274	3	8	tauropine dehydrogenase activity	MF	0.0336006090104295	MF tauropine dehydrogenase activity	TRINITY_DN175844_c1_g2, TRINITY_DN175996_c4_g1, TRINITY_DN176468_c8_g5
+GO:0016646	6.72104122897626e-05	0.999998838218242	3	32	oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor	MF	0.581370066306447	MF oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor	TRINITY_DN175844_c1_g2, TRINITY_DN175996_c4_g1, TRINITY_DN176468_c8_g5
+GO:0016645	0.000139330630253265	0.999996868535447	3	41	oxidoreductase activity, acting on the CH-NH group of donors	MF	0.803473301127163	MF oxidoreductase activity, acting on the CH-NH group of donors	TRINITY_DN175844_c1_g2, TRINITY_DN175996_c4_g1, TRINITY_DN176468_c8_g5
+GO:0042048	0.00112488449232905	0.999983714117042	2	18	olfactory behavior	BP	0.9999999999	BP olfactory behavior	TRINITY_DN110789_c0_g1, TRINITY_DN143628_c2_g1
+GO:0007635	0.00187966992804235	0.999963964795513	2	23	chemosensory behavior	BP	0.9999999999	BP chemosensory behavior	TRINITY_DN110789_c0_g1, TRINITY_DN143628_c2_g1
+GO:0052590	0.00369718745421889	1	1	1	sn-glycerol-3-phosphate:ubiquinone oxidoreductase activity	MF	0.9999999999	MF sn-glycerol-3-phosphate:ubiquinone oxidoreductase activity	TRINITY_DN167841_c2_g1
+GO:0052591	0.00369718745421889	1	1	1	sn-glycerol-3-phosphate:ubiquinone-8 oxidoreductase activity	MF	0.9999999999	MF sn-glycerol-3-phosphate:ubiquinone-8 oxidoreductase activity	TRINITY_DN167841_c2_g1
+GO:0090143	0.0038346850347718	1	1	1	nucleoid organization	BP	0.9999999999	BP nucleoid organization	TRINITY_DN174848_c6_g1
+GO:0090144	0.0038346850347718	1	1	1	mitochondrial nucleoid organization	BP	0.9999999999	BP mitochondrial nucleoid organization	TRINITY_DN174848_c6_g1
+GO:1903108	0.0038346850347718	1	1	1	regulation of mitochondrial transcription	BP	0.9999999999	BP regulation of mitochondrial transcription	TRINITY_DN174848_c6_g1
+GO:1903109	0.0038346850347718	1	1	1	positive regulation of mitochondrial transcription	BP	0.9999999999	BP positive regulation of mitochondrial transcription	TRINITY_DN174848_c6_g1
+GO:1903850	0.0038346850347718	1	1	1	regulation of cristae formation	BP	0.9999999999	BP regulation of cristae formation	TRINITY_DN174848_c6_g1
+GO:1903852	0.0038346850347718	1	1	1	positive regulation of cristae formation	BP	0.9999999999	BP positive regulation of cristae formation	TRINITY_DN174848_c6_g1
+GO:1904734	0.0038346850347718	1	1	1	positive regulation of electron transfer activity	BP	0.9999999999	BP positive regulation of electron transfer activity	TRINITY_DN174848_c6_g1
+GO:1904960	0.0038346850347718	1	1	1	positive regulation of cytochrome-c oxidase activity	BP	0.9999999999	BP positive regulation of cytochrome-c oxidase activity	TRINITY_DN174848_c6_g1
+GO:0004368	0.00469729864789943	0.999994514739067	1	2	glycerol-3-phosphate dehydrogenase (quinone) activity	MF	0.9999999999	MF glycerol-3-phosphate dehydrogenase (quinone) activity	TRINITY_DN167841_c2_g1
+GO:0009331	0.00469729864789943	0.999994514739067	1	2	glycerol-3-phosphate dehydrogenase complex	CC	0.9999999999	CC glycerol-3-phosphate dehydrogenase complex	TRINITY_DN167841_c2_g1
+GO:0016901	0.00469729864789943	0.999994514739067	1	2	oxidoreductase activity, acting on the CH-OH group of donors, quinone or similar compound as acceptor	MF	0.9999999999	MF oxidoreductase activity, acting on the CH-OH group of donors, quinone or similar compound as acceptor	TRINITY_DN167841_c2_g1
+GO:0042073	0.00651997318362995	0.999756463263889	2	41	intraciliary transport	BP	0.9999999999	BP intraciliary transport	TRINITY_DN182856_c5_g2, TRINITY_DN196784_c3_g1
+GO:0006119	0.00729890032937624	0.999982325448144	1	3	oxidative phosphorylation	BP	0.9999999999	BP oxidative phosphorylation	TRINITY_DN174848_c6_g1
+GO:0046168	0.00744512672515355	0.999981608958063	1	3	glycerol-3-phosphate catabolic process	BP	0.9999999999	BP glycerol-3-phosphate catabolic process	TRINITY_DN167841_c2_g1
+GO:0044342	0.00757656326551068	0.999985708475364	1	2	type B pancreatic cell proliferation	BP	0.9999999999	BP type B pancreatic cell proliferation	TRINITY_DN193107_c2_g5
+GO:0022027	0.00765489056405723	0.999985410874201	1	2	interkinetic nuclear migration	BP	0.9999999999	BP interkinetic nuclear migration	TRINITY_DN160018_c2_g1
+GO:0098840	0.00770374739964685	0.999685066932777	2	46	protein transport along microtubule	BP	0.9999999999	BP protein transport along microtubule	TRINITY_DN182856_c5_g2, TRINITY_DN196784_c3_g1
+GO:0099118	0.00770374739964685	0.999685066932777	2	46	microtubule-based protein transport	BP	0.9999999999	BP microtubule-based protein transport	TRINITY_DN182856_c5_g2, TRINITY_DN196784_c3_g1
+GO:0004367	0.00810222259487106	0.999978212918898	1	3	glycerol-3-phosphate dehydrogenase [NAD+] activity	MF	0.9999999999	MF glycerol-3-phosphate dehydrogenase [NAD+] activity	TRINITY_DN167841_c2_g1
+GO:0008607	0.00863745512617933	0.999975233360493	1	3	phosphorylase kinase regulator activity	MF	0.9999999999	MF phosphorylase kinase regulator activity	TRINITY_DN137484_c0_g1
+GO:0002825	0.0087873428182821	0.999971167307808	1	4	regulation of T-helper 1 type immune response	BP	0.9999999999	BP regulation of T-helper 1 type immune response	TRINITY_DN199899_c4_g1
+GO:0002827	0.0087873428182821	0.999971167307808	1	4	positive regulation of T-helper 1 type immune response	BP	0.9999999999	BP positive regulation of T-helper 1 type immune response	TRINITY_DN199899_c4_g1
+GO:0045623	0.0087873428182821	0.999971167307808	1	4	negative regulation of T-helper cell differentiation	BP	0.9999999999	BP negative regulation of T-helper cell differentiation	TRINITY_DN199899_c4_g1
+GO:0045625	0.0087873428182821	0.999971167307808	1	4	regulation of T-helper 1 cell differentiation	BP	0.9999999999	BP regulation of T-helper 1 cell differentiation	TRINITY_DN199899_c4_g1
+GO:0045627	0.0087873428182821	0.999971167307808	1	4	positive regulation of T-helper 1 cell differentiation	BP	0.9999999999	BP positive regulation of T-helper 1 cell differentiation	TRINITY_DN199899_c4_g1
+GO:0045628	0.0087873428182821	0.999971167307808	1	4	regulation of T-helper 2 cell differentiation	BP	0.9999999999	BP regulation of T-helper 2 cell differentiation	TRINITY_DN199899_c4_g1
+GO:0045629	0.0087873428182821	0.999971167307808	1	4	negative regulation of T-helper 2 cell differentiation	BP	0.9999999999	BP negative regulation of T-helper 2 cell differentiation	TRINITY_DN199899_c4_g1
+GO:0051567	0.00933583039265398	0.999971057360113	1	3	histone H3-K9 methylation	BP	0.9999999999	BP histone H3-K9 methylation	TRINITY_DN203922_c0_g1
+GO:0045200	0.00962258746157237	0.999965413458575	1	4	establishment of neuroblast polarity	BP	0.9999999999	BP establishment of neuroblast polarity	TRINITY_DN160018_c2_g1
+GO:0031503	0.00989461250488815	0.999537199738775	2	54	protein-containing complex localization	BP	0.9999999999	BP protein-containing complex localization	TRINITY_DN182856_c5_g2, TRINITY_DN196784_c3_g1
+GO:0002829	0.0100845799700236	0.999959479135739	1	5	negative regulation of type 2 immune response	BP	0.9999999999	BP negative regulation of type 2 immune response	TRINITY_DN199899_c4_g1
+GO:0019405	0.0102669403048018	0.999960615636005	1	4	alditol catabolic process	BP	0.9999999999	BP alditol catabolic process	TRINITY_DN167841_c2_g1
+GO:0019563	0.0102669403048018	0.999960615636005	1	4	glycerol catabolic process	BP	0.9999999999	BP glycerol catabolic process	TRINITY_DN167841_c2_g1
+GO:0098800	0.0104855627367884	0.999492720683329	2	62	inner mitochondrial membrane protein complex	CC	0.9999999999	CC inner mitochondrial membrane protein complex	TRINITY_DN151349_c0_g1, TRINITY_DN174848_c6_g1
+GO:0042675	0.0111994336787887	0.999953118092466	1	4	compound eye cone cell differentiation	BP	0.9999999999	BP compound eye cone cell differentiation	TRINITY_DN143628_c2_g1
+GO:0061647	0.0112622860720714	0.999949438034205	1	5	histone H3-K9 modification	BP	0.9999999999	BP histone H3-K9 modification	TRINITY_DN203922_c0_g1
+GO:0042720	0.0116870540873581	0.999948936224208	1	4	mitochondrial inner membrane peptidase complex	CC	0.9999999999	CC mitochondrial inner membrane peptidase complex	TRINITY_DN151349_c0_g1
+GO:0006072	0.0122176427204126	0.999940472950941	1	5	glycerol-3-phosphate metabolic process	BP	0.9999999999	BP glycerol-3-phosphate metabolic process	TRINITY_DN167841_c2_g1
+GO:0043371	0.0126535988957603	0.99993613768665	1	5	negative regulation of CD4-positive, alpha-beta T cell differentiation	BP	0.9999999999	BP negative regulation of CD4-positive, alpha-beta T cell differentiation	TRINITY_DN199899_c4_g1
+GO:0046639	0.0126535988957603	0.99993613768665	1	5	negative regulation of alpha-beta T cell differentiation	BP	0.9999999999	BP negative regulation of alpha-beta T cell differentiation	TRINITY_DN199899_c4_g1
+GO:2000515	0.0126535988957603	0.99993613768665	1	5	negative regulation of CD4-positive, alpha-beta T cell activation	BP	0.9999999999	BP negative regulation of CD4-positive, alpha-beta T cell activation	TRINITY_DN199899_c4_g1
+GO:0045196	0.0126670056574528	0.999936001938925	1	5	establishment or maintenance of neuroblast polarity	BP	0.9999999999	BP establishment or maintenance of neuroblast polarity	TRINITY_DN160018_c2_g1
+GO:0045178	0.0127437306634819	0.999935222286996	1	5	basal part of cell	CC	0.9999999999	CC basal part of cell	TRINITY_DN160018_c2_g1
+GO:0031571	0.0130598384610767	0.999929135490912	1	6	mitotic G1 DNA damage checkpoint	BP	0.9999999999	BP mitotic G1 DNA damage checkpoint	TRINITY_DN193107_c2_g5
+GO:0044783	0.0130598384610767	0.999929135490912	1	6	G1 DNA damage checkpoint	BP	0.9999999999	BP G1 DNA damage checkpoint	TRINITY_DN193107_c2_g5
+GO:0031017	0.0130961077012703	0.999928740318039	1	6	exocrine pancreas development	BP	0.9999999999	BP exocrine pancreas development	TRINITY_DN203922_c0_g1
+GO:0030207	0.0136924522620433	0.99992208441269	1	6	chondroitin sulfate catabolic process	BP	0.9999999999	BP chondroitin sulfate catabolic process	TRINITY_DN196648_c5_g3
+GO:0002828	0.0138841434926146	0.999919881462429	1	6	regulation of type 2 immune response	BP	0.9999999999	BP regulation of type 2 immune response	TRINITY_DN199899_c4_g1
+GO:0030205	0.0139607682500116	0.999922220312324	1	5	dermatan sulfate metabolic process	BP	0.9999999999	BP dermatan sulfate metabolic process	TRINITY_DN196648_c5_g3
+GO:0030208	0.0139607682500116	0.999922220312324	1	5	dermatan sulfate biosynthetic process	BP	0.9999999999	BP dermatan sulfate biosynthetic process	TRINITY_DN196648_c5_g3
+GO:0030076	0.0140140809658815	0.999918370636934	1	6	light-harvesting complex	CC	0.9999999999	CC light-harvesting complex	TRINITY_DN190982_c0_g1
+GO:0018214	0.0142009289021377	0.999919513408348	1	5	protein carboxylation	BP	0.9999999999	BP protein carboxylation	TRINITY_DN193107_c2_g5
+GO:0006627	0.0142300967202067	0.999915827542774	1	6	protein processing involved in protein targeting to mitochondrion	BP	0.9999999999	BP protein processing involved in protein targeting to mitochondrion	TRINITY_DN151349_c0_g1
+GO:0005775	0.0144420323792109	0.999172731837191	2	67	vacuolar lumen	CC	0.9999999999	CC vacuolar lumen	TRINITY_DN173525_c2_g1, TRINITY_DN196648_c5_g3
+GO:0045581	0.0148435894440423	0.999908391098636	1	6	negative regulation of T cell differentiation	BP	0.9999999999	BP negative regulation of T cell differentiation	TRINITY_DN199899_c4_g1
+GO:0016168	0.0149789484872227	0.999904053791502	1	7	chlorophyll binding	MF	0.9999999999	MF chlorophyll binding	TRINITY_DN190982_c0_g1
+GO:0061300	0.0150045755296007	0.999910116570919	1	5	cerebellum vasculature development	BP	0.9999999999	BP cerebellum vasculature development	TRINITY_DN151349_c0_g1
+GO:1904732	0.0150151988253785	0.999915593122868	1	4	regulation of electron transfer activity	BP	0.9999999999	BP regulation of electron transfer activity	TRINITY_DN174848_c6_g1
+GO:1904959	0.0150151988253785	0.999915593122868	1	4	regulation of cytochrome-c oxidase activity	BP	0.9999999999	BP regulation of cytochrome-c oxidase activity	TRINITY_DN174848_c6_g1
+GO:0004508	0.0151215601601583	0.999904917448013	1	6	steroid 17-alpha-monooxygenase activity	MF	0.9999999999	MF steroid 17-alpha-monooxygenase activity	TRINITY_DN165411_c0_g1
+GO:0047442	0.0151215601601583	0.999904917448013	1	6	17-alpha-hydroxyprogesterone aldolase activity	MF	0.9999999999	MF 17-alpha-hydroxyprogesterone aldolase activity	TRINITY_DN165411_c0_g1
+GO:0007614	0.0157673593587309	0.999896596154408	1	6	short-term memory	BP	0.9999999999	BP short-term memory	TRINITY_DN143628_c2_g1
+GO:0030322	0.0159270815149161	0.999889232987827	1	8	stabilization of membrane potential	BP	0.9999999999	BP stabilization of membrane potential	TRINITY_DN174848_c6_g1
+GO:0052646	0.0159281811645663	0.999894469300962	1	6	alditol phosphate metabolic process	BP	0.9999999999	BP alditol phosphate metabolic process	TRINITY_DN167841_c2_g1
+GO:0001913	0.0169299551382661	0.999885479095311	1	5	T cell mediated cytotoxicity	BP	0.9999999999	BP T cell mediated cytotoxicity	TRINITY_DN173525_c2_g1
+GO:0042448	0.0169966422639773	0.999879785540723	1	6	progesterone metabolic process	BP	0.9999999999	BP progesterone metabolic process	TRINITY_DN165411_c0_g1
+GO:0046636	0.0172598833006063	0.999872495493034	1	7	negative regulation of alpha-beta T cell activation	BP	0.9999999999	BP negative regulation of alpha-beta T cell activation	TRINITY_DN199899_c4_g1
+GO:0044819	0.017409907726124	0.999865481786683	1	9	mitotic G1/S transition checkpoint	BP	0.9999999999	BP mitotic G1/S transition checkpoint	TRINITY_DN193107_c2_g5
+GO:0043372	0.0175216040247032	0.999868585972432	1	7	positive regulation of CD4-positive, alpha-beta T cell differentiation	BP	0.9999999999	BP positive regulation of CD4-positive, alpha-beta T cell differentiation	TRINITY_DN199899_c4_g1
+GO:0045622	0.0175216040247032	0.999868585972432	1	7	regulation of T-helper cell differentiation	BP	0.9999999999	BP regulation of T-helper cell differentiation	TRINITY_DN199899_c4_g1
+GO:0045624	0.0175216040247032	0.999868585972432	1	7	positive regulation of T-helper cell differentiation	BP	0.9999999999	BP positive regulation of T-helper cell differentiation	TRINITY_DN199899_c4_g1
+GO:0072488	0.0177913987643112	0.999868238787904	1	6	ammonium transmembrane transport	BP	0.9999999999	BP ammonium transmembrane transport	TRINITY_DN158746_c7_g1
+GO:0050893	0.0181756881218673	0.999862464323861	1	6	sensory processing	BP	0.9999999999	BP sensory processing	TRINITY_DN110789_c0_g1
+GO:0010155	0.0188541239034228	0.999857856477854	1	5	regulation of proton transport	BP	0.9999999999	BP regulation of proton transport	TRINITY_DN174848_c6_g1
+GO:0031404	0.0209347465143256	0.999812152129514	1	7	chloride ion binding	MF	0.9999999999	MF chloride ion binding	TRINITY_DN173525_c2_g1
+GO:2000516	0.0210711245533775	0.999805746524655	1	8	positive regulation of CD4-positive, alpha-beta T cell activation	BP	0.9999999999	BP positive regulation of CD4-positive, alpha-beta T cell activation	TRINITY_DN199899_c4_g1
+GO:1901028	0.0215360119445491	0.999806649955954	1	6	regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	BP	0.9999999999	BP regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	TRINITY_DN174848_c6_g1
+GO:1901030	0.0215360119445491	0.999806649955954	1	6	positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	BP	0.9999999999	BP positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	TRINITY_DN174848_c6_g1
+GO:0045620	0.0216362934361083	0.999795141845147	1	8	negative regulation of lymphocyte differentiation	BP	0.9999999999	BP negative regulation of lymphocyte differentiation	TRINITY_DN199899_c4_g1
+GO:0008355	0.0222073678245996	0.999780734215638	1	9	olfactory learning	BP	0.9999999999	BP olfactory learning	TRINITY_DN143628_c2_g1
+GO:0090200	0.0222686056649722	0.999776780873773	1	10	positive regulation of release of cytochrome c from mitochondria	BP	0.9999999999	BP positive regulation of release of cytochrome c from mitochondria	TRINITY_DN174848_c6_g1
+GO:0016832	0.0237761970952872	0.999737367383609	1	14	aldehyde-lyase activity	MF	0.9999999999	MF aldehyde-lyase activity	TRINITY_DN165411_c0_g1
+GO:0034982	0.0238239863051322	0.999744360549823	1	10	mitochondrial protein processing	BP	0.9999999999	BP mitochondrial protein processing	TRINITY_DN151349_c0_g1
+GO:0080030	0.0240171223627269	0.999747345783438	1	8	methyl indole-3-acetate esterase activity	MF	0.9999999999	MF methyl indole-3-acetate esterase activity	TRINITY_DN177659_c2_g1
+GO:0043370	0.0247435777680344	0.999727529413891	1	9	regulation of CD4-positive, alpha-beta T cell differentiation	BP	0.9999999999	BP regulation of CD4-positive, alpha-beta T cell differentiation	TRINITY_DN199899_c4_g1
+GO:0050808	0.0256626222061745	0.996208557576743	3	209	synapse organization	BP	0.9999999999	BP synapse organization	TRINITY_DN143628_c2_g1, TRINITY_DN174848_c6_g1, TRINITY_DN196648_c5_g3
+GO:0098798	0.0259047022966856	0.997965323007584	2	99	mitochondrial protein complex	CC	0.9999999999	CC mitochondrial protein complex	TRINITY_DN151349_c0_g1, TRINITY_DN174848_c6_g1
+GO:0046174	0.0261314046570025	0.999680870419207	1	15	polyol catabolic process	BP	0.9999999999	BP polyol catabolic process	TRINITY_DN167841_c2_g1
+GO:1901653	0.0269852255757421	0.99783578769322	2	93	cellular response to peptide	BP	0.9999999999	BP cellular response to peptide	TRINITY_DN158583_c3_g1, TRINITY_DN193107_c2_g5
+GO:0033588	0.0273685806009688	0.999655979565464	1	12	Elongator holoenzyme complex	CC	0.9999999999	CC Elongator holoenzyme complex	TRINITY_DN137484_c0_g1
+GO:0050832	0.027774008436501	0.999656305868892	1	9	defense response to fungus	BP	0.9999999999	BP defense response to fungus	TRINITY_DN151349_c0_g1
+GO:2000514	0.0282672123692811	0.999639511743382	1	10	regulation of CD4-positive, alpha-beta T cell activation	BP	0.9999999999	BP regulation of CD4-positive, alpha-beta T cell activation	TRINITY_DN199899_c4_g1
+GO:0002456	0.0282824582553365	0.99964353790557	1	9	T cell mediated immunity	BP	0.9999999999	BP T cell mediated immunity	TRINITY_DN173525_c2_g1
+GO:0060074	0.0283124487884677	0.999648312006622	1	8	synapse maturation	BP	0.9999999999	BP synapse maturation	TRINITY_DN196648_c5_g3
+GO:0046638	0.0287925157417784	0.999625914924009	1	10	positive regulation of alpha-beta T cell differentiation	BP	0.9999999999	BP positive regulation of alpha-beta T cell differentiation	TRINITY_DN199899_c4_g1
+GO:0006977	0.0297700433114544	0.999595931488484	1	11	DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest	BP	0.9999999999	BP DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest	TRINITY_DN193107_c2_g5
+GO:0048557	0.0302266512049124	0.999587497891681	1	10	embryonic digestive tract morphogenesis	BP	0.9999999999	BP embryonic digestive tract morphogenesis	TRINITY_DN199899_c4_g1
+GO:0006091	0.0304803460225237	0.997382389526645	2	118	generation of precursor metabolites and energy	BP	0.9999999999	BP generation of precursor metabolites and energy	TRINITY_DN151349_c0_g1, TRINITY_DN174848_c6_g1
+GO:0000083	0.0306887020759015	0.999570461158988	1	11	regulation of transcription involved in G1/S transition of mitotic cell cycle	BP	0.9999999999	BP regulation of transcription involved in G1/S transition of mitotic cell cycle	TRINITY_DN158583_c3_g1
+GO:0072431	0.0307593867588027	0.999564907193049	1	12	signal transduction involved in mitotic G1 DNA damage checkpoint	BP	0.9999999999	BP signal transduction involved in mitotic G1 DNA damage checkpoint	TRINITY_DN193107_c2_g5
+GO:1902400	0.0307593867588027	0.999564907193049	1	12	intracellular signal transduction involved in G1 DNA damage checkpoint	BP	0.9999999999	BP intracellular signal transduction involved in G1 DNA damage checkpoint	TRINITY_DN193107_c2_g5
+GO:0030728	0.0309101744126329	0.99956851959673	1	10	ovulation	BP	0.9999999999	BP ovulation	TRINITY_DN151349_c0_g1
+GO:2001235	0.0315993119799016	0.997238936098759	2	101	positive regulation of apoptotic signaling pathway	BP	0.9999999999	BP positive regulation of apoptotic signaling pathway	TRINITY_DN173525_c2_g1, TRINITY_DN174848_c6_g1
+GO:0070013	0.0316018186238887	0.993044171768967	4	461	intracellular organelle lumen	CC	0.9999999999	CC intracellular organelle lumen	TRINITY_DN173525_c2_g1, TRINITY_DN174848_c6_g1, TRINITY_DN177659_c2_g1, TRINITY_DN196648_c5_g3
+GO:0046902	0.0317872474465094	0.999538969206331	1	11	regulation of mitochondrial membrane permeability	BP	0.9999999999	BP regulation of mitochondrial membrane permeability	TRINITY_DN174848_c6_g1
+GO:0031974	0.0320663092138305	0.992909922759422	4	464	membrane-enclosed lumen	CC	0.9999999999	CC membrane-enclosed lumen	TRINITY_DN173525_c2_g1, TRINITY_DN174848_c6_g1, TRINITY_DN177659_c2_g1, TRINITY_DN196648_c5_g3
+GO:0043233	0.0320663092138305	0.992909922759422	4	464	organelle lumen	CC	0.9999999999	CC organelle lumen	TRINITY_DN173525_c2_g1, TRINITY_DN174848_c6_g1, TRINITY_DN177659_c2_g1, TRINITY_DN196648_c5_g3
+GO:0046637	0.0321564734345798	0.999528131478341	1	11	regulation of alpha-beta T cell differentiation	BP	0.9999999999	BP regulation of alpha-beta T cell differentiation	TRINITY_DN199899_c4_g1
+GO:0072413	0.0325763240845082	0.999508277781699	1	13	signal transduction involved in mitotic cell cycle checkpoint	BP	0.9999999999	BP signal transduction involved in mitotic cell cycle checkpoint	TRINITY_DN193107_c2_g5
+GO:1902402	0.0325763240845082	0.999508277781699	1	13	signal transduction involved in mitotic DNA damage checkpoint	BP	0.9999999999	BP signal transduction involved in mitotic DNA damage checkpoint	TRINITY_DN193107_c2_g5
+GO:1902403	0.0325763240845082	0.999508277781699	1	13	signal transduction involved in mitotic DNA integrity checkpoint	BP	0.9999999999	BP signal transduction involved in mitotic DNA integrity checkpoint	TRINITY_DN193107_c2_g5
+GO:0030330	0.0332961050931928	0.999483145150421	1	14	DNA damage response, signal transduction by p53 class mediator	BP	0.9999999999	BP DNA damage response, signal transduction by p53 class mediator	TRINITY_DN193107_c2_g5
+GO:0010970	0.0333513520386931	0.996999679770502	2	102	transport along microtubule	BP	0.9999999999	BP transport along microtubule	TRINITY_DN182856_c5_g2, TRINITY_DN196784_c3_g1
+GO:0099111	0.0333513520386931	0.996999679770502	2	102	microtubule-based transport	BP	0.9999999999	BP microtubule-based transport	TRINITY_DN182856_c5_g2, TRINITY_DN196784_c3_g1
+GO:1901136	0.0337328861677841	0.996942567375754	2	113	carbohydrate derivative catabolic process	BP	0.9999999999	BP carbohydrate derivative catabolic process	TRINITY_DN167841_c2_g1, TRINITY_DN196648_c5_g3
+GO:0035578	0.0338844725664163	0.999459508965676	1	16	azurophil granule lumen	CC	0.9999999999	CC azurophil granule lumen	TRINITY_DN173525_c2_g1
+GO:0016505	0.0340191002549522	0.999471514355659	1	11	peptidase activator activity involved in apoptotic process	MF	0.9999999999	MF peptidase activator activity involved in apoptotic process	TRINITY_DN173525_c2_g1
+GO:0090199	0.0340771957766255	0.999455708134505	1	15	regulation of release of cytochrome c from mitochondria	BP	0.9999999999	BP regulation of release of cytochrome c from mitochondria	TRINITY_DN174848_c6_g1
+GO:0046635	0.0341287896508775	0.999459983424109	1	13	positive regulation of alpha-beta T cell activation	BP	0.9999999999	BP positive regulation of alpha-beta T cell activation	TRINITY_DN199899_c4_g1
+GO:0031016	0.0349265503107654	0.999434275366712	1	13	pancreas development	BP	0.9999999999	BP pancreas development	TRINITY_DN193107_c2_g5
+GO:0061617	0.035633779886506	0.999419804116856	1	11	MICOS complex	CC	0.9999999999	CC MICOS complex	TRINITY_DN174848_c6_g1
+GO:0030705	0.036481880422408	0.996552360989373	2	109	cytoskeleton-dependent intracellular transport	BP	0.9999999999	BP cytoskeleton-dependent intracellular transport	TRINITY_DN182856_c5_g2, TRINITY_DN196784_c3_g1
+GO:0002098	0.03764381068724	0.999327119504365	1	18	tRNA wobble uridine modification	BP	0.9999999999	BP tRNA wobble uridine modification	TRINITY_DN137484_c0_g1
+GO:0035735	0.037896309209921	0.999333245272321	1	13	intraciliary transport involved in cilium assembly	BP	0.9999999999	BP intraciliary transport involved in cilium assembly	TRINITY_DN182856_c5_g2
+GO:0071158	0.0386822045012846	0.999301015725748	1	14	positive regulation of cell cycle arrest	BP	0.9999999999	BP positive regulation of cell cycle arrest	TRINITY_DN193107_c2_g5
+GO:0008207	0.0388266038725448	0.999295749814769	1	14	C21-steroid hormone metabolic process	BP	0.9999999999	BP C21-steroid hormone metabolic process	TRINITY_DN165411_c0_g1
+GO:0006465	0.0390769206497843	0.999282960840569	1	15	signal peptide processing	BP	0.9999999999	BP signal peptide processing	TRINITY_DN151349_c0_g1
+GO:0043065	0.0393844662004723	0.993125757654321	3	276	positive regulation of apoptotic process	BP	0.9999999999	BP positive regulation of apoptotic process	TRINITY_DN158583_c3_g1, TRINITY_DN173525_c2_g1, TRINITY_DN174848_c6_g1
+GO:0048732	0.039571608444521	0.996090450849049	2	113	gland development	BP	0.9999999999	BP gland development	TRINITY_DN199899_c4_g1, TRINITY_DN203922_c0_g1
+GO:1904754	0.0407525109100416	0.999223598438754	1	14	positive regulation of vascular associated smooth muscle cell migration	BP	0.9999999999	BP positive regulation of vascular associated smooth muscle cell migration	TRINITY_DN160018_c2_g1
+GO:0007168	0.0407594861838776	0.999207816139489	1	19	receptor guanylyl cyclase signaling pathway	BP	0.9999999999	BP receptor guanylyl cyclase signaling pathway	TRINITY_DN110789_c0_g1
+GO:0099558	0.0410446948197698	0.999204866158935	1	16	maintenance of synapse structure	BP	0.9999999999	BP maintenance of synapse structure	TRINITY_DN174848_c6_g1
+GO:0048365	0.0415559787499266	0.999178822505743	1	18	Rac GTPase binding	MF	0.9999999999	MF Rac GTPase binding	TRINITY_DN160018_c2_g1
+GO:0046676	0.0416927348944851	0.999176189470228	1	17	negative regulation of insulin secretion	BP	0.9999999999	BP negative regulation of insulin secretion	TRINITY_DN193107_c2_g5
+GO:0090278	0.0426622191138197	0.999134170660044	1	18	negative regulation of peptide hormone secretion	BP	0.9999999999	BP negative regulation of peptide hormone secretion	TRINITY_DN193107_c2_g5
+GO:0120163	0.042793142803172	0.999131779612931	1	17	negative regulation of cold-induced thermogenesis	BP	0.9999999999	BP negative regulation of cold-induced thermogenesis	TRINITY_DN160018_c2_g1
+GO:0072395	0.0429787597364056	0.999121173005965	1	18	signal transduction involved in cell cycle checkpoint	BP	0.9999999999	BP signal transduction involved in cell cycle checkpoint	TRINITY_DN193107_c2_g5
+GO:0072401	0.0429787597364056	0.999121173005965	1	18	signal transduction involved in DNA integrity checkpoint	BP	0.9999999999	BP signal transduction involved in DNA integrity checkpoint	TRINITY_DN193107_c2_g5
+GO:0072422	0.0429787597364056	0.999121173005965	1	18	signal transduction involved in DNA damage checkpoint	BP	0.9999999999	BP signal transduction involved in DNA damage checkpoint	TRINITY_DN193107_c2_g5
+GO:0030206	0.0430765700600376	0.999123538772314	1	16	chondroitin sulfate biosynthetic process	BP	0.9999999999	BP chondroitin sulfate biosynthetic process	TRINITY_DN196648_c5_g3
+GO:0050868	0.0430967568532134	0.999119318014809	1	17	negative regulation of T cell activation	BP	0.9999999999	BP negative regulation of T cell activation	TRINITY_DN199899_c4_g1
+GO:0050662	0.0431626756984743	0.992181128548516	3	355	coenzyme binding	MF	0.9999999999	MF coenzyme binding	TRINITY_DN175844_c1_g2, TRINITY_DN175996_c4_g1, TRINITY_DN176468_c8_g5
+GO:0043204	0.044035344212068	0.995383046254224	2	127	perikaryon	CC	0.9999999999	CC perikaryon	TRINITY_DN110789_c0_g1, TRINITY_DN143628_c2_g1
+GO:0016319	0.0440602376910615	0.999091334868098	1	14	mushroom body development	BP	0.9999999999	BP mushroom body development	TRINITY_DN143628_c2_g1
+GO:0002449	0.0450103059871706	0.999046596194257	1	15	lymphocyte mediated immunity	BP	0.9999999999	BP lymphocyte mediated immunity	TRINITY_DN173525_c2_g1
+GO:0043068	0.0459373428280787	0.991481244010714	3	293	positive regulation of programmed cell death	BP	0.9999999999	BP positive regulation of programmed cell death	TRINITY_DN158583_c3_g1, TRINITY_DN173525_c2_g1, TRINITY_DN174848_c6_g1
+GO:0044455	0.0464132552982567	0.994989285592272	2	134	mitochondrial membrane part	CC	0.9999999999	CC mitochondrial membrane part	TRINITY_DN151349_c0_g1, TRINITY_DN174848_c6_g1
+GO:0030204	0.0469836129278973	0.998945013785631	1	19	chondroitin sulfate metabolic process	BP	0.9999999999	BP chondroitin sulfate metabolic process	TRINITY_DN196648_c5_g3
+GO:0001909	0.0470839177275807	0.998947285429024	1	17	leukocyte mediated cytotoxicity	BP	0.9999999999	BP leukocyte mediated cytotoxicity	TRINITY_DN173525_c2_g1
+GO:1904752	0.0473860673093059	0.998937714684824	1	16	regulation of vascular associated smooth muscle cell migration	BP	0.9999999999	BP regulation of vascular associated smooth muscle cell migration	TRINITY_DN160018_c2_g1
+GO:0060042	0.0496128339554292	0.99882607941137	1	18	retina morphogenesis in camera-type eye	BP	0.9999999999	BP retina morphogenesis in camera-type eye	TRINITY_DN203922_c0_g1
+GO:0071156	0.0498521280025181	0.998807764365464	1	20	regulation of cell cycle arrest	BP	0.9999999999	BP regulation of cell cycle arrest	TRINITY_DN193107_c2_g5
+GO:0006182	0.0498663348128873	0.998787915429606	1	29	cGMP biosynthetic process	BP	0.9999999999	BP cGMP biosynthetic process	TRINITY_DN110789_c0_g1

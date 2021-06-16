@@ -1,0 +1,34 @@
+-reading file: male_bleached_K5_01/quant.sf
+-reading file: male_bleached_K5_02/quant.sf
+-reading file: male_bleached_K5_03/quant.sf
+-reading file: female_bleached_K5_04/quant.sf
+-reading file: female_bleached_K5_05/quant.sf
+-reading file: female_bleached_K5_06/quant.sf
+
+
+* Outputting combined matrix.
+
+/home/shared/Trinityrnaseq-v2.8.5/util/support_scripts/run_TMM_scale_matrix.pl --matrix salmon.isoform.TPM.not_cross_norm > salmon.isoform.TMM.EXPR.matrixCMD: R --no-save --no-restore --no-site-file --no-init-file -q < salmon.isoform.TPM.not_cross_norm.runTMM.R 1>&2 
+> library(edgeR)
+Loading required package: limma
+> 
+> rnaseqMatrix = read.table("salmon.isoform.TPM.not_cross_norm", header=T, row.names=1, com='', check.names=F)
+> rnaseqMatrix = as.matrix(rnaseqMatrix)
+> rnaseqMatrix = round(rnaseqMatrix)
+> exp_study = DGEList(counts=rnaseqMatrix, group=factor(colnames(rnaseqMatrix)))
+> exp_study = calcNormFactors(exp_study)
+> exp_study$samples$eff.lib.size = exp_study$samples$lib.size * exp_study$samples$norm.factors
+> write.table(exp_study$samples, file="salmon.isoform.TPM.not_cross_norm.TMM_info.txt", quote=F, sep="\t", row.names=F)
+> 
+/home/shared/Trinityrnaseq-v2.8.5/util/support_scripts/run_TMM_scale_matrix.pl --matrix salmon.gene.TPM.not_cross_norm > salmon.gene.TMM.EXPR.matrixCMD: R --no-save --no-restore --no-site-file --no-init-file -q < salmon.gene.TPM.not_cross_norm.runTMM.R 1>&2 
+> library(edgeR)
+Loading required package: limma
+> 
+> rnaseqMatrix = read.table("salmon.gene.TPM.not_cross_norm", header=T, row.names=1, com='', check.names=F)
+> rnaseqMatrix = as.matrix(rnaseqMatrix)
+> rnaseqMatrix = round(rnaseqMatrix)
+> exp_study = DGEList(counts=rnaseqMatrix, group=factor(colnames(rnaseqMatrix)))
+> exp_study = calcNormFactors(exp_study)
+> exp_study$samples$eff.lib.size = exp_study$samples$lib.size * exp_study$samples$norm.factors
+> write.table(exp_study$samples, file="salmon.gene.TPM.not_cross_norm.TMM_info.txt", quote=F, sep="\t", row.names=F)
+> 

@@ -1,0 +1,16 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0043231	0.990048771533135	0.0193374873189019	13	4404	intracellular membrane-bounded organelle	CC	0.9999999999	0.9999999999	CC intracellular membrane-bounded organelle
+GO:0008152	0.987050176666517	0.0210895581118705	26	8292	metabolic process	BP	0.9999999999	0.9999999999	BP metabolic process
+GO:0043229	0.983584206295895	0.0274490639682725	21	5960	intracellular organelle	CC	0.9999999999	0.9999999999	CC intracellular organelle
+GO:0097159	0.984054964033555	0.0276038569001971	18	6327	organic cyclic compound binding	MF	0.9999999999	0.9999999999	MF organic cyclic compound binding
+GO:1901363	0.982499684691063	0.0300857048864381	18	6286	heterocyclic compound binding	MF	0.9999999999	0.9999999999	MF heterocyclic compound binding
+GO:0099600	0.992310307638141	0.0313850643964998	2	1612	NA	NA	0.9999999999	0.9999999999	none
+GO:0004888	0.991133286826771	0.0354578348202408	2	1557	transmembrane signaling receptor activity	MF	0.9999999999	0.9999999999	MF transmembrane signaling receptor activity
+GO:0000166	0.981968693608145	0.0381403301753879	8	3346	nucleotide binding	MF	0.9999999999	0.9999999999	MF nucleotide binding
+GO:1901265	0.981968693608145	0.0381403301753879	8	3346	nucleoside phosphate binding	MF	0.9999999999	0.9999999999	MF nucleoside phosphate binding
+GO:0044237	0.975477752478478	0.0394666574704187	22	6677	cellular metabolic process	BP	0.9999999999	0.9999999999	BP cellular metabolic process
+GO:0003674	0.969783304517761	0.0408862719409612	72	19859	molecular_function	MF	0.9999999999	0.9999999999	MF molecular_function
+GO:0030163	1	0.043242114740694	0	515	protein catabolic process	BP	0.9999999999	0.9999999999	BP protein catabolic process
+GO:0071704	0.971721960842692	0.044005050754765	25	7480	organic substance metabolic process	BP	0.9999999999	0.9999999999	BP organic substance metabolic process
+GO:1901565	0.992274573311434	0.0457678330566295	1	844	organonitrogen compound catabolic process	BP	0.9999999999	0.9999999999	BP organonitrogen compound catabolic process
+GO:0003824	0.966651076860971	0.0497794868655157	30	8969	catalytic activity	MF	0.9999999999	0.9999999999	MF catalytic activity

@@ -1,0 +1,20 @@
+Got 6 samples, and got: 7 data fields.
+Header: male_bleached_K5_01	male_bleached_K5_02	male_bleached_K5_03	female_bleached_K5_04	female_bleached_K5_05	female_bleached_K5_06
+Next: TRINITY_DN100001_c0_g1	0.00	0.00	0.00	4.53	0.00	0.00
+
+$VAR1 = {
+          'male_bleached_K5_02' => 2,
+          'female_bleached_K5_06' => 6,
+          'male_bleached_K5_01' => 1,
+          'female_bleached_K5_04' => 4,
+          'male_bleached_K5_03' => 3,
+          'female_bleached_K5_05' => 5
+        };
+Contrasts to perform are: $VAR1 = [
+          [
+            'female',
+            'male'
+          ]
+        ];
+Loading required package: edgeR
+Loading required package: limma
