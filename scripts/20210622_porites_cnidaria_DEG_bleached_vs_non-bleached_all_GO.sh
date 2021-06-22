@@ -12,7 +12,7 @@ transcriptome_dir="/media/sam/4TB_toshiba/porites/20210613_pcom_diamond_blastx_t
 transcriptome="${transcriptome_dir}/Cnidaria_MEGAN-extractions.fasta"
 fasta_index="${transcriptome_dir}/Cnidaria_MEGAN-extractions.fasta.fai"
 fasta_seq_lengths="${transcriptome_dir}/Cnidaria_MEGAN-extractions.fasta.seq_lens"
-samples="/home/sam/gitrepos/coral_rnaseq_2017/scripts/porites_male_vs_female_k5_trinity_sample_list.txt"
+samples="/home/sam/gitrepos/coral_rnaseq_2017/porites_b_vs_nb_trinity_sample_list.txt"
 
 # Create directory/sample list for ${trinity_matrix} command
 trin_matrix_list=$(awk '{printf "%s%s", $2, "/quant.sf " }' "${samples}")
