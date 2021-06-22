@@ -1,0 +1,74 @@
+[2021-06-22 12:06:51.565] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-22 12:06:51.565] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-22 12:06:51.565] [jointLog] [info] parsing read library format
+[2021-06-22 12:06:51.565] [jointLog] [info] There is 1 library.
+[2021-06-22 12:06:51.623] [jointLog] [info] Loading Quasi index
+[2021-06-22 12:06:51.623] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-22 12:06:57.480] [jointLog] [info] done
+[2021-06-22 12:06:57.480] [jointLog] [info] Index contained 261,540 targets
+[2021-06-22 12:08:15.036] [jointLog] [info] Thread saw mini-batch with a maximum of 8.70% zero probability fragments
+[2021-06-22 12:08:15.036] [jointLog] [info] Thread saw mini-batch with a maximum of 9.06% zero probability fragments
+[2021-06-22 12:08:15.037] [jointLog] [info] Thread saw mini-batch with a maximum of 9.30% zero probability fragments
+[2021-06-22 12:08:15.037] [jointLog] [info] Thread saw mini-batch with a maximum of 9.66% zero probability fragments
+[2021-06-22 12:08:15.037] [jointLog] [info] Thread saw mini-batch with a maximum of 8.78% zero probability fragments
+[2021-06-22 12:08:15.037] [jointLog] [info] Thread saw mini-batch with a maximum of 9.40% zero probability fragments
+[2021-06-22 12:08:15.037] [jointLog] [info] Thread saw mini-batch with a maximum of 9.04% zero probability fragments
+[2021-06-22 12:08:15.037] [jointLog] [info] Thread saw mini-batch with a maximum of 9.44% zero probability fragments
+[2021-06-22 12:08:15.037] [jointLog] [info] Thread saw mini-batch with a maximum of 9.02% zero probability fragments
+[2021-06-22 12:08:15.037] [jointLog] [info] Thread saw mini-batch with a maximum of 8.94% zero probability fragments
+[2021-06-22 12:08:15.048] [jointLog] [info] Thread saw mini-batch with a maximum of 9.38% zero probability fragments
+[2021-06-22 12:08:15.048] [jointLog] [info] Thread saw mini-batch with a maximum of 9.18% zero probability fragments
+[2021-06-22 12:08:15.054] [jointLog] [info] Thread saw mini-batch with a maximum of 9.18% zero probability fragments
+[2021-06-22 12:08:15.083] [jointLog] [info] Thread saw mini-batch with a maximum of 8.80% zero probability fragments
+[2021-06-22 12:08:15.085] [jointLog] [info] Thread saw mini-batch with a maximum of 8.88% zero probability fragments
+[2021-06-22 12:08:15.103] [jointLog] [info] Thread saw mini-batch with a maximum of 9.10% zero probability fragments
+[2021-06-22 12:08:15.110] [jointLog] [info] Thread saw mini-batch with a maximum of 8.88% zero probability fragments
+[2021-06-22 12:08:15.117] [jointLog] [info] Thread saw mini-batch with a maximum of 8.96% zero probability fragments
+[2021-06-22 12:08:15.134] [jointLog] [info] Thread saw mini-batch with a maximum of 9.03% zero probability fragments
+[2021-06-22 12:08:15.137] [jointLog] [info] Thread saw mini-batch with a maximum of 9.18% zero probability fragments
+[2021-06-22 12:08:15.146] [jointLog] [info] Thread saw mini-batch with a maximum of 9.10% zero probability fragments
+[2021-06-22 12:08:15.172] [jointLog] [info] Thread saw mini-batch with a maximum of 8.96% zero probability fragments
+[2021-06-22 12:08:15.185] [jointLog] [info] Thread saw mini-batch with a maximum of 8.82% zero probability fragments
+[2021-06-22 12:08:15.477] [fileLog] [info] 
+At end of round 0
+==================
+Observed 28323045 total fragments (28323045 in most recent round)
+
+[2021-06-22 12:08:15.477] [jointLog] [info] Computed 186,495 rich equivalence classes for further processing
+[2021-06-22 12:08:15.477] [jointLog] [info] Counted 15,215,517 total reads in the equivalence classes 
+[2021-06-22 12:08:15.516] [jointLog] [warning] 0.0118102% of fragments were shorter than the k used to build the index (31).
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-22 12:08:15.516] [jointLog] [info] Mapping rate = 53.7213%
+
+[2021-06-22 12:08:15.516] [jointLog] [info] finished quantifyLibrary()
+[2021-06-22 12:08:15.516] [jointLog] [info] Starting optimizer
+[2021-06-22 12:08:15.676] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-22 12:08:15.686] [jointLog] [info] iteration = 0 | max rel diff. = 2439.67
+[2021-06-22 12:08:16.560] [jointLog] [info] iteration = 100 | max rel diff. = 16.9563
+[2021-06-22 12:08:17.358] [jointLog] [info] iteration = 200 | max rel diff. = 7.71793
+[2021-06-22 12:08:18.155] [jointLog] [info] iteration = 300 | max rel diff. = 15.7603
+[2021-06-22 12:08:18.949] [jointLog] [info] iteration = 400 | max rel diff. = 12.1861
+[2021-06-22 12:08:19.773] [jointLog] [info] iteration = 500 | max rel diff. = 0.53492
+[2021-06-22 12:08:20.588] [jointLog] [info] iteration = 600 | max rel diff. = 3.07743
+[2021-06-22 12:08:21.343] [jointLog] [info] iteration = 700 | max rel diff. = 0.736698
+[2021-06-22 12:08:22.122] [jointLog] [info] iteration = 800 | max rel diff. = 0.543667
+[2021-06-22 12:08:22.887] [jointLog] [info] iteration = 900 | max rel diff. = 1.17565
+[2021-06-22 12:08:23.658] [jointLog] [info] iteration = 1,000 | max rel diff. = 1.131
+[2021-06-22 12:08:24.451] [jointLog] [info] iteration = 1,100 | max rel diff. = 5.34507
+[2021-06-22 12:08:25.205] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.130199
+[2021-06-22 12:08:25.957] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.0467108
+[2021-06-22 12:08:26.741] [jointLog] [info] iteration = 1,400 | max rel diff. = 1.45646
+[2021-06-22 12:08:27.052] [jointLog] [info] iteration = 1,442 | max rel diff. = 0.00764399
+[2021-06-22 12:08:27.071] [jointLog] [info] Finished optimizer
+[2021-06-22 12:08:27.071] [jointLog] [info] writing output 
+

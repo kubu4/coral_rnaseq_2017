@@ -1,0 +1,74 @@
+[2021-06-22 12:15:37.876] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-06-22 12:15:37.876] [jointLog] [warning] 
+
+NOTE: It appears you are running salmon without the `--validateMappings` option.
+Mapping validation can generally improve both the sensitivity and specificity of mapping,
+with only a moderate increase in use of computational resources. 
+Unless there is a specific reason to do this (e.g. testing on clean simulated data),
+`--validateMappings` is generally recommended.
+
+[2021-06-22 12:15:37.876] [jointLog] [info] parsing read library format
+[2021-06-22 12:15:37.876] [jointLog] [info] There is 1 library.
+[2021-06-22 12:15:37.935] [jointLog] [info] Loading Quasi index
+[2021-06-22 12:15:37.935] [jointLog] [info] Loading 32-bit quasi index
+[2021-06-22 12:15:43.826] [jointLog] [info] done
+[2021-06-22 12:15:43.826] [jointLog] [info] Index contained 261,540 targets
+[2021-06-22 12:16:45.965] [jointLog] [info] Thread saw mini-batch with a maximum of 24.14% zero probability fragments
+[2021-06-22 12:16:45.965] [jointLog] [info] Thread saw mini-batch with a maximum of 24.02% zero probability fragments
+[2021-06-22 12:16:45.965] [jointLog] [info] Thread saw mini-batch with a maximum of 23.94% zero probability fragments
+[2021-06-22 12:16:45.965] [jointLog] [info] Thread saw mini-batch with a maximum of 23.92% zero probability fragments
+[2021-06-22 12:16:45.965] [jointLog] [info] Thread saw mini-batch with a maximum of 24.14% zero probability fragments
+[2021-06-22 12:16:45.965] [jointLog] [info] Thread saw mini-batch with a maximum of 24.50% zero probability fragments
+[2021-06-22 12:16:45.965] [jointLog] [info] Thread saw mini-batch with a maximum of 23.94% zero probability fragments
+[2021-06-22 12:16:45.965] [jointLog] [info] Thread saw mini-batch with a maximum of 24.06% zero probability fragments
+[2021-06-22 12:16:45.965] [jointLog] [info] Thread saw mini-batch with a maximum of 24.14% zero probability fragments
+[2021-06-22 12:16:45.965] [jointLog] [info] Thread saw mini-batch with a maximum of 24.36% zero probability fragments
+[2021-06-22 12:16:45.965] [jointLog] [info] Thread saw mini-batch with a maximum of 24.12% zero probability fragments
+[2021-06-22 12:16:45.965] [jointLog] [info] Thread saw mini-batch with a maximum of 24.36% zero probability fragments
+[2021-06-22 12:16:45.983] [jointLog] [info] Thread saw mini-batch with a maximum of 24.24% zero probability fragments
+[2021-06-22 12:16:45.990] [jointLog] [info] Thread saw mini-batch with a maximum of 24.14% zero probability fragments
+[2021-06-22 12:16:46.027] [jointLog] [info] Thread saw mini-batch with a maximum of 24.02% zero probability fragments
+[2021-06-22 12:16:46.028] [jointLog] [info] Thread saw mini-batch with a maximum of 23.76% zero probability fragments
+[2021-06-22 12:16:46.036] [jointLog] [info] Thread saw mini-batch with a maximum of 24.48% zero probability fragments
+[2021-06-22 12:16:46.044] [jointLog] [info] Thread saw mini-batch with a maximum of 24.14% zero probability fragments
+[2021-06-22 12:16:46.046] [jointLog] [info] Thread saw mini-batch with a maximum of 24.20% zero probability fragments
+[2021-06-22 12:16:46.057] [jointLog] [info] Thread saw mini-batch with a maximum of 24.46% zero probability fragments
+[2021-06-22 12:16:46.075] [jointLog] [info] Thread saw mini-batch with a maximum of 24.08% zero probability fragments
+[2021-06-22 12:16:46.090] [jointLog] [info] Thread saw mini-batch with a maximum of 23.88% zero probability fragments
+[2021-06-22 12:16:46.092] [jointLog] [info] Thread saw mini-batch with a maximum of 24.42% zero probability fragments
+[2021-06-22 12:16:46.363] [jointLog] [info] Computed 206,804 rich equivalence classes for further processing
+[2021-06-22 12:16:46.363] [jointLog] [info] Counted 9,407,780 total reads in the equivalence classes 
+[2021-06-22 12:16:46.388] [jointLog] [warning] 0.0207925% of fragments were shorter than the k used to build the index (31).
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-06-22 12:16:46.388] [jointLog] [info] Mapping rate = 39.4218%
+
+[2021-06-22 12:16:46.388] [jointLog] [info] finished quantifyLibrary()
+[2021-06-22 12:16:46.389] [jointLog] [info] Starting optimizer
+[2021-06-22 12:16:46.517] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-06-22 12:16:46.530] [jointLog] [info] iteration = 0 | max rel diff. = 1294.63
+[2021-06-22 12:16:46.363] [fileLog] [info] 
+At end of round 0
+==================
+Observed 23864387 total fragments (23864387 in most recent round)
+
+[2021-06-22 12:16:47.403] [jointLog] [info] iteration = 100 | max rel diff. = 11.6442
+[2021-06-22 12:16:48.242] [jointLog] [info] iteration = 200 | max rel diff. = 9.23555
+[2021-06-22 12:16:49.029] [jointLog] [info] iteration = 300 | max rel diff. = 2.80647
+[2021-06-22 12:16:49.822] [jointLog] [info] iteration = 400 | max rel diff. = 3.30416
+[2021-06-22 12:16:50.648] [jointLog] [info] iteration = 500 | max rel diff. = 0.129552
+[2021-06-22 12:16:51.431] [jointLog] [info] iteration = 600 | max rel diff. = 1.99076
+[2021-06-22 12:16:52.212] [jointLog] [info] iteration = 700 | max rel diff. = 0.831034
+[2021-06-22 12:16:52.992] [jointLog] [info] iteration = 800 | max rel diff. = 0.0277951
+[2021-06-22 12:16:53.773] [jointLog] [info] iteration = 900 | max rel diff. = 1.1865
+[2021-06-22 12:16:54.550] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.0546366
+[2021-06-22 12:16:55.362] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.224276
+[2021-06-22 12:16:56.147] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.0462789
+[2021-06-22 12:16:56.930] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.0288695
+[2021-06-22 12:16:57.732] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.074315
+[2021-06-22 12:16:57.875] [jointLog] [info] iteration = 1,420 | max rel diff. = 0.00818375
+[2021-06-22 12:16:57.894] [jointLog] [info] Finished optimizer
+[2021-06-22 12:16:57.894] [jointLog] [info] writing output 
+

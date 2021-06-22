@@ -1,0 +1,3 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0004842	0.0351520380493689	0.999581869996041	1	1268	ubiquitin-protein transferase activity	MF	0.9999999999	MF ubiquitin-protein transferase activity	TRINITY_DN190367_c5_g1
+GO:0019787	0.0356727848175048	0.999569282454425	1	1287	ubiquitin-like protein transferase activity	MF	0.9999999999	MF ubiquitin-like protein transferase activity	TRINITY_DN190367_c5_g1

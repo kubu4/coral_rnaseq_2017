@@ -1,0 +1,119 @@
+Category	ID	Term	Genes	adj_pval
+CC	GO:0017101	aminoacyl-tRNA synthetase multienzyme complex	TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0035087	siRNA loading onto RISC involved in RNA interference	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0015696	ammonium transport	TRINITY_DN191336_c0_g4	0.9999999999
+BP	GO:0009301	snRNA transcription	TRINITY_DN168439_c1_g1	0.9999999999
+MF	GO:0016279	protein-lysine N-methyltransferase activity	TRINITY_DN168265_c3_g1	0.9999999999
+MF	GO:0004822	isoleucine-tRNA ligase activity	TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0043039	tRNA aminoacylation	TRINITY_DN189885_c0_g5	0.9999999999
+CC	GO:0031362	anchored component of external side of plasma membrane	TRINITY_DN175581_c5_g2	0.9999999999
+BP	GO:0060972	left/right pattern formation	TRINITY_DN187676_c0_g2	0.9999999999
+MF	GO:0032296	double-stranded RNA-specific ribonuclease activity	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0048793	pronephros development	TRINITY_DN187676_c0_g2	0.9999999999
+BP	GO:0003146	heart jogging	TRINITY_DN187676_c0_g2	0.9999999999
+BP	GO:0045116	protein neddylation	TRINITY_DN156517_c2_g1	0.9999999999
+BP	GO:1903564	regulation of protein localization to cilium	TRINITY_DN168439_c1_g1	0.9999999999
+MF	GO:0003725	double-stranded RNA binding	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0006418	tRNA aminoacylation for protein translation	TRINITY_DN189885_c0_g5	0.9999999999
+MF	GO:0016790	thiolester hydrolase activity	TRINITY_DN190987_c3_g3	0.9999999999
+MF	GO:0004525	ribonuclease III activity	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0016888	endodeoxyribonuclease activity, producing 5'-phosphomonoesters	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0060026	convergent extension	TRINITY_DN187676_c0_g2	0.9999999999
+MF	GO:0002161	aminoacyl-tRNA editing activity	TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0006428	isoleucyl-tRNA aminoacylation	TRINITY_DN189885_c0_g5	0.9999999999
+CC	GO:0016591	RNA polymerase II, holoenzyme	TRINITY_DN168439_c1_g1	0.9999999999
+MF	GO:0043175	RNA polymerase core enzyme binding	TRINITY_DN168439_c1_g1	0.9999999999
+BP	GO:0001676	long-chain fatty acid metabolic process	TRINITY_DN190987_c3_g3	0.9999999999
+BP	GO:0007279	pole cell formation	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0000737	DNA catabolic process, endonucleolytic	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0042307	positive regulation of protein import into nucleus	TRINITY_DN168439_c1_g1	0.9999999999
+BP	GO:0033227	dsRNA transport	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0016874	ligase activity	TRINITY_DN156517_c2_g1, TRINITY_DN189885_c0_g5	0.9999999999
+MF	GO:0016836	hydro-lyase activity	TRINITY_DN175581_c5_g2	0.9999999999
+BP	GO:1905477	positive regulation of protein localization to membrane	TRINITY_DN168439_c1_g1	0.9999999999
+MF	GO:0016877	ligase activity, forming carbon-sulfur bonds	TRINITY_DN156517_c2_g1	0.9999999999
+CC	GO:0031332	RNAi effector complex	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0048134	germ-line cyst formation	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0035383	thioester metabolic process	TRINITY_DN190987_c3_g3	0.9999999999
+BP	GO:0046824	positive regulation of nucleocytoplasmic transport	TRINITY_DN168439_c1_g1	0.9999999999
+MF	GO:0016289	CoA hydrolase activity	TRINITY_DN190987_c3_g3	0.9999999999
+BP	GO:0006957	complement activation, alternative pathway	TRINITY_DN162514_c5_g1	0.9999999999
+BP	GO:1903567	regulation of protein localization to ciliary membrane	TRINITY_DN168439_c1_g1	0.9999999999
+MF	GO:0004520	endodeoxyribonuclease activity	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0102991	myristoyl-CoA hydrolase activity	TRINITY_DN190987_c3_g3	0.9999999999
+BP	GO:0072376	protein activation cascade	TRINITY_DN162514_c5_g1	0.9999999999
+MF	GO:0004812	aminoacyl-tRNA ligase activity	TRINITY_DN189885_c0_g5	0.9999999999
+CC	GO:0005791	rough endoplasmic reticulum	TRINITY_DN175581_c5_g2	0.9999999999
+BP	GO:0006956	complement activation	TRINITY_DN162514_c5_g1	0.9999999999
+CC	GO:1902555	endoribonuclease complex	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0048135	female germ-line cyst formation	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0008420	RNA polymerase II CTD heptapeptide repeat phosphatase activity	TRINITY_DN168439_c1_g1	0.9999999999
+BP	GO:0003002	regionalization	TRINITY_DN169391_c1_g1, TRINITY_DN187676_c0_g2	0.9999999999
+BP	GO:0035194	posttranscriptional gene silencing by RNA	TRINITY_DN169391_c1_g1	0.9999999999
+CC	GO:0000428	DNA-directed RNA polymerase complex	TRINITY_DN168439_c1_g1	0.9999999999
+MF	GO:0004536	deoxyribonuclease activity	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0016875	ligase activity, forming carbon-oxygen bonds	TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0000038	very long-chain fatty acid metabolic process	TRINITY_DN190987_c3_g3	0.9999999999
+BP	GO:0006637	acyl-CoA metabolic process	TRINITY_DN190987_c3_g3	0.9999999999
+BP	GO:0007365	periodic partitioning	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0098781	ncRNA transcription	TRINITY_DN168439_c1_g1	0.9999999999
+CC	GO:0031253	cell projection membrane	TRINITY_DN168439_c1_g1, TRINITY_DN175581_c5_g2	0.9999999999
+MF	GO:0004722	protein serine/threonine phosphatase activity	TRINITY_DN168439_c1_g1	0.9999999999
+BP	GO:0001709	cell fate determination	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0032789	unsaturated monocarboxylic acid metabolic process	TRINITY_DN190987_c3_g3	0.9999999999
+MF	GO:0004530	deoxyribonuclease I activity	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:1904589	regulation of protein import	TRINITY_DN168439_c1_g1	0.9999999999
+BP	GO:0042306	regulation of protein import into nucleus	TRINITY_DN168439_c1_g1	0.9999999999
+MF	GO:0008641	ubiquitin-like modifier activating enzyme activity	TRINITY_DN156517_c2_g1	0.9999999999
+BP	GO:0016073	snRNA metabolic process	TRINITY_DN168439_c1_g1	0.9999999999
+MF	GO:0016278	lysine N-methyltransferase activity	TRINITY_DN168265_c3_g1	0.9999999999
+BP	GO:0007349	cellularization	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0019781	NEDD8 activating enzyme activity	TRINITY_DN156517_c2_g1	0.9999999999
+CC	GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	TRINITY_DN175581_c5_g2	0.9999999999
+BP	GO:0006958	complement activation, classical pathway	TRINITY_DN162514_c5_g1	0.9999999999
+MF	GO:0016443	bidentate ribonuclease III activity	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0016788	hydrolase activity, acting on ester bonds	TRINITY_DN168439_c1_g1, TRINITY_DN169391_c1_g1, TRINITY_DN189885_c0_g5, TRINITY_DN190987_c3_g3	0.9999999999
+BP	GO:0006309	apoptotic DNA fragmentation	TRINITY_DN169391_c1_g1	0.9999999999
+CC	GO:0070578	RISC-loading complex	TRINITY_DN169391_c1_g1	0.9999999999
+CC	GO:0035068	micro-ribonucleoprotein complex	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0016441	posttranscriptional gene silencing	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0034660	ncRNA metabolic process	TRINITY_DN168439_c1_g1, TRINITY_DN169391_c1_g1, TRINITY_DN189885_c0_g5	0.9999999999
+BP	GO:0030422	production of siRNA involved in RNA interference	TRINITY_DN169391_c1_g1	0.9999999999
+CC	GO:0055029	nuclear DNA-directed RNA polymerase complex	TRINITY_DN168439_c1_g1	0.9999999999
+CC	GO:0046658	anchored component of plasma membrane	TRINITY_DN175581_c5_g2	0.9999999999
+BP	GO:0031054	pre-miRNA processing	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0018025	calmodulin-lysine N-methyltransferase activity	TRINITY_DN168265_c3_g1	0.9999999999
+BP	GO:0070922	small RNA loading onto RISC	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0070940	dephosphorylation of RNA polymerase II C-terminal domain	TRINITY_DN168439_c1_g1	0.9999999999
+CC	GO:0005929	cilium	TRINITY_DN168439_c1_g1, TRINITY_DN187676_c0_g2	0.9999999999
+CC	GO:1905348	endonuclease complex	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0008519	ammonium transmembrane transporter activity	TRINITY_DN191336_c0_g4	0.9999999999
+BP	GO:0032788	saturated monocarboxylic acid metabolic process	TRINITY_DN190987_c3_g3	0.9999999999
+BP	GO:0017145	stem cell division	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0030727	germarium-derived female germ-line cyst formation	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:1900182	positive regulation of protein localization to nucleus	TRINITY_DN168439_c1_g1	0.9999999999
+BP	GO:0030716	oocyte fate determination	TRINITY_DN169391_c1_g1	0.9999999999
+CC	GO:0031526	brush border membrane	TRINITY_DN175581_c5_g2	0.9999999999
+CC	GO:0031233	intrinsic component of external side of plasma membrane	TRINITY_DN175581_c5_g2	0.9999999999
+MF	GO:0047617	acyl-CoA hydrolase activity	TRINITY_DN190987_c3_g3	0.9999999999
+BP	GO:0007294	germarium-derived oocyte fate determination	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0001649	osteoblast differentiation	TRINITY_DN189885_c0_g5	0.9999999999
+MF	GO:0016290	palmitoyl-CoA hydrolase activity	TRINITY_DN190987_c3_g3	0.9999999999
+MF	GO:0070063	RNA polymerase binding	TRINITY_DN168439_c1_g1	0.9999999999
+CC	GO:0016442	RISC complex	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0007389	pattern specification process	TRINITY_DN169391_c1_g1, TRINITY_DN187676_c0_g2	0.9999999999
+BP	GO:0016246	RNA interference	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0070883	pre-miRNA binding	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:0070121	Kupffer's vesicle development	TRINITY_DN187676_c0_g2	0.9999999999
+BP	GO:0007367	segment polarity determination	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:1903566	positive regulation of protein localization to cilium	TRINITY_DN168439_c1_g1	0.9999999999
+BP	GO:0042078	germ-line stem cell division	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0004089	carbonate dehydratase activity	TRINITY_DN175581_c5_g2	0.9999999999
+BP	GO:1904591	positive regulation of protein import	TRINITY_DN168439_c1_g1	0.9999999999
+BP	GO:0006959	humoral immune response	TRINITY_DN162514_c5_g1	0.9999999999
+BP	GO:0045448	mitotic cell cycle, embryonic	TRINITY_DN169391_c1_g1	0.9999999999
+BP	GO:1903569	positive regulation of protein localization to ciliary membrane	TRINITY_DN168439_c1_g1	0.9999999999
+BP	GO:0015701	bicarbonate transport	TRINITY_DN175581_c5_g2	0.9999999999
+BP	GO:0006308	DNA catabolic process	TRINITY_DN169391_c1_g1	0.9999999999
+MF	GO:0052689	carboxylic ester hydrolase activity	TRINITY_DN189885_c0_g5, TRINITY_DN190987_c3_g3	0.9999999999
+BP	GO:0043038	amino acid activation	TRINITY_DN189885_c0_g5	0.9999999999

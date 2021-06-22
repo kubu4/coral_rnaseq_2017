@@ -1,0 +1,3 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0005488	0.996913559303654	0.00993540858875989	5	26710	binding	MF	0.9999999999	0.999999378881251	MF binding
+GO:0016021	1	0.0165587473718294	0	8624	integral component of membrane	CC	0.9999999999	0.999999378881251	CC integral component of membrane
