@@ -7,7 +7,7 @@ set -e
 
 ## Set input file locations
 trimmed_reads_dir="/mnt/data/coral_RNAseq_2017/porites/20180311_fastqc_trimming/trimmed"
-salmon_out_dir="/media/sam/4TB_toshiba/porites/20210615_porites_cnidaria_DEG_bleached_vs_non-bleached_all_GO"
+salmon_out_dir="/media/sam/4TB_toshiba/porites/20210622_porites_cnidaria_DEG_bleached_vs_non-bleached_all_GO"
 transcriptome_dir="/media/sam/4TB_toshiba/porites/20210613_pcom_diamond_blastx_transcriptome"
 transcriptome="${transcriptome_dir}/Cnidaria_MEGAN-extractions.fasta"
 fasta_index="${transcriptome_dir}/Cnidaria_MEGAN-extractions.fasta.fai"
