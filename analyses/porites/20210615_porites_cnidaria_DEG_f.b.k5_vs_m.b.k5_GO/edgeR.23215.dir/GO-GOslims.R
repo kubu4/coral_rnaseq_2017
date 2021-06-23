@@ -16,9 +16,16 @@ output_suffix=("GOslims.csv")
 ### Strip path from goseq files
 goseq_filename <- basename(goseq_files)
 
+# Capture sample treatments as nested list
+treatments <- strsplit(goseq_filename, "[.-]+")
 
+# Counter for iteration for use with treatments list
+counter = 0
 
 for (item in goseq_files) {
+  
+  # Increment counter
+  counter = counter + 1
   
   ## Get max number of fields
   # Needed to handle reading in file with different number of columns in each row
@@ -50,6 +57,9 @@ for (item in goseq_files) {
   ## Map GO terms to GOslims and select Biological Processes group
   slims <- goSlim(myCollection, slim, "BP", verbose = TRUE)
   
+  ## Add treatment column
+  slims$treatment=treatments[[counter]][10]
+  
   
   ### Prep output file naming structure
   
@@ -72,3 +82,4 @@ for (item in goseq_files) {
   
   
 }
+         
