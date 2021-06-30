@@ -26,13 +26,13 @@ programs_array=(
 start=${SECONDS}
 
 # Create array of DAA R1 files
-for daa in *READ1*.cat.daa
+for daa in *READ1*.daa
 do
   daa_array_R1+=("${daa}")
 done
 
 # Create array of DAA R2 files
-for daa in *READ2*.cat.daa
+for daa in *READ2*.daa
 do
   daa_array_R2+=("${daa}")
 done
@@ -46,7 +46,7 @@ do
   sample_name=$(echo "${daa_array_R1[index]}" | awk -F "_" '{print $1}')
 
   # Run daa2rma with paired option
-  ${meganizer} \
+  ${programs_array[daa2rma]} \
   --paired \
   --in "${daa_array_R1[index]}" "${daa_array_R2[index]}" \
   --mapDB ${map_db} \
