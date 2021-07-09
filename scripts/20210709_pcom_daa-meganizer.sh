@@ -12,6 +12,9 @@ set -e
 # MEGAN mapping files
 map_db=/home/sam/data/databases/MEGAN/megan-map-Jan2021.db
 
+
+threads=48
+
 # Programs array
 declare -A programs_array
 programs_array=(
