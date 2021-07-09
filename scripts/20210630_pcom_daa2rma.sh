@@ -15,7 +15,7 @@ map_db=/home/sam/data/databases/MEGAN/megan-map-Jan2021.db
 # Programs array
 declare -A programs_array
 programs_array=(
-[daa2rma]="/home/sam/programs/megan/tools/daa2rma"
+[daa2rma]="/home/sam/programs/megan/tools/daa-meganizer"
 )
 
 
@@ -41,15 +41,13 @@ done
 start=${SECONDS}
 for index in "${!daa_array_R1[@]}"
 do
-  sample_name=$(echo "${daa_array_R1[index]}" | awk -F "_" '{print $1}')
 
-  # Run daa2rma with paired option
-  ${meganizer} \
-  --paired \
+  # Run daa-meagnizer (preferred to daa2rma; much faster)
+  ${programs_array[daa2rma]} \
   --in "${daa_array_R1[index]}" "${daa_array_R2[index]}" \
   --mapDB ${map_db} \
-  --out "${sample_name}".daa2rma.rma6 \
-  2>&1 | tee --append daa2rma_log.txt
+  --threads ${threads} \
+  2>&1 | tee --append daa-meganizer_log.txt
 done
 
 # Caputure end "time"
