@@ -65,7 +65,7 @@ runtime=$((end-start))
   echo "---------------------"
   echo ""
   echo "Total runtime was: ${runtime} seconds"
-} >> daa2rma_log.txt
+} >> daa-meganizer_log.txt
 
 
 # Capture program options
