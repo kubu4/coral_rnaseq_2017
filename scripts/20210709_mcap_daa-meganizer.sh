@@ -17,7 +17,7 @@ threads=48
 # Programs array
 declare -A programs_array
 programs_array=(
-[daa2rma]="/home/sam/programs/megan/tools/daa2rma"
+[daa2rma]="/home/sam/programs/megan/tools/daa-meganizer"
 )
 
 
@@ -43,16 +43,14 @@ done
 start=${SECONDS}
 for index in "${!daa_array_R1[@]}"
 do
-  sample_name=$(echo "${daa_array_R1[index]}" | awk -F "_" '{print $1}')
 
-  # Run daa2rma with paired option
+  # Run daa-meagnizer (preferred to daa2rma; much faster)
   ${programs_array[daa2rma]} \
   --paired \
   --in "${daa_array_R1[index]}" "${daa_array_R2[index]}" \
   --mapDB ${map_db} \
-  --out "${sample_name}".daa2rma.rma6 \
   --threads ${threads} \
-  2>&1 | tee --append daa2rma_log.txt
+  2>&1 | tee --append daa-meganizer_log.txt
 done
 
 # Caputure end "time"
@@ -67,7 +65,7 @@ runtime=$((end-start))
   echo "---------------------"
   echo ""
   echo "Total runtime was: ${runtime} seconds"
-} >> daa2rma_log.txt
+} >> daa-meganizer_log.txt
 
 
 # Capture program options
