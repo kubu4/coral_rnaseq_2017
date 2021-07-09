@@ -27,13 +27,13 @@ programs_array=(
 start=${SECONDS}
 
 # Create array of DAA R1 files
-for daa in *READ1*.cat.daa
+for daa in *READ1*.daa
 do
   daa_array_R1+=("${daa}")
 done
 
 # Create array of DAA R2 files
-for daa in *READ2*.cat.daa
+for daa in *READ2*.daa
 do
   daa_array_R2+=("${daa}")
 done
