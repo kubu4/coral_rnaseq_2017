@@ -46,7 +46,6 @@ do
 
   # Run daa-meagnizer (preferred to daa2rma; much faster)
   ${programs_array[daa2rma]} \
-  --paired \
   --in "${daa_array_R1[index]}" "${daa_array_R2[index]}" \
   --mapDB ${map_db} \
   --threads ${threads} \
