@@ -59,7 +59,7 @@ do
   filename=$(basename ${fai} ".fasta.fai")
 
   # Extract sequence IDs
-  awk '{print $1}' >> ${filename}.seqtk.read_id.list
+  awk '{print $1}' ${fai} >> ${filename}.seqtk.read_id.list
 
   # Extract reads with matching IDs
   for fastq in ${fastq_dir}*READ1*.fq.gz
@@ -81,7 +81,7 @@ do
   filename=$(basename ${fai} ".fasta.fai")
 
   # Extract sequence IDs
-  awk '{print $1}' >> ${filename}.seqtk.read_id.list
+  awk '{print $1}' ${fai} >> ${filename}.seqtk.read_id.list
 
   # Extract reads with matching IDs
   for fastq in ${fastq_dir}*READ2*.fq.gz
@@ -153,3 +153,4 @@ echo "System PATH for $SLURM_JOB_ID"
 echo ""
 printf "%0.s-" {1..10}
 echo "${PATH}" | tr : \\n
+} >> system_path.log
