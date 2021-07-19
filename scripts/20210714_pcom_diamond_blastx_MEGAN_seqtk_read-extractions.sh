@@ -64,8 +64,15 @@ do
   # Extract reads with matching IDs
   for fastq in ${fastq_dir}*READ1*.fq.gz
     do
+      echo ""
+      echo "Generating checksum for ${fastq}..."
       md5sum ${fastq} >> input_fastq_checksums.md5
+      echo "Checksum completed."
+      echo ""
+      echo "Extracting reads from ${fastq}..."
       ${programs_array[seqtk]} subseq ${fastq} ${filename}.seqtk.read_id.list >> ${filename}.${R1_suffix}
+      echo "Read extraction complete for ${fastq}."
+      echo ""
     done
 done
 
@@ -79,8 +86,15 @@ do
   # Extract reads with matching IDs
   for fastq in ${fastq_dir}*READ2*.fq.gz
     do
+      echo ""
+      echo "Generating checksum for ${fastq}..."
       md5sum ${fastq} >> input_fastq_checksums.md5
+      echo "Checksum completed."
+      echo ""
+      echo "Extracting reads from ${fastq}..."
       ${programs_array[seqtk]} subseq ${fastq} ${filename}.seqtk.read_id.list >> ${filename}.${R2_suffix}
+      echo "Read extraction complete for ${fastq}."
+      echo ""
     done
 done
 
