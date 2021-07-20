@@ -54,6 +54,7 @@ time ${trinity_abundance} \
 --est_method salmon \
 --gene_trans_map "${gene_map}" \
 --thread_count 23 \
+--prep_reference \
 1> ${salmon_out_dir}/${salmon_stdout} \
 2> ${salmon_out_dir}/${salmon_stderr}
 # Move output folders
