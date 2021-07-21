@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Job Name
-#SBATCH --job-name=20210721_pcom_busco_cindaria_transcriptome_v1.0
+#SBATCH --job-name=20210721_pcom_busco_cnidaria_transcriptome_v1.0
 ## Allocation Definition
 #SBATCH --account=coenv
 #SBATCH --partition=coenv
@@ -15,7 +15,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=samwhite@uw.edu
 ## Specify the working directory for this job
-#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210721_pcom_busco_cindaria_transcriptome_v1.0
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210721_pcom_busco_cnidaria_transcriptome_v1.0
 
 ### P.compressa transcriptome assembly completeness assessment using BUSCO.
 ### This is checking pcom_cnidaria_transcriptome_v1.0.fasta from 20210720
