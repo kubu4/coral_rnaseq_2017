@@ -34,14 +34,13 @@ programs_array=(
 # Establish variables for more readable code
 transcriptomes_dir=/gscratch/srlab/sam/data/M_capitata/transcriptomes
 
-# Array of the various comparisons to evaluate
-# Each condition in each comparison should be separated by a "-"
+# Array transcriptome(s)
 transcriptomes_array=(
 "${transcriptomes_dir}"/Trinity.fasta \
 )
 
-# DIAMOND UniProt database
-dmnd=/gscratch/srlab/blastdbs/uniprot_sprot_20200123/uniprot_sprot.dmnd
+# DIAMOND NCBI nr database
+dmnd=/gscratch/srlab/blastdbs/ncbi-nr-20200924/nr.dmnd
 
 ###################################################################################
 
