@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Job Name
-#SBATCH --job-name=20210613_mcap_diamond_blastx_transcriptome
+#SBATCH --job-name=20210726_mcap_diamond_blastx_transcriptome
 ## Allocation Definition
 #SBATCH --account=coenv
 #SBATCH --partition=coenv
@@ -15,11 +15,11 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=samwhite@uw.edu
 ## Specify the working directory for this job
-#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210613_mcap_diamond_blastx_transcriptome
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210726_mcap_diamond_blastx_transcriptome
 
 
 ## Script for running BLASTx (using DIAMOND) with
-## P.compressa transcriptome for downstream taxonomic separation.
+## M.capitata transcriptome for downstream taxonomic separation.
 ## Output will be in standard BLAST output format 6.
 
 ###################################################################################
