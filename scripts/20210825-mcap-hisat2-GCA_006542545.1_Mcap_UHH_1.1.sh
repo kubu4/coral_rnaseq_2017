@@ -17,7 +17,7 @@
 ## Specify the working directory for this job
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210825-mcap-hisat2-GCA_006542545.1_Mcap_UHH_1.1
 
-## Hisat2 alignment of M.capitata RNAseq to NCBI M.capitate genome assembly
+## Hisat2 alignment of M.capitata RNAseq to NCBI M.M_capitata genome assembly
 ## using HiSat2 index generated on 20210825.
 
 ## Expects FastQ input filenames to match *READ[12.]*.fq.gz
