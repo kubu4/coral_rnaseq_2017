@@ -32,7 +32,7 @@
 threads=28
 
 # Index name for Hisat2 use
-# Needs to match index naem used in previous Hisat2 indexing step
+# Needs to match index naem used in previous bowtie2 indexing step
 transcriptome_index_name="Cnidaria_MEGAN-extractions"
 
 # Set output filename
@@ -46,7 +46,7 @@ samtools="/gscratch/srlab/programs/samtools-1.10/samtools"
 
 
 # Input/output files
-transcriptome_index_dir="/gscratch/srlab/sam/data/P_compressa/transcritpomes"
+transcriptome_index_dir="/gscratch/srlab/sam/data/P_compressa/transcriptomes"
 fastq_dir="/gscratch/srlab/sam/data/P_compressa/RNAseq/"
 
 

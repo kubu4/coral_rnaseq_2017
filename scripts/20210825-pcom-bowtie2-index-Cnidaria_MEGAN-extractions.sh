@@ -36,7 +36,7 @@ bowtie2_dir="/gscratch/srlab/programs/bowtie2-2.4.2-linux-x86_64"
 bowtie2_build="${bowtie2_dir}/bowtie2-build"
 
 # Input/output files
-transcriptome_dir="/gscratch/srlab/sam/data/P_compressa/transcritpomes"
+transcriptome_dir="/gscratch/srlab/sam/data/P_compressa/transcriptomes"
 transcriptome_fasta="${transcriptome_dir}/Cnidaria_MEGAN-extractions.fasta"
 
 
