@@ -27,7 +27,7 @@
 threads=40
 
 # Set input file locations
-transcriptome_dir="${transcriptome_dir}"
+transcriptome_dir="/gscratch/srlab/sam/data/M_capitata/transcriptomes"
 trinity_fasta="${transcriptome_dir}/Trinity-GG.fasta"
 trinity_gene_map="${transcriptome_dir}/Trinity-GG.fasta.gene_trans_map"
 
@@ -63,7 +63,7 @@ declare -A programs_array
 programs_array=(
 [hmmscan]="${hmmscan}" \
 [blastp]="${blastp}" \
-[transdecoder_lORFs="${transdecoder_lORFs}" \
+[transdecoder_lORFs]="${transdecoder_lORFs}" \
 [transdecoder_predict]="${transdecoder_predict}"
 )
 
@@ -91,12 +91,12 @@ mkdir "${blastp_out_dir}"
 mkdir "${pfam_out_dir}"
 
 # Extract long open reading frames
-"${transdecoder_lORFs}" \
+"${programs_array[transdecoder_lORFs]}" \
 --gene_trans_map "${trinity_gene_map}" \
 -t "${trinity_fasta}"
 
 # Run blastp on long ORFs
-"${blastp}" \
+"${programs_array[blastp]}" \
 -query "${lORFs_pep}" \
 -db "${sp_db}" \
 -max_target_seqs 1 \
@@ -106,14 +106,14 @@ mkdir "${pfam_out_dir}"
 > "${blastp_out}"
 
 # Run pfam search
-"${hmmscan}" \
+"${programs_array[hmmscan]}" \
 --cpu ${threads} \
 --domtblout "${pfam_out}" \
 "${pfam_db}" \
 "${lORFs_pep}"
 
 # Run Transdecoder with blastp and Pfam results
-"${transdecoder_predict}" \
+"${programs_array[transdecoder_predict]}" \
 -t "${trinity_fasta}" \
 --retain_pfam_hits "${pfam_out}" \
 --retain_blastp_hits "${blastp_out}"
