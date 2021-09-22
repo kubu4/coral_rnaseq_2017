@@ -33,8 +33,8 @@ threads=28
 taxa="Cnidaria"
 
 # Data directories
-reads_dir=/gscratch/scrubbed/samwhite/data/M_capitata/RNAseq
-transcriptome_dir=/gscratch/scrubbed/samwhite/data/M_capitata/transcriptomes
+reads_dir=/gscratch/srlab/sam/data/M_capitata/RNAseq
+transcriptome_dir=/gscratch/srlab/sam/data/M_capitata/transcriptomes
 
 # BAM file for genome guided assembly
 sorted_bam=/gscratch/scrubbed/samwhite/outputs/20210825-mcap-hisat2-GCA_006542545.1_Mcap_UHH_1.1/20210825-mcap-hisat2.sorted.bam
