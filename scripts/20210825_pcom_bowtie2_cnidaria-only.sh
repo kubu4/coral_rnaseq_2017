@@ -17,10 +17,10 @@
 ## Specify the working directory for this job
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210825_pcom_bowtie2_cnidaria-only
 
-## Bowtie2 transcriptome indexing and alignment of P.compressa RNAseq to P.compressa
-## cindaria-only transcriptome.
+## Bowtie2 transcriptome alignment of P.compressa RNAseq to P.compressa
+## cindaria-only transcriptome. Use bowtie2 index built earlier today.
 
-## Expects FastQ input filenames to match *READ[12]*.fq.gz
+## Expects FastQ input filenames to match 4R041-L7-P*-*-READ[12]-Sequences.txt.gz_val_[12].fq.gz
 
 
 ###################################################################################
@@ -31,9 +31,9 @@
 # Set number of CPUs to use
 threads=28
 
-# Index name for Hisat2 use
+# Index name for bowtie2 use
 # Needs to match index naem used in previous bowtie2 indexing step
-transcriptome_index_name="Cnidaria_MEGAN-extractions"
+transcriptome_index_name="pcom-Cnidaria_MEGAN-extractions"
 
 # Set output filename
 sample_name="20210825-pcom-bowtie2"
@@ -74,8 +74,8 @@ module load intel-python3_2017
 fastq_array_R1=()
 fastq_array_R2=()
 
-# Copy Hisat2 genome index files
-rsync -av "${genome_index_dir}"/${genome_index_name}*.ht2 .
+# Copy bowtie2 transcriptome index files
+rsync -av "${transcriptome_index_dir}"/${transcriptome_index_name}*.bt2 .
 
 # Create array of fastq R1 files
 # and generated MD5 checksums file.
@@ -98,34 +98,39 @@ do
   echo ""
 done
 
-# Create comma-separated lists of FastQs for Hisat2
-printf -v joined_R1 '%s,' "${fastq_array_R1[@]}"
-fastq_list_R1=$(echo "${joined_R1%,}")
+# Create array of sample names
+## Uses parameter substitution to strip leading path from filename
+## Uses awk to parse out sample name from filename
+for R1_fastq in "${fastq_dir}"*READ1*.gz
+do
+  names_array+=("$(echo "${R1_fastq#"${fastq_dir}"}" | awk 'BEGIN { OFS="-"; FS="-" }  {print $1, $2, $3, $4}')")
+done
 
-printf -v joined_R2 '%s,' "${fastq_array_R2[@]}"
-fastq_list_R2=$(echo "${joined_R2%,}")
+# bowtie2 alignments
+for index in "${!fastq_array_R1[@]}"
+do
+  sample_name="${names_array[index]}"
 
+  # Run bowtie2
+  "${programs_array[bowtie2]}" \
+  -x "${transcriptome_index_name}" \
+  -1 "${fastq_array_R1[index]}" \
+  -2 "${fastq_array_R2[index]}" \
+  -S "${sample_name}".sam \
+  2> "${sample_name}"_bowtie2.err
 
-# Hisat2 alignments
-"${programs_array[hisat2]}" \
--x "${genome_index_name}" \
--1 "${fastq_list_R1}" \
--2 "${fastq_list_R2}" \
--S "${sample_name}".sam \
-2> "${sample_name}"_hisat2.err
-
-# Sort SAM files, convert to BAM, and index
-${programs_array[samtools_view]} \
--@ "${threads}" \
--Su "${sample_name}".sam \
-| ${programs_array[samtools_sort]} - \
--@ "${threads}" \
--o "${sample_name}".sorted.bam
-${programs_array[samtools_index]} "${sample_name}".sorted.bam
-
+  # Sort SAM files, convert to BAM, and index
+  ${programs_array[samtools_view]} \
+  -@ "${threads}" \
+  -Su "${sample_name}".sam \
+  | ${programs_array[samtools_sort]} - \
+  -@ "${threads}" \
+  -o "${sample_name}".sorted.bam
+  ${programs_array[samtools_index]} "${sample_name}".sorted.bam
+done
 
 # Delete unneccessary index files
-rm "${genome_index_name}"*.ht2
+rm "${transcriptome_index_name}"*.bt2
 
 # Delete unneded SAM files
 rm ./*.sam
