@@ -18,10 +18,17 @@
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210922_mcap_transdecoder_GG-transcriptome
 
 
+# Run TransDecoder on M.capitata genome-guided transcriptome assembly from 20210903.
+
+
+
 ###################################################################################
 # These variables need to be set by user
 
 ## Assign Variables
+
+# Set workind directory as current directory
+wd="$(pwd)"
 
 # CPU threads
 threads=40
@@ -75,13 +82,6 @@ set -e
 # Load Python Mox module for Python module availability
 
 module load intel-python3_2017
-
-
-# Set workind directory as current directory
-wd="$(pwd)"
-
-
-
 
 # Capture FastA MD5 checksum for future reference
 md5sum "${trinity_fasta}" >> "${trinity_fasta_name}".checksum.md5
