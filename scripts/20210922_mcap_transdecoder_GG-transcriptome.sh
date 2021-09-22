@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Job Name
-#SBATCH --job-name=20200922_mcap_transdecoder_GG-transcriptome
+#SBATCH --job-name=20210922_mcap_transdecoder_GG-transcriptome
 ## Allocation Definition
 #SBATCH --account=coenv
 #SBATCH --partition=coenv
@@ -15,7 +15,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=samwhite@uw.edu
 ## Specify the working directory for this job
-#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20200922_mcap_transdecoder_GG-transcriptome
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210922_mcap_transdecoder_GG-transcriptome
 
 
 ###################################################################################
