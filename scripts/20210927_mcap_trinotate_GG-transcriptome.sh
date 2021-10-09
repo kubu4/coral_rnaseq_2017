@@ -8,7 +8,7 @@
 ## Nodes
 #SBATCH --nodes=1
 ## Walltime (days-hours:minutes:seconds format)
-#SBATCH --time=14-00:00:00
+#SBATCH --time=1-00:00:00
 ## Memory per node
 #SBATCH --mem=200G
 ##turn on e-mail notification
@@ -28,6 +28,10 @@
 
 wd="$(pwd)"
 
+timestamp=$(date +%Y%m%d)
+species="mcap"
+
+prefix="${timestamp}.${species}.trinotate"
 
 # Paths to input/output files
 ## Non-working directory locations
@@ -159,7 +163,12 @@ report \
 --Trinotate_xls "${trinotate_report}" \
 -G \
 --include_ancestral_terms \
-> go_annotations.txt
+> "${prefix}".go_annotations.txt
+
+# Make transcript features annotation map
+"${trinotate_features}" \
+"${trinotate_report}" \
+> "${prefix}".annotation_feature_map.txt
 
 
 ###################################################################################
