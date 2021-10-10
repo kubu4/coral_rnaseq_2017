@@ -58,7 +58,7 @@ signalp_out="${signalp_out_dir}/signalp.out"
 tmhmm_out="${tmhmm_out_dir}/tmhmm.out"
 trinity_fasta="${trinity_out_dir}/Trinity-GG.fasta"
 trinity_gene_map="${trinity_out_dir}/Trinity-GG.fasta.gene_trans_map"
-trinotate_report="${wd}/trinotate_annotation_report.txt"
+trinotate_report="${wd}/${prefix}.trinotate_annotation_report.txt"
 
 
 
@@ -73,11 +73,13 @@ trinotate_dir="/gscratch/srlab/programs/Trinotate-v3.1.1"
 trinotate="${trinotate_dir}/Trinotate"
 trinotate_rnammer="${trinotate_dir}/util/rnammer_support/RnammerTranscriptome.pl"
 trinotate_GO="${trinotate_dir}/util/extract_GO_assignments_from_Trinotate_xls.pl"
-pfam_db="${trinotate_dir}/admin/Pfam-A.hmm"
-sp_db="${trinotate_dir}/admin/uniprot_sprot.pep"
+trinotate_features="${trinotate_dir}/util/Trinotate_get_feature_name_encoding_attributes.pl"
 trinotate_sqlite_db="Trinotate.sqlite"
 
 ###################################################################################
+
+# Exit if something fails
+set -e
 
 # Load Python Mox module for Python module availability
 module load intel-python3_2017
@@ -89,33 +91,48 @@ mkdir "${rnammer_out_dir}" "${signalp_out_dir}" "${tmhmm_out_dir}"
 
 cp ${trinotate_dir}/admin/Trinotate.sqlite .
 
+echo "Running SignalP..."
+echo ""
 # Run signalp
 ${signalp} \
 -f short \
 -n "${signalp_out}" \
 ${lORFs_pep}
+echo "SignalP completed."
+echo ""
 
+echo "Starting tmhmm..."
+echo ""
 # Run tmHMM
 ${tmhmm} \
 --short \
 < ${lORFs_pep} \
 > "${tmhmm_out}"
+echo "tmhmmm completed."
+echo ""
 
 # Run RNAmmer
+echo "Starting RNAmmer..."
+echo ""
 cd "${rnammer_out_dir}" || exit
 ${trinotate_rnammer} \
 --transcriptome ${trinity_fasta} \
 --path_to_rnammer ${rnammer}
 cd "${wd}" || exit
+echo "RNAmmer completed."
+echo ""
 
 # Run Trinotate
 ## Load transcripts and coding regions into database
+echo "Loading transcriptomics into sqlite database..."
+echo ""
 ${trinotate} \
 ${trinotate_sqlite_db} \
 init \
 --gene_trans_map "${trinity_gene_map}" \
 --transcript_fasta "${trinity_fasta}" \
 --transdecoder_pep "${lORFs_pep}"
+echo "Finished loading transcriptomics into sqlite database."
 
 ## Load BLAST homologies
 "${trinotate}" \
