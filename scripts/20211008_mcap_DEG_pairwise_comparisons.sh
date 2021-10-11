@@ -1,21 +1,4 @@
 #!/bin/bash
-## Job Name
-#SBATCH --job-name=20211010_mcap_DEG_pairwise_comparisons
-## Allocation Definition
-#SBATCH --account=coenv
-#SBATCH --partition=coenv
-## Resources
-## Nodes
-#SBATCH --nodes=1
-## Walltime (days-hours:minutes:seconds format)
-#SBATCH --time=1-18:00:00
-## Memory per node
-#SBATCH --mem=120G
-##turn on e-mail notification
-#SBATCH --mail-type=ALL
-#SBATCH --mail-user=samwhite@uw.edu
-## Specify the working directory for this job
-#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20211010_mcap_DEG_pairwise_comparisons
 
 # This is a script to identify differentially expressed genes (DEGs) in M.captita
 # which has been taxonomically selected for all Cnidaria reads, using pairwise comparisions.
@@ -27,9 +10,9 @@
 
 ###################################################################################
 # These variables need to be set by user
-fastq_dir="/gscratch/srlab/sam/data/M_capitata/RNAseq/"
+fastq_dir="/home/sam/data/M_capitata/RNAseq"
 fasta_prefix="Trinity-GG"
-transcriptome_dir="/gscratch/srlab/sam/data/M_capitata/transcriptomes"
+transcriptome_dir="/home/sam/data/M_capitata/transcriptomes"
 trinotate_feature_map="${transcriptome_dir}/20211009.mcap.trinotate.annotation_feature_map.txt"
 go_annotations="${transcriptome_dir}/20211009.mcap.trinotate.go_annotations.txt"
 
@@ -49,6 +32,15 @@ non-bleached-44_non-bleached-k4
 # e.g. 4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz
 get_seq_index () { seq_index=$(echo "$1" | awk -F "-" '{print $4}'); }
 
+#programs
+trinity_home=/home/shared/Trinityrnaseq-v2.8.5
+trinity_annotate_matrix="${trinity_home}/Analysis/DifferentialExpression/rename_matrix_feature_identifiers.pl"
+trinity_abundance=${trinity_home}/util/align_and_estimate_abundance.pl
+trinity_matrix=${trinity_home}/util/abundance_estimates_to_matrix.pl
+trinity_DE=${trinity_home}/Analysis/DifferentialExpression/run_DE_analysis.pl
+diff_expr=${trinity_home}/Analysis/DifferentialExpression/analyze_diff_expr.pl
+trinity_tpm_length=${trinity_home}/util/misc/TPM_weighted_gene_length.py
+
 ###################################################################################
 
 # Exit script if any command fails
@@ -59,7 +51,7 @@ set -e
 module load intel-python3_2017
 
 wd="$(pwd)"
-threads=28
+threads=24
 
 
 ## Designate input file locations
@@ -82,15 +74,6 @@ trinity_DE_stdout="trinity_DE_stdout.txt"
 trinity_DE_stderr="trinity_DE_stderr.txt"
 
 edgeR_dir=""
-
-#programs
-trinity_home=/gscratch/srlab/programs/trinityrnaseq-v2.9.0
-trinity_annotate_matrix="${trinity_home}/Analysis/DifferentialExpression/rename_matrix_feature_identifiers.pl"
-trinity_abundance=${trinity_home}/util/align_and_estimate_abundance.pl
-trinity_matrix=${trinity_home}/util/abundance_estimates_to_matrix.pl
-trinity_DE=${trinity_home}/Analysis/DifferentialExpression/run_DE_analysis.pl
-diff_expr=${trinity_home}/Analysis/DifferentialExpression/analyze_diff_expr.pl
-trinity_tpm_length=${trinity_home}/util/misc/TPM_weighted_gene_length.py
 
 # Loop through each comparison
 # Will create comparison-specific direcctories and copy
