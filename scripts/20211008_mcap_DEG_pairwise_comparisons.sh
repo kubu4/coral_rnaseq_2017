@@ -10,7 +10,7 @@
 
 ###################################################################################
 # These variables need to be set by user
-fastq_dir="/home/sam/data/M_capitata/RNAseq"
+fastq_dir="/home/sam/data/M_capitata/RNAseq/"
 fasta_prefix="Trinity-GG"
 transcriptome_dir="/home/sam/data/M_capitata/transcriptomes"
 trinotate_feature_map="${transcriptome_dir}/20211009.mcap.trinotate.annotation_feature_map.txt"
