@@ -46,10 +46,6 @@ trinity_tpm_length=${trinity_home}/util/misc/TPM_weighted_gene_length.py
 # Exit script if any command fails
 set -e
 
-# Load Python Mox module for Python module availability
-
-module load intel-python3_2017
-
 wd="$(pwd)"
 threads=24
 
