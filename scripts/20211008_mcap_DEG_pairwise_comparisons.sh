@@ -34,30 +34,55 @@ non-bleached-44_non-bleached-k4
 # e.g. 4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz
 get_seq_index () { seq_index=$(echo "$1" | awk -F "-" '{print $4}'); }
 
-# Gets sampling site based off of sequencing index from get_seq_index function above.
+# Gets sampling site based off of sequencing index from get_seq_index function.
 get_site () {
-        # These are Site 44 indices
-        if [[ "${seq_index}" == "GTCCGC" \
-        || "${seq_index}" == "GAGTGG" \
-        || "${seq_index}" == "GTTTCG" \
-        || "${seq_index}" == "TAGCTT" \
-        || "${seq_index}" == "ATCACG" \
-        || "${seq_index}" == "GCCAAT" ]]; then
+  # These are Site 44 indices
+  if [[ "${seq_index}" == "GTCCGC" \
+  || "${seq_index}" == "GAGTGG" \
+  || "${seq_index}" == "GTTTCG" \
+  || "${seq_index}" == "TAGCTT" \
+  || "${seq_index}" == "ATCACG" \
+  || "${seq_index}" == "GCCAAT" ]]; then
 
-          # Set sample site
-          site="44"
-        
-        # These are Site K4 indices
-        elif [[ "${seq_index}" == "GGCTAC" \
-        || "${seq_index}" == "ACTGAT" \
-        || "${seq_index}" == "AGTCAA" \
-        || "${seq_index}" == "AGTTCC" \
-        || "${seq_index}" == "CTTGTA" \
-        || "${seq_index}" == "ATGTCA" ]]; then
+    # Set sample site
+    site="44"
+  
+  # These are Site K4 indices
+  elif [[ "${seq_index}" == "GGCTAC" \
+  || "${seq_index}" == "ACTGAT" \
+  || "${seq_index}" == "AGTCAA" \
+  || "${seq_index}" == "AGTTCC" \
+  || "${seq_index}" == "CTTGTA" \
+  || "${seq_index}" == "ATGTCA" ]]; then
 
-          # Set sample site
-          site="k4"
-        fi
+    # Set sample site
+    site="k4"
+  fi
+}
+
+# Gets bleaching status based off of sequencing index from get_seq_index function.
+get_bleach_info () {
+  # These are bleached indices
+  if [[ "${seq_index}" == "GTCCGC" \
+  || "${seq_index}" == "GTTTCG" \
+  || "${seq_index}" == "ATCACG" \
+  || "${seq_index}" == "GGCTAC" \
+  || "${seq_index}" == "AGTTCC" \
+  || "${seq_index}" == "ATGTCA" ]]; then
+
+    # Set bleach status
+    bleach_status="bleached"
+  
+  elif [[ "${seq_index}" == "GAGTGG" \
+  || "${seq_index}" == "TAGCTT" \
+  || "${seq_index}" == "GCCAAT" \
+  || "${seq_index}" == "ACTGAT" \
+  || "${seq_index}" == "AGTCAA" \
+  || "${seq_index}" == "CTTGTA" ]]; then
+
+    # Set bleach status
+    bleach_status="non-bleached"
+  fi
 }
 
 #programs
@@ -141,6 +166,9 @@ do
         # Get site info
         get_site "${seq_index}"
 
+        # Get bleaching status
+        get_bleach_info "${seq_index}"
+
         # These are Site 44 indices
         if [[ "${seq_index}" == "GTCCGC" \
         || "${seq_index}" == "GAGTGG" \
@@ -203,6 +231,9 @@ do
         # Get site info
         get_site "${seq_index}"
 
+        # Get bleaching status
+        get_bleach_info "${seq_index}"
+
         # These are bleached indices.
         if [[ "${seq_index}" == "GTCCGC" \
         || "${seq_index}" == "GTTTCG" \
@@ -260,6 +291,9 @@ do
         # Get site info
         get_site "${seq_index}"
 
+        # Get bleaching status
+        get_bleach_info "${seq_index}"
+
         # These are bleached k4 indices
         if [[ "${seq_index}" == "GGCTAC" \
         || "${seq_index}" == "AGTTCC" \
@@ -311,6 +345,10 @@ do
         # Get site info
         get_site "${seq_index}"
 
+
+        # Get bleaching status
+        get_bleach_info "${seq_index}"
+
         # These are bleached 44 indices
         if [[ "${seq_index}" == "GTCCGC" \
         || "${seq_index}" == "GTTTCG" \
@@ -361,6 +399,10 @@ do
         # Get site info
         get_site "${seq_index}"
 
+
+        # Get bleaching status
+        get_bleach_info "${seq_index}"
+
         # These are bleached 44 indices
         if [[ "${seq_index}" == "GTCCGC" \
         || "${seq_index}" == "GTTTCG" \
@@ -410,6 +452,9 @@ do
 
         # Get site info
         get_site "${seq_index}"
+
+        # Get bleaching status
+        get_bleach_info "${seq_index}"
 
         # These are non-bleached 44 indices
         if  [[ "${seq_index}" == "GAGTGG" \
