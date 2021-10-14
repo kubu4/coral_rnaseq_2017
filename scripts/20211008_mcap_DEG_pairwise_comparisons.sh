@@ -28,9 +28,37 @@ non-bleached-44_non-bleached-k4
 )
 
 # Functions
+
+# Extract sequencing index from FastQ filename
 # Expects input (i.e. "$1") to be in the following format:
 # e.g. 4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz
 get_seq_index () { seq_index=$(echo "$1" | awk -F "-" '{print $4}'); }
+
+# Gets sampling site based off of sequencing index from get_seq_index function above.
+get_site () {
+        # These are Site 44 indices
+        if [[ "${seq_index}" == "GTCCGC" \
+        || "${seq_index}" == "GAGTGG" \
+        || "${seq_index}" == "GTTTCG" \
+        || "${seq_index}" == "TAGCTT" \
+        || "${seq_index}" == "ATCACG" \
+        || "${seq_index}" == "GCCAAT" ]]; then
+
+          # Set sample site
+          site="44"
+        
+        # These are Site K4 indices
+        elif [[ "${seq_index}" == "GGCTAC" \
+        || "${seq_index}" == "ACTGAT" \
+        || "${seq_index}" == "AGTCAA" \
+        || "${seq_index}" == "AGTTCC" \
+        || "${seq_index}" == "CTTGTA" \
+        || "${seq_index}" == "ATGTCA" ]]; then
+
+          # Set sample site
+          site="k4"
+        fi
+}
 
 #programs
 trinity_home=/home/shared/Trinityrnaseq-v2.8.5
@@ -105,9 +133,14 @@ do
 
   # Series of if statements to identify which FastQ files to rsync to working directory
   if [[ "${comparison}" == "44_k4" ]]; then
-    for fastq in ${fastq_dir}*.fq.gz
+    for fastq in "${fastq_dir}"*.fq.gz
     do
+        # Extract sequencing index from FastQ filename
         get_seq_index "${fastq}"
+
+        # Get site info
+        get_site "${seq_index}"
+
         # These are Site 44 indices
         if [[ "${seq_index}" == "GTCCGC" \
         || "${seq_index}" == "GAGTGG" \
@@ -115,10 +148,12 @@ do
         || "${seq_index}" == "TAGCTT" \
         || "${seq_index}" == "ATCACG" \
         || "${seq_index}" == "GCCAAT" ]]; then
-          rsync --archive --verbose ${fastq} .
+
+          # Copy files to current directory
+          rsync --archive --verbose "${fastq}" .
 
           # Get just filename for use in array
-          fastq=$(basename ${fastq})
+          fastq=$(basename "${fastq}")
 
           # Add FastQ filename to array
           cond1_array+=("${fastq}")
@@ -137,10 +172,14 @@ do
         || "${seq_index}" == "AGTTCC" \
         || "${seq_index}" == "CTTGTA" \
         || "${seq_index}" == "ATGTCA" ]]; then
-          rsync --archive --verbose ${fastq} .
+
+
+          # Copy files to current directory
+          rsync --archive --verbose "${fastq}" .
+
 
           # Get just filename for use in array
-          fastq=$(basename ${fastq})
+          fastq=$(basename "${fastq}")
 
           # Add FastQ filename to array
           cond2_array+=("${fastq}")
@@ -149,16 +188,21 @@ do
           echo ""
           echo "Generating checksum for ${fastq}."
           md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo ""
           echo "Finished generating checksum for ${fastq}."
+          echo ""
         fi
     done
   fi
 
   if [[ "${comparison}" == "bleached_non-bleached" ]]; then
-    for fastq in ${fastq_dir}*.fq.gz
+    for fastq in "${fastq_dir}"*.fq.gz
     do
+        # Extract sequencing index from FastQ filename
         get_seq_index "${fastq}"
+
+        # Get site info
+        get_site "${seq_index}"
+
         # These are bleached indices.
         if [[ "${seq_index}" == "GTCCGC" \
         || "${seq_index}" == "GTTTCG" \
@@ -166,10 +210,10 @@ do
         || "${seq_index}" == "GGCTAC" \
         || "${seq_index}" == "AGTTCC" \
         || "${seq_index}" == "ATGTCA" ]]; then
-          rsync --archive --verbose ${fastq} .
+          rsync --archive --verbose "${fastq}" .
 
           # Get just filename for use in array
-          fastq=$(basename ${fastq})
+          fastq=$(basename "${fastq}")
 
           # Add FastQ filename to array
           cond1_array+=("${fastq}")
@@ -189,10 +233,10 @@ do
         || "${seq_index}" == "ACTGAT" \
         || "${seq_index}" == "AGTCAA" \
         || "${seq_index}" == "CTTGTA" ]]; then
-          rsync --archive --verbose ${fastq} .
+          rsync --archive --verbose "${fastq}" .
 
           # Get just filename for use in array
-          fastq=$(basename ${fastq})
+          fastq=$(basename "${fastq}")
 
           # Add FastQ filename to array
           cond2_array+=("${fastq}")
@@ -208,17 +252,22 @@ do
   fi
 
   if [[ "${comparison}" == "bleached-k4_non-bleached-k4" ]]; then
-    for fastq in ${fastq_dir}*.fq.gz
+    for fastq in "${fastq_dir}"*.fq.gz
     do
+        # Extract sequencing index from FastQ filename
         get_seq_index "${fastq}"
+
+        # Get site info
+        get_site "${seq_index}"
+
         # These are bleached k4 indices
         if [[ "${seq_index}" == "GGCTAC" \
         || "${seq_index}" == "AGTTCC" \
         || "${seq_index}" == "ATGTCA" ]]; then
-          rsync --archive --verbose ${fastq} .
+          rsync --archive --verbose "${fastq}" .
 
           # Get just filename for use in array
-          fastq=$(basename ${fastq})
+          fastq=$(basename "${fastq}")
 
           # Add FastQ filename to array
           cond1_array+=("${fastq}")
@@ -235,10 +284,10 @@ do
         elif [[ "${seq_index}" == "ACTGAT" \
         || "${seq_index}" == "AGTCAA" \
         || "${seq_index}" == "CTTGTA" ]]; then
-          rsync --archive --verbose ${fastq} .
+          rsync --archive --verbose "${fastq}" .
 
           # Get just filename for use in array
-          fastq=$(basename ${fastq})
+          fastq=$(basename "${fastq}")
 
           # Add FastQ filename to array
           cond2_array+=("${fastq}")
@@ -254,17 +303,22 @@ do
   fi
 
   if [[ "${comparison}" == "bleached-44_non-bleached-44" ]]; then
-    for fastq in ${fastq_dir}*.fq.gz
+    for fastq in "${fastq_dir}"*.fq.gz
     do
+        # Extract sequencing index from FastQ filename
         get_seq_index "${fastq}"
+
+        # Get site info
+        get_site "${seq_index}"
+
         # These are bleached 44 indices
         if [[ "${seq_index}" == "GTCCGC" \
         || "${seq_index}" == "GTTTCG" \
         || "${seq_index}" == "ATCACG" ]]; then
-          rsync --archive --verbose ${fastq} .
+          rsync --archive --verbose "${fastq}" .
 
           # Get just filename for use in array
-          fastq=$(basename ${fastq})
+          fastq=$(basename "${fastq}")
 
           # Add FastQ filename to array
           cond1_array+=("${fastq}")
@@ -280,10 +334,10 @@ do
         elif [[ "${seq_index}" == "GAGTGG" \
         || "${seq_index}" == "TAGCTT" \
         || "${seq_index}" == "GCCAAT" ]]; then
-          rsync --archive --verbose ${fastq} .
+          rsync --archive --verbose "${fastq}" .
 
           # Get just filename for use in array
-          fastq=$(basename ${fastq})
+          fastq=$(basename "${fastq}")
 
           # Add FastQ filename to array
           cond2_array+=("${fastq}")
@@ -299,17 +353,22 @@ do
   fi
 
   if [[ "${comparison}" == "bleached-44_bleached-k4" ]]; then
-    for fastq in ${fastq_dir}*.fq.gz
+    for fastq in "${fastq_dir}"*.fq.gz
     do
+        # Extract sequencing index from FastQ filename
         get_seq_index "${fastq}"
+
+        # Get site info
+        get_site "${seq_index}"
+
         # These are bleached 44 indices
         if [[ "${seq_index}" == "GTCCGC" \
         || "${seq_index}" == "GTTTCG" \
         || "${seq_index}" == "ATCACG" ]]; then
-          rsync --archive --verbose ${fastq} .
+          rsync --archive --verbose "${fastq}" .
 
           # Get just filename for use in array
-          fastq=$(basename ${fastq})
+          fastq=$(basename "${fastq}")
 
           # Add FastQ filename to array
           cond1_array+=("${fastq}")
@@ -325,10 +384,10 @@ do
         elif [[ "${seq_index}" == "GGCTAC" \
         || "${seq_index}" == "AGTTCC" \
         || "${seq_index}" == "ATGTCA" ]]; then
-          rsync --archive --verbose ${fastq} .
+          rsync --archive --verbose "${fastq}" .
 
           # Get just filename for use in array
-          fastq=$(basename ${fastq})
+          fastq=$(basename "${fastq}")
 
           # Add FastQ filename to array
           cond2_array+=("${fastq}")
@@ -344,17 +403,22 @@ do
   fi
 
   if [[ "${comparison}" == "non-bleached-44_non-bleached-k4" ]]; then
-    for fastq in ${fastq_dir}*.fq.gz
+    for fastq in "${fastq_dir}"*.fq.gz
     do
+        # Extract sequencing index from FastQ filename
         get_seq_index "${fastq}"
+
+        # Get site info
+        get_site "${seq_index}"
+
         # These are non-bleached 44 indices
         if  [[ "${seq_index}" == "GAGTGG" \
         || "${seq_index}" == "TAGCTT" \
         || "${seq_index}" == "GCCAAT" ]]; then
-          rsync --archive --verbose ${fastq} .
+          rsync --archive --verbose "${fastq}" .
 
           # Get just filename for use in array
-          fastq=$(basename ${fastq})
+          fastq=$(basename "${fastq}")
 
           # Add FastQ filename to array
           cond1_array+=("${fastq}")
@@ -370,10 +434,10 @@ do
         elif [[ "${seq_index}" == "ACTGAT" \
         || "${seq_index}" == "AGTCAA" \
         || "${seq_index}" == "CTTGTA" ]]; then
-          rsync --archive --verbose ${fastq} .
+          rsync --archive --verbose "${fastq}" .
 
           # Get just filename for use in array
-          fastq=$(basename ${fastq})
+          fastq=$(basename "${fastq}")
 
           # Add FastQ filename to array
           cond2_array+=("${fastq}")
