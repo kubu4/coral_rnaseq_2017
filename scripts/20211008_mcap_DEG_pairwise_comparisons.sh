@@ -160,14 +160,6 @@ do
   if [[ "${comparison}" == "44_k4" ]]; then
     for fastq in "${fastq_dir}"*.fq.gz
     do
-        # Extract sequencing index from FastQ filename
-        get_seq_index "${fastq}"
-
-        # Get site info
-        get_site "${seq_index}"
-
-        # Get bleaching status
-        get_bleach_info "${seq_index}"
 
         # These are Site 44 indices
         if [[ "${seq_index}" == "GTCCGC" \
@@ -225,14 +217,6 @@ do
   if [[ "${comparison}" == "bleached_non-bleached" ]]; then
     for fastq in "${fastq_dir}"*.fq.gz
     do
-        # Extract sequencing index from FastQ filename
-        get_seq_index "${fastq}"
-
-        # Get site info
-        get_site "${seq_index}"
-
-        # Get bleaching status
-        get_bleach_info "${seq_index}"
 
         # These are bleached indices.
         if [[ "${seq_index}" == "GTCCGC" \
@@ -254,8 +238,8 @@ do
           echo ""
           echo "Generating checksum for ${fastq}."
           md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo ""
           echo "Finished generating checksum for ${fastq}."
+          echo ""
 
         # These are non-bleached indices
         elif [[ "${seq_index}" == "GAGTGG" \
@@ -276,8 +260,8 @@ do
           echo ""
           echo "Generating checksum for ${fastq}."
           md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo ""
           echo "Finished generating checksum for ${fastq}."
+          echo ""
         fi
     done
   fi
@@ -285,14 +269,6 @@ do
   if [[ "${comparison}" == "bleached-k4_non-bleached-k4" ]]; then
     for fastq in "${fastq_dir}"*.fq.gz
     do
-        # Extract sequencing index from FastQ filename
-        get_seq_index "${fastq}"
-
-        # Get site info
-        get_site "${seq_index}"
-
-        # Get bleaching status
-        get_bleach_info "${seq_index}"
 
         # These are bleached k4 indices
         if [[ "${seq_index}" == "GGCTAC" \
@@ -311,8 +287,8 @@ do
           echo ""
           echo "Generating checksum for ${fastq}."
           md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo ""
           echo "Finished generating checksum for ${fastq}."
+          echo ""
 
         # These are non-bleached k4 indices.  
         elif [[ "${seq_index}" == "ACTGAT" \
@@ -330,8 +306,8 @@ do
           echo ""
           echo "Generating checksum for ${fastq}."
           md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo ""
           echo "Finished generating checksum for ${fastq}."
+          echo ""
         fi
     done
   fi
@@ -339,15 +315,6 @@ do
   if [[ "${comparison}" == "bleached-44_non-bleached-44" ]]; then
     for fastq in "${fastq_dir}"*.fq.gz
     do
-        # Extract sequencing index from FastQ filename
-        get_seq_index "${fastq}"
-
-        # Get site info
-        get_site "${seq_index}"
-
-
-        # Get bleaching status
-        get_bleach_info "${seq_index}"
 
         # These are bleached 44 indices
         if [[ "${seq_index}" == "GTCCGC" \
@@ -365,8 +332,8 @@ do
           echo ""
           echo "Generating checksum for ${fastq}."
           md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo ""
           echo "Finished generating checksum for ${fastq}."
+          echo ""
 
         # These are non-bleached 44 indices.  
         elif [[ "${seq_index}" == "GAGTGG" \
@@ -384,8 +351,8 @@ do
           echo ""
           echo "Generating checksum for ${fastq}."
           md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo ""
           echo "Finished generating checksum for ${fastq}."
+          echo ""
         fi
     done
   fi
@@ -393,15 +360,6 @@ do
   if [[ "${comparison}" == "bleached-44_bleached-k4" ]]; then
     for fastq in "${fastq_dir}"*.fq.gz
     do
-        # Extract sequencing index from FastQ filename
-        get_seq_index "${fastq}"
-
-        # Get site info
-        get_site "${seq_index}"
-
-
-        # Get bleaching status
-        get_bleach_info "${seq_index}"
 
         # These are bleached 44 indices
         if [[ "${seq_index}" == "GTCCGC" \
@@ -419,8 +377,8 @@ do
           echo ""
           echo "Generating checksum for ${fastq}."
           md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo ""
           echo "Finished generating checksum for ${fastq}."
+          echo ""
 
         # These are bleached k4 indices.  
         elif [[ "${seq_index}" == "GGCTAC" \
@@ -438,8 +396,8 @@ do
           echo ""
           echo "Generating checksum for ${fastq}."
           md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo ""
           echo "Finished generating checksum for ${fastq}."
+          echo ""
         fi
     done
   fi
@@ -447,14 +405,6 @@ do
   if [[ "${comparison}" == "non-bleached-44_non-bleached-k4" ]]; then
     for fastq in "${fastq_dir}"*.fq.gz
     do
-        # Extract sequencing index from FastQ filename
-        get_seq_index "${fastq}"
-
-        # Get site info
-        get_site "${seq_index}"
-
-        # Get bleaching status
-        get_bleach_info "${seq_index}"
 
         # These are non-bleached 44 indices
         if  [[ "${seq_index}" == "GAGTGG" \
@@ -472,8 +422,8 @@ do
           echo ""
           echo "Generating checksum for ${fastq}."
           md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo ""
           echo "Finished generating checksum for ${fastq}."
+          echo ""
 
         # These are non-bleached k4 indices.  
         elif [[ "${seq_index}" == "ACTGAT" \
@@ -491,8 +441,8 @@ do
           echo ""
           echo "Generating checksum for ${fastq}."
           md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo ""
           echo "Finished generating checksum for ${fastq}."
+          echo ""
         fi
     done
   fi
@@ -511,7 +461,16 @@ do
   # Increment by 2 to process next pair of FastQ files
   for (( i=0; i<${#cond1_array[@]} ; i+=2 ))
   do
+    # Extract sequencing index from FastQ filename
+    get_seq_index "${fastq}"
 
+    # Get site info
+    get_site "${seq_index}"
+
+    # Get bleaching status
+    get_bleach_info "${seq_index}"
+
+    # Increment counter
     cond1_count=$((cond1_count+1))
 
     # Create tab-delimited samples file.
@@ -521,6 +480,16 @@ do
 
   for (( i=0; i<${#cond2_array[@]} ; i+=2 ))
   do
+    # Extract sequencing index from FastQ filename
+    get_seq_index "${fastq}"
+
+    # Get site info
+    get_site "${seq_index}"
+
+    # Get bleaching status
+    get_bleach_info "${seq_index}"
+
+    # Increment counter
     cond2_count=$((cond2_count+1))
 
     # Create tab-delimited samples file.
