@@ -1,7 +1,27 @@
 #!/bin/bash
+## Job Name
+#SBATCH --job-name=20211015_mcap_DEG_pairwise_comparisons
+## Allocation Definition
+#SBATCH --account=coenv
+#SBATCH --partition=coenv
+## Resources
+## Nodes
+#SBATCH --nodes=1
+## Walltime (days-hours:minutes:seconds format)
+#SBATCH --time=0-18:00:00
+## Memory per node
+#SBATCH --mem=200G
+##turn on e-mail notification
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=samwhite@uw.edu
+## Specify the working directory for this job
+#SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20211015_mcap_DEG_pairwise_comparisons
 
 # This is a script to identify differentially expressed genes (DEGs) in M.captita
 # which has been taxonomically selected for all Cnidaria reads, using pairwise comparisions.
+
+# In essence, this is a re-run on 20211008_mcap_DEG_pairwise_comparisons.sh. However, this run
+# uses more detailed sample lists to help with Emma's analysis.
 
 # Script will run Trinity's builtin differential gene expression analysis using:
 # - Salmon alignment-free transcript abundance estimation
