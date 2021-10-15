@@ -30,9 +30,9 @@
 
 ###################################################################################
 # These variables need to be set by user
-fastq_dir="/home/sam/data/M_capitata/RNAseq/"
+fastq_dir="/gscratch/srlab/sam/data/M_capitata/RNAseq/"
 fasta_prefix="Trinity-GG"
-transcriptome_dir="/home/sam/data/M_capitata/transcriptomes"
+transcriptome_dir="/gscratch/srlab/sam/data/M_capitata/transcriptomes"
 trinotate_feature_map="${transcriptome_dir}/20211009.mcap.trinotate.annotation_feature_map.txt"
 go_annotations="${transcriptome_dir}/20211009.mcap.trinotate.go_annotations.txt"
 
@@ -106,7 +106,7 @@ get_bleach_info () {
 }
 
 #programs
-trinity_home=/home/shared/Trinityrnaseq-v2.8.5
+trinity_home=/gscratch/srlab/programs/trinityrnaseq-v2.9.0
 trinity_annotate_matrix="${trinity_home}/Analysis/DifferentialExpression/rename_matrix_feature_identifiers.pl"
 trinity_abundance=${trinity_home}/util/align_and_estimate_abundance.pl
 trinity_matrix=${trinity_home}/util/abundance_estimates_to_matrix.pl
@@ -164,7 +164,7 @@ do
   # Note: These sample list files have been manually edited to
   # properly increment sample replicates. However, they were originally
   # created programmaticaly and have been double-checked for accuracy.
-  samples=${comparison_dir}${comparison}.samples.txt
+  samples=${comparison}.samples.txt
 
   # Reset arrays
   cond1_array=()
@@ -480,7 +480,7 @@ do
   fi
 
   # Copy ${samples} file to current directory (to have as reference)
-  cp "${samples}" .
+  cp "${transcriptome_dir}"/"${samples}" .
 
 
   # Create directory/sample list for ${trinity_matrix} command
