@@ -140,6 +140,10 @@ do
   comparison_dir=${wd}/${comparison}/
   salmon_gene_matrix=${comparison_dir}/salmon.gene.TMM.EXPR.matrix
   salmon_iso_matrix=${comparison_dir}/salmon.isoform.TMM.EXPR.matrix
+
+  # Note: These sample list files have been manually edited to
+  # properly increment sample replicates. However, they were originally
+  # created programmaticaly and have been double-checked for accuracy.
   samples=${comparison_dir}${comparison}.samples.txt
 
   # Reset arrays
@@ -161,347 +165,302 @@ do
     for fastq in "${fastq_dir}"*.fq.gz
     do
 
-        # These are Site 44 indices
-        if [[ "${seq_index}" == "GTCCGC" \
-        || "${seq_index}" == "GAGTGG" \
-        || "${seq_index}" == "GTTTCG" \
-        || "${seq_index}" == "TAGCTT" \
-        || "${seq_index}" == "ATCACG" \
-        || "${seq_index}" == "GCCAAT" ]]; then
+      # Retrieve sequencing index
+      get_seq_index "${fastq}"
 
-          # Copy files to current directory
-          rsync --archive --verbose "${fastq}" .
+      # These are Site 44 indices
+      if [[ "${seq_index}" == "GTCCGC" \
+      || "${seq_index}" == "GAGTGG" \
+      || "${seq_index}" == "GTTTCG" \
+      || "${seq_index}" == "TAGCTT" \
+      || "${seq_index}" == "ATCACG" \
+      || "${seq_index}" == "GCCAAT" ]]; then
 
-          # Get just filename for use in array
-          fastq=$(basename "${fastq}")
+        # Copy files to current directory
+        rsync --archive --verbose "${fastq}" .
 
-          # Add FastQ filename to array
-          cond1_array+=("${fastq}")
+        # Get just filename for use in array
+        fastq=$(basename "${fastq}")
 
-          # Create list/checksums of FastQ files used
-          echo ""
-          echo "Generating checksum for ${fastq}."
-          md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo ""
-          echo "Finished generating checksum for ${fastq}."
+        # Add FastQ filename to array
+        cond1_array+=("${fastq}")
 
-        # These are Site K4 indices
-        elif [[ "${seq_index}" == "GGCTAC" \
-        || "${seq_index}" == "ACTGAT" \
-        || "${seq_index}" == "AGTCAA" \
-        || "${seq_index}" == "AGTTCC" \
-        || "${seq_index}" == "CTTGTA" \
-        || "${seq_index}" == "ATGTCA" ]]; then
+        # Create list/checksums of FastQ files used
+        echo ""
+        echo "Generating checksum for ${fastq}."
+        md5sum "${fastq}" | tee -a input_fastqs.md5
+        echo ""
+        echo "Finished generating checksum for ${fastq}."
+
+      # These are Site K4 indices
+      elif [[ "${seq_index}" == "GGCTAC" \
+      || "${seq_index}" == "ACTGAT" \
+      || "${seq_index}" == "AGTCAA" \
+      || "${seq_index}" == "AGTTCC" \
+      || "${seq_index}" == "CTTGTA" \
+      || "${seq_index}" == "ATGTCA" ]]; then
 
 
-          # Copy files to current directory
-          rsync --archive --verbose "${fastq}" .
+        # Copy files to current directory
+        rsync --archive --verbose "${fastq}" .
 
 
-          # Get just filename for use in array
-          fastq=$(basename "${fastq}")
+        # Get just filename for use in array
+        fastq=$(basename "${fastq}")
 
-          # Add FastQ filename to array
-          cond2_array+=("${fastq}")
+        # Add FastQ filename to array
+        cond2_array+=("${fastq}")
 
-          # Create list/checksums of FastQ files used
-          echo ""
-          echo "Generating checksum for ${fastq}."
-          md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo "Finished generating checksum for ${fastq}."
-          echo ""
-        fi
+        # Create list/checksums of FastQ files used
+        echo ""
+        echo "Generating checksum for ${fastq}."
+        md5sum "${fastq}" | tee -a input_fastqs.md5
+        echo "Finished generating checksum for ${fastq}."
+        echo ""
+      fi
     done
   fi
 
   if [[ "${comparison}" == "bleached_non-bleached" ]]; then
     for fastq in "${fastq_dir}"*.fq.gz
     do
+      # Retrieve sequencing index
+      get_seq_index "${fastq}"
+      # These are bleached indices.
+      if [[ "${seq_index}" == "GTCCGC" \
+      || "${seq_index}" == "GTTTCG" \
+      || "${seq_index}" == "ATCACG" \
+      || "${seq_index}" == "GGCTAC" \
+      || "${seq_index}" == "AGTTCC" \
+      || "${seq_index}" == "ATGTCA" ]]; then
+        rsync --archive --verbose "${fastq}" .
 
-        # These are bleached indices.
-        if [[ "${seq_index}" == "GTCCGC" \
-        || "${seq_index}" == "GTTTCG" \
-        || "${seq_index}" == "ATCACG" \
-        || "${seq_index}" == "GGCTAC" \
-        || "${seq_index}" == "AGTTCC" \
-        || "${seq_index}" == "ATGTCA" ]]; then
-          rsync --archive --verbose "${fastq}" .
+        # Get just filename for use in array
+        fastq=$(basename "${fastq}")
 
-          # Get just filename for use in array
-          fastq=$(basename "${fastq}")
-
-          # Add FastQ filename to array
-          cond1_array+=("${fastq}")
+        # Add FastQ filename to array
+        cond1_array+=("${fastq}")
 
 
-          # Create list/checksums of FastQ files used
-          echo ""
-          echo "Generating checksum for ${fastq}."
-          md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo "Finished generating checksum for ${fastq}."
-          echo ""
+        # Create list/checksums of FastQ files used
+        echo ""
+        echo "Generating checksum for ${fastq}."
+        md5sum "${fastq}" | tee -a input_fastqs.md5
+        echo "Finished generating checksum for ${fastq}."
+        echo ""
 
-        # These are non-bleached indices
-        elif [[ "${seq_index}" == "GAGTGG" \
-        || "${seq_index}" == "TAGCTT" \
-        || "${seq_index}" == "GCCAAT" \
-        || "${seq_index}" == "ACTGAT" \
-        || "${seq_index}" == "AGTCAA" \
-        || "${seq_index}" == "CTTGTA" ]]; then
-          rsync --archive --verbose "${fastq}" .
+      # These are non-bleached indices
+      elif [[ "${seq_index}" == "GAGTGG" \
+      || "${seq_index}" == "TAGCTT" \
+      || "${seq_index}" == "GCCAAT" \
+      || "${seq_index}" == "ACTGAT" \
+      || "${seq_index}" == "AGTCAA" \
+      || "${seq_index}" == "CTTGTA" ]]; then
+        rsync --archive --verbose "${fastq}" .
 
-          # Get just filename for use in array
-          fastq=$(basename "${fastq}")
+        # Get just filename for use in array
+        fastq=$(basename "${fastq}")
 
-          # Add FastQ filename to array
-          cond2_array+=("${fastq}")
+        # Add FastQ filename to array
+        cond2_array+=("${fastq}")
 
-          # Create list/checksums of FastQ files used
-          echo ""
-          echo "Generating checksum for ${fastq}."
-          md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo "Finished generating checksum for ${fastq}."
-          echo ""
-        fi
+        # Create list/checksums of FastQ files used
+        echo ""
+        echo "Generating checksum for ${fastq}."
+        md5sum "${fastq}" | tee -a input_fastqs.md5
+        echo "Finished generating checksum for ${fastq}."
+        echo ""
+      fi
     done
   fi
 
   if [[ "${comparison}" == "bleached-k4_non-bleached-k4" ]]; then
     for fastq in "${fastq_dir}"*.fq.gz
     do
+      # Retrieve sequencing index
+      get_seq_index "${fastq}"
+      # These are bleached k4 indices
+      if [[ "${seq_index}" == "GGCTAC" \
+      || "${seq_index}" == "AGTTCC" \
+      || "${seq_index}" == "ATGTCA" ]]; then
+        rsync --archive --verbose "${fastq}" .
 
-        # These are bleached k4 indices
-        if [[ "${seq_index}" == "GGCTAC" \
-        || "${seq_index}" == "AGTTCC" \
-        || "${seq_index}" == "ATGTCA" ]]; then
-          rsync --archive --verbose "${fastq}" .
+        # Get just filename for use in array
+        fastq=$(basename "${fastq}")
 
-          # Get just filename for use in array
-          fastq=$(basename "${fastq}")
-
-          # Add FastQ filename to array
-          cond1_array+=("${fastq}")
+        # Add FastQ filename to array
+        cond1_array+=("${fastq}")
 
 
-          # Create list/checksums of FastQ files used
-          echo ""
-          echo "Generating checksum for ${fastq}."
-          md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo "Finished generating checksum for ${fastq}."
-          echo ""
+        # Create list/checksums of FastQ files used
+        echo ""
+        echo "Generating checksum for ${fastq}."
+        md5sum "${fastq}" | tee -a input_fastqs.md5
+        echo "Finished generating checksum for ${fastq}."
+        echo ""
 
-        # These are non-bleached k4 indices.  
-        elif [[ "${seq_index}" == "ACTGAT" \
-        || "${seq_index}" == "AGTCAA" \
-        || "${seq_index}" == "CTTGTA" ]]; then
-          rsync --archive --verbose "${fastq}" .
+      # These are non-bleached k4 indices.  
+      elif [[ "${seq_index}" == "ACTGAT" \
+      || "${seq_index}" == "AGTCAA" \
+      || "${seq_index}" == "CTTGTA" ]]; then
+        rsync --archive --verbose "${fastq}" .
 
-          # Get just filename for use in array
-          fastq=$(basename "${fastq}")
+        # Get just filename for use in array
+        fastq=$(basename "${fastq}")
 
-          # Add FastQ filename to array
-          cond2_array+=("${fastq}")
+        # Add FastQ filename to array
+        cond2_array+=("${fastq}")
 
-          # Create list/checksums of FastQ files used
-          echo ""
-          echo "Generating checksum for ${fastq}."
-          md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo "Finished generating checksum for ${fastq}."
-          echo ""
-        fi
+        # Create list/checksums of FastQ files used
+        echo ""
+        echo "Generating checksum for ${fastq}."
+        md5sum "${fastq}" | tee -a input_fastqs.md5
+        echo "Finished generating checksum for ${fastq}."
+        echo ""
+      fi
     done
   fi
 
   if [[ "${comparison}" == "bleached-44_non-bleached-44" ]]; then
     for fastq in "${fastq_dir}"*.fq.gz
     do
+      # Retrieve sequencing index
+      get_seq_index "${fastq}"
+      # These are bleached 44 indices
+      if [[ "${seq_index}" == "GTCCGC" \
+      || "${seq_index}" == "GTTTCG" \
+      || "${seq_index}" == "ATCACG" ]]; then
+        rsync --archive --verbose "${fastq}" .
 
-        # These are bleached 44 indices
-        if [[ "${seq_index}" == "GTCCGC" \
-        || "${seq_index}" == "GTTTCG" \
-        || "${seq_index}" == "ATCACG" ]]; then
-          rsync --archive --verbose "${fastq}" .
+        # Get just filename for use in array
+        fastq=$(basename "${fastq}")
 
-          # Get just filename for use in array
-          fastq=$(basename "${fastq}")
+        # Add FastQ filename to array
+        cond1_array+=("${fastq}")
 
-          # Add FastQ filename to array
-          cond1_array+=("${fastq}")
+        # Create list/checksums of FastQ files used
+        echo ""
+        echo "Generating checksum for ${fastq}."
+        md5sum "${fastq}" | tee -a input_fastqs.md5
+        echo "Finished generating checksum for ${fastq}."
+        echo ""
 
-          # Create list/checksums of FastQ files used
-          echo ""
-          echo "Generating checksum for ${fastq}."
-          md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo "Finished generating checksum for ${fastq}."
-          echo ""
+      # These are non-bleached 44 indices.  
+      elif [[ "${seq_index}" == "GAGTGG" \
+      || "${seq_index}" == "TAGCTT" \
+      || "${seq_index}" == "GCCAAT" ]]; then
+        rsync --archive --verbose "${fastq}" .
 
-        # These are non-bleached 44 indices.  
-        elif [[ "${seq_index}" == "GAGTGG" \
-        || "${seq_index}" == "TAGCTT" \
-        || "${seq_index}" == "GCCAAT" ]]; then
-          rsync --archive --verbose "${fastq}" .
+        # Get just filename for use in array
+        fastq=$(basename "${fastq}")
 
-          # Get just filename for use in array
-          fastq=$(basename "${fastq}")
+        # Add FastQ filename to array
+        cond2_array+=("${fastq}")
 
-          # Add FastQ filename to array
-          cond2_array+=("${fastq}")
-
-          # Create list/checksums of FastQ files used
-          echo ""
-          echo "Generating checksum for ${fastq}."
-          md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo "Finished generating checksum for ${fastq}."
-          echo ""
-        fi
+        # Create list/checksums of FastQ files used
+        echo ""
+        echo "Generating checksum for ${fastq}."
+        md5sum "${fastq}" | tee -a input_fastqs.md5
+        echo "Finished generating checksum for ${fastq}."
+        echo ""
+      fi
     done
   fi
 
   if [[ "${comparison}" == "bleached-44_bleached-k4" ]]; then
     for fastq in "${fastq_dir}"*.fq.gz
     do
+      # Retrieve sequencing index
+      get_seq_index "${fastq}"
+      # These are bleached 44 indices
+      if [[ "${seq_index}" == "GTCCGC" \
+      || "${seq_index}" == "GTTTCG" \
+      || "${seq_index}" == "ATCACG" ]]; then
+        rsync --archive --verbose "${fastq}" .
 
-        # These are bleached 44 indices
-        if [[ "${seq_index}" == "GTCCGC" \
-        || "${seq_index}" == "GTTTCG" \
-        || "${seq_index}" == "ATCACG" ]]; then
-          rsync --archive --verbose "${fastq}" .
+        # Get just filename for use in array
+        fastq=$(basename "${fastq}")
 
-          # Get just filename for use in array
-          fastq=$(basename "${fastq}")
+        # Add FastQ filename to array
+        cond1_array+=("${fastq}")
 
-          # Add FastQ filename to array
-          cond1_array+=("${fastq}")
+        # Create list/checksums of FastQ files used
+        echo ""
+        echo "Generating checksum for ${fastq}."
+        md5sum "${fastq}" | tee -a input_fastqs.md5
+        echo "Finished generating checksum for ${fastq}."
+        echo ""
 
-          # Create list/checksums of FastQ files used
-          echo ""
-          echo "Generating checksum for ${fastq}."
-          md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo "Finished generating checksum for ${fastq}."
-          echo ""
+      # These are bleached k4 indices.  
+      elif [[ "${seq_index}" == "GGCTAC" \
+      || "${seq_index}" == "AGTTCC" \
+      || "${seq_index}" == "ATGTCA" ]]; then
+        rsync --archive --verbose "${fastq}" .
 
-        # These are bleached k4 indices.  
-        elif [[ "${seq_index}" == "GGCTAC" \
-        || "${seq_index}" == "AGTTCC" \
-        || "${seq_index}" == "ATGTCA" ]]; then
-          rsync --archive --verbose "${fastq}" .
+        # Get just filename for use in array
+        fastq=$(basename "${fastq}")
 
-          # Get just filename for use in array
-          fastq=$(basename "${fastq}")
+        # Add FastQ filename to array
+        cond2_array+=("${fastq}")
 
-          # Add FastQ filename to array
-          cond2_array+=("${fastq}")
-
-          # Create list/checksums of FastQ files used
-          echo ""
-          echo "Generating checksum for ${fastq}."
-          md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo "Finished generating checksum for ${fastq}."
-          echo ""
-        fi
+        # Create list/checksums of FastQ files used
+        echo ""
+        echo "Generating checksum for ${fastq}."
+        md5sum "${fastq}" | tee -a input_fastqs.md5
+        echo "Finished generating checksum for ${fastq}."
+        echo ""
+      fi
     done
   fi
 
   if [[ "${comparison}" == "non-bleached-44_non-bleached-k4" ]]; then
     for fastq in "${fastq_dir}"*.fq.gz
     do
+      # Retrieve sequencing index
+      get_seq_index "${fastq}"
+      # These are non-bleached 44 indices
+      if  [[ "${seq_index}" == "GAGTGG" \
+      || "${seq_index}" == "TAGCTT" \
+      || "${seq_index}" == "GCCAAT" ]]; then
+        rsync --archive --verbose "${fastq}" .
 
-        # These are non-bleached 44 indices
-        if  [[ "${seq_index}" == "GAGTGG" \
-        || "${seq_index}" == "TAGCTT" \
-        || "${seq_index}" == "GCCAAT" ]]; then
-          rsync --archive --verbose "${fastq}" .
+        # Get just filename for use in array
+        fastq=$(basename "${fastq}")
 
-          # Get just filename for use in array
-          fastq=$(basename "${fastq}")
+        # Add FastQ filename to array
+        cond1_array+=("${fastq}")
+        
+        # Create list/checksums of FastQ files used
+        echo ""
+        echo "Generating checksum for ${fastq}."
+        md5sum "${fastq}" | tee -a input_fastqs.md5
+        echo "Finished generating checksum for ${fastq}."
+        echo ""
 
-          # Add FastQ filename to array
-          cond1_array+=("${fastq}")
-          
-          # Create list/checksums of FastQ files used
-          echo ""
-          echo "Generating checksum for ${fastq}."
-          md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo "Finished generating checksum for ${fastq}."
-          echo ""
+      # These are non-bleached k4 indices.  
+      elif [[ "${seq_index}" == "ACTGAT" \
+      || "${seq_index}" == "AGTCAA" \
+      || "${seq_index}" == "CTTGTA" ]]; then
+        rsync --archive --verbose "${fastq}" .
 
-        # These are non-bleached k4 indices.  
-        elif [[ "${seq_index}" == "ACTGAT" \
-        || "${seq_index}" == "AGTCAA" \
-        || "${seq_index}" == "CTTGTA" ]]; then
-          rsync --archive --verbose "${fastq}" .
+        # Get just filename for use in array
+        fastq=$(basename "${fastq}")
 
-          # Get just filename for use in array
-          fastq=$(basename "${fastq}")
+        # Add FastQ filename to array
+        cond2_array+=("${fastq}")
 
-          # Add FastQ filename to array
-          cond2_array+=("${fastq}")
-
-          # Create list/checksums of FastQ files used
-          echo ""
-          echo "Generating checksum for ${fastq}."
-          md5sum "${fastq}" | tee -a input_fastqs.md5
-          echo "Finished generating checksum for ${fastq}."
-          echo ""
-        fi
+        # Create list/checksums of FastQ files used
+        echo ""
+        echo "Generating checksum for ${fastq}."
+        md5sum "${fastq}" | tee -a input_fastqs.md5
+        echo "Finished generating checksum for ${fastq}."
+        echo ""
+      fi
     done
   fi
 
-
-  # Loop to create sample list file
-  # Sample file list is tab-delimited like this:
-
-  # cond_A    cond_A_rep1    A_rep1_left.fq    A_rep1_right.fq
-  # cond_A    cond_A_rep2    A_rep2_left.fq    A_rep2_right.fq
-  # cond_B    cond_B_rep1    B_rep1_left.fq    B_rep1_right.fq
-  # cond_B    cond_B_rep2    B_rep2_left.fq    B_rep2_right.fq
-
-
-
-  # Increment by 2 to process next pair of FastQ files
-  for (( i=0; i<${#cond1_array[@]} ; i+=2 ))
-  do
-    # Extract sequencing index from FastQ filename
-    get_seq_index "${fastq}"
-
-    # Get site info
-    get_site "${seq_index}"
-
-    # Get bleaching status
-    get_bleach_info "${seq_index}"
-
-    # Increment counter
-    cond1_count=$((cond1_count+1))
-
-    # Create tab-delimited samples file.
-    printf "%s\t%s%02d\t%s\t%s\n" "${cond1}" "${cond1}_" "${cond1_count}" "${comparison_dir}${cond1_array[i]}" "${comparison_dir}${cond1_array[i+1]}" \
-    >> "${samples}"
-  done
-
-  for (( i=0; i<${#cond2_array[@]} ; i+=2 ))
-  do
-    # Extract sequencing index from FastQ filename
-    get_seq_index "${fastq}"
-
-    # Get site info
-    get_site "${seq_index}"
-
-    # Get bleaching status
-    get_bleach_info "${seq_index}"
-
-    # Increment counter
-    cond2_count=$((cond2_count+1))
-
-    # Create tab-delimited samples file.
-    printf "%s\t%s%02d\t%s\t%s\n" "${cond2}" "${cond2}_" "${cond2_count}" "${comparison_dir}${cond2_array[i]}" "${comparison_dir}${cond2_array[i+1]}" \
-    >> "${samples}"
-  done
-
-  # Copy sample list file to transcriptome directory
-  cp "${samples}" "${transcriptome_dir}"
-
-
-  echo "Created ${comparison} sample list file."
+  # Copy ${samples} file to current directory (to have as reference)
+  cp "${samples}" .
 
 
   # Create directory/sample list for ${trinity_matrix} command
