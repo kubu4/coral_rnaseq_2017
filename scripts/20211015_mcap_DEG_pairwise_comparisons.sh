@@ -120,7 +120,7 @@ trinity_tpm_length=${trinity_home}/util/misc/TPM_weighted_gene_length.py
 set -e
 
 wd="$(pwd)"
-threads=24
+threads=28
 
 
 ## Designate input file locations
