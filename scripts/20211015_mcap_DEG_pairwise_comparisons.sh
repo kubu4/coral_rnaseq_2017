@@ -164,7 +164,7 @@ do
   # Note: These sample list files have been manually edited to
   # properly increment sample replicates. However, they were originally
   # created programmaticaly and have been double-checked for accuracy.
-  samples=${comparison}.samples.txt
+  samples=${comparison_dir}${comparison}.samples.txt
 
   # Reset arrays
   cond1_array=()
@@ -480,7 +480,7 @@ do
   fi
 
   # Copy ${samples} file to current directory (to have as reference)
-  cp "${transcriptome_dir}"/"${samples}" .
+  cp "${transcriptome_dir}"/"${comparison}.samples.txt" .
 
 
   # Create directory/sample list for ${trinity_matrix} command
