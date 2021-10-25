@@ -1,0 +1,16 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0032196	0.0103766629518704	0.999507053518017	2	1162	transposition	BP	0.9999999999	BP transposition	TRINITY_GG_54597_c5_g1, TRINITY_GG_62535_c0_g2
+GO:0001171	0.0125291544504291	0.999924442625759	1	94	reverse transcription	BP	0.9999999999	BP reverse transcription	TRINITY_GG_62535_c0_g2
+GO:0009036	0.0125291544504291	0.999924442625759	1	94	type II site-specific deoxyribonuclease activity	MF	0.9999999999	MF type II site-specific deoxyribonuclease activity	TRINITY_GG_62535_c0_g2
+GO:0015666	0.0125291544504291	0.999924442625759	1	94	restriction endodeoxyribonuclease activity	MF	0.9999999999	MF restriction endodeoxyribonuclease activity	TRINITY_GG_62535_c0_g2
+GO:0032199	0.0125291544504291	0.999924442625759	1	94	reverse transcription involved in RNA-mediated transposition	BP	0.9999999999	BP reverse transcription involved in RNA-mediated transposition	TRINITY_GG_62535_c0_g2
+GO:0006278	0.0179971184560429	0.999843279046787	1	137	RNA-dependent DNA biosynthetic process	BP	0.9999999999	BP RNA-dependent DNA biosynthetic process	TRINITY_GG_62535_c0_g2
+GO:0032197	0.0193128991283697	0.999819360824592	1	146	transposition, RNA-mediated	BP	0.9999999999	BP transposition, RNA-mediated	TRINITY_GG_62535_c0_g2
+GO:0016888	0.0221286330858921	0.999762384470029	1	170	endodeoxyribonuclease activity, producing 5'-phosphomonoesters	MF	0.9999999999	MF endodeoxyribonuclease activity, producing 5'-phosphomonoesters	TRINITY_GG_62535_c0_g2
+GO:0004520	0.0299476888578789	0.999562906334798	1	233	endodeoxyribonuclease activity	MF	0.9999999999	MF endodeoxyribonuclease activity	TRINITY_GG_62535_c0_g2
+GO:0006310	0.0323035040786627	0.997202666051402	2	2149	DNA recombination	BP	0.9999999999	BP DNA recombination	TRINITY_GG_54597_c5_g1, TRINITY_GG_62535_c0_g2
+GO:0071897	0.0357046463979225	0.999377004724037	1	279	DNA biosynthetic process	BP	0.9999999999	BP DNA biosynthetic process	TRINITY_GG_62535_c0_g2
+GO:0004536	0.0358923723253437	0.999370386631146	1	280	deoxyribonuclease activity	MF	0.9999999999	MF deoxyribonuclease activity	TRINITY_GG_62535_c0_g2
+GO:0003964	0.042472898738332	0.995734374025586	2	2467	RNA-directed DNA polymerase activity	MF	0.9999999999	MF RNA-directed DNA polymerase activity	TRINITY_GG_54597_c5_g1, TRINITY_GG_62535_c0_g2
+GO:0034061	0.0451200624325351	0.995316485520767	2	2554	DNA polymerase activity	MF	0.9999999999	MF DNA polymerase activity	TRINITY_GG_54597_c5_g1, TRINITY_GG_62535_c0_g2
+GO:0090305	0.0461086455669957	0.998956317804446	1	366	nucleic acid phosphodiester bond hydrolysis	BP	0.9999999999	BP nucleic acid phosphodiester bond hydrolysis	TRINITY_GG_62535_c0_g2

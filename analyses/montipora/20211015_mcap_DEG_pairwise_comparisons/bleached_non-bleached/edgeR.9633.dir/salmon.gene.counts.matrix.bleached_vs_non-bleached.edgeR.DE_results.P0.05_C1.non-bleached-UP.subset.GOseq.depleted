@@ -1,0 +1,15 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0005737	0.995553595201323	0.0290463276549779	1	9514	cytoplasm	CC	0.9999999999	0.999997797870824	CC cytoplasm
+GO:0065008	1	0.0295845987033217	0	6230	regulation of biological quality	BP	0.9999999999	0.999997797870824	BP regulation of biological quality
+GO:0008152	0.989057703717367	0.0315584770997911	4	17329	metabolic process	BP	0.9999999999	0.999997797870824	BP metabolic process
+GO:0043228	1	0.0316349426823664	0	6113	non-membrane-bounded organelle	CC	0.9999999999	0.999997797870824	CC non-membrane-bounded organelle
+GO:0043232	1	0.0318165911601962	0	6103	intracellular non-membrane-bounded organelle	CC	0.9999999999	0.999997797870824	CC intracellular non-membrane-bounded organelle
+GO:0005886	1	0.0341959991209441	0	5977	plasma membrane	CC	0.9999999999	0.999997797870824	CC plasma membrane
+GO:0044763	0.987278289742508	0.0360099663150144	4	16981	NA	NA	0.9999999999	0.999997797870824	none
+GO:0006807	0.988876651687733	0.0360532068645139	3	14482	nitrogen compound metabolic process	BP	0.9999999999	0.999997797870824	BP nitrogen compound metabolic process
+GO:0009987	0.981437482277302	0.0397316969597878	8	25997	cellular process	BP	0.9999999999	0.999997797870824	BP cellular process
+GO:0032502	0.993044460181488	0.042196368713463	1	8743	developmental process	BP	0.9999999999	0.999997797870824	BP developmental process
+GO:0071704	0.983470966503297	0.0452423091234317	4	16369	organic substance metabolic process	BP	0.9999999999	0.999997797870824	BP organic substance metabolic process
+GO:0048518	0.992377983634186	0.0455148277979128	1	8585	positive regulation of biological process	BP	0.9999999999	0.999997797870824	BP positive regulation of biological process
+GO:0005515	0.983941907436572	0.0494618096064696	3	13684	protein binding	MF	0.9999999999	0.999997797870824	MF protein binding
+GO:0010556	1	0.0498035174170382	0	5319	regulation of macromolecule biosynthetic process	BP	0.9999999999	0.999997797870824	BP regulation of macromolecule biosynthetic process

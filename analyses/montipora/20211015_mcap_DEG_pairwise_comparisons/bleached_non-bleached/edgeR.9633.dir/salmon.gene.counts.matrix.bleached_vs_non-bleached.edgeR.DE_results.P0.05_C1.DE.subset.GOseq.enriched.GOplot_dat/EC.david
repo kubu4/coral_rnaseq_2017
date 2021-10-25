@@ -1,0 +1,74 @@
+Category	ID	Term	Genes	adj_pval
+BP	GO:0016560	protein import into peroxisome matrix, docking	TRINITY_GG_78392_c0_g2	0.9999999999
+BP	GO:1904262	negative regulation of TORC1 signaling	TRINITY_GG_53997_c141_g1	0.9999999999
+BP	GO:1901017	negative regulation of potassium ion transmembrane transporter activity	TRINITY_GG_54881_c7_g1	0.9999999999
+MF	GO:0005542	folic acid binding	TRINITY_GG_57259_c55_g1	0.9999999999
+MF	GO:0005052	peroxisome matrix targeting signal-1 binding	TRINITY_GG_78392_c0_g2	0.9999999999
+MF	GO:0000268	peroxisome targeting sequence binding	TRINITY_GG_78392_c0_g2	0.9999999999
+CC	GO:1904813	ficolin-1-rich granule lumen	TRINITY_GG_54881_c7_g1	0.9999999999
+BP	GO:0034113	heterotypic cell-cell adhesion	TRINITY_GG_99785_c3_g2	0.9999999999
+BP	GO:0006971	hypotonic response	TRINITY_GG_54881_c7_g1	0.9999999999
+MF	GO:0015175	neutral amino acid transmembrane transporter activity	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:0034724	DNA replication-independent nucleosome organization	TRINITY_GG_8429_c2_g1	0.9999999999
+MF	GO:0015173	aromatic amino acid transmembrane transporter activity	TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:0010800	positive regulation of peptidyl-threonine phosphorylation	TRINITY_GG_54881_c7_g1	0.9999999999
+BP	GO:0090322	regulation of superoxide metabolic process	TRINITY_GG_53997_c141_g1	0.9999999999
+MF	GO:0030346	protein phosphatase 2B binding	TRINITY_GG_8429_c2_g1	0.9999999999
+BP	GO:0032413	negative regulation of ion transmembrane transporter activity	TRINITY_GG_54881_c7_g1	0.9999999999
+MF	GO:0019212	phosphatase inhibitor activity	TRINITY_GG_8429_c2_g1	0.9999999999
+BP	GO:1905039	carboxylic acid transmembrane transport	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:0010677	negative regulation of cellular carbohydrate metabolic process	TRINITY_GG_58395_c15_g1	0.9999999999
+BP	GO:0032007	negative regulation of TOR signaling	TRINITY_GG_53997_c141_g1	0.9999999999
+BP	GO:0006333	chromatin assembly or disassembly	TRINITY_GG_8429_c2_g1	0.9999999999
+BP	GO:0061462	protein localization to lysosome	TRINITY_GG_53997_c141_g1	0.9999999999
+MF	GO:0030295	protein kinase activator activity	TRINITY_GG_54881_c7_g1	0.9999999999
+BP	GO:0045721	negative regulation of gluconeogenesis	TRINITY_GG_58395_c15_g1	0.9999999999
+MF	GO:0033218	amide binding	TRINITY_GG_57259_c55_g1, TRINITY_GG_78392_c0_g2	0.9999999999
+BP	GO:0007229	integrin-mediated signaling pathway	TRINITY_GG_99785_c3_g2	0.9999999999
+BP	GO:0046942	carboxylic acid transport	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+MF	GO:0004712	protein serine/threonine/tyrosine kinase activity	TRINITY_GG_58395_c15_g1	0.9999999999
+BP	GO:0014823	response to activity	TRINITY_GG_8429_c2_g1	0.9999999999
+BP	GO:0071470	cellular response to osmotic stress	TRINITY_GG_54881_c7_g1	0.9999999999
+MF	GO:0015171	amino acid transmembrane transporter activity	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+MF	GO:0008509	anion transmembrane transporter activity	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:0034198	cellular response to amino acid starvation	TRINITY_GG_53997_c141_g1	0.9999999999
+CC	GO:0098636	protein complex involved in cell adhesion	TRINITY_GG_99785_c3_g2	0.9999999999
+BP	GO:0043267	negative regulation of potassium ion transport	TRINITY_GG_54881_c7_g1	0.9999999999
+BP	GO:1901380	negative regulation of potassium ion transmembrane transport	TRINITY_GG_54881_c7_g1	0.9999999999
+BP	GO:0006111	regulation of gluconeogenesis	TRINITY_GG_58395_c15_g1	0.9999999999
+BP	GO:0010799	regulation of peptidyl-threonine phosphorylation	TRINITY_GG_54881_c7_g1	0.9999999999
+CC	GO:1902554	serine/threonine protein kinase complex	TRINITY_GG_54881_c7_g1	0.9999999999
+BP	GO:0098656	anion transmembrane transport	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:0021540	corpus callosum morphogenesis	TRINITY_GG_53997_c141_g1	0.9999999999
+MF	GO:0005048	signal sequence binding	TRINITY_GG_78392_c0_g2	0.9999999999
+MF	GO:0019209	kinase activator activity	TRINITY_GG_54881_c7_g1	0.9999999999
+BP	GO:0021955	central nervous system neuron axonogenesis	TRINITY_GG_53997_c141_g1	0.9999999999
+BP	GO:0009624	response to nematode	TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:1903825	organic acid transmembrane transport	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+CC	GO:0042579	microbody	TRINITY_GG_53997_c141_g1, TRINITY_GG_78392_c0_g2	0.9999999999
+BP	GO:1903432	regulation of TORC1 signaling	TRINITY_GG_53997_c141_g1	0.9999999999
+BP	GO:0006865	amino acid transport	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:2000121	regulation of removal of superoxide radicals	TRINITY_GG_53997_c141_g1	0.9999999999
+BP	GO:0006336	DNA replication-independent nucleosome assembly	TRINITY_GG_8429_c2_g1	0.9999999999
+MF	GO:0004519	endonuclease activity	TRINITY_GG_62535_c0_g2, TRINITY_GG_67672_c0_g1, TRINITY_GG_81462_c1_g1	0.9999999999
+MF	GO:0005342	organic acid transmembrane transporter activity	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+CC	GO:0140007	KICSTOR complex	TRINITY_GG_53997_c141_g1	0.9999999999
+MF	GO:0043539	protein serine/threonine kinase activator activity	TRINITY_GG_54881_c7_g1	0.9999999999
+MF	GO:0003993	acid phosphatase activity	TRINITY_GG_1597_c4_g3	0.9999999999
+BP	GO:0042149	cellular response to glucose starvation	TRINITY_GG_53997_c141_g1	0.9999999999
+CC	GO:0008305	integrin complex	TRINITY_GG_99785_c3_g2	0.9999999999
+BP	GO:0022615	protein to membrane docking	TRINITY_GG_78392_c0_g2	0.9999999999
+BP	GO:0071476	cellular hypotonic response	TRINITY_GG_54881_c7_g1	0.9999999999
+BP	GO:0003333	amino acid transmembrane transport	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:0015849	organic acid transport	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+MF	GO:0004864	protein phosphatase inhibitor activity	TRINITY_GG_8429_c2_g1	0.9999999999
+BP	GO:0045912	negative regulation of carbohydrate metabolic process	TRINITY_GG_58395_c15_g1	0.9999999999
+CC	GO:0016235	aggresome	TRINITY_GG_8429_c2_g1	0.9999999999
+BP	GO:1901668	regulation of superoxide dismutase activity	TRINITY_GG_53997_c141_g1	0.9999999999
+CC	GO:0005774	vacuolar membrane	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1, TRINITY_GG_53997_c141_g1	0.9999999999
+BP	GO:0021952	central nervous system projection neuron axonogenesis	TRINITY_GG_53997_c141_g1	0.9999999999
+BP	GO:0015804	neutral amino acid transport	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:1901031	regulation of response to reactive oxygen species	TRINITY_GG_53997_c141_g1	0.9999999999
+MF	GO:0008514	organic anion transmembrane transporter activity	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+MF	GO:0046943	carboxylic acid transmembrane transporter activity	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+MF	GO:0016772	transferase activity, transferring phosphorus-containing groups	TRINITY_GG_54597_c5_g1, TRINITY_GG_54881_c7_g1, TRINITY_GG_58395_c15_g1, TRINITY_GG_62535_c0_g2, TRINITY_GG_67672_c0_g1, TRINITY_GG_81462_c1_g1	0.9999999999
