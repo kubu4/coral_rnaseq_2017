@@ -1,0 +1,46 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0097524	0.00288143537105521	0.999997240299901	1	3	sperm plasma membrane	CC	0.9999999999	CC sperm plasma membrane	TRINITY_GG_64766_c1_g1
+GO:0008521	0.00404662928119173	0.999993466287345	1	5	acetyl-CoA transmembrane transporter activity	MF	0.9999999999	MF acetyl-CoA transmembrane transporter activity	TRINITY_GG_48277_c1_g1
+GO:0004719	0.00477636880574201	0.999990894651268	1	5	protein-L-isoaspartate (D-aspartate) O-methyltransferase activity	MF	0.9999999999	MF protein-L-isoaspartate (D-aspartate) O-methyltransferase activity	TRINITY_GG_8826_c0_g1
+GO:0036458	0.0081223069689691	0.999971755006424	1	7	hepatocyte growth factor binding	MF	0.9999999999	MF hepatocyte growth factor binding	TRINITY_GG_20089_c3_g2
+GO:0051185	0.0083808740912484	0.999968107019851	1	11	NA	NA	0.9999999999	none	TRINITY_GG_48277_c1_g1
+GO:0005954	0.00867604619891727	0.999965817229155	1	11	calcium- and calmodulin-dependent protein kinase complex	CC	0.9999999999	CC calcium- and calmodulin-dependent protein kinase complex	TRINITY_GG_4813_c11_g2
+GO:1990443	0.00867604619891727	0.999965817229155	1	11	peptidyl-threonine autophosphorylation	BP	0.9999999999	BP peptidyl-threonine autophosphorylation	TRINITY_GG_4813_c11_g2
+GO:0051793	0.00890872961014901	0.99996475490759	1	9	medium-chain fatty acid catabolic process	BP	0.9999999999	BP medium-chain fatty acid catabolic process	TRINITY_GG_64766_c1_g1
+GO:0060278	0.00893411076918979	0.999963750052016	1	11	regulation of ovulation	BP	0.9999999999	BP regulation of ovulation	TRINITY_GG_4813_c11_g2
+GO:0034338	0.00898147573497985	0.999964175979745	1	9	short-chain carboxylesterase activity	MF	0.9999999999	MF short-chain carboxylesterase activity	TRINITY_GG_64766_c1_g1
+GO:0045169	0.00977678921541724	0.99995657581119	1	11	fusome	CC	0.9999999999	CC fusome	TRINITY_GG_55274_c0_g1
+GO:0016429	0.0105293870491037	0.999949619140994	1	11	tRNA (adenine-N1-)-methyltransferase activity	MF	0.9999999999	MF tRNA (adenine-N1-)-methyltransferase activity	TRINITY_GG_8826_c0_g1
+GO:0051792	0.0108095785011884	0.999946896681065	1	11	medium-chain fatty acid biosynthetic process	BP	0.9999999999	BP medium-chain fatty acid biosynthetic process	TRINITY_GG_64766_c1_g1
+GO:0004994	0.0116744832069998	0.999937524621947	1	12	somatostatin receptor activity	MF	0.9999999999	MF somatostatin receptor activity	TRINITY_GG_39231_c1_g1
+GO:0051998	0.0119643666181825	0.999933527490488	1	14	protein carboxyl O-methyltransferase activity	MF	0.9999999999	MF protein carboxyl O-methyltransferase activity	TRINITY_GG_8826_c0_g1
+GO:0007619	0.0125914511948587	0.999925984034776	1	15	courtship behavior	BP	0.9999999999	BP courtship behavior	TRINITY_GG_4813_c11_g2
+GO:0016426	0.0129386379817156	0.999922691762041	1	13	tRNA (adenine) methyltransferase activity	MF	0.9999999999	MF tRNA (adenine) methyltransferase activity	TRINITY_GG_8826_c0_g1
+GO:0051791	0.0144301803420354	0.999901910431934	1	17	medium-chain fatty acid metabolic process	BP	0.9999999999	BP medium-chain fatty acid metabolic process	TRINITY_GG_64766_c1_g1
+GO:0010340	0.0148844024383073	0.999896026911551	1	16	carboxyl-O-methyltransferase activity	MF	0.9999999999	MF carboxyl-O-methyltransferase activity	TRINITY_GG_8826_c0_g1
+GO:0031515	0.0154146039024809	0.99988895972911	1	15	tRNA (m1A) methyltransferase complex	CC	0.9999999999	CC tRNA (m1A) methyltransferase complex	TRINITY_GG_8826_c0_g1
+GO:0043527	0.0165954284534818	0.999870164622867	1	17	tRNA methyltransferase complex	CC	0.9999999999	CC tRNA methyltransferase complex	TRINITY_GG_8826_c0_g1
+GO:0048240	0.0168364130483814	0.999865108818623	1	20	sperm capacitation	BP	0.9999999999	BP sperm capacitation	TRINITY_GG_64766_c1_g1
+GO:0010888	0.0184524259513542	0.999835921056402	1	26	negative regulation of lipid storage	BP	0.9999999999	BP negative regulation of lipid storage	TRINITY_GG_4813_c11_g2
+GO:0003707	0.0197891849093627	0.999811498338691	1	25	steroid hormone receptor activity	MF	0.9999999999	MF steroid hormone receptor activity	TRINITY_GG_64766_c1_g1
+GO:0002080	0.0201395798778798	0.999806279383553	1	21	acrosomal membrane	CC	0.9999999999	CC acrosomal membrane	TRINITY_GG_64766_c1_g1
+GO:0048545	0.0206020806484412	0.998549019965876	2	259	response to steroid hormone	BP	0.9999999999	BP response to steroid hormone	TRINITY_GG_39231_c1_g1, TRINITY_GG_64766_c1_g1
+GO:0007340	0.0225439911587995	0.999754735994216	1	26	acrosome reaction	BP	0.9999999999	BP acrosome reaction	TRINITY_GG_64766_c1_g1
+GO:0008049	0.0225608596579948	0.999752794322953	1	31	male courtship behavior	BP	0.9999999999	BP male courtship behavior	TRINITY_GG_4813_c11_g2
+GO:0046461	0.026373789127663	0.999660735539508	1	34	neutral lipid catabolic process	BP	0.9999999999	BP neutral lipid catabolic process	TRINITY_GG_64766_c1_g1
+GO:0046464	0.026373789127663	0.999660735539508	1	34	acylglycerol catabolic process	BP	0.9999999999	BP acylglycerol catabolic process	TRINITY_GG_64766_c1_g1
+GO:0060179	0.0293672049019468	0.99957728982176	1	39	male mating behavior	BP	0.9999999999	BP male mating behavior	TRINITY_GG_4813_c11_g2
+GO:0032570	0.0299468457079522	0.999559531018883	1	42	response to progesterone	BP	0.9999999999	BP response to progesterone	TRINITY_GG_64766_c1_g1
+GO:0051963	0.0310435261074685	0.997273410345251	2	304	regulation of synapse assembly	BP	0.9999999999	BP regulation of synapse assembly	TRINITY_GG_20089_c3_g2, TRINITY_GG_4813_c11_g2
+GO:0047372	0.0330424664858129	0.999464176075775	1	39	acylglycerol lipase activity	MF	0.9999999999	MF acylglycerol lipase activity	TRINITY_GG_64766_c1_g1
+GO:0007586	0.0351021519103025	0.999393731435977	1	42	digestion	BP	0.9999999999	BP digestion	TRINITY_GG_55274_c0_g1
+GO:0007565	0.0355658263879399	0.999378257777757	1	40	female pregnancy	BP	0.9999999999	BP female pregnancy	TRINITY_GG_77468_c0_g1
+GO:0090050	0.0364481443231319	0.999346824137424	1	40	positive regulation of cell migration involved in sprouting angiogenesis	BP	0.9999999999	BP positive regulation of cell migration involved in sprouting angiogenesis	TRINITY_GG_20089_c3_g2
+GO:0004683	0.0394075624513434	0.999232099890264	1	49	calmodulin-dependent protein kinase activity	MF	0.9999999999	MF calmodulin-dependent protein kinase activity	TRINITY_GG_4813_c11_g2
+GO:0051184	0.0410781162832482	0.999168985354608	1	40	NA	NA	0.9999999999	none	TRINITY_GG_48277_c1_g1
+GO:0010883	0.0448006238058613	0.999002791435111	1	57	regulation of lipid storage	BP	0.9999999999	BP regulation of lipid storage	TRINITY_GG_4813_c11_g2
+GO:0008171	0.0459229376764277	0.998955245437461	1	48	O-methyltransferase activity	MF	0.9999999999	MF O-methyltransferase activity	TRINITY_GG_8826_c0_g1
+GO:0140289	0.0472687382038459	0.998890011679384	1	54	protein mono-ADP-ribosylation	BP	0.9999999999	BP protein mono-ADP-ribosylation	TRINITY_GG_8818_c13_g1
+GO:0070213	0.0477785970212456	0.998866543310003	1	52	protein auto-ADP-ribosylation	BP	0.9999999999	BP protein auto-ADP-ribosylation	TRINITY_GG_8818_c13_g1
+GO:0042923	0.0483775472534872	0.998836478927795	1	55	neuropeptide binding	MF	0.9999999999	MF neuropeptide binding	TRINITY_GG_39231_c1_g1
+GO:0043401	0.0485628127549097	0.998824470175571	1	64	steroid hormone mediated signaling pathway	BP	0.9999999999	BP steroid hormone mediated signaling pathway	TRINITY_GG_64766_c1_g1

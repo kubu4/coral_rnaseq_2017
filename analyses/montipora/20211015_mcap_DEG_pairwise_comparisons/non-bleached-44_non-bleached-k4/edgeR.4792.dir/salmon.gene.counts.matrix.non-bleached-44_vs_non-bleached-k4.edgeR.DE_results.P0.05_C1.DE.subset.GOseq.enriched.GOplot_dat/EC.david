@@ -1,0 +1,238 @@
+Category	ID	Term	Genes	adj_pval
+BP	GO:0052559	induction by symbiont of host immune response	TRINITY_GG_54137_c78_g2	0.9999999999
+CC	GO:0043527	tRNA methyltransferase complex	TRINITY_GG_8826_c0_g1	0.9999999999
+BP	GO:0051865	protein autoubiquitination	TRINITY_GG_34091_c0_g1, TRINITY_GG_42253_c2_g1, TRINITY_GG_95659_c0_g1	0.9999999999
+MF	GO:0070891	lipoteichoic acid binding	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0046461	neutral lipid catabolic process	TRINITY_GG_64766_c1_g1	0.9999999999
+BP	GO:0045577	regulation of B cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0002238	response to molecule of fungal origin	TRINITY_GG_54137_c78_g2	0.9999999999
+CC	GO:0031515	tRNA (m1A) methyltransferase complex	TRINITY_GG_8826_c0_g1	0.9999999999
+BP	GO:0045167	asymmetric protein localization involved in cell fate determination	TRINITY_GG_59786_c7_g1	0.9999999999
+BP	GO:2000051	negative regulation of non-canonical Wnt signaling pathway	TRINITY_GG_42253_c2_g1, TRINITY_GG_95659_c0_g1	0.9999999999
+BP	GO:0044706	multi-multicellular organism process	TRINITY_GG_55463_c1_g1, TRINITY_GG_77468_c0_g1	0.9999999999
+BP	GO:0030101	natural killer cell activation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0071706	tumor necrosis factor superfamily cytokine production	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0072203	cell proliferation involved in metanephros development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:1901673	regulation of mitotic spindle assembly	TRINITY_GG_57403_c5_g2	0.9999999999
+CC	GO:0035354	Toll-like receptor 1-Toll-like receptor 2 protein complex	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0050729	positive regulation of inflammatory response	TRINITY_GG_54137_c78_g2, TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0051998	protein carboxyl O-methyltransferase activity	TRINITY_GG_8826_c0_g1	0.9999999999
+BP	GO:0070669	response to interleukin-2	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0046006	regulation of activated T cell proliferation	TRINITY_GG_55463_c1_g1	0.9999999999
+CC	GO:0002080	acrosomal membrane	TRINITY_GG_64766_c1_g1	0.9999999999
+BP	GO:0002717	positive regulation of natural killer cell mediated immunity	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0008521	acetyl-CoA transmembrane transporter activity	TRINITY_GG_48277_c1_g1	0.9999999999
+MF	GO:0048020	CCR chemokine receptor binding	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0070672	response to interleukin-15	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0072111	cell proliferation involved in kidney development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0072162	metanephric mesenchymal cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0004657	proline dehydrogenase activity	TRINITY_GG_89686_c0_g1	0.9999999999
+BP	GO:0097531	mast cell migration	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0038123	toll-like receptor TLR1:TLR2 signaling pathway	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0002715	regulation of natural killer cell mediated immunity	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:1990443	peptidyl-threonine autophosphorylation	TRINITY_GG_4813_c11_g2	0.9999999999
+BP	GO:0051817	modulation of process of other organism involved in symbiotic interaction	TRINITY_GG_100607_c1_g1, TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:1902953	positive regulation of ER to Golgi vesicle-mediated transport	TRINITY_GG_100607_c1_g1	0.9999999999
+BP	GO:0034130	toll-like receptor 1 signaling pathway	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0045136	development of secondary sexual characteristics	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0004994	somatostatin receptor activity	TRINITY_GG_39231_c1_g1	0.9999999999
+BP	GO:0075136	response to host	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0046726	positive regulation by virus of viral protein levels in host cell	TRINITY_GG_100607_c1_g1	0.9999999999
+CC	GO:0005954	calcium- and calmodulin-dependent protein kinase complex	TRINITY_GG_4813_c11_g2	0.9999999999
+BP	GO:0072308	negative regulation of metanephric nephron tubule epithelial cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0032819	positive regulation of natural killer cell proliferation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0070757	interleukin-35-mediated signaling pathway	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0038114	interleukin-21-mediated signaling pathway	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0007340	acrosome reaction	TRINITY_GG_64766_c1_g1	0.9999999999
+BP	GO:0006562	proline catabolic process	TRINITY_GG_89686_c0_g1	0.9999999999
+BP	GO:0060907	positive regulation of macrophage cytokine production	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0072136	metanephric mesenchymal cell proliferation involved in metanephros development	TRINITY_GG_55463_c1_g1	0.9999999999
+CC	GO:0008278	cohesin complex	TRINITY_GG_57403_c5_g2	0.9999999999
+BP	GO:0042494	detection of bacterial lipoprotein	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0060996	dendritic spine development	TRINITY_GG_60154_c0_g2	0.9999999999
+BP	GO:0032727	positive regulation of interferon-alpha production	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0052572	response to host immune response	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0070309	lens fiber cell morphogenesis	TRINITY_GG_100607_c1_g1	0.9999999999
+CC	GO:0000775	chromosome, centromeric region	TRINITY_GG_57403_c5_g1, TRINITY_GG_57403_c5_g2	0.9999999999
+BP	GO:0070340	detection of bacterial lipopeptide	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0045586	regulation of gamma-delta T cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0042496	detection of diacyl bacterial lipopeptide	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0003340	negative regulation of mesenchymal to epithelial transition involved in metanephros morphogenesis	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0046543	development of secondary female sexual characteristics	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:1903974	positive regulation of cellular response to macrophage colony-stimulating factor stimulus	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0045842	positive regulation of mitotic metaphase/anaphase transition	TRINITY_GG_7284_c3_g1	0.9999999999
+MF	GO:0003707	steroid hormone receptor activity	TRINITY_GG_64766_c1_g1	0.9999999999
+BP	GO:0052200	response to host defenses	TRINITY_GG_54137_c78_g2	0.9999999999
+MF	GO:0035259	glucocorticoid receptor binding	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0034134	toll-like receptor 2 signaling pathway	TRINITY_GG_54137_c78_g2	0.9999999999
+MF	GO:0035325	Toll-like receptor binding	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0071346	cellular response to interferon-gamma	TRINITY_GG_54137_c78_g2, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0051769	regulation of nitric-oxide synthase biosynthetic process	TRINITY_GG_54137_c78_g2, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0070102	interleukin-6-mediated signaling pathway	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:2000050	regulation of non-canonical Wnt signaling pathway	TRINITY_GG_42253_c2_g1, TRINITY_GG_95659_c0_g1	0.9999999999
+BP	GO:0061081	positive regulation of myeloid leukocyte cytokine production involved in immune response	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0060333	interferon-gamma-mediated signaling pathway	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0045579	positive regulation of B cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0007221	positive regulation of transcription of Notch receptor target	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0072202	cell differentiation involved in metanephros development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0019694	alkanesulfonate metabolic process	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:1903969	regulation of response to macrophage colony-stimulating factor	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0010935	regulation of macrophage cytokine production	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0048525	negative regulation of viral process	TRINITY_GG_34091_c0_g1, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0072217	negative regulation of metanephros development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0033077	T cell differentiation in thymus	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0051963	regulation of synapse assembly	TRINITY_GG_20089_c3_g2, TRINITY_GG_4813_c11_g2, TRINITY_GG_54137_c78_g2	0.9999999999
+MF	GO:0000979	RNA polymerase II core promoter sequence-specific DNA binding	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0060278	regulation of ovulation	TRINITY_GG_4813_c11_g2	0.9999999999
+BP	GO:0060397	growth hormone receptor signaling pathway via JAK-STAT	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0019530	taurine metabolic process	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0000727	double-strand break repair via break-induced replication	TRINITY_GG_9014_c8_g1	0.9999999999
+BP	GO:0042269	regulation of natural killer cell mediated cytotoxicity	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0042498	diacyl lipopeptide binding	TRINITY_GG_54137_c78_g2	0.9999999999
+MF	GO:0036458	hepatocyte growth factor binding	TRINITY_GG_20089_c3_g2	0.9999999999
+BP	GO:0001553	luteinization	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0090077	foam cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0060337	type I interferon signaling pathway	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0051603	proteolysis involved in cellular protein catabolic process	TRINITY_GG_22244_c0_g2, TRINITY_GG_34091_c0_g1, TRINITY_GG_42253_c2_g1, TRINITY_GG_55274_c0_g1, TRINITY_GG_60154_c0_g2, TRINITY_GG_95659_c0_g1	0.9999999999
+BP	GO:0052063	induction by symbiont of defense-related host nitric oxide production	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0048714	positive regulation of oligodendrocyte differentiation	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0052163	symbiont defense to host-produced nitric oxide	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0051793	medium-chain fatty acid catabolic process	TRINITY_GG_64766_c1_g1	0.9999999999
+BP	GO:0032816	positive regulation of natural killer cell activation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0050765	negative regulation of phagocytosis	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0065001	specification of axis polarity	TRINITY_GG_59786_c7_g1	0.9999999999
+BP	GO:0001774	microglial cell activation	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0046464	acylglycerol catabolic process	TRINITY_GG_64766_c1_g1	0.9999999999
+BP	GO:2000697	negative regulation of epithelial cell differentiation involved in kidney development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0032288	myelin assembly	TRINITY_GG_54137_c78_g2	0.9999999999
+CC	GO:0035355	Toll-like receptor 2-Toll-like receptor 6 protein complex	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0015791	polyol transport	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0051791	medium-chain fatty acid metabolic process	TRINITY_GG_64766_c1_g1	0.9999999999
+BP	GO:0070085	glycosylation	TRINITY_GG_12279_c0_g1, TRINITY_GG_18183_c1_g1, TRINITY_GG_50609_c0_g1, TRINITY_GG_8818_c13_g1	0.9999999999
+MF	GO:0016863	intramolecular oxidoreductase activity, transposing C=C bonds	TRINITY_GG_30202_c0_g2	0.9999999999
+BP	GO:0010888	negative regulation of lipid storage	TRINITY_GG_4813_c11_g2	0.9999999999
+CC	GO:0000421	autophagosome membrane	TRINITY_GG_18183_c1_g1, TRINITY_GG_50609_c0_g1	0.9999999999
+BP	GO:0052553	modulation by symbiont of host immune response	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0032823	regulation of natural killer cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0042497	triacyl lipopeptide binding	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0007100	mitotic centrosome separation	TRINITY_GG_7284_c3_g1	0.9999999999
+BP	GO:0052031	modulation by symbiont of host defense response	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0034341	response to interferon-gamma	TRINITY_GG_54137_c78_g2, TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0019780	FAT10 activating enzyme activity	TRINITY_GG_60154_c0_g2	0.9999999999
+MF	GO:0031730	CCR5 chemokine receptor binding	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:1905820	positive regulation of chromosome separation	TRINITY_GG_7284_c3_g1	0.9999999999
+BP	GO:0007611	learning or memory	TRINITY_GG_4813_c11_g2, TRINITY_GG_54137_c78_g2, TRINITY_GG_60154_c0_g2	0.9999999999
+BP	GO:0043901	negative regulation of multi-organism process	TRINITY_GG_34091_c0_g1, TRINITY_GG_54137_c78_g2, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:1903971	positive regulation of response to macrophage colony-stimulating factor	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0070106	interleukin-27-mediated signaling pathway	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0044703	multi-organism reproductive process	TRINITY_GG_55463_c1_g1, TRINITY_GG_77468_c0_g1	0.9999999999
+BP	GO:0032481	positive regulation of type I interferon production	TRINITY_GG_54137_c78_g2, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0043413	macromolecule glycosylation	TRINITY_GG_12279_c0_g1, TRINITY_GG_18183_c1_g1, TRINITY_GG_50609_c0_g1, TRINITY_GG_8818_c13_g1	0.9999999999
+BP	GO:0035459	vesicle cargo loading	TRINITY_GG_100607_c1_g1	0.9999999999
+BP	GO:0019470	4-hydroxyproline catabolic process	TRINITY_GG_89686_c0_g1	0.9999999999
+BP	GO:0008354	germ cell migration	TRINITY_GG_7284_c3_g1	0.9999999999
+MF	GO:0034338	short-chain carboxylesterase activity	TRINITY_GG_64766_c1_g1	0.9999999999
+MF	GO:0071723	lipopeptide binding	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0021764	amygdala development	TRINITY_GG_60154_c0_g2	0.9999999999
+BP	GO:0042495	detection of triacyl bacterial lipopeptide	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:1902769	regulation of choline O-acetyltransferase activity	TRINITY_GG_7284_c3_g1	0.9999999999
+BP	GO:0070391	response to lipoteichoic acid	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0050807	regulation of synapse organization	TRINITY_GG_20089_c3_g2, TRINITY_GG_4813_c11_g2, TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0046544	development of secondary male sexual characteristics	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0034389	lipid droplet organization	TRINITY_GG_100607_c1_g1	0.9999999999
+BP	GO:0006560	proline metabolic process	TRINITY_GG_89686_c0_g1	0.9999999999
+CC	GO:0071914	prominosome	TRINITY_GG_80448_c2_g1	0.9999999999
+CC	GO:0031261	DNA replication preinitiation complex	TRINITY_GG_9014_c8_g1	0.9999999999
+BP	GO:0010742	macrophage derived foam cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0046643	regulation of gamma-delta T cell activation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0006486	protein glycosylation	TRINITY_GG_12279_c0_g1, TRINITY_GG_18183_c1_g1, TRINITY_GG_50609_c0_g1, TRINITY_GG_8818_c13_g1	0.9999999999
+BP	GO:0097696	receptor signaling pathway via STAT	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0003339	regulation of mesenchymal to epithelial transition involved in metanephros morphogenesis	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0072183	negative regulation of nephron tubule epithelial cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+CC	GO:0031298	replication fork protection complex	TRINITY_GG_9014_c8_g1	0.9999999999
+MF	GO:0004769	steroid delta-isomerase activity	TRINITY_GG_30202_c0_g2	0.9999999999
+MF	GO:0016995	cholesterol oxidase activity	TRINITY_GG_30202_c0_g2	0.9999999999
+MF	GO:0042379	chemokine receptor binding	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0032700	negative regulation of interleukin-17 production	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0035456	response to interferon-beta	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0032814	regulation of natural killer cell activation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0007259	receptor signaling pathway via JAK-STAT	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0005068	transmembrane receptor protein tyrosine kinase adaptor activity	TRINITY_GG_99445_c9_g1	0.9999999999
+BP	GO:0030588	pseudocleavage	TRINITY_GG_59786_c7_g1	0.9999999999
+BP	GO:0090110	COPII-coated vesicle cargo loading	TRINITY_GG_100607_c1_g1	0.9999999999
+BP	GO:0008406	gonad development	TRINITY_GG_100607_c1_g1, TRINITY_GG_7284_c3_g1	0.9999999999
+BP	GO:0051299	centrosome separation	TRINITY_GG_7284_c3_g1	0.9999999999
+BP	GO:0032817	regulation of natural killer cell proliferation	TRINITY_GG_55463_c1_g1	0.9999999999
+CC	GO:0000811	GINS complex	TRINITY_GG_9014_c8_g1	0.9999999999
+BP	GO:0007565	female pregnancy	TRINITY_GG_55463_c1_g1, TRINITY_GG_77468_c0_g1	0.9999999999
+MF	GO:0001046	core promoter sequence-specific DNA binding	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0007548	sex differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0016429	tRNA (adenine-N1-)-methyltransferase activity	TRINITY_GG_8826_c0_g1	0.9999999999
+BP	GO:0009949	polarity specification of anterior/posterior axis	TRINITY_GG_59786_c7_g1	0.9999999999
+BP	GO:1903972	regulation of cellular response to macrophage colony-stimulating factor stimulus	TRINITY_GG_54137_c78_g2	0.9999999999
+MF	GO:0010340	carboxyl-O-methyltransferase activity	TRINITY_GG_8826_c0_g1	0.9999999999
+BP	GO:0032289	central nervous system myelin formation	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0043900	regulation of multi-organism process	TRINITY_GG_100607_c1_g1, TRINITY_GG_34091_c0_g1, TRINITY_GG_4813_c11_g2, TRINITY_GG_54137_c78_g2, TRINITY_GG_55463_c1_g1	0.9999999999
+CC	GO:0008250	oligosaccharyltransferase complex	TRINITY_GG_18183_c1_g1, TRINITY_GG_50609_c0_g1	0.9999999999
+CC	GO:0045169	fusome	TRINITY_GG_55274_c0_g1	0.9999999999
+MF	GO:0043022	ribosome binding	TRINITY_GG_18183_c1_g1, TRINITY_GG_50609_c0_g1	0.9999999999
+BP	GO:1901970	positive regulation of mitotic sister chromatid separation	TRINITY_GG_7284_c3_g1	0.9999999999
+BP	GO:0001779	natural killer cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0019915	lipid storage	TRINITY_GG_55463_c1_g1, TRINITY_GG_7284_c3_g1	0.9999999999
+BP	GO:0051792	medium-chain fatty acid biosynthetic process	TRINITY_GG_64766_c1_g1	0.9999999999
+BP	GO:0046719	regulation by virus of viral protein levels in host cell	TRINITY_GG_100607_c1_g1, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0090185	negative regulation of kidney development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0038113	interleukin-9-mediated signaling pathway	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0004719	protein-L-isoaspartate (D-aspartate) O-methyltransferase activity	TRINITY_GG_8826_c0_g1	0.9999999999
+BP	GO:0052173	response to defenses of other organism	TRINITY_GG_54137_c78_g2	0.9999999999
+MF	GO:0004839	ubiquitin activating enzyme activity	TRINITY_GG_60154_c0_g2	0.9999999999
+BP	GO:0001675	acrosome assembly	TRINITY_GG_100607_c1_g1	0.9999999999
+CC	GO:0097524	sperm plasma membrane	TRINITY_GG_64766_c1_g1	0.9999999999
+BP	GO:0048541	Peyer's patch development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0035458	cellular response to interferon-beta	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0032825	positive regulation of natural killer cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0046725	negative regulation by virus of viral protein levels in host cell	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0045647	negative regulation of erythrocyte differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0035663	Toll-like receptor 2 binding	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0032640	tumor necrosis factor production	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0030590	first cell cycle pseudocleavage	TRINITY_GG_59786_c7_g1	0.9999999999
+BP	GO:0001833	inner cell mass cell proliferation	TRINITY_GG_9014_c8_g1	0.9999999999
+BP	GO:0006487	protein N-linked glycosylation	TRINITY_GG_18183_c1_g1, TRINITY_GG_50609_c0_g1	0.9999999999
+BP	GO:0048240	sperm capacitation	TRINITY_GG_64766_c1_g1	0.9999999999
+BP	GO:0002040	sprouting angiogenesis	TRINITY_GG_42253_c2_g1, TRINITY_GG_95659_c0_g1	0.9999999999
+BP	GO:0007252	I-kappaB phosphorylation	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:1902101	positive regulation of metaphase/anaphase transition of cell cycle	TRINITY_GG_7284_c3_g1	0.9999999999
+CC	GO:0005791	rough endoplasmic reticulum	TRINITY_GG_18183_c1_g1, TRINITY_GG_50609_c0_g1	0.9999999999
+BP	GO:0051298	centrosome duplication	TRINITY_GG_7284_c3_g1	0.9999999999
+BP	GO:0051770	positive regulation of nitric-oxide synthase biosynthetic process	TRINITY_GG_54137_c78_g2, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0045954	positive regulation of natural killer cell mediated cytotoxicity	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0032613	interleukin-10 production	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:2001012	mesenchymal cell differentiation involved in renal system development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0071223	cellular response to lipoteichoic acid	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0035046	pronuclear migration	TRINITY_GG_59786_c7_g1	0.9999999999
+BP	GO:0045588	positive regulation of gamma-delta T cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0042892	chloramphenicol transmembrane transport	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0010133	proline catabolic process to glutamate	TRINITY_GG_89686_c0_g1	0.9999999999
+BP	GO:0002752	cell surface pattern recognition receptor signaling pathway	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0046645	positive regulation of gamma-delta T cell activation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0048537	mucosa-associated lymphoid tissue development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0043903	regulation of biological process involved in symbiotic interaction	TRINITY_GG_100607_c1_g1, TRINITY_GG_34091_c0_g1, TRINITY_GG_54137_c78_g2, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0034123	positive regulation of toll-like receptor signaling pathway	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0046209	nitric oxide metabolic process	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0042104	positive regulation of activated T cell proliferation	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0016426	tRNA (adenine) methyltransferase activity	TRINITY_GG_8826_c0_g1	0.9999999999
+BP	GO:0072161	mesenchymal cell differentiation involved in kidney development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0050890	cognition	TRINITY_GG_4813_c11_g2, TRINITY_GG_54137_c78_g2, TRINITY_GG_60154_c0_g2	0.9999999999
+BP	GO:0008049	male courtship behavior	TRINITY_GG_4813_c11_g2	0.9999999999
+MF	GO:0008641	ubiquitin-like modifier activating enzyme activity	TRINITY_GG_60154_c0_g2	0.9999999999
+MF	GO:0016262	protein N-acetylglucosaminyltransferase activity	TRINITY_GG_12279_c0_g1	0.9999999999
+BP	GO:0010286	heat acclimation	TRINITY_GG_59786_c7_g1	0.9999999999
+BP	GO:0072135	kidney mesenchymal cell proliferation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0010070	zygote asymmetric cell division	TRINITY_GG_59786_c7_g1	0.9999999999
+BP	GO:0032741	positive regulation of interleukin-18 production	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0050792	regulation of viral process	TRINITY_GG_100607_c1_g1, TRINITY_GG_34091_c0_g1, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0014005	microglia development	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0044829	positive regulation by host of viral genome replication	TRINITY_GG_100607_c1_g1	0.9999999999
+BP	GO:0061005	cell differentiation involved in kidney development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0034137	positive regulation of toll-like receptor 2 signaling pathway	TRINITY_GG_54137_c78_g2	0.9999999999
+BP	GO:0007619	courtship behavior	TRINITY_GG_4813_c11_g2	0.9999999999
