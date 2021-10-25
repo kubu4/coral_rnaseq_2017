@@ -1,0 +1,246 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0086045	6.96169745198815e-05	0.999999774069759	2	9	membrane depolarization during AV node cell action potential	BP	0.776303206787923	BP membrane depolarization during AV node cell action potential	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1
+GO:0008171	7.59703681350416e-05	0.999998587718523	3	45	O-methyltransferase activity	MF	0.776303206787923	MF O-methyltransferase activity	TRINITY_GG_11088_c0_g1, TRINITY_GG_64519_c19_g1, TRINITY_GG_849_c0_g1
+GO:0005891	0.000207071725952834	0.999994498436258	3	69	voltage-gated calcium channel complex	CC	0.9999999999	CC voltage-gated calcium channel complex	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1
+GO:0004653	0.000395073042449059	0.999996540803765	2	22	polypeptide N-acetylgalactosaminyltransferase activity	MF	0.9999999999	MF polypeptide N-acetylgalactosaminyltransferase activity	TRINITY_GG_41670_c0_g1, TRINITY_GG_53927_c18_g1
+GO:0086012	0.000420446601204523	0.999996215039844	2	21	membrane depolarization during cardiac muscle cell action potential	BP	0.9999999999	BP membrane depolarization during cardiac muscle cell action potential	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1
+GO:0015669	0.000430783628805818	0.999996060012513	2	22	gas transport	BP	0.9999999999	BP gas transport	TRINITY_GG_14740_c0_g1, TRINITY_GG_24168_c0_g1
+GO:0015670	0.000430783628805818	0.999996060012513	2	22	carbon dioxide transport	BP	0.9999999999	BP carbon dioxide transport	TRINITY_GG_14740_c0_g1, TRINITY_GG_24168_c0_g1
+GO:0019755	0.000430783628805818	0.999996060012513	2	22	one-carbon compound transport	BP	0.9999999999	BP one-carbon compound transport	TRINITY_GG_14740_c0_g1, TRINITY_GG_24168_c0_g1
+GO:0034704	0.000626778178692357	0.999975390621984	3	110	calcium channel complex	CC	0.9999999999	CC calcium channel complex	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1
+GO:0005245	0.000648578922044341	0.999974259829881	3	104	voltage-gated calcium channel activity	MF	0.9999999999	MF voltage-gated calcium channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1
+GO:0047429	0.00100043546632811	0.999985870845587	2	25	nucleoside-triphosphate diphosphatase activity	MF	0.9999999999	MF nucleoside-triphosphate diphosphatase activity	TRINITY_GG_11088_c0_g1, TRINITY_GG_64519_c19_g1
+GO:0022857	0.00166374422200559	0.999539326364774	10	1949	transmembrane transporter activity	MF	0.9999999999	MF transmembrane transporter activity	TRINITY_GG_14740_c0_g1, TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54423_c42_g1, TRINITY_GG_57895_c15_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_64449_c1_g2, TRINITY_GG_974_c33_g1
+GO:0086091	0.00172866904262914	0.999967035323171	2	39	regulation of heart rate by cardiac conduction	BP	0.9999999999	BP regulation of heart rate by cardiac conduction	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1
+GO:1904879	0.00192657604510527	0.999999073231408	1	2	positive regulation of calcium ion transmembrane transport via high voltage-gated calcium channel	BP	0.9999999999	BP positive regulation of calcium ion transmembrane transport via high voltage-gated calcium channel	TRINITY_GG_191_c5_g1
+GO:0007565	0.00210400816925657	0.999955618989606	2	40	female pregnancy	BP	0.9999999999	BP female pregnancy	TRINITY_GG_14740_c0_g1, TRINITY_GG_77468_c0_g1
+GO:0086010	0.00213221502700605	0.999954594617711	2	43	membrane depolarization during action potential	BP	0.9999999999	BP membrane depolarization during action potential	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1
+GO:0005244	0.00223294065731987	0.999768387107585	4	342	voltage-gated ion channel activity	MF	0.9999999999	MF voltage-gated ion channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_974_c33_g1
+GO:0022832	0.00223294065731987	0.999768387107585	4	342	voltage-gated channel activity	MF	0.9999999999	MF voltage-gated channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_974_c33_g1
+GO:0022891	0.00224002861430427	0.999405886925529	9	1703	NA	NA	0.9999999999	none	TRINITY_GG_14740_c0_g1, TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_57895_c15_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_64449_c1_g2, TRINITY_GG_974_c33_g1
+GO:0061337	0.00224244282396794	0.999951006647124	2	43	cardiac conduction	BP	0.9999999999	BP cardiac conduction	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1
+GO:0016266	0.00226917086191289	0.999949810342792	2	52	O-glycan processing	BP	0.9999999999	BP O-glycan processing	TRINITY_GG_41670_c0_g1, TRINITY_GG_53927_c18_g1
+GO:0043627	0.00265563341571189	0.999826833444081	3	149	response to estrogen	BP	0.9999999999	BP response to estrogen	TRINITY_GG_24168_c0_g1, TRINITY_GG_32660_c0_g1, TRINITY_GG_35596_c0_g1
+GO:0098912	0.00289317621587288	0.999997212414571	1	3	membrane depolarization during atrial cardiac muscle cell action potential	BP	0.9999999999	BP membrane depolarization during atrial cardiac muscle cell action potential	TRINITY_GG_191_c5_g1
+GO:0005873	0.00305129547375626	0.999996899172576	1	3	plus-end kinesin complex	CC	0.9999999999	CC plus-end kinesin complex	TRINITY_GG_77351_c3_g1
+GO:0060373	0.00317405802923153	0.999997482898517	1	2	regulation of ventricular cardiac muscle cell membrane depolarization	BP	0.9999999999	BP regulation of ventricular cardiac muscle cell membrane depolarization	TRINITY_GG_974_c33_g1
+GO:0086006	0.00317405802923153	0.999997482898517	1	2	voltage-gated sodium channel activity involved in cardiac muscle cell action potential	MF	0.9999999999	MF voltage-gated sodium channel activity involved in cardiac muscle cell action potential	TRINITY_GG_974_c33_g1
+GO:0086043	0.00317405802923153	0.999997482898517	1	2	bundle of His cell action potential	BP	0.9999999999	BP bundle of His cell action potential	TRINITY_GG_974_c33_g1
+GO:0086047	0.00317405802923153	0.999997482898517	1	2	membrane depolarization during Purkinje myocyte cell action potential	BP	0.9999999999	BP membrane depolarization during Purkinje myocyte cell action potential	TRINITY_GG_974_c33_g1
+GO:0086060	0.00317405802923153	0.999997482898517	1	2	voltage-gated sodium channel activity involved in AV node cell action potential	MF	0.9999999999	MF voltage-gated sodium channel activity involved in AV node cell action potential	TRINITY_GG_974_c33_g1
+GO:0086061	0.00317405802923153	0.999997482898517	1	2	voltage-gated sodium channel activity involved in bundle of His cell action potential	MF	0.9999999999	MF voltage-gated sodium channel activity involved in bundle of His cell action potential	TRINITY_GG_974_c33_g1
+GO:0086062	0.00317405802923153	0.999997482898517	1	2	voltage-gated sodium channel activity involved in Purkinje myocyte action potential	MF	0.9999999999	MF voltage-gated sodium channel activity involved in Purkinje myocyte action potential	TRINITY_GG_974_c33_g1
+GO:0086063	0.00317405802923153	0.999997482898517	1	2	voltage-gated sodium channel activity involved in SA node cell action potential	MF	0.9999999999	MF voltage-gated sodium channel activity involved in SA node cell action potential	TRINITY_GG_974_c33_g1
+GO:0022838	0.00339392648319858	0.99933891427471	6	877	NA	NA	0.9999999999	none	TRINITY_GG_14740_c0_g1, TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_974_c33_g1
+GO:0015267	0.00355692232184683	0.999300562423475	6	888	channel activity	MF	0.9999999999	MF channel activity	TRINITY_GG_14740_c0_g1, TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_974_c33_g1
+GO:0022803	0.00365405910555796	0.999277531365533	6	894	passive transmembrane transporter activity	MF	0.9999999999	MF passive transmembrane transporter activity	TRINITY_GG_14740_c0_g1, TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_974_c33_g1
+GO:0008324	0.0038770234785015	0.999097070458255	7	1197	cation transmembrane transporter activity	MF	0.9999999999	MF cation transmembrane transporter activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_64449_c1_g2, TRINITY_GG_974_c33_g1
+GO:1901843	0.00388601356598224	0.999994340409308	1	4	positive regulation of high voltage-gated calcium channel activity	BP	0.9999999999	BP positive regulation of high voltage-gated calcium channel activity	TRINITY_GG_191_c5_g1
+GO:0035637	0.00409081912179947	0.999877385084524	2	58	multicellular organismal signaling	BP	0.9999999999	BP multicellular organismal signaling	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1
+GO:0034703	0.00419799104992436	0.999480808978932	4	405	cation channel complex	CC	0.9999999999	CC cation channel complex	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_974_c33_g1
+GO:0086048	0.00513105186384193	0.99999012775951	1	4	membrane depolarization during bundle of His cell action potential	BP	0.9999999999	BP membrane depolarization during bundle of His cell action potential	TRINITY_GG_974_c33_g1
+GO:0044706	0.00521601623873157	0.999822404607497	2	65	multi-multicellular organism process	BP	0.9999999999	BP multi-multicellular organism process	TRINITY_GG_14740_c0_g1, TRINITY_GG_77468_c0_g1
+GO:0001766	0.00537093191225471	0.999990382582849	1	3	membrane raft polarization	BP	0.9999999999	BP membrane raft polarization	TRINITY_GG_69871_c0_g1
+GO:0001767	0.00537093191225471	0.999990382582849	1	3	establishment of lymphocyte polarity	BP	0.9999999999	BP establishment of lymphocyte polarity	TRINITY_GG_69871_c0_g1
+GO:0001768	0.00537093191225471	0.999990382582849	1	3	establishment of T cell polarity	BP	0.9999999999	BP establishment of T cell polarity	TRINITY_GG_69871_c0_g1
+GO:0002277	0.00537093191225471	0.999990382582849	1	3	myeloid dendritic cell activation involved in immune response	BP	0.9999999999	BP myeloid dendritic cell activation involved in immune response	TRINITY_GG_69871_c0_g1
+GO:0005215	0.00541142315785145	0.998235918253248	10	2303	transporter activity	MF	0.9999999999	MF transporter activity	TRINITY_GG_14740_c0_g1, TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54423_c42_g1, TRINITY_GG_57895_c15_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_64449_c1_g2, TRINITY_GG_974_c33_g1
+GO:0022890	0.00593085105614229	0.998705288926541	6	982	inorganic cation transmembrane transporter activity	MF	0.9999999999	MF inorganic cation transmembrane transporter activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_974_c33_g1
+GO:0016939	0.0059413883372564	0.999985290029619	1	6	kinesin II complex	CC	0.9999999999	CC kinesin II complex	TRINITY_GG_77351_c3_g1
+GO:1990454	0.00594268082503607	0.999985283621474	1	6	L-type voltage-gated calcium channel complex	CC	0.9999999999	CC L-type voltage-gated calcium channel complex	TRINITY_GG_191_c5_g1
+GO:0005261	0.00595565561600692	0.998926334609513	5	701	cation channel activity	MF	0.9999999999	MF cation channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_974_c33_g1
+GO:0022892	0.00617159910874072	0.998093185913562	9	2002	NA	NA	0.9999999999	none	TRINITY_GG_14740_c0_g1, TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_57895_c15_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_64449_c1_g2, TRINITY_GG_974_c33_g1
+GO:0031580	0.00633432729086264	0.999984947001194	1	4	membrane raft distribution	BP	0.9999999999	BP membrane raft distribution	TRINITY_GG_69871_c0_g1
+GO:0051665	0.00633432729086264	0.999984947001194	1	4	membrane raft localization	BP	0.9999999999	BP membrane raft localization	TRINITY_GG_69871_c0_g1
+GO:0044703	0.00677329841081756	0.999735367317019	2	75	multi-organism reproductive process	BP	0.9999999999	BP multi-organism reproductive process	TRINITY_GG_14740_c0_g1, TRINITY_GG_77468_c0_g1
+GO:0060354	0.00704988718978945	0.999980107279943	1	5	negative regulation of cell adhesion molecule production	BP	0.9999999999	BP negative regulation of cell adhesion molecule production	TRINITY_GG_14740_c0_g1
+GO:0008521	0.00705938933130065	0.999980053542917	1	5	acetyl-CoA transmembrane transporter activity	MF	0.9999999999	MF acetyl-CoA transmembrane transporter activity	TRINITY_GG_64449_c1_g2
+GO:0042608	0.00729638497269932	0.999978689754712	1	5	T cell receptor binding	MF	0.9999999999	MF T cell receptor binding	TRINITY_GG_69871_c0_g1
+GO:0000234	0.00772334273189114	0.999975125772809	1	6	phosphoethanolamine N-methyltransferase activity	MF	0.9999999999	MF phosphoethanolamine N-methyltransferase activity	TRINITY_GG_59189_c1_g1
+GO:0009860	0.00772334273189114	0.999975125772809	1	6	pollen tube growth	BP	0.9999999999	BP pollen tube growth	TRINITY_GG_59189_c1_g1
+GO:0009932	0.00772334273189114	0.999975125772809	1	6	cell tip growth	BP	0.9999999999	BP cell tip growth	TRINITY_GG_59189_c1_g1
+GO:0010183	0.00772334273189114	0.999975125772809	1	6	pollen tube guidance	BP	0.9999999999	BP pollen tube guidance	TRINITY_GG_59189_c1_g1
+GO:0042425	0.00772334273189114	0.999975125772809	1	6	choline biosynthetic process	BP	0.9999999999	BP choline biosynthetic process	TRINITY_GG_59189_c1_g1
+GO:0043383	0.00825796535969613	0.999971556954665	1	6	negative T cell selection	BP	0.9999999999	BP negative T cell selection	TRINITY_GG_69871_c0_g1
+GO:0045060	0.00825796535969613	0.999971556954665	1	6	negative thymic T cell selection	BP	0.9999999999	BP negative thymic T cell selection	TRINITY_GG_69871_c0_g1
+GO:0001771	0.008396647906453	0.999970592000951	1	6	immunological synapse formation	BP	0.9999999999	BP immunological synapse formation	TRINITY_GG_69871_c0_g1
+GO:0022843	0.00854593839422757	0.999149485153203	3	272	voltage-gated cation channel activity	MF	0.9999999999	MF voltage-gated cation channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1
+GO:1901387	0.00881162857709982	0.999965992677205	1	8	positive regulation of voltage-gated calcium channel activity	BP	0.9999999999	BP positive regulation of voltage-gated calcium channel activity	TRINITY_GG_191_c5_g1
+GO:0002027	0.00909140013784008	0.999584884759462	2	92	regulation of heart rate	BP	0.9999999999	BP regulation of heart rate	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1
+GO:0060372	0.00934771296577318	0.999962500252789	1	7	regulation of atrial cardiac muscle cell membrane repolarization	BP	0.9999999999	BP regulation of atrial cardiac muscle cell membrane repolarization	TRINITY_GG_974_c33_g1
+GO:0051899	0.00948269921513337	0.999558131572094	2	84	membrane depolarization	BP	0.9999999999	BP membrane depolarization	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1
+GO:1905673	0.0095919274913071	0.999963137330876	1	5	positive regulation of lysosome organization	BP	0.9999999999	BP positive regulation of lysosome organization	TRINITY_GG_104035_c0_g1
+GO:0009555	0.00963936113775416	0.999959290801941	1	8	pollen development	BP	0.9999999999	BP pollen development	TRINITY_GG_59189_c1_g1
+GO:0060371	0.00965426843738108	0.999961103856255	1	6	regulation of atrial cardiac muscle cell membrane depolarization	BP	0.9999999999	BP regulation of atrial cardiac muscle cell membrane depolarization	TRINITY_GG_974_c33_g1
+GO:0099635	0.00966463693519361	0.999959076639899	1	8	voltage-gated calcium channel activity involved in positive regulation of presynaptic cytosolic calcium levels	MF	0.9999999999	MF voltage-gated calcium channel activity involved in positive regulation of presynaptic cytosolic calcium levels	TRINITY_GG_191_c5_g1
+GO:0046873	0.00975440209703255	0.998019930538453	5	827	metal ion transmembrane transporter activity	MF	0.9999999999	MF metal ion transmembrane transporter activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_974_c33_g1
+GO:0048528	0.00996663591408395	0.999956474174926	1	8	post-embryonic root development	BP	0.9999999999	BP post-embryonic root development	TRINITY_GG_59189_c1_g1
+GO:0090696	0.00996663591408395	0.999956474174926	1	8	post-embryonic plant organ development	BP	0.9999999999	BP post-embryonic plant organ development	TRINITY_GG_59189_c1_g1
+GO:0030315	0.0102014735955569	0.999504513824171	2	105	T-tubule	CC	0.9999999999	CC T-tubule	TRINITY_GG_14740_c0_g1, TRINITY_GG_974_c33_g1
+GO:0086016	0.0105939970575393	0.999951811281025	1	7	AV node cell action potential	BP	0.9999999999	BP AV node cell action potential	TRINITY_GG_974_c33_g1
+GO:0086067	0.0105939970575393	0.999951811281025	1	7	AV node cell to bundle of His cell communication	BP	0.9999999999	BP AV node cell to bundle of His cell communication	TRINITY_GG_974_c33_g1
+GO:0004687	0.0106399481568144	0.999950381968309	1	8	myosin light chain kinase activity	MF	0.9999999999	MF myosin light chain kinase activity	TRINITY_GG_66140_c0_g1
+GO:1902514	0.0106775260481452	0.999950030159135	1	8	regulation of calcium ion transmembrane transport via high voltage-gated calcium channel	BP	0.9999999999	BP regulation of calcium ion transmembrane transport via high voltage-gated calcium channel	TRINITY_GG_191_c5_g1
+GO:0060266	0.010744014403774	0.999951806691334	1	6	negative regulation of respiratory burst involved in inflammatory response	BP	0.9999999999	BP negative regulation of respiratory burst involved in inflammatory response	TRINITY_GG_104035_c0_g1
+GO:0046633	0.0107604003280805	0.999950282378903	1	7	alpha-beta T cell proliferation	BP	0.9999999999	BP alpha-beta T cell proliferation	TRINITY_GG_69871_c0_g1
+GO:0048229	0.0115822726460002	0.999939508367955	1	10	gametophyte development	BP	0.9999999999	BP gametophyte development	TRINITY_GG_59189_c1_g1
+GO:0060264	0.0120010975389022	0.999938126773191	1	7	regulation of respiratory burst involved in inflammatory response	BP	0.9999999999	BP regulation of respiratory burst involved in inflammatory response	TRINITY_GG_104035_c0_g1
+GO:0008376	0.0124072815517492	0.999332466692836	2	108	acetylgalactosaminyltransferase activity	MF	0.9999999999	MF acetylgalactosaminyltransferase activity	TRINITY_GG_41670_c0_g1, TRINITY_GG_53927_c18_g1
+GO:0034702	0.01356739574982	0.99765170261452	4	555	ion channel complex	CC	0.9999999999	CC ion channel complex	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_974_c33_g1
+GO:0060268	0.0137209156211787	0.999916083872465	1	9	negative regulation of respiratory burst	BP	0.9999999999	BP negative regulation of respiratory burst	TRINITY_GG_104035_c0_g1
+GO:1902564	0.0138355507451555	0.999914672149291	1	9	negative regulation of neutrophil activation	BP	0.9999999999	BP negative regulation of neutrophil activation	TRINITY_GG_104035_c0_g1
+GO:0006480	0.013867092307261	0.999915615527798	1	8	N-terminal protein amino acid methylation	BP	0.9999999999	BP N-terminal protein amino acid methylation	TRINITY_GG_59189_c1_g1
+GO:0009877	0.0138746821663441	0.99991724001812	1	7	nodulation	BP	0.9999999999	BP nodulation	TRINITY_GG_59189_c1_g1
+GO:0005216	0.0139893609854846	0.9968981260016	5	861	ion channel activity	MF	0.9999999999	MF ion channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_974_c33_g1
+GO:1904526	0.0141439484763808	0.99991220320038	1	8	regulation of microtubule binding	BP	0.9999999999	BP regulation of microtubule binding	TRINITY_GG_55630_c67_g1
+GO:0051185	0.0142873559833448	0.999906933607902	1	11	NA	NA	0.9999999999	none	TRINITY_GG_64449_c1_g2
+GO:0008331	0.0144637841252302	0.999904614752727	1	11	high voltage-gated calcium channel activity	MF	0.9999999999	MF high voltage-gated calcium channel activity	TRINITY_GG_191_c5_g1
+GO:0044351	0.0151578877774381	0.999894344269211	1	12	macropinocytosis	BP	0.9999999999	BP macropinocytosis	TRINITY_GG_69871_c0_g1
+GO:0015288	0.0153202461045465	0.999892062351169	1	12	porin activity	MF	0.9999999999	MF porin activity	TRINITY_GG_14740_c0_g1
+GO:0022829	0.0153202461045465	0.999892062351169	1	12	wide pore channel activity	MF	0.9999999999	MF wide pore channel activity	TRINITY_GG_14740_c0_g1
+GO:0060353	0.0155001456826981	0.999890414111636	1	11	regulation of cell adhesion molecule production	BP	0.9999999999	BP regulation of cell adhesion molecule production	TRINITY_GG_14740_c0_g1
+GO:0005262	0.0156613030444451	0.998050901954191	3	339	calcium channel activity	MF	0.9999999999	MF calcium channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1
+GO:0006119	0.015723575861622	0.999887222761095	1	11	oxidative phosphorylation	BP	0.9999999999	BP oxidative phosphorylation	TRINITY_GG_93410_c0_g2
+GO:0032849	0.0157302188614549	0.999887127170996	1	11	positive regulation of cellular pH reduction	BP	0.9999999999	BP positive regulation of cellular pH reduction	TRINITY_GG_24168_c0_g1
+GO:0048364	0.0160676359006642	0.99988221829569	1	11	root development	BP	0.9999999999	BP root development	TRINITY_GG_59189_c1_g1
+GO:1901841	0.0160875449260261	0.999878254254264	1	16	regulation of high voltage-gated calcium channel activity	BP	0.9999999999	BP regulation of high voltage-gated calcium channel activity	TRINITY_GG_191_c5_g1
+GO:1902495	0.0162743094906657	0.997027957943204	4	585	transmembrane transporter complex	CC	0.9999999999	CC transmembrane transporter complex	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_974_c33_g1
+GO:0015630	0.0165459428228585	0.998961450484352	2	145	microtubule cytoskeleton	CC	0.9999999999	CC microtubule cytoskeleton	TRINITY_GG_55630_c67_g1, TRINITY_GG_77351_c3_g1
+GO:0005516	0.0165673415521761	0.997893894967582	3	364	calmodulin binding	MF	0.9999999999	MF calmodulin binding	TRINITY_GG_30249_c0_g1, TRINITY_GG_66140_c0_g1, TRINITY_GG_974_c33_g1
+GO:1990351	0.0165791756143945	0.996955572911716	4	589	transporter complex	CC	0.9999999999	CC transporter complex	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_974_c33_g1
+GO:0099511	0.0170927244469198	0.99986312332226	1	15	voltage-gated calcium channel activity involved in regulation of cytosolic calcium levels	MF	0.9999999999	MF voltage-gated calcium channel activity involved in regulation of cytosolic calcium levels	TRINITY_GG_191_c5_g1
+GO:0099626	0.0170927244469198	0.99986312332226	1	15	voltage-gated calcium channel activity involved in regulation of presynaptic cytosolic calcium levels	MF	0.9999999999	MF voltage-gated calcium channel activity involved in regulation of presynaptic cytosolic calcium levels	TRINITY_GG_191_c5_g1
+GO:0014877	0.0171333664143124	0.999861858964286	1	16	response to muscle inactivity involved in regulation of muscle adaptation	BP	0.9999999999	BP response to muscle inactivity involved in regulation of muscle adaptation	TRINITY_GG_974_c33_g1
+GO:0014894	0.0171333664143124	0.999861858964286	1	16	response to denervation involved in regulation of muscle adaptation	BP	0.9999999999	BP response to denervation involved in regulation of muscle adaptation	TRINITY_GG_974_c33_g1
+GO:0044878	0.0172703136212669	0.999868944977576	1	8	mitotic cytokinesis checkpoint	BP	0.9999999999	BP mitotic cytokinesis checkpoint	TRINITY_GG_50399_c0_g1
+GO:1902563	0.0176361743166863	0.999855845466452	1	13	regulation of neutrophil activation	BP	0.9999999999	BP regulation of neutrophil activation	TRINITY_GG_104035_c0_g1
+GO:0008168	0.0176590497768387	0.996697130345699	4	545	methyltransferase activity	MF	0.9999999999	MF methyltransferase activity	TRINITY_GG_11088_c0_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_64519_c19_g1, TRINITY_GG_849_c0_g1
+GO:0018243	0.0180180555105956	0.999849514110045	1	13	protein O-linked glycosylation via threonine	BP	0.9999999999	BP protein O-linked glycosylation via threonine	TRINITY_GG_53927_c18_g1
+GO:0005459	0.0180861076437606	0.999849418567088	1	12	UDP-galactose transmembrane transporter activity	MF	0.9999999999	MF UDP-galactose transmembrane transporter activity	TRINITY_GG_57895_c15_g1
+GO:0015075	0.0182265005631676	0.994318159150259	7	1610	ion transmembrane transporter activity	MF	0.9999999999	MF ion transmembrane transporter activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_64449_c1_g2, TRINITY_GG_974_c33_g1
+GO:0120170	0.0183831548812053	0.99984722775888	1	10	intraciliary transport particle B binding	MF	0.9999999999	MF intraciliary transport particle B binding	TRINITY_GG_77351_c3_g1
+GO:0086046	0.0189763403607124	0.999832035047733	1	14	membrane depolarization during SA node cell action potential	BP	0.9999999999	BP membrane depolarization during SA node cell action potential	TRINITY_GG_974_c33_g1
+GO:0014874	0.0190359121386087	0.999828103349382	1	18	response to stimulus involved in regulation of muscle adaptation	BP	0.9999999999	BP response to stimulus involved in regulation of muscle adaptation	TRINITY_GG_974_c33_g1
+GO:0014854	0.0190362063690313	0.999828098017398	1	18	response to inactivity	BP	0.9999999999	BP response to inactivity	TRINITY_GG_974_c33_g1
+GO:0014870	0.0190362063690313	0.999828098017398	1	18	response to muscle inactivity	BP	0.9999999999	BP response to muscle inactivity	TRINITY_GG_974_c33_g1
+GO:0006493	0.0191124241835895	0.998706130648785	2	141	protein O-linked glycosylation	BP	0.9999999999	BP protein O-linked glycosylation	TRINITY_GG_41670_c0_g1, TRINITY_GG_53927_c18_g1
+GO:2000878	0.0192879716831997	0.999826453464267	1	14	positive regulation of oligopeptide transport	BP	0.9999999999	BP positive regulation of oligopeptide transport	TRINITY_GG_24168_c0_g1
+GO:2000880	0.0192879716831997	0.999826453464267	1	14	positive regulation of dipeptide transport	BP	0.9999999999	BP positive regulation of dipeptide transport	TRINITY_GG_24168_c0_g1
+GO:2001148	0.0192879716831997	0.999826453464267	1	14	regulation of dipeptide transmembrane transport	BP	0.9999999999	BP regulation of dipeptide transmembrane transport	TRINITY_GG_24168_c0_g1
+GO:2001150	0.0192879716831997	0.999826453464267	1	14	positive regulation of dipeptide transmembrane transport	BP	0.9999999999	BP positive regulation of dipeptide transmembrane transport	TRINITY_GG_24168_c0_g1
+GO:0045059	0.0193182170135443	0.999831232188328	1	10	positive thymic T cell selection	BP	0.9999999999	BP positive thymic T cell selection	TRINITY_GG_69871_c0_g1
+GO:0042538	0.0193905004942351	0.999832049322813	1	9	hyperosmotic salinity response	BP	0.9999999999	BP hyperosmotic salinity response	TRINITY_GG_14740_c0_g1
+GO:0050690	0.0194478370225028	0.999822655168735	1	15	regulation of defense response to virus by virus	BP	0.9999999999	BP regulation of defense response to virus by virus	TRINITY_GG_69871_c0_g1
+GO:0007100	0.0195716355108741	0.999820382115515	1	15	mitotic centrosome separation	BP	0.9999999999	BP mitotic centrosome separation	TRINITY_GG_77351_c3_g1
+GO:2001225	0.0196919835899151	0.99981815844124	1	15	regulation of chloride transport	BP	0.9999999999	BP regulation of chloride transport	TRINITY_GG_24168_c0_g1
+GO:0000276	0.0197511877139079	0.999825719382057	1	9	mitochondrial proton-transporting ATP synthase complex, coupling factor F(o)	CC	0.9999999999	CC mitochondrial proton-transporting ATP synthase complex, coupling factor F(o)	TRINITY_GG_5907_c0_g1
+GO:0015085	0.0198225205939449	0.997305446683447	3	373	calcium ion transmembrane transporter activity	MF	0.9999999999	MF calcium ion transmembrane transporter activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1
+GO:0032847	0.0199083865704113	0.99981412529522	1	15	regulation of cellular pH reduction	BP	0.9999999999	BP regulation of cellular pH reduction	TRINITY_GG_24168_c0_g1
+GO:0060307	0.0199158456810155	0.999813160286123	1	16	regulation of ventricular cardiac muscle cell membrane repolarization	BP	0.9999999999	BP regulation of ventricular cardiac muscle cell membrane repolarization	TRINITY_GG_974_c33_g1
+GO:0072383	0.0201195999597723	0.999810145899459	1	15	plus-end-directed vesicle transport along microtubule	BP	0.9999999999	BP plus-end-directed vesicle transport along microtubule	TRINITY_GG_77351_c3_g1
+GO:0072386	0.0201195999597723	0.999810145899459	1	15	plus-end-directed organelle transport along microtubule	BP	0.9999999999	BP plus-end-directed organelle transport along microtubule	TRINITY_GG_77351_c3_g1
+GO:0009838	0.0201216348722809	0.999815009223984	1	11	abscission	BP	0.9999999999	BP abscission	TRINITY_GG_50399_c0_g1
+GO:0070741	0.0203487841033714	0.999804918413112	1	16	response to interleukin-6	BP	0.9999999999	BP response to interleukin-6	TRINITY_GG_14740_c0_g1
+GO:0071354	0.0203487841033714	0.999804918413112	1	16	cellular response to interleukin-6	BP	0.9999999999	BP cellular response to interleukin-6	TRINITY_GG_14740_c0_g1
+GO:0034774	0.0205273970047539	0.998556937982189	2	141	secretory granule lumen	CC	0.9999999999	CC secretory granule lumen	TRINITY_GG_104035_c0_g1, TRINITY_GG_69871_c0_g1
+GO:0007338	0.0207365402594745	0.998535672652729	2	130	single fertilization	BP	0.9999999999	BP single fertilization	TRINITY_GG_32660_c0_g1, TRINITY_GG_35596_c0_g1
+GO:0090088	0.0211756312548605	0.999788679628566	1	16	regulation of oligopeptide transport	BP	0.9999999999	BP regulation of oligopeptide transport	TRINITY_GG_24168_c0_g1
+GO:0090089	0.0211756312548605	0.999788679628566	1	16	regulation of dipeptide transport	BP	0.9999999999	BP regulation of dipeptide transport	TRINITY_GG_24168_c0_g1
+GO:0043368	0.0212337017831006	0.999792205485893	1	12	positive T cell selection	BP	0.9999999999	BP positive T cell selection	TRINITY_GG_69871_c0_g1
+GO:0090481	0.0214198375738616	0.999784713029526	1	15	pyrimidine nucleotide-sugar transmembrane transport	BP	0.9999999999	BP pyrimidine nucleotide-sugar transmembrane transport	TRINITY_GG_57895_c15_g1
+GO:0060205	0.0215262151566973	0.998447775539873	2	145	cytoplasmic vesicle lumen	CC	0.9999999999	CC cytoplasmic vesicle lumen	TRINITY_GG_104035_c0_g1, TRINITY_GG_69871_c0_g1
+GO:0016741	0.0217155953117346	0.995679186431577	4	580	transferase activity, transferring one-carbon groups	MF	0.9999999999	MF transferase activity, transferring one-carbon groups	TRINITY_GG_11088_c0_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_64519_c19_g1, TRINITY_GG_849_c0_g1
+GO:0051453	0.0221692037211313	0.998376758404276	2	141	regulation of intracellular pH	BP	0.9999999999	BP regulation of intracellular pH	TRINITY_GG_104035_c0_g1, TRINITY_GG_24168_c0_g1
+GO:0018242	0.0222662440674314	0.999765349764298	1	17	protein O-linked glycosylation via serine	BP	0.9999999999	BP protein O-linked glycosylation via serine	TRINITY_GG_53927_c18_g1
+GO:0031983	0.0222749784343076	0.998364213787208	2	147	vesicle lumen	CC	0.9999999999	CC vesicle lumen	TRINITY_GG_104035_c0_g1, TRINITY_GG_69871_c0_g1
+GO:0006907	0.0224481703924702	0.999760661838269	1	18	pinocytosis	BP	0.9999999999	BP pinocytosis	TRINITY_GG_69871_c0_g1
+GO:0099402	0.0228007584875296	0.999757173878231	1	14	plant organ development	BP	0.9999999999	BP plant organ development	TRINITY_GG_59189_c1_g1
+GO:0022836	0.0228332970219972	0.995386088097284	4	647	gated channel activity	MF	0.9999999999	MF gated channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_974_c33_g1
+GO:0009826	0.0230929101888402	0.999748506926314	1	16	unidimensional cell growth	BP	0.9999999999	BP unidimensional cell growth	TRINITY_GG_59189_c1_g1
+GO:0030641	0.0231173803439084	0.998268727139771	2	146	regulation of cellular pH	BP	0.9999999999	BP regulation of cellular pH	TRINITY_GG_104035_c0_g1, TRINITY_GG_24168_c0_g1
+GO:0060263	0.0232536200349816	0.999744979549233	1	16	regulation of respiratory burst	BP	0.9999999999	BP regulation of respiratory burst	TRINITY_GG_104035_c0_g1
+GO:0035580	0.0232783212038363	0.99974255616404	1	18	specific granule lumen	CC	0.9999999999	CC specific granule lumen	TRINITY_GG_69871_c0_g1
+GO:0019863	0.0234566920470519	0.999750793501738	1	10	IgE binding	MF	0.9999999999	MF IgE binding	TRINITY_GG_46019_c30_g1
+GO:0015781	0.0237781604256767	0.999732256144149	1	17	NA	NA	0.9999999999	none	TRINITY_GG_57895_c15_g1
+GO:0060002	0.0240486337038915	0.999726103767976	1	17	plus-end directed microfilament motor activity	MF	0.9999999999	MF plus-end directed microfilament motor activity	TRINITY_GG_30249_c0_g1
+GO:0045061	0.0240570752073285	0.999728177383881	1	15	thymic T cell selection	BP	0.9999999999	BP thymic T cell selection	TRINITY_GG_69871_c0_g1
+GO:0019695	0.0246471765028014	0.999708183178037	1	22	choline metabolic process	BP	0.9999999999	BP choline metabolic process	TRINITY_GG_59189_c1_g1
+GO:0006885	0.0255555865973409	0.99798012639508	2	156	regulation of pH	BP	0.9999999999	BP regulation of pH	TRINITY_GG_104035_c0_g1, TRINITY_GG_24168_c0_g1
+GO:0015780	0.0256594839880182	0.999685965532808	1	19	nucleotide-sugar transmembrane transport	BP	0.9999999999	BP nucleotide-sugar transmembrane transport	TRINITY_GG_57895_c15_g1
+GO:0005372	0.0258768753445681	0.999683896886538	1	16	water transmembrane transporter activity	MF	0.9999999999	MF water transmembrane transporter activity	TRINITY_GG_14740_c0_g1
+GO:0015250	0.0258768753445681	0.999683896886538	1	16	water channel activity	MF	0.9999999999	MF water channel activity	TRINITY_GG_14740_c0_g1
+GO:0038166	0.0259721905511928	0.999681552954876	1	16	angiotensin-activated signaling pathway	BP	0.9999999999	BP angiotensin-activated signaling pathway	TRINITY_GG_24168_c0_g1
+GO:0099623	0.0259860402888699	0.999676193813393	1	21	regulation of cardiac muscle cell membrane repolarization	BP	0.9999999999	BP regulation of cardiac muscle cell membrane repolarization	TRINITY_GG_974_c33_g1
+GO:0017000	0.0262721975492496	0.999669809868956	1	20	antibiotic biosynthetic process	BP	0.9999999999	BP antibiotic biosynthetic process	TRINITY_GG_849_c0_g1
+GO:0098800	0.0265509526539598	0.997860556542922	2	140	inner mitochondrial membrane protein complex	CC	0.9999999999	CC inner mitochondrial membrane protein complex	TRINITY_GG_5907_c0_g1, TRINITY_GG_93410_c0_g2
+GO:0034164	0.0265922527185647	0.999664792999657	1	17	negative regulation of toll-like receptor 9 signaling pathway	BP	0.9999999999	BP negative regulation of toll-like receptor 9 signaling pathway	TRINITY_GG_63659_c4_g1
+GO:0032466	0.0269671769733715	0.99966413105537	1	12	negative regulation of cytokinesis	BP	0.9999999999	BP negative regulation of cytokinesis	TRINITY_GG_50399_c0_g1
+GO:0051299	0.026970779015485	0.999650279043281	1	22	centrosome separation	BP	0.9999999999	BP centrosome separation	TRINITY_GG_77351_c3_g1
+GO:0030004	0.0270682142183733	0.997793388390477	2	161	cellular monovalent inorganic cation homeostasis	BP	0.9999999999	BP cellular monovalent inorganic cation homeostasis	TRINITY_GG_104035_c0_g1, TRINITY_GG_24168_c0_g1
+GO:0003360	0.0273672693500749	0.999647804130891	1	15	brainstem development	BP	0.9999999999	BP brainstem development	TRINITY_GG_974_c33_g1
+GO:0034163	0.0275317289766907	0.999639330880747	1	18	regulation of toll-like receptor 9 signaling pathway	BP	0.9999999999	BP regulation of toll-like receptor 9 signaling pathway	TRINITY_GG_63659_c4_g1
+GO:0045058	0.0278468247353573	0.999629853998829	1	19	T cell selection	BP	0.9999999999	BP T cell selection	TRINITY_GG_69871_c0_g1
+GO:0072509	0.0278969241036924	0.995682880223031	3	430	NA	NA	0.9999999999	none	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1
+GO:0042475	0.0284965757224974	0.997613852211919	2	150	odontogenesis of dentin-containing tooth	BP	0.9999999999	BP odontogenesis of dentin-containing tooth	TRINITY_GG_24168_c0_g1, TRINITY_GG_974_c33_g1
+GO:0098684	0.0285778628140707	0.999608989275517	1	20	photoreceptor ribbon synapse	CC	0.9999999999	CC photoreceptor ribbon synapse	TRINITY_GG_191_c5_g1
+GO:0045263	0.0286515689798516	0.999617998525199	1	13	proton-transporting ATP synthase complex, coupling factor F(o)	CC	0.9999999999	CC proton-transporting ATP synthase complex, coupling factor F(o)	TRINITY_GG_5907_c0_g1
+GO:0007042	0.0292830741156082	0.999596487526418	1	15	lysosomal lumen acidification	BP	0.9999999999	BP lysosomal lumen acidification	TRINITY_GG_104035_c0_g1
+GO:0006656	0.0308874173359457	0.999538887834085	1	24	phosphatidylcholine biosynthetic process	BP	0.9999999999	BP phosphatidylcholine biosynthetic process	TRINITY_GG_59189_c1_g1
+GO:0030676	0.0309726160020808	0.999536326457041	1	24	NA	NA	0.9999999999	none	TRINITY_GG_69871_c0_g1
+GO:0046933	0.0310031826540606	0.999545406246065	1	16	proton-transporting ATP synthase activity, rotational mechanism	MF	0.9999999999	MF proton-transporting ATP synthase activity, rotational mechanism	TRINITY_GG_5907_c0_g1
+GO:0046034	0.0313021685706455	0.997242509993016	2	158	ATP metabolic process	BP	0.9999999999	BP ATP metabolic process	TRINITY_GG_5907_c0_g1, TRINITY_GG_93410_c0_g2
+GO:0008092	0.0322252875751385	0.989841694277904	6	1555	cytoskeletal protein binding	MF	0.9999999999	MF cytoskeletal protein binding	TRINITY_GG_191_c5_g1, TRINITY_GG_30249_c0_g1, TRINITY_GG_55630_c67_g1, TRINITY_GG_66140_c0_g1, TRINITY_GG_77351_c3_g1, TRINITY_GG_974_c33_g1
+GO:0015165	0.0322715303213107	0.999499483248403	1	21	pyrimidine nucleotide-sugar transmembrane transporter activity	MF	0.9999999999	MF pyrimidine nucleotide-sugar transmembrane transporter activity	TRINITY_GG_57895_c15_g1
+GO:1905671	0.0325372668266277	0.999497082290586	1	17	regulation of lysosome organization	BP	0.9999999999	BP regulation of lysosome organization	TRINITY_GG_104035_c0_g1
+GO:0006833	0.032910765282372	0.999480627146851	1	20	water transport	BP	0.9999999999	BP water transport	TRINITY_GG_14740_c0_g1
+GO:0009566	0.0334694067073112	0.996940903240615	2	176	fertilization	BP	0.9999999999	BP fertilization	TRINITY_GG_32660_c0_g1, TRINITY_GG_35596_c0_g1
+GO:0030246	0.0337471350988884	0.992319438727502	4	646	carbohydrate binding	MF	0.9999999999	MF carbohydrate binding	TRINITY_GG_41670_c0_g1, TRINITY_GG_46019_c30_g1, TRINITY_GG_53927_c18_g1, TRINITY_GG_76072_c0_g1
+GO:0042407	0.0338116702455895	0.999447902565384	1	23	cristae formation	BP	0.9999999999	BP cristae formation	TRINITY_GG_5907_c0_g1
+GO:0032465	0.0346570207110317	0.996771808686607	2	180	regulation of cytokinesis	BP	0.9999999999	BP regulation of cytokinesis	TRINITY_GG_50399_c0_g1, TRINITY_GG_77351_c3_g1
+GO:0042476	0.0347503308758065	0.996759611254313	2	172	odontogenesis	BP	0.9999999999	BP odontogenesis	TRINITY_GG_24168_c0_g1, TRINITY_GG_974_c33_g1
+GO:0071498	0.0348167768506396	0.999410481955402	1	27	cellular response to fluid shear stress	BP	0.9999999999	BP cellular response to fluid shear stress	TRINITY_GG_24168_c0_g1
+GO:1905247	0.0349338668903858	0.999414385187174	1	20	positive regulation of aspartic-type peptidase activity	BP	0.9999999999	BP positive regulation of aspartic-type peptidase activity	TRINITY_GG_104035_c0_g1
+GO:0060306	0.0353603644431996	0.999390218339415	1	29	regulation of membrane repolarization	BP	0.9999999999	BP regulation of membrane repolarization	TRINITY_GG_974_c33_g1
+GO:0005338	0.0360042771308008	0.999371234677271	1	25	nucleotide-sugar transmembrane transporter activity	MF	0.9999999999	MF nucleotide-sugar transmembrane transporter activity	TRINITY_GG_57895_c15_g1
+GO:0016999	0.0361513178406427	0.999366055266503	1	25	antibiotic metabolic process	BP	0.9999999999	BP antibiotic metabolic process	TRINITY_GG_849_c0_g1
+GO:0086014	0.0363693649772759	0.999361937956778	1	22	atrial cardiac muscle cell action potential	BP	0.9999999999	BP atrial cardiac muscle cell action potential	TRINITY_GG_974_c33_g1
+GO:0007368	0.0367325246259147	0.996467947184016	2	191	determination of left/right symmetry	BP	0.9999999999	BP determination of left/right symmetry	TRINITY_GG_55630_c67_g1, TRINITY_GG_77351_c3_g1
+GO:0009799	0.0367325246259147	0.996467947184016	2	191	specification of symmetry	BP	0.9999999999	BP specification of symmetry	TRINITY_GG_55630_c67_g1, TRINITY_GG_77351_c3_g1
+GO:0009855	0.0367325246259147	0.996467947184016	2	191	determination of bilateral symmetry	BP	0.9999999999	BP determination of bilateral symmetry	TRINITY_GG_55630_c67_g1, TRINITY_GG_77351_c3_g1
+GO:0001518	0.0368472466085878	0.999348030075749	1	20	voltage-gated sodium channel complex	CC	0.9999999999	CC voltage-gated sodium channel complex	TRINITY_GG_974_c33_g1
+GO:0097470	0.0369946254277548	0.999333005886599	1	28	ribbon synapse	CC	0.9999999999	CC ribbon synapse	TRINITY_GG_191_c5_g1
+GO:0055067	0.0381560223980422	0.996254537643294	2	194	monovalent inorganic cation homeostasis	BP	0.9999999999	BP monovalent inorganic cation homeostasis	TRINITY_GG_104035_c0_g1, TRINITY_GG_24168_c0_g1
+GO:0031527	0.0382350500839429	0.999285475874739	1	30	filopodium membrane	CC	0.9999999999	CC filopodium membrane	TRINITY_GG_30249_c0_g1
+GO:1901385	0.0391066708422958	0.99924748165889	1	37	regulation of voltage-gated calcium channel activity	BP	0.9999999999	BP regulation of voltage-gated calcium channel activity	TRINITY_GG_191_c5_g1
+GO:0072531	0.0392501034832269	0.999253173777679	1	24	pyrimidine-containing compound transmembrane transport	BP	0.9999999999	BP pyrimidine-containing compound transmembrane transport	TRINITY_GG_57895_c15_g1
+GO:0061578	0.0396118238715492	0.999243911395303	1	21	Lys63-specific deubiquitinase activity	MF	0.9999999999	MF Lys63-specific deubiquitinase activity	TRINITY_GG_17222_c0_g1
+GO:0086015	0.039676170545092	0.999238179844294	1	23	SA node cell action potential	BP	0.9999999999	BP SA node cell action potential	TRINITY_GG_974_c33_g1
+GO:0005753	0.039872351562227	0.999237841828095	1	19	mitochondrial proton-transporting ATP synthase complex	CC	0.9999999999	CC mitochondrial proton-transporting ATP synthase complex	TRINITY_GG_5907_c0_g1
+GO:0045259	0.039872351562227	0.999237841828095	1	19	proton-transporting ATP synthase complex	CC	0.9999999999	CC proton-transporting ATP synthase complex	TRINITY_GG_5907_c0_g1
+GO:0009988	0.0400209288775593	0.999218577417518	1	28	cell-cell recognition	BP	0.9999999999	BP cell-cell recognition	TRINITY_GG_69871_c0_g1
+GO:0071392	0.0400246030595254	0.999221861180794	1	25	cellular response to estradiol stimulus	BP	0.9999999999	BP cellular response to estradiol stimulus	TRINITY_GG_14740_c0_g1
+GO:0004064	0.0403866786572706	0.999222952598953	1	17	arylesterase activity	MF	0.9999999999	MF arylesterase activity	TRINITY_GG_24168_c0_g1
+GO:0004089	0.0408557435515751	0.999185395443212	1	28	carbonate dehydratase activity	MF	0.9999999999	MF carbonate dehydratase activity	TRINITY_GG_24168_c0_g1
+GO:0043312	0.0409307552715052	0.995824221187955	2	217	neutrophil degranulation	BP	0.9999999999	BP neutrophil degranulation	TRINITY_GG_104035_c0_g1, TRINITY_GG_69871_c0_g1
+GO:0030322	0.0409472410060038	0.999186699804496	1	24	stabilization of membrane potential	BP	0.9999999999	BP stabilization of membrane potential	TRINITY_GG_5905_c7_g1
+GO:0008016	0.0411455433874877	0.995790512674719	2	216	regulation of heart contraction	BP	0.9999999999	BP regulation of heart contraction	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1
+GO:1903566	0.0412780471036399	0.999178473286078	1	21	positive regulation of protein localization to cilium	BP	0.9999999999	BP positive regulation of protein localization to cilium	TRINITY_GG_55630_c67_g1
+GO:0043299	0.0420098126925938	0.995652745529438	2	221	leukocyte degranulation	BP	0.9999999999	BP leukocyte degranulation	TRINITY_GG_104035_c0_g1, TRINITY_GG_69871_c0_g1
+GO:0031579	0.0422546847162804	0.999130669946577	1	26	membrane raft organization	BP	0.9999999999	BP membrane raft organization	TRINITY_GG_69871_c0_g1
+GO:0055093	0.0431152315668565	0.9990932996932	1	27	response to hyperoxia	BP	0.9999999999	BP response to hyperoxia	TRINITY_GG_93410_c0_g2
+GO:0008574	0.0436748677693702	0.999063009388944	1	33	ATP-dependent microtubule motor activity, plus-end-directed	MF	0.9999999999	MF ATP-dependent microtubule motor activity, plus-end-directed	TRINITY_GG_77351_c3_g1
+GO:0002283	0.0437075029103114	0.995378092275133	2	226	neutrophil activation involved in immune response	BP	0.9999999999	BP neutrophil activation involved in immune response	TRINITY_GG_104035_c0_g1, TRINITY_GG_69871_c0_g1
+GO:0042119	0.0446262469146138	0.9952267578245	2	230	neutrophil activation	BP	0.9999999999	BP neutrophil activation	TRINITY_GG_104035_c0_g1, TRINITY_GG_69871_c0_g1
+GO:0006120	0.0450952506160986	0.99901595677621	1	22	mitochondrial electron transport, NADH to ubiquinone	BP	0.9999999999	BP mitochondrial electron transport, NADH to ubiquinone	TRINITY_GG_93410_c0_g2
+GO:0021537	0.0451258946205963	0.999003449780832	1	29	telencephalon development	BP	0.9999999999	BP telencephalon development	TRINITY_GG_974_c33_g1
+GO:0051712	0.0453874759446055	0.999005284289597	1	21	positive regulation of killing of cells of other organism	BP	0.9999999999	BP positive regulation of killing of cells of other organism	TRINITY_GG_46019_c30_g1
+GO:0098798	0.0456849008377972	0.995056077634908	2	189	mitochondrial protein-containing complex	CC	0.9999999999	CC mitochondrial protein-containing complex	TRINITY_GG_5907_c0_g1, TRINITY_GG_93410_c0_g2
+GO:0086065	0.0461649094333734	0.99895795485382	1	28	cell communication involved in cardiac conduction	BP	0.9999999999	BP cell communication involved in cardiac conduction	TRINITY_GG_974_c33_g1
+GO:0036230	0.0462130016004896	0.994961356981976	2	236	granulocyte activation	BP	0.9999999999	BP granulocyte activation	TRINITY_GG_104035_c0_g1, TRINITY_GG_69871_c0_g1
+GO:0002697	0.0468333646878437	0.991141198564255	3	487	regulation of immune effector process	BP	0.9999999999	BP regulation of immune effector process	TRINITY_GG_104035_c0_g1, TRINITY_GG_46019_c30_g1, TRINITY_GG_69871_c0_g1
+GO:0022841	0.0473422568854398	0.998901000523179	1	30	potassium ion leak channel activity	MF	0.9999999999	MF potassium ion leak channel activity	TRINITY_GG_5905_c7_g1
+GO:0033781	0.047347269502668	0.998908229260405	1	25	cholesterol 24-hydroxylase activity	MF	0.9999999999	MF cholesterol 24-hydroxylase activity	TRINITY_GG_82881_c0_g1
+GO:0010460	0.047833234653504	0.99888550829229	1	25	positive regulation of heart rate	BP	0.9999999999	BP positive regulation of heart rate	TRINITY_GG_974_c33_g1
+GO:1905245	0.0478657684054377	0.998879074878025	1	28	regulation of aspartic-type peptidase activity	BP	0.9999999999	BP regulation of aspartic-type peptidase activity	TRINITY_GG_104035_c0_g1
+GO:0009651	0.0485086813911986	0.998843250726369	1	32	response to salt stress	BP	0.9999999999	BP response to salt stress	TRINITY_GG_14740_c0_g1
+GO:0002275	0.0490020494753064	0.994481094224889	2	245	myeloid cell activation involved in immune response	BP	0.9999999999	BP myeloid cell activation involved in immune response	TRINITY_GG_104035_c0_g1, TRINITY_GG_69871_c0_g1

@@ -1,0 +1,21 @@
+Got 6 samples, and got: 7 data fields.
+Header: bleached_44_01	bleached_44_02	bleached_44_03	bleached_k4_01	bleached_k4_02	bleached_k4_03
+Next: TRINITY_GG_100000_c0_g1	0.00	0.00	0.00	0.00	0.00	0.00
+
+$VAR1 = {
+          'bleached_k4_03' => 6,
+          'bleached_k4_01' => 4,
+          'bleached_k4_02' => 5,
+          'bleached_44_01' => 1,
+          'bleached_44_03' => 3,
+          'bleached_44_02' => 2
+        };
+Contrasts to perform are: $VAR1 = [
+          [
+            'bleached-44',
+            'bleached-k4'
+          ]
+        ];
+Loading required package: edgeR
+Loading required package: limma
+Using classic mode.

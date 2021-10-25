@@ -1,0 +1,5 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:1902533	1	0.0241872990437783	0	1455	positive regulation of intracellular signal transduction	BP	0.9999999999	0.9999999999	BP positive regulation of intracellular signal transduction
+GO:0098772	0.996025690670505	0.0260574422124133	1	2050	molecular function regulator	MF	0.9999999999	0.9999999999	MF molecular function regulator
+GO:0004930	1	0.0324127927411425	0	1148	G protein-coupled receptor activity	MF	0.9999999999	0.9999999999	MF G protein-coupled receptor activity
+GO:0016779	0.98817509912463	0.0450189062861993	2	1804	nucleotidyltransferase activity	MF	0.9999999999	0.9999999999	MF nucleotidyltransferase activity

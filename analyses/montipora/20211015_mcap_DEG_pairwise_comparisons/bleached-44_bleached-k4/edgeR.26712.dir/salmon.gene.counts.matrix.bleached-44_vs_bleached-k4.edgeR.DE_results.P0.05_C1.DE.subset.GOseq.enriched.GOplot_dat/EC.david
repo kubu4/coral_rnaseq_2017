@@ -1,0 +1,535 @@
+Category	ID	Term	Genes	adj_pval
+BP	GO:0060371	regulation of atrial cardiac muscle cell membrane depolarization	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0022414	reproductive process	TRINITY_GG_14740_c0_g1, TRINITY_GG_32660_c0_g1, TRINITY_GG_35596_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_5505_c16_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_77468_c0_g1, TRINITY_GG_80916_c0_g1, TRINITY_GG_99788_c0_g1	0.9999999999
+BP	GO:1902563	regulation of neutrophil activation	TRINITY_GG_104035_c0_g1	0.9999999999
+MF	GO:0008171	O-methyltransferase activity	TRINITY_GG_11088_c0_g1, TRINITY_GG_64519_c19_g1, TRINITY_GG_849_c0_g1	0.358514524090464
+CC	GO:0098858	actin-based cell projection	TRINITY_GG_24168_c0_g1, TRINITY_GG_30249_c0_g1, TRINITY_GG_34620_c0_g1	0.9999999999
+MF	GO:0019863	IgE binding	TRINITY_GG_46019_c30_g1	0.9999999999
+CC	GO:0030315	T-tubule	TRINITY_GG_14740_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+CC	GO:0016939	kinesin II complex	TRINITY_GG_77351_c3_g1	0.9999999999
+BP	GO:0048139	female germ-line cyst encapsulation	TRINITY_GG_57730_c25_g1	0.9999999999
+MF	GO:0008092	cytoskeletal protein binding	TRINITY_GG_191_c5_g1, TRINITY_GG_30249_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_55630_c67_g1, TRINITY_GG_59853_c15_g1, TRINITY_GG_66140_c0_g1, TRINITY_GG_77351_c3_g1, TRINITY_GG_8469_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0045167	asymmetric protein localization involved in cell fate determination	TRINITY_GG_80916_c0_g1	0.9999999999
+BP	GO:0035161	imaginal disc lineage restriction	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0007160	cell-matrix adhesion	TRINITY_GG_55795_c7_g1, TRINITY_GG_59529_c1_g1, TRINITY_GG_8608_c4_g1	0.9999999999
+BP	GO:0030101	natural killer cell activation	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0015288	porin activity	TRINITY_GG_14740_c0_g1	0.9999999999
+MF	GO:0005216	ion channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0042387	plasmatocyte differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0042676	compound eye cone cell fate commitment	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0070669	response to interleukin-2	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0006611	protein export from nucleus	TRINITY_GG_59853_c15_g1, TRINITY_GG_80916_c0_g1	0.9999999999
+BP	GO:0002717	positive regulation of natural killer cell mediated immunity	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0008521	acetyl-CoA transmembrane transporter activity	TRINITY_GG_64449_c1_g2	0.9999999999
+BP	GO:0006953	acute-phase response	TRINITY_GG_55463_c1_g1, TRINITY_GG_6792_c1_g2	0.9999999999
+MF	GO:0048020	CCR chemokine receptor binding	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0070672	response to interleukin-15	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0045670	regulation of osteoclast differentiation	TRINITY_GG_24168_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+MF	GO:0035651	AP-3 adaptor complex binding	TRINITY_GG_7089_c8_g1	0.9999999999
+BP	GO:0010721	negative regulation of cell development	TRINITY_GG_4124_c6_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0045314	regulation of compound eye photoreceptor development	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0072111	cell proliferation involved in kidney development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0060419	heart growth	TRINITY_GG_8469_c0_g1	0.9999999999
+BP	GO:2000880	positive regulation of dipeptide transport	TRINITY_GG_24168_c0_g1	0.9999999999
+BP	GO:0099159	regulation of modification of postsynaptic structure	TRINITY_GG_59853_c15_g1	0.9999999999
+MF	GO:0008331	high voltage-gated calcium channel activity	TRINITY_GG_191_c5_g1	0.9999999999
+MF	GO:0022803	passive transmembrane transporter activity	TRINITY_GG_14740_c0_g1, TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0002715	regulation of natural killer cell mediated immunity	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0048805	imaginal disc-derived genitalia morphogenesis	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:1903706	regulation of hemopoiesis	TRINITY_GG_24168_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+MF	GO:0099635	voltage-gated calcium channel activity involved in positive regulation of presynaptic cytosolic calcium levels	TRINITY_GG_191_c5_g1	0.9999999999
+MF	GO:0034458	3'-5' RNA helicase activity	TRINITY_GG_103159_c0_g1, TRINITY_GG_63831_c34_g2	0.9999999999
+MF	GO:0047714	galactolipase activity	TRINITY_GG_8747_c5_g1	0.9999999999
+BP	GO:0045136	development of secondary sexual characteristics	TRINITY_GG_55463_c1_g1	0.9999999999
+CC	GO:1990351	transporter complex	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0010771	negative regulation of cell morphogenesis involved in differentiation	TRINITY_GG_54007_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:2000371	regulation of DNA topoisomerase (ATP-hydrolyzing) activity	TRINITY_GG_103159_c0_g1	0.9999999999
+MF	GO:0033679	3'-5' DNA/RNA helicase activity	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:0038114	interleukin-21-mediated signaling pathway	TRINITY_GG_55463_c1_g1	0.758630072879423
+BP	GO:0070757	interleukin-35-mediated signaling pathway	TRINITY_GG_55463_c1_g1	0.758630072879423
+BP	GO:0009141	nucleoside triphosphate metabolic process	TRINITY_GG_101845_c0_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_93410_c0_g2	0.9999999999
+BP	GO:0002763	positive regulation of myeloid leukocyte differentiation	TRINITY_GG_24168_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0086048	membrane depolarization during bundle of His cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0009312	oligosaccharide biosynthetic process	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.9999999999
+CC	GO:0035580	specific granule lumen	TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0072383	plus-end-directed vesicle transport along microtubule	TRINITY_GG_77351_c3_g1	0.9999999999
+BP	GO:0014877	response to muscle inactivity involved in regulation of muscle adaptation	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0045586	regulation of gamma-delta T cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0030246	carbohydrate binding	TRINITY_GG_34620_c0_g1, TRINITY_GG_41670_c0_g1, TRINITY_GG_46019_c30_g1, TRINITY_GG_53927_c18_g1, TRINITY_GG_76072_c0_g1	0.9999999999
+BP	GO:2000035	regulation of stem cell division	TRINITY_GG_57730_c25_g1	0.9999999999
+MF	GO:0033677	DNA/RNA helicase activity	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:0046543	development of secondary female sexual characteristics	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0008284	positive regulation of cell population proliferation	TRINITY_GG_103159_c0_g1, TRINITY_GG_104035_c0_g1, TRINITY_GG_32660_c0_g1, TRINITY_GG_35596_c0_g1, TRINITY_GG_4124_c6_g1, TRINITY_GG_47283_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_59853_c15_g1, TRINITY_GG_974_c33_g1	0.478470012234054
+BP	GO:0051093	negative regulation of developmental process	TRINITY_GG_20121_c1_g1, TRINITY_GG_4124_c6_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_57889_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0014043	negative regulation of neuron maturation	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0046470	phosphatidylcholine metabolic process	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.9999999999
+MF	GO:0035259	glucocorticoid receptor binding	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0030857	negative regulation of epithelial cell differentiation	TRINITY_GG_55463_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0045466	R7 cell differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0043627	response to estrogen	TRINITY_GG_24168_c0_g1, TRINITY_GG_32660_c0_g1, TRINITY_GG_35596_c0_g1	0.9999999999
+MF	GO:1990841	promoter-specific chromatin binding	TRINITY_GG_103159_c0_g1, TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0022829	wide pore channel activity	TRINITY_GG_14740_c0_g1	0.9999999999
+BP	GO:0007221	positive regulation of transcription of Notch receptor target	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0014870	response to muscle inactivity	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0009932	cell tip growth	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.235300780091314
+BP	GO:0019694	alkanesulfonate metabolic process	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:1905673	positive regulation of lysosome organization	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:0072217	negative regulation of metanephros development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0016348	imaginal disc-derived leg joint morphogenesis	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0034097	response to cytokine	TRINITY_GG_103159_c0_g1, TRINITY_GG_105299_c0_g1, TRINITY_GG_14740_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0000320	re-entry into mitotic cell cycle	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0035126	post-embryonic genitalia morphogenesis	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0035637	multicellular organismal signaling	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0016741	transferase activity, transferring one-carbon groups	TRINITY_GG_11088_c0_g1, TRINITY_GG_5505_c16_g1, TRINITY_GG_57889_c0_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_64519_c19_g1, TRINITY_GG_849_c0_g1	0.9999999999
+BP	GO:0045610	regulation of hemocyte differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0001771	immunological synapse formation	TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0009566	fertilization	TRINITY_GG_32660_c0_g1, TRINITY_GG_35596_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_99788_c0_g1	0.739955518965464
+BP	GO:0051302	regulation of cell division	TRINITY_GG_50399_c0_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_77351_c3_g1	0.9999999999
+CC	GO:0033162	melanosome membrane	TRINITY_GG_7089_c8_g1	0.9999999999
+BP	GO:1902105	regulation of leukocyte differentiation	TRINITY_GG_24168_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0048138	germ-line cyst encapsulation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:1902630	regulation of membrane hyperpolarization	TRINITY_GG_54007_c0_g1	0.9999999999
+BP	GO:0099623	regulation of cardiac muscle cell membrane repolarization	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0048528	post-embryonic root development	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.264442046947087
+BP	GO:0006493	protein O-linked glycosylation	TRINITY_GG_41670_c0_g1, TRINITY_GG_53927_c18_g1	0.9999999999
+BP	GO:0001553	luteinization	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0050999	regulation of nitric-oxide synthase activity	TRINITY_GG_46019_c30_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+CC	GO:0034774	secretory granule lumen	TRINITY_GG_104035_c0_g1, TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0060337	type I interferon signaling pathway	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0015669	gas transport	TRINITY_GG_14740_c0_g1, TRINITY_GG_24168_c0_g1	0.739955518965464
+BP	GO:0035214	eye-antennal disc development	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0065001	specification of axis polarity	TRINITY_GG_80916_c0_g1	0.9999999999
+BP	GO:0060307	regulation of ventricular cardiac muscle cell membrane repolarization	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:1901387	positive regulation of voltage-gated calcium channel activity	TRINITY_GG_191_c5_g1	0.9999999999
+BP	GO:0046331	lateral inhibition	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:1903707	negative regulation of hemopoiesis	TRINITY_GG_55463_c1_g1, TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0009311	oligosaccharide metabolic process	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.9999999999
+BP	GO:0070059	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	TRINITY_GG_105299_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0035172	hemocyte proliferation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0048052	R1/R6 cell differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+MF	GO:0000976	transcription regulatory region sequence-specific DNA binding	TRINITY_GG_103159_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_57889_c0_g1, TRINITY_GG_59936_c0_g1, TRINITY_GG_64438_c3_g1	0.9999999999
+BP	GO:0007100	mitotic centrosome separation	TRINITY_GG_77351_c3_g1	0.9999999999
+BP	GO:0042689	regulation of crystal cell differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+CC	GO:1902495	transmembrane transporter complex	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0007338	single fertilization	TRINITY_GG_32660_c0_g1, TRINITY_GG_35596_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_99788_c0_g1	0.494635586287202
+BP	GO:0070106	interleukin-27-mediated signaling pathway	TRINITY_GG_55463_c1_g1	0.758630072879423
+BP	GO:0060354	negative regulation of cell adhesion molecule production	TRINITY_GG_14740_c0_g1	0.9999999999
+BP	GO:0070741	response to interleukin-6	TRINITY_GG_14740_c0_g1	0.9999999999
+BP	GO:2000466	negative regulation of glycogen (starch) synthase activity	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0042538	hyperosmotic salinity response	TRINITY_GG_14740_c0_g1	0.9999999999
+BP	GO:0035168	larval lymph gland hemocyte differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0000380	alternative mRNA splicing, via spliceosome	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:0002684	positive regulation of immune system process	TRINITY_GG_105299_c0_g1, TRINITY_GG_24168_c0_g1, TRINITY_GG_46019_c30_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0060289	compartment boundary maintenance	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0060373	regulation of ventricular cardiac muscle cell membrane depolarization	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0009309	amine biosynthetic process	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.9999999999
+BP	GO:0030708	germarium-derived female germ-line cyst encapsulation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0032466	negative regulation of cytokinesis	TRINITY_GG_50399_c0_g1	0.9999999999
+MF	GO:0008324	cation transmembrane transporter activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_64449_c1_g2, TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0022857	transmembrane transporter activity	TRINITY_GG_14740_c0_g1, TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_54423_c42_g1, TRINITY_GG_57895_c15_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_64449_c1_g2, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:1904781	positive regulation of protein localization to centrosome	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0090290	positive regulation of osteoclast proliferation	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0070874	negative regulation of glycogen metabolic process	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:1901897	regulation of relaxation of cardiac muscle	TRINITY_GG_8469_c0_g1	0.9999999999
+BP	GO:0071345	cellular response to cytokine stimulus	TRINITY_GG_103159_c0_g1, TRINITY_GG_105299_c0_g1, TRINITY_GG_14740_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0019695	choline metabolic process	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.617398674555045
+BP	GO:0086016	AV node cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0044878	mitotic cytokinesis checkpoint	TRINITY_GG_50399_c0_g1	0.9999999999
+BP	GO:0030720	oocyte localization involved in germarium-derived egg chamber formation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0050690	regulation of defense response to virus by virus	TRINITY_GG_69871_c0_g1	0.9999999999
+CC	GO:0030175	filopodium	TRINITY_GG_30249_c0_g1, TRINITY_GG_34620_c0_g1	0.9999999999
+BP	GO:0048545	response to steroid hormone	TRINITY_GG_14740_c0_g1, TRINITY_GG_24168_c0_g1, TRINITY_GG_8747_c5_g1	0.9999999999
+BP	GO:0010800	positive regulation of peptidyl-threonine phosphorylation	TRINITY_GG_105299_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_59853_c15_g1	0.344418383533686
+BP	GO:0042686	regulation of cardioblast cell fate specification	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0010742	macrophage derived foam cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:2000727	positive regulation of cardiac muscle cell differentiation	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0018243	protein O-linked glycosylation via threonine	TRINITY_GG_53927_c18_g1	0.9999999999
+BP	GO:0097284	hepatocyte apoptotic process	TRINITY_GG_59853_c15_g1	0.9999999999
+CC	GO:0097165	nuclear stress granule	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:0097696	receptor signaling pathway via STAT	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0072183	negative regulation of nephron tubule epithelial cell differentiation	TRINITY_GG_55463_c1_g1	0.758630072879423
+CC	GO:0034703	cation channel complex	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+CC	GO:0005873	plus-end kinesin complex	TRINITY_GG_77351_c3_g1	0.9999999999
+BP	GO:0060582	cell fate determination involved in pattern specification	TRINITY_GG_57730_c25_g1	0.9999999999
+CC	GO:0005859	muscle myosin complex	TRINITY_GG_8469_c0_g1	0.9999999999
+BP	GO:0045773	positive regulation of axon extension	TRINITY_GG_54007_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0009205	purine ribonucleoside triphosphate metabolic process	TRINITY_GG_101845_c0_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_93410_c0_g2	0.9999999999
+MF	GO:0010309	acireductone dioxygenase [iron(II)-requiring] activity	TRINITY_GG_85193_c0_g1	0.9999999999
+BP	GO:0007163	establishment or maintenance of cell polarity	TRINITY_GG_57730_c25_g1, TRINITY_GG_59853_c15_g1, TRINITY_GG_69871_c0_g1	0.9999999999
+MF	GO:0005516	calmodulin binding	TRINITY_GG_30249_c0_g1, TRINITY_GG_66140_c0_g1, TRINITY_GG_8469_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0043056	forward locomotion	TRINITY_GG_8469_c0_g1	0.9999999999
+BP	GO:0050768	negative regulation of neurogenesis	TRINITY_GG_4124_c6_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0043525	positive regulation of neuron apoptotic process	TRINITY_GG_57730_c25_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0090481	pyrimidine nucleotide-sugar transmembrane transport	TRINITY_GG_57895_c15_g1	0.9999999999
+BP	GO:1903232	melanosome assembly	TRINITY_GG_7089_c8_g1	0.9999999999
+CC	GO:0035003	subapical complex	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0007259	receptor signaling pathway via JAK-STAT	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0031580	membrane raft distribution	TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0071109	superior temporal gyrus development	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0045060	negative thymic T cell selection	TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0030588	pseudocleavage	TRINITY_GG_80916_c0_g1	0.9999999999
+BP	GO:0006480	N-terminal protein amino acid methylation	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.31898835336156
+BP	GO:1904526	regulation of microtubule binding	TRINITY_GG_55630_c67_g1	0.9999999999
+BP	GO:0051299	centrosome separation	TRINITY_GG_77351_c3_g1	0.9999999999
+BP	GO:0061382	Malpighian tubule tip cell differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:2000373	positive regulation of DNA topoisomerase (ATP-hydrolyzing) activity	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:0042688	crystal cell differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0036016	cellular response to interleukin-3	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0006576	cellular biogenic amine metabolic process	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.9999999999
+MF	GO:0061676	importin-alpha family protein binding	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:0046633	alpha-beta T cell proliferation	TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0050688	regulation of defense response to virus	TRINITY_GG_55463_c1_g1, TRINITY_GG_69871_c0_g1	0.9999999999
+MF	GO:0016462	pyrophosphatase activity	TRINITY_GG_101845_c0_g1, TRINITY_GG_103159_c0_g1, TRINITY_GG_11088_c0_g1, TRINITY_GG_30249_c0_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_62061_c0_g1, TRINITY_GG_63831_c34_g2, TRINITY_GG_64519_c19_g1, TRINITY_GG_64570_c34_g2, TRINITY_GG_7089_c8_g1, TRINITY_GG_77351_c3_g1	0.9999999999
+BP	GO:0007403	glial cell fate determination	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0019376	galactolipid catabolic process	TRINITY_GG_8747_c5_g1	0.9999999999
+BP	GO:0007275	multicellular organism development	TRINITY_GG_53857_c5_g1, TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_59936_c0_g1, TRINITY_GG_64438_c3_g1, TRINITY_GG_80916_c0_g1, TRINITY_GG_8469_c0_g1	0.9999999999
+BP	GO:0072386	plus-end-directed organelle transport along microtubule	TRINITY_GG_77351_c3_g1	0.9999999999
+BP	GO:2000077	negative regulation of type B pancreatic cell development	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0060372	regulation of atrial cardiac muscle cell membrane repolarization	TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0102549	1-18:1-2-16:0-monogalactosyldiacylglycerol lipase activity	TRINITY_GG_8747_c5_g1	0.9999999999
+MF	GO:0022890	inorganic cation transmembrane transporter activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0006983	ER overload response	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0035285	appendage segmentation	TRINITY_GG_57730_c25_g1	0.9999999999
+MF	GO:0005215	transporter activity	TRINITY_GG_14740_c0_g1, TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_54423_c42_g1, TRINITY_GG_57895_c15_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_64449_c1_g2, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0009949	polarity specification of anterior/posterior axis	TRINITY_GG_80916_c0_g1	0.9999999999
+BP	GO:2000736	regulation of stem cell differentiation	TRINITY_GG_57730_c25_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0036015	response to interleukin-3	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:1901843	positive regulation of high voltage-gated calcium channel activity	TRINITY_GG_191_c5_g1	0.9999999999
+BP	GO:0019755	one-carbon compound transport	TRINITY_GG_14740_c0_g1, TRINITY_GG_24168_c0_g1	0.739955518965464
+BP	GO:0001779	natural killer cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0060268	negative regulation of respiratory burst	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:0045058	T cell selection	TRINITY_GG_69871_c0_g1	0.9999999999
+MF	GO:0015085	calcium ion transmembrane transporter activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1	0.9999999999
+BP	GO:0048661	positive regulation of smooth muscle cell proliferation	TRINITY_GG_4124_c6_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0038113	interleukin-9-mediated signaling pathway	TRINITY_GG_55463_c1_g1	0.758630072879423
+BP	GO:0018242	protein O-linked glycosylation via serine	TRINITY_GG_53927_c18_g1	0.9999999999
+CC	GO:0098684	photoreceptor ribbon synapse	TRINITY_GG_191_c5_g1	0.9999999999
+BP	GO:0014894	response to denervation involved in regulation of muscle adaptation	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0035458	cellular response to interferon-beta	TRINITY_GG_105299_c0_g1, TRINITY_GG_55463_c1_g1	0.935373643363536
+BP	GO:0032825	positive regulation of natural killer cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0046725	negative regulation by virus of viral protein levels in host cell	TRINITY_GG_55463_c1_g1	0.758630072879423
+MF	GO:0046933	proton-transporting ATP synthase activity, rotational mechanism	TRINITY_GG_5907_c0_g1	0.9999999999
+BP	GO:0002277	myeloid dendritic cell activation involved in immune response	TRINITY_GG_69871_c0_g1	0.9999999999
+CC	GO:0098892	extrinsic component of postsynaptic specialization membrane	TRINITY_GG_34620_c0_g1	0.9999999999
+MF	GO:0035650	AP-1 adaptor complex binding	TRINITY_GG_7089_c8_g1	0.9999999999
+BP	GO:0035171	lamellocyte differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+MF	GO:0032550	purine ribonucleoside binding	TRINITY_GG_101845_c0_g1, TRINITY_GG_62061_c0_g1, TRINITY_GG_64961_c2_g1, TRINITY_GG_7089_c8_g1, TRINITY_GG_99788_c0_g1	0.9999999999
+BP	GO:0007473	wing disc proximal/distal pattern formation	TRINITY_GG_57730_c25_g1	0.9999999999
+CC	GO:0044233	mitochondria-associated endoplasmic reticulum membrane	TRINITY_GG_7089_c8_g1	0.9999999999
+BP	GO:0045596	negative regulation of cell differentiation	TRINITY_GG_4124_c6_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_57889_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:1904780	negative regulation of protein localization to centrosome	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:1904885	beta-catenin destruction complex assembly	TRINITY_GG_59853_c15_g1	0.9999999999
+CC	GO:0005891	voltage-gated calcium channel complex	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1	0.630196045357253
+MF	GO:0005459	UDP-galactose transmembrane transporter activity	TRINITY_GG_57895_c15_g1	0.9999999999
+BP	GO:0048639	positive regulation of developmental growth	TRINITY_GG_54007_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0034164	negative regulation of toll-like receptor 9 signaling pathway	TRINITY_GG_63659_c4_g1	0.9999999999
+BP	GO:0035163	embryonic hemocyte differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0009608	response to symbiont	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0009860	pollen tube growth	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.235300780091314
+BP	GO:0061331	epithelial cell proliferation involved in Malpighian tubule morphogenesis	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0006119	oxidative phosphorylation	TRINITY_GG_93410_c0_g2	0.9999999999
+BP	GO:0038166	angiotensin-activated signaling pathway	TRINITY_GG_24168_c0_g1	0.9999999999
+BP	GO:0086010	membrane depolarization during action potential	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0086063	voltage-gated sodium channel activity involved in SA node cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0051770	positive regulation of nitric-oxide synthase biosynthetic process	TRINITY_GG_46019_c30_g1, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0042401	cellular biogenic amine biosynthetic process	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.9999999999
+BP	GO:0015670	carbon dioxide transport	TRINITY_GG_14740_c0_g1, TRINITY_GG_24168_c0_g1	0.739955518965464
+BP	GO:0043368	positive T cell selection	TRINITY_GG_69871_c0_g1	0.9999999999
+MF	GO:0022843	voltage-gated cation channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1	0.9999999999
+MF	GO:0045142	triplex DNA binding	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:2000878	positive regulation of oligopeptide transport	TRINITY_GG_24168_c0_g1	0.9999999999
+BP	GO:0035046	pronuclear migration	TRINITY_GG_80916_c0_g1	0.9999999999
+BP	GO:2000074	regulation of type B pancreatic cell development	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0040011	locomotion	TRINITY_GG_30249_c0_g1, TRINITY_GG_5505_c16_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_55630_c67_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_59853_c15_g1, TRINITY_GG_69871_c0_g1, TRINITY_GG_77468_c0_g1, TRINITY_GG_8469_c0_g1	0.9999999999
+MF	GO:0008376	acetylgalactosaminyltransferase activity	TRINITY_GG_41670_c0_g1, TRINITY_GG_53927_c18_g1	0.9999999999
+BP	GO:0046645	positive regulation of gamma-delta T cell activation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0048537	mucosa-associated lymphoid tissue development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0046666	retinal cell programmed cell death	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0010799	regulation of peptidyl-threonine phosphorylation	TRINITY_GG_105299_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_59853_c15_g1	0.617398674555045
+BP	GO:0060250	germ-line stem-cell niche homeostasis	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0048660	regulation of smooth muscle cell proliferation	TRINITY_GG_4124_c6_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0007521	muscle cell fate determination	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0042104	positive regulation of activated T cell proliferation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0072537	fibroblast activation	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0032849	positive regulation of cellular pH reduction	TRINITY_GG_24168_c0_g1	0.9999999999
+MF	GO:0042805	actinin binding	TRINITY_GG_54007_c0_g1, TRINITY_GG_8469_c0_g1	0.9999999999
+BP	GO:0072161	mesenchymal cell differentiation involved in kidney development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0045719	negative regulation of glycogen biosynthetic process	TRINITY_GG_59853_c15_g1	0.9999999999
+MF	GO:0099511	voltage-gated calcium channel activity involved in regulation of cytosolic calcium levels	TRINITY_GG_191_c5_g1	0.9999999999
+BP	GO:0009144	purine nucleoside triphosphate metabolic process	TRINITY_GG_101845_c0_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_93410_c0_g2	0.9999999999
+MF	GO:0017134	fibroblast growth factor binding	TRINITY_GG_47283_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0046667	compound eye retinal cell programmed cell death	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0050918	positive chemotaxis	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.9999999999
+BP	GO:0007451	dorsal/ventral lineage restriction, imaginal disc	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0010286	heat acclimation	TRINITY_GG_80916_c0_g1	0.9999999999
+BP	GO:0099402	plant organ development	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.606741378592438
+BP	GO:0010070	zygote asymmetric cell division	TRINITY_GG_80916_c0_g1	0.9999999999
+MF	GO:0000234	phosphoethanolamine N-methyltransferase activity	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.235300780091314
+MF	GO:0030197	extracellular matrix constituent, lubricant activity	TRINITY_GG_59529_c1_g1, TRINITY_GG_8608_c4_g1	0.9999999999
+BP	GO:0032482	Rab protein signal transduction	TRINITY_GG_62061_c0_g1, TRINITY_GG_7089_c8_g1	0.9999999999
+BP	GO:0046827	positive regulation of protein export from nucleus	TRINITY_GG_59853_c15_g1	0.9999999999
+MF	GO:0005244	voltage-gated ion channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0009826	unidimensional cell growth	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.606741378592438
+BP	GO:0042425	choline biosynthetic process	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.235300780091314
+MF	GO:0036461	BLOC-2 complex binding	TRINITY_GG_7089_c8_g1	0.9999999999
+BP	GO:1901077	regulation of relaxation of muscle	TRINITY_GG_8469_c0_g1	0.9999999999
+BP	GO:0035733	hepatic stellate cell activation	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0048588	developmental cell growth	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0061049	cell growth involved in cardiac muscle cell development	TRINITY_GG_59853_c15_g1	0.9999999999
+MF	GO:1905172	RISC complex binding	TRINITY_GG_103159_c0_g1	0.9999999999
+MF	GO:0008170	N-methyltransferase activity	TRINITY_GG_5505_c16_g1, TRINITY_GG_57889_c0_g1, TRINITY_GG_59189_c1_g1	0.9999999999
+BP	GO:1905207	regulation of cardiocyte differentiation	TRINITY_GG_57730_c25_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+MF	GO:0086006	voltage-gated sodium channel activity involved in cardiac muscle cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0060002	plus-end directed microfilament motor activity	TRINITY_GG_30249_c0_g1	0.9999999999
+BP	GO:2000171	negative regulation of dendrite development	TRINITY_GG_54007_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0043523	regulation of neuron apoptotic process	TRINITY_GG_104035_c0_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0010469	regulation of signaling receptor activity	TRINITY_GG_34620_c0_g1, TRINITY_GG_59529_c1_g1, TRINITY_GG_8608_c4_g1	0.9999999999
+BP	GO:0061337	cardiac conduction	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0044706	multi-multicellular organism process	TRINITY_GG_14740_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_77468_c0_g1	0.617398674555045
+BP	GO:0043383	negative T cell selection	TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0072203	cell proliferation involved in metanephros development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0044106	cellular amine metabolic process	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.9999999999
+MF	GO:0005245	voltage-gated calcium channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1	0.9999999999
+BP	GO:0045463	R8 cell development	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0007460	R8 cell fate commitment	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0046006	regulation of activated T cell proliferation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0035204	negative regulation of lamellocyte differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0006935	chemotaxis	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0035165	embryonic crystal cell differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:2001013	epithelial cell proliferation involved in renal tubule morphogenesis	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0009877	nodulation	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.31898835336156
+BP	GO:0032768	regulation of monooxygenase activity	TRINITY_GG_46019_c30_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0002526	acute inflammatory response	TRINITY_GG_55463_c1_g1, TRINITY_GG_6792_c1_g2	0.9999999999
+BP	GO:0045665	negative regulation of neuron differentiation	TRINITY_GG_4124_c6_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0045614	negative regulation of plasmatocyte differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+MF	GO:0086062	voltage-gated sodium channel activity involved in Purkinje myocyte action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0072162	metanephric mesenchymal cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:1904338	regulation of dopaminergic neuron differentiation	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0097190	apoptotic signaling pathway	TRINITY_GG_105299_c0_g1, TRINITY_GG_54542_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0007006	mitochondrial membrane organization	TRINITY_GG_5907_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0097531	mast cell migration	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0090089	regulation of dipeptide transport	TRINITY_GG_24168_c0_g1	0.9999999999
+BP	GO:0007389	pattern specification process	TRINITY_GG_55630_c67_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_77351_c3_g1, TRINITY_GG_80916_c0_g1, TRINITY_GG_8469_c0_g1	0.9999999999
+BP	GO:0009791	post-embryonic development	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_8747_c5_g1	0.9999999999
+BP	GO:0071354	cellular response to interleukin-6	TRINITY_GG_14740_c0_g1	0.9999999999
+BP	GO:0010183	pollen tube guidance	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.235300780091314
+BP	GO:0035265	organ growth	TRINITY_GG_57730_c25_g1, TRINITY_GG_8469_c0_g1	0.9999999999
+MF	GO:0005176	ErbB-2 class receptor binding	TRINITY_GG_59529_c1_g1, TRINITY_GG_8608_c4_g1	0.9999999999
+BP	GO:0042478	regulation of eye photoreceptor cell development	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0070885	negative regulation of calcineurin-NFAT signaling cascade	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0007042	lysosomal lumen acidification	TRINITY_GG_104035_c0_g1	0.9999999999
+MF	GO:0016818	hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	TRINITY_GG_101845_c0_g1, TRINITY_GG_103159_c0_g1, TRINITY_GG_11088_c0_g1, TRINITY_GG_30249_c0_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_62061_c0_g1, TRINITY_GG_63831_c34_g2, TRINITY_GG_64519_c19_g1, TRINITY_GG_64570_c34_g2, TRINITY_GG_7089_c8_g1, TRINITY_GG_77351_c3_g1	0.9999999999
+BP	GO:2000048	negative regulation of cell-cell adhesion mediated by cadherin	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0009308	amine metabolic process	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.9999999999
+BP	GO:2001150	positive regulation of dipeptide transmembrane transport	TRINITY_GG_24168_c0_g1	0.9999999999
+BP	GO:0098962	regulation of postsynaptic neurotransmitter receptor activity	TRINITY_GG_34620_c0_g1	0.9999999999
+BP	GO:0072308	negative regulation of metanephric nephron tubule epithelial cell differentiation	TRINITY_GG_55463_c1_g1	0.758630072879423
+BP	GO:0032819	positive regulation of natural killer cell proliferation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0043696	dedifferentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+CC	GO:0034704	calcium channel complex	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1	0.283870037209904
+BP	GO:0072136	metanephric mesenchymal cell proliferation involved in metanephros development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0003360	brainstem development	TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:1905538	polysome binding	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:0001767	establishment of lymphocyte polarity	TRINITY_GG_69871_c0_g1	0.9999999999
+MF	GO:0047429	nucleoside-triphosphate diphosphatase activity	TRINITY_GG_103159_c0_g1, TRINITY_GG_11088_c0_g1, TRINITY_GG_64519_c19_g1	0.235300780091314
+BP	GO:0008587	imaginal disc-derived wing margin morphogenesis	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0003340	negative regulation of mesenchymal to epithelial transition involved in metanephros morphogenesis	TRINITY_GG_55463_c1_g1	0.758630072879423
+BP	GO:0048589	developmental growth	TRINITY_GG_5505_c16_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_59853_c15_g1, TRINITY_GG_8469_c0_g1	0.9999999999
+MF	GO:0034236	protein kinase A catalytic subunit binding	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0040007	growth	TRINITY_GG_5505_c16_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_59853_c15_g1, TRINITY_GG_8469_c0_g1	0.9999999999
+BP	GO:1903430	negative regulation of cell maturation	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0014874	response to stimulus involved in regulation of muscle adaptation	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:1901841	regulation of high voltage-gated calcium channel activity	TRINITY_GG_191_c5_g1	0.9999999999
+BP	GO:0051674	localization of cell	TRINITY_GG_57730_c25_g1	0.9999999999
+MF	GO:1990518	single-stranded 3'-5' DNA helicase activity	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:0045637	regulation of myeloid cell differentiation	TRINITY_GG_24168_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0010918	positive regulation of mitochondrial membrane potential	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0051769	regulation of nitric-oxide synthase biosynthetic process	TRINITY_GG_46019_c30_g1, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0048229	gametophyte development	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.283870037209904
+BP	GO:0070102	interleukin-6-mediated signaling pathway	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0060333	interferon-gamma-mediated signaling pathway	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0086061	voltage-gated sodium channel activity involved in bundle of His cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0007464	R3/R4 cell fate commitment	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:1902107	positive regulation of leukocyte differentiation	TRINITY_GG_24168_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:1905698	positive regulation of polysome binding	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:0008356	asymmetric cell division	TRINITY_GG_57730_c25_g1, TRINITY_GG_80916_c0_g1	0.9999999999
+BP	GO:0045579	positive regulation of B cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0016266	O-glycan processing	TRINITY_GG_41670_c0_g1, TRINITY_GG_53927_c18_g1	0.9999999999
+BP	GO:0007005	mitochondrion organization	TRINITY_GG_5907_c0_g1, TRINITY_GG_59853_c15_g1, TRINITY_GG_7089_c8_g1, TRINITY_GG_93410_c0_g2	0.9999999999
+CC	GO:0034702	ion channel complex	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0046824	positive regulation of nucleocytoplasmic transport	TRINITY_GG_103159_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0033058	directional locomotion	TRINITY_GG_8469_c0_g1	0.9999999999
+BP	GO:0072202	cell differentiation involved in metanephros development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0099633	protein localization to postsynaptic specialization membrane	TRINITY_GG_34620_c0_g1	0.9999999999
+CC	GO:0070937	CRD-mediated mRNA stability complex	TRINITY_GG_103159_c0_g1	0.9999999999
+MF	GO:0000979	RNA polymerase II core promoter sequence-specific DNA binding	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0032769	negative regulation of monooxygenase activity	TRINITY_GG_59853_c15_g1	0.9999999999
+CC	GO:0005576	extracellular region	TRINITY_GG_104035_c0_g1, TRINITY_GG_2357_c18_g1, TRINITY_GG_32660_c0_g1, TRINITY_GG_34620_c0_g1, TRINITY_GG_35596_c0_g1, TRINITY_GG_48749_c1_g1, TRINITY_GG_53927_c18_g1, TRINITY_GG_55951_c32_g1, TRINITY_GG_61822_c0_g1, TRINITY_GG_6792_c1_g2, TRINITY_GG_69871_c0_g1, TRINITY_GG_76072_c0_g1, TRINITY_GG_77111_c5_g1, TRINITY_GG_77468_c0_g1, TRINITY_GG_83396_c0_g1, TRINITY_GG_8469_c0_g1	0.863757901455204
+MF	GO:0004687	myosin light chain kinase activity	TRINITY_GG_66140_c0_g1	0.9999999999
+BP	GO:0009199	ribonucleoside triphosphate metabolic process	TRINITY_GG_101845_c0_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_93410_c0_g2	0.9999999999
+BP	GO:0006907	pinocytosis	TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0060397	growth hormone receptor signaling pathway via JAK-STAT	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0016330	second mitotic wave involved in compound eye morphogenesis	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0042691	positive regulation of crystal cell differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0019530	taurine metabolic process	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0001067	regulatory region nucleic acid binding	TRINITY_GG_103159_c0_g1, TRINITY_GG_195_c9_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_57889_c0_g1, TRINITY_GG_59936_c0_g1, TRINITY_GG_64438_c3_g1	0.9999999999
+BP	GO:0045639	positive regulation of myeloid cell differentiation	TRINITY_GG_24168_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0017000	antibiotic biosynthetic process	TRINITY_GG_849_c0_g1	0.9999999999
+BP	GO:2001148	regulation of dipeptide transmembrane transport	TRINITY_GG_24168_c0_g1	0.9999999999
+BP	GO:0042269	regulation of natural killer cell mediated cytotoxicity	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0003779	actin binding	TRINITY_GG_191_c5_g1, TRINITY_GG_30249_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_66140_c0_g1, TRINITY_GG_8469_c0_g1	0.9999999999
+CC	GO:1990454	L-type voltage-gated calcium channel complex	TRINITY_GG_191_c5_g1	0.9999999999
+CC	GO:0045263	proton-transporting ATP synthase complex, coupling factor F(o)	TRINITY_GG_5907_c0_g1	0.9999999999
+CC	GO:0098890	extrinsic component of postsynaptic membrane	TRINITY_GG_34620_c0_g1	0.9999999999
+BP	GO:0002213	defense response to insect	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0090077	foam cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0008168	methyltransferase activity	TRINITY_GG_11088_c0_g1, TRINITY_GG_5505_c16_g1, TRINITY_GG_57889_c0_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_64519_c19_g1, TRINITY_GG_849_c0_g1	0.9999999999
+BP	GO:0036011	imaginal disc-derived leg segmentation	TRINITY_GG_57730_c25_g1	0.9999999999
+MF	GO:0031490	chromatin DNA binding	TRINITY_GG_103159_c0_g1, TRINITY_GG_57889_c0_g1	0.9999999999
+BP	GO:0031341	regulation of cell killing	TRINITY_GG_46019_c30_g1, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0016360	sensory organ precursor cell fate determination	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0032816	positive regulation of natural killer cell activation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0060048	cardiac muscle contraction	TRINITY_GG_8469_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0051489	regulation of filopodium assembly	TRINITY_GG_30249_c0_g1, TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:1905696	regulation of polysome binding	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:2000697	negative regulation of epithelial cell differentiation involved in kidney development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0086091	regulation of heart rate by cardiac conduction	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0030010	establishment of cell polarity	TRINITY_GG_59853_c15_g1, TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0086012	membrane depolarization during cardiac muscle cell action potential	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1	0.739955518965464
+BP	GO:0007449	proximal/distal pattern formation, imaginal disc	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0032823	regulation of natural killer cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0099181	structural constituent of presynapse	TRINITY_GG_55795_c7_g1	0.9999999999
+BP	GO:2000767	positive regulation of cytoplasmic translation	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:0001766	membrane raft polarization	TRINITY_GG_69871_c0_g1	0.9999999999
+MF	GO:0031730	CCR5 chemokine receptor binding	TRINITY_GG_55463_c1_g1	0.758630072879423
+BP	GO:0045061	thymic T cell selection	TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0099645	neurotransmitter receptor localization to postsynaptic specialization membrane	TRINITY_GG_34620_c0_g1	0.9999999999
+BP	GO:0044351	macropinocytosis	TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0044703	multi-organism reproductive process	TRINITY_GG_14740_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_77468_c0_g1	0.739955518965464
+MF	GO:0099626	voltage-gated calcium channel activity involved in regulation of presynaptic cytosolic calcium levels	TRINITY_GG_191_c5_g1	0.9999999999
+BP	GO:0031365	N-terminal protein amino acid modification	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.9999999999
+BP	GO:0090696	post-embryonic plant organ development	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.264442046947087
+BP	GO:2001223	negative regulation of neuron migration	TRINITY_GG_59853_c15_g1	0.9999999999
+MF	GO:0001883	purine nucleoside binding	TRINITY_GG_101845_c0_g1, TRINITY_GG_62061_c0_g1, TRINITY_GG_64961_c2_g1, TRINITY_GG_7089_c8_g1, TRINITY_GG_99788_c0_g1	0.9999999999
+BP	GO:1902514	regulation of calcium ion transmembrane transport via high voltage-gated calcium channel	TRINITY_GG_191_c5_g1	0.9999999999
+BP	GO:1904879	positive regulation of calcium ion transmembrane transport via high voltage-gated calcium channel	TRINITY_GG_191_c5_g1	0.942837920392146
+MF	GO:0051015	actin filament binding	TRINITY_GG_191_c5_g1, TRINITY_GG_30249_c0_g1, TRINITY_GG_8469_c0_g1	0.9999999999
+BP	GO:0010994	free ubiquitin chain polymerization	TRINITY_GG_105299_c0_g1	0.9999999999
+BP	GO:0060263	regulation of respiratory burst	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:0032847	regulation of cellular pH reduction	TRINITY_GG_24168_c0_g1	0.9999999999
+BP	GO:0031343	positive regulation of cell killing	TRINITY_GG_46019_c30_g1, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0046544	development of secondary male sexual characteristics	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0072104	glomerular capillary formation	TRINITY_GG_4124_c6_g1	0.9999999999
+BP	GO:0050774	negative regulation of dendrite morphogenesis	TRINITY_GG_54007_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0048364	root development	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.358514524090464
+BP	GO:0060353	regulation of cell adhesion molecule production	TRINITY_GG_14740_c0_g1	0.9999999999
+BP	GO:0046643	regulation of gamma-delta T cell activation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0098912	membrane depolarization during atrial cardiac muscle cell action potential	TRINITY_GG_191_c5_g1	0.9999999999
+CC	GO:0016459	myosin complex	TRINITY_GG_30249_c0_g1, TRINITY_GG_8469_c0_g1	0.9999999999
+BP	GO:0035167	larval lymph gland hemopoiesis	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0048663	neuron fate commitment	TRINITY_GG_4124_c6_g1, TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0030423	targeting of mRNA for destruction involved in RNA interference	TRINITY_GG_103159_c0_g1	0.9999999999
+MF	GO:0005372	water transmembrane transporter activity	TRINITY_GG_14740_c0_g1	0.9999999999
+BP	GO:0106028	neuron projection retraction	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0051151	negative regulation of smooth muscle cell differentiation	TRINITY_GG_57889_c0_g1	0.9999999999
+CC	GO:0071203	WASH complex	TRINITY_GG_275_c2_g1	0.9999999999
+BP	GO:0016049	cell growth	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0003339	regulation of mesenchymal to epithelial transition involved in metanephros morphogenesis	TRINITY_GG_55463_c1_g1	0.758630072879423
+MF	GO:0042608	T cell receptor binding	TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:1904339	negative regulation of dopaminergic neuron differentiation	TRINITY_GG_59853_c15_g1	0.9999999999
+CC	GO:0032433	filopodium tip	TRINITY_GG_105299_c0_g1, TRINITY_GG_30249_c0_g1	0.9999999999
+BP	GO:0086047	membrane depolarization during Purkinje myocyte cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0006941	striated muscle contraction	TRINITY_GG_8469_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+CC	GO:0000276	mitochondrial proton-transporting ATP synthase complex, coupling factor F(o)	TRINITY_GG_5907_c0_g1	0.9999999999
+BP	GO:0044027	hypermethylation of CpG island	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0016333	morphogenesis of follicular epithelium	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0051341	regulation of oxidoreductase activity	TRINITY_GG_46019_c30_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0048542	lymph gland development	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0048803	imaginal disc-derived male genitalia morphogenesis	TRINITY_GG_57730_c25_g1	0.9999999999
+MF	GO:0042379	chemokine receptor binding	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0015250	water channel activity	TRINITY_GG_14740_c0_g1	0.9999999999
+MF	GO:0120170	intraciliary transport particle B binding	TRINITY_GG_77351_c3_g1	0.9999999999
+BP	GO:0002682	regulation of immune system process	TRINITY_GG_104035_c0_g1, TRINITY_GG_105299_c0_g1, TRINITY_GG_24168_c0_g1, TRINITY_GG_46019_c30_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_57730_c25_g1, TRINITY_GG_59853_c15_g1, TRINITY_GG_63659_c4_g1, TRINITY_GG_69871_c0_g1	0.9999999999
+MF	GO:0022832	voltage-gated channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0051899	membrane depolarization	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0045611	negative regulation of hemocyte differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0035456	response to interferon-beta	TRINITY_GG_105299_c0_g1, TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0007455	eye-antennal disc morphogenesis	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0022416	chaeta development	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0032814	regulation of natural killer cell activation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0046533	negative regulation of photoreceptor cell differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0045672	positive regulation of osteoclast differentiation	TRINITY_GG_24168_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+MF	GO:0015267	channel activity	TRINITY_GG_14740_c0_g1, TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0032817	regulation of natural killer cell proliferation	TRINITY_GG_55463_c1_g1	0.9999999999
+MF	GO:0046873	metal ion transmembrane transporter activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0007565	female pregnancy	TRINITY_GG_14740_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_77468_c0_g1	0.294614412337762
+BP	GO:0010043	response to zinc ion	TRINITY_GG_24168_c0_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0045612	positive regulation of hemocyte differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+CC	GO:0030139	endocytic vesicle	TRINITY_GG_57730_c25_g1, TRINITY_GG_62061_c0_g1, TRINITY_GG_7089_c8_g1	0.9999999999
+BP	GO:0061013	regulation of mRNA catabolic process	TRINITY_GG_101845_c0_g1, TRINITY_GG_63831_c34_g2	0.9999999999
+BP	GO:0051665	membrane raft localization	TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0007478	leg disc morphogenesis	TRINITY_GG_57730_c25_g1	0.9999999999
+CC	GO:1990433	CSL-Notch-Mastermind transcription factor complex	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:1903311	regulation of mRNA metabolic process	TRINITY_GG_101845_c0_g1, TRINITY_GG_103159_c0_g1, TRINITY_GG_63831_c34_g2	0.9999999999
+BP	GO:0014854	response to inactivity	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0046833	positive regulation of RNA export from nucleus	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:0090289	regulation of osteoclast proliferation	TRINITY_GG_59853_c15_g1	0.9999999999
+MF	GO:0086060	voltage-gated sodium channel activity involved in AV node cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0005261	cation channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0002027	regulation of heart rate	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0090185	negative regulation of kidney development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0035153	epithelial cell type specification, open tracheal system	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0060288	formation of a compartment boundary	TRINITY_GG_57730_c25_g1	0.9999999999
+MF	GO:0034452	dynactin binding	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0086046	membrane depolarization during SA node cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0035203	regulation of lamellocyte differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0048541	Peyer's patch development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0060266	negative regulation of respiratory burst involved in inflammatory response	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:0044026	DNA hypermethylation	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0045613	regulation of plasmatocyte differentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0045647	negative regulation of erythrocyte differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0051001	negative regulation of nitric-oxide synthase activity	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0045316	negative regulation of compound eye photoreceptor development	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:1902564	negative regulation of neutrophil activation	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:0030590	first cell cycle pseudocleavage	TRINITY_GG_80916_c0_g1	0.9999999999
+BP	GO:2000465	regulation of glycogen (starch) synthase activity	TRINITY_GG_59853_c15_g1	0.9999999999
+MF	GO:0000977	RNA polymerase II transcription regulatory region sequence-specific DNA binding	TRINITY_GG_103159_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_57889_c0_g1, TRINITY_GG_59936_c0_g1, TRINITY_GG_64438_c3_g1	0.9999999999
+BP	GO:0001708	cell fate specification	TRINITY_GG_57730_c25_g1, TRINITY_GG_80916_c0_g1	0.9999999999
+BP	GO:0002697	regulation of immune effector process	TRINITY_GG_104035_c0_g1, TRINITY_GG_46019_c30_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:0006656	phosphatidylcholine biosynthetic process	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.739955518965464
+BP	GO:0042480	negative regulation of eye photoreceptor cell development	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:0009555	pollen development	TRINITY_GG_5505_c16_g1, TRINITY_GG_59189_c1_g1	0.264442046947087
+BP	GO:0060264	regulation of respiratory burst involved in inflammatory response	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:0043697	cell dedifferentiation	TRINITY_GG_57730_c25_g1	0.9999999999
+BP	GO:2001225	regulation of chloride transport	TRINITY_GG_24168_c0_g1	0.9999999999
+BP	GO:0045954	positive regulation of natural killer cell mediated cytotoxicity	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0042391	regulation of membrane potential	TRINITY_GG_191_c5_g1, TRINITY_GG_54007_c0_g1, TRINITY_GG_5905_c7_g1, TRINITY_GG_59853_c15_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0051050	positive regulation of transport	TRINITY_GG_103159_c0_g1, TRINITY_GG_191_c5_g1, TRINITY_GG_24168_c0_g1, TRINITY_GG_59853_c15_g1, TRINITY_GG_69871_c0_g1, TRINITY_GG_8469_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0004653	polypeptide N-acetylgalactosaminyltransferase activity	TRINITY_GG_41670_c0_g1, TRINITY_GG_53927_c18_g1	0.739955518965464
+BP	GO:2001012	mesenchymal cell differentiation involved in renal system development	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0015780	nucleotide-sugar transmembrane transport	TRINITY_GG_57895_c15_g1	0.9999999999
+BP	GO:0045588	positive regulation of gamma-delta T cell differentiation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0086067	AV node cell to bundle of His cell communication	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0045059	positive thymic T cell selection	TRINITY_GG_69871_c0_g1	0.9999999999
+MF	GO:0050321	tau-protein kinase activity	TRINITY_GG_59853_c15_g1	0.9999999999
+CC	GO:0030877	beta-catenin destruction complex	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:2000043	regulation of cardiac cell fate specification	TRINITY_GG_57730_c25_g1	0.9999999999
+MF	GO:0016817	hydrolase activity, acting on acid anhydrides	TRINITY_GG_101845_c0_g1, TRINITY_GG_103159_c0_g1, TRINITY_GG_11088_c0_g1, TRINITY_GG_30249_c0_g1, TRINITY_GG_5907_c0_g1, TRINITY_GG_62061_c0_g1, TRINITY_GG_63831_c34_g2, TRINITY_GG_64519_c19_g1, TRINITY_GG_64570_c34_g2, TRINITY_GG_7089_c8_g1, TRINITY_GG_77351_c3_g1	0.9999999999
+MF	GO:0030506	ankyrin binding	TRINITY_GG_8469_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0032241	positive regulation of nucleobase-containing compound transport	TRINITY_GG_103159_c0_g1	0.9999999999
+CC	GO:0015630	microtubule cytoskeleton	TRINITY_GG_55630_c67_g1, TRINITY_GG_77351_c3_g1	0.9999999999
+BP	GO:0009838	abscission	TRINITY_GG_50399_c0_g1	0.9999999999
+BP	GO:0086043	bundle of His cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0005525	GTP binding	TRINITY_GG_101845_c0_g1, TRINITY_GG_62061_c0_g1, TRINITY_GG_64961_c2_g1, TRINITY_GG_7089_c8_g1, TRINITY_GG_99788_c0_g1	0.9999999999
+BP	GO:1904779	regulation of protein localization to centrosome	TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0034163	regulation of toll-like receptor 9 signaling pathway	TRINITY_GG_63659_c4_g1	0.9999999999
+BP	GO:0090382	phagosome maturation	TRINITY_GG_7089_c8_g1	0.9999999999
+BP	GO:0001768	establishment of T cell polarity	TRINITY_GG_69871_c0_g1	0.9999999999
+BP	GO:1903708	positive regulation of hemopoiesis	TRINITY_GG_24168_c0_g1, TRINITY_GG_55463_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+BP	GO:0072135	kidney mesenchymal cell proliferation	TRINITY_GG_55463_c1_g1	0.9999999999
+BP	GO:0090088	regulation of oligopeptide transport	TRINITY_GG_24168_c0_g1	0.9999999999
+BP	GO:0035372	protein localization to microtubule	TRINITY_GG_59853_c15_g1	0.9999999999
+CC	GO:0042788	polysomal ribosome	TRINITY_GG_103159_c0_g1	0.9999999999
+BP	GO:0070665	positive regulation of leukocyte proliferation	TRINITY_GG_55463_c1_g1, TRINITY_GG_59853_c15_g1	0.9999999999
+MF	GO:0005262	calcium channel activity	TRINITY_GG_191_c5_g1, TRINITY_GG_21052_c0_g1, TRINITY_GG_21058_c0_g1, TRINITY_GG_54007_c0_g1	0.9999999999
+BP	GO:0086045	membrane depolarization during AV node cell action potential	TRINITY_GG_191_c5_g1, TRINITY_GG_974_c33_g1	0.283870037209904
