@@ -6,31 +6,20 @@
 # and associated GO term
 #############################################################
 
-# Enable globstar for recursive searching
-shopt -s globstar
-
 # Declare variables
 output_file=""
-wd=$(pwd)
 
 # Input file
 ## Expects Trinity edgeR GOseq enrichment format:
 ## category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
 ## Field 10 (gene_ids) contains comma separated gene_ids that fall in the given GO term in the "category" column
 
-for goseq in **/*UP.subset*.enriched
+for goseq in *-UP.subset.GOseq.enriched
 do
-	# Capture path to file
-	dir=${goseq%/*}
-
-	cd "${dir}" || exit
 
 	tmp_file=$(mktemp)
-
-	# Count lines in file
   linecount=$(cat "${goseq}" | wc -l)
 
-	# If file is not empty
   if (( "${linecount}" > 1 ))
 	then
 		output_file="${goseq}.flattened"
@@ -42,7 +31,7 @@ do
 		# 3rd: Sort on Trinity IDs (column 10) and keep only uniques
 		awk 'BEGIN{FS="\t";OFS="\t"} {gsub(/, /, "\t", $10); print}' "${goseq}" \
 		| awk 'BEGIN{F="\t";OFS="\t"} NR==1; NR > 1 {gsub(/ /, "_", $0); print}' \
-		> "${tmp_file}"
+		> ${tmp_file}
 
 		# Identify the first line number which contains a gene_id
 		begin_goterms=$(grep --line-number "TRINITY" "${tmp_file}" \
@@ -85,6 +74,4 @@ do
 
   # Cleanup
   rm "${tmp_file}"
-
-	cd "${wd}" || exit
 done
