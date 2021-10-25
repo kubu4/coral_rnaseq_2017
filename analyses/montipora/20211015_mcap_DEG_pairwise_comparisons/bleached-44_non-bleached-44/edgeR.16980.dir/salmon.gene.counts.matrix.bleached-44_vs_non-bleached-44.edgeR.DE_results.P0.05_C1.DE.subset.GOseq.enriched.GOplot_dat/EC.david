@@ -1,0 +1,154 @@
+Category	ID	Term	Genes	adj_pval
+MF	GO:0086006	voltage-gated sodium channel activity involved in cardiac muscle cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0035036	sperm-egg recognition	TRINITY_GG_53941_c1_g2	0.9999999999
+MF	GO:0008200	ion channel inhibitor activity	TRINITY_GG_6808_c0_g1	0.9999999999
+BP	GO:0060371	regulation of atrial cardiac muscle cell membrane depolarization	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0060263	regulation of respiratory burst	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:1902563	regulation of neutrophil activation	TRINITY_GG_104035_c0_g1	0.9999999999
+MF	GO:0019870	potassium channel inhibitor activity	TRINITY_GG_6808_c0_g1	0.9999999999
+BP	GO:0010766	negative regulation of sodium ion transport	TRINITY_GG_6808_c0_g1	0.9999999999
+MF	GO:0019869	chloride channel inhibitor activity	TRINITY_GG_6808_c0_g1	0.9999999999
+BP	GO:1904816	positive regulation of protein localization to chromosome, telomeric region	TRINITY_GG_53941_c1_g2	0.9999999999
+CC	GO:0002199	zona pellucida receptor complex	TRINITY_GG_53941_c1_g2	0.9999999999
+BP	GO:0021537	telencephalon development	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:1904851	positive regulation of establishment of protein localization to telomere	TRINITY_GG_53941_c1_g2	0.9999999999
+BP	GO:0086016	AV node cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:1903729	regulation of plasma membrane organization	TRINITY_GG_226_c8_g1, TRINITY_GG_6808_c0_g1	0.9999999999
+BP	GO:1901068	guanosine-containing compound metabolic process	TRINITY_GG_101845_c0_g1, TRINITY_GG_5491_c0_g3	0.9999999999
+BP	GO:0036258	multivesicular body assembly	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:1901673	regulation of mitotic spindle assembly	TRINITY_GG_57403_c5_g2	0.9999999999
+BP	GO:0072657	protein localization to membrane	TRINITY_GG_226_c8_g1, TRINITY_GG_23965_c0_g1, TRINITY_GG_6808_c0_g1, TRINITY_GG_91040_c0_g1	0.9999999999
+BP	GO:0086047	membrane depolarization during Purkinje myocyte cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0046051	UTP metabolic process	TRINITY_GG_5491_c0_g3	0.9999999999
+MF	GO:0010309	acireductone dioxygenase [iron(II)-requiring] activity	TRINITY_GG_85193_c0_g1	0.9999999999
+BP	GO:0098877	neurotransmitter receptor transport to plasma membrane	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:0031285	regulation of sorocarp stalk cell differentiation	TRINITY_GG_63262_c0_g1	0.9999999999
+CC	GO:0101031	chaperone complex	TRINITY_GG_53941_c1_g2	0.9999999999
+MF	GO:0031386	protein tag	TRINITY_GG_4235_c106_g1	0.9999999999
+BP	GO:0006228	UTP biosynthetic process	TRINITY_GG_5491_c0_g3	0.9999999999
+MF	GO:0004674	protein serine/threonine kinase activity	TRINITY_GG_10586_c0_g1, TRINITY_GG_23965_c0_g1, TRINITY_GG_58395_c15_g1, TRINITY_GG_6808_c0_g1	0.9999999999
+BP	GO:0086014	atrial cardiac muscle cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0090188	negative regulation of pancreatic juice secretion	TRINITY_GG_6808_c0_g1	0.9999999999
+CC	GO:0045239	tricarboxylic acid cycle enzyme complex	TRINITY_GG_10586_c0_g1	0.9999999999
+MF	GO:0086062	voltage-gated sodium channel activity involved in Purkinje myocyte action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0048169	regulation of long-term neuronal synaptic plasticity	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:0002028	regulation of sodium ion transport	TRINITY_GG_6808_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:1903076	regulation of protein localization to plasma membrane	TRINITY_GG_226_c8_g1, TRINITY_GG_6808_c0_g1	0.9999999999
+BP	GO:0009988	cell-cell recognition	TRINITY_GG_53941_c1_g2	0.9999999999
+BP	GO:0086015	SA node cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:1903078	positive regulation of protein localization to plasma membrane	TRINITY_GG_226_c8_g1, TRINITY_GG_6808_c0_g1	0.9999999999
+MF	GO:0031489	myosin V binding	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:1905477	positive regulation of protein localization to membrane	TRINITY_GG_226_c8_g1, TRINITY_GG_6808_c0_g1	0.9999999999
+BP	GO:1990778	protein localization to cell periphery	TRINITY_GG_226_c8_g1, TRINITY_GG_23965_c0_g1, TRINITY_GG_6808_c0_g1, TRINITY_GG_91040_c0_g1	0.9999999999
+BP	GO:0009624	response to nematode	TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:1903825	organic acid transmembrane transport	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+CC	GO:0005828	kinetochore microtubule	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:0007042	lysosomal lumen acidification	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:0060372	regulation of atrial cardiac muscle cell membrane repolarization	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0009119	ribonucleoside metabolic process	TRINITY_GG_101845_c0_g1, TRINITY_GG_5491_c0_g3	0.9999999999
+CC	GO:0005610	laminin-5 complex	TRINITY_GG_75439_c0_g1	0.9999999999
+BP	GO:0098962	regulation of postsynaptic neurotransmitter receptor activity	TRINITY_GG_91040_c0_g1	0.9999999999
+CC	GO:0090665	glycoprotein complex	TRINITY_GG_83278_c0_g1	0.9999999999
+MF	GO:0061501	cyclic-GMP-AMP synthase activity	TRINITY_GG_73791_c0_g1	0.9999999999
+BP	GO:0099638	endosome to plasma membrane protein transport	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:1904814	regulation of protein localization to chromosome, telomeric region	TRINITY_GG_53941_c1_g2	0.9999999999
+BP	GO:0086048	membrane depolarization during bundle of His cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0098887	neurotransmitter receptor transport, endosome to postsynaptic membrane	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:0003360	brainstem development	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0071577	zinc ion transmembrane transport	TRINITY_GG_5552_c22_g1	0.9999999999
+CC	GO:0008278	cohesin complex	TRINITY_GG_57403_c5_g2	0.9999999999
+CC	GO:0098846	podocyte foot	TRINITY_GG_23965_c0_g1	0.9999999999
+BP	GO:0072659	protein localization to plasma membrane	TRINITY_GG_226_c8_g1, TRINITY_GG_23965_c0_g1, TRINITY_GG_6808_c0_g1	0.9999999999
+BP	GO:0014854	response to inactivity	TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0001847	opsonin receptor activity	TRINITY_GG_91040_c0_g1	0.9999999999
+BP	GO:0006882	cellular zinc ion homeostasis	TRINITY_GG_5552_c22_g1	0.9999999999
+MF	GO:0086060	voltage-gated sodium channel activity involved in AV node cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+CC	GO:0097440	apical dendrite	TRINITY_GG_23965_c0_g1	0.9999999999
+BP	GO:0014877	response to muscle inactivity involved in regulation of muscle adaptation	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0150093	amyloid-beta clearance by transcytosis	TRINITY_GG_226_c8_g1	0.9999999999
+CC	GO:0000775	chromosome, centromeric region	TRINITY_GG_57403_c5_g1, TRINITY_GG_57403_c5_g2	0.9999999999
+BP	GO:0098969	neurotransmitter receptor transport to postsynaptic membrane	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:0060268	negative regulation of respiratory burst	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:0010796	regulation of multivesicular body size	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:1902305	regulation of sodium ion transmembrane transport	TRINITY_GG_6808_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0060306	regulation of membrane repolarization	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0015804	neutral amino acid transport	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+CC	GO:0022627	cytosolic small ribosomal subunit	TRINITY_GG_4235_c106_g1, TRINITY_GG_55559_c3_g1	0.9999999999
+BP	GO:0014874	response to stimulus involved in regulation of muscle adaptation	TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0042043	neurexin family protein binding	TRINITY_GG_23965_c0_g1	0.9999999999
+BP	GO:0042278	purine nucleoside metabolic process	TRINITY_GG_101845_c0_g1, TRINITY_GG_5491_c0_g3	0.9999999999
+BP	GO:0086046	membrane depolarization during SA node cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0047323	[3-methyl-2-oxobutanoate dehydrogenase (acetyl-transferring)] kinase activity	TRINITY_GG_10586_c0_g1	0.9999999999
+CC	GO:0015935	small ribosomal subunit	TRINITY_GG_4235_c106_g1, TRINITY_GG_55559_c3_g1	0.9999999999
+BP	GO:0014894	response to denervation involved in regulation of muscle adaptation	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0099150	regulation of postsynaptic specialization assembly	TRINITY_GG_91040_c0_g1	0.9999999999
+BP	GO:0051668	localization within membrane	TRINITY_GG_226_c8_g1, TRINITY_GG_91040_c0_g1	0.9999999999
+BP	GO:0060266	negative regulation of respiratory burst involved in inflammatory response	TRINITY_GG_104035_c0_g1	0.9999999999
+CC	GO:0016013	syntrophin complex	TRINITY_GG_83278_c0_g1	0.9999999999
+MF	GO:0086061	voltage-gated sodium channel activity involved in bundle of His cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0015175	neutral amino acid transmembrane transporter activity	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:0097120	receptor localization to synapse	TRINITY_GG_226_c8_g1, TRINITY_GG_91040_c0_g1	0.9999999999
+BP	GO:1905671	regulation of lysosome organization	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:1903286	regulation of potassium ion import	TRINITY_GG_6808_c0_g1	0.9999999999
+BP	GO:0010765	positive regulation of sodium ion transport	TRINITY_GG_6808_c0_g1, TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:1902564	negative regulation of neutrophil activation	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:0014870	response to muscle inactivity	TRINITY_GG_974_c33_g1	0.9999999999
+CC	GO:0030062	mitochondrial tricarboxylic acid cycle enzyme complex	TRINITY_GG_10586_c0_g1	0.9999999999
+BP	GO:0061026	cardiac muscle tissue regeneration	TRINITY_GG_35120_c1_g1	0.9999999999
+CC	GO:0005947	mitochondrial alpha-ketoglutarate dehydrogenase complex	TRINITY_GG_10586_c0_g1	0.9999999999
+BP	GO:0006183	GTP biosynthetic process	TRINITY_GG_5491_c0_g3	0.9999999999
+BP	GO:1905673	positive regulation of lysosome organization	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:1905039	carboxylic acid transmembrane transport	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:0099633	protein localization to postsynaptic specialization membrane	TRINITY_GG_91040_c0_g1	0.9999999999
+BP	GO:0075260	regulation of spore-bearing organ development	TRINITY_GG_63262_c0_g1	0.9999999999
+BP	GO:0060264	regulation of respiratory burst involved in inflammatory response	TRINITY_GG_104035_c0_g1	0.9999999999
+CC	GO:0098837	postsynaptic recycling endosome	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:0045721	negative regulation of gluconeogenesis	TRINITY_GG_58395_c15_g1	0.9999999999
+BP	GO:0007339	binding of sperm to zona pellucida	TRINITY_GG_53941_c1_g2	0.9999999999
+CC	GO:0005832	chaperonin-containing T-complex	TRINITY_GG_53941_c1_g2	0.9999999999
+BP	GO:0036257	multivesicular body organization	TRINITY_GG_226_c8_g1	0.9999999999
+MF	GO:0086063	voltage-gated sodium channel activity involved in SA node cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0032108	negative regulation of response to nutrient levels	TRINITY_GG_63262_c0_g1	0.9999999999
+BP	GO:0030953	astral microtubule organization	TRINITY_GG_226_c8_g1	0.9999999999
+CC	GO:0043256	laminin complex	TRINITY_GG_75439_c0_g1	0.9999999999
+BP	GO:1905247	positive regulation of aspartic-type peptidase activity	TRINITY_GG_104035_c0_g1	0.9999999999
+BP	GO:0031581	hemidesmosome assembly	TRINITY_GG_75439_c0_g1	0.9999999999
+BP	GO:0090186	regulation of pancreatic juice secretion	TRINITY_GG_6808_c0_g1	0.9999999999
+BP	GO:0051036	regulation of endosome size	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:0070202	regulation of establishment of protein localization to chromosome	TRINITY_GG_53941_c1_g2	0.9999999999
+BP	GO:0099623	regulation of cardiac muscle cell membrane repolarization	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0086067	AV node cell to bundle of His cell communication	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0046039	GTP metabolic process	TRINITY_GG_101845_c0_g1, TRINITY_GG_5491_c0_g3	0.9999999999
+MF	GO:0015171	amino acid transmembrane transporter activity	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+BP	GO:0035418	protein localization to synapse	TRINITY_GG_226_c8_g1, TRINITY_GG_91040_c0_g1	0.9999999999
+BP	GO:1903539	protein localization to postsynaptic membrane	TRINITY_GG_226_c8_g1, TRINITY_GG_91040_c0_g1	0.9999999999
+CC	GO:0005838	proteasome regulatory particle	TRINITY_GG_72829_c0_g1	0.9999999999
+BP	GO:1903288	positive regulation of potassium ion import across plasma membrane	TRINITY_GG_6808_c0_g1	0.9999999999
+CC	GO:0045240	dihydrolipoyl dehydrogenase complex	TRINITY_GG_10586_c0_g1	0.9999999999
+BP	GO:0060307	regulation of ventricular cardiac muscle cell membrane repolarization	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:1903540	establishment of protein localization to postsynaptic membrane	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:0060457	negative regulation of digestive system process	TRINITY_GG_6808_c0_g1	0.9999999999
+MF	GO:0008240	tripeptidyl-peptidase activity	TRINITY_GG_17712_c5_g1	0.9999999999
+BP	GO:0086043	bundle of His cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0031286	negative regulation of sorocarp stalk cell differentiation	TRINITY_GG_63262_c0_g1	0.9999999999
+BP	GO:0032402	melanosome transport	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:0061003	positive regulation of dendritic spine morphogenesis	TRINITY_GG_23965_c0_g1	0.9999999999
+BP	GO:0086012	membrane depolarization during cardiac muscle cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+MF	GO:0036402	proteasome-activating ATPase activity	TRINITY_GG_72829_c0_g1	0.9999999999
+MF	GO:0008029	pentraxin receptor activity	TRINITY_GG_91040_c0_g1	0.9999999999
+CC	GO:0098845	postsynaptic endosome	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:0003333	amino acid transmembrane transport	TRINITY_GG_1516_c43_g1, TRINITY_GG_1516_c6_g1	0.9999999999
+CC	GO:0016010	dystrophin-associated glycoprotein complex	TRINITY_GG_83278_c0_g1	0.9999999999
+CC	GO:0008540	proteasome regulatory particle, base subcomplex	TRINITY_GG_72829_c0_g1	0.9999999999
+BP	GO:0046128	purine ribonucleoside metabolic process	TRINITY_GG_101845_c0_g1, TRINITY_GG_5491_c0_g3	0.9999999999
+BP	GO:0099645	neurotransmitter receptor localization to postsynaptic specialization membrane	TRINITY_GG_91040_c0_g1	0.9999999999
+BP	GO:0070203	regulation of establishment of protein localization to telomere	TRINITY_GG_53941_c1_g2	0.9999999999
+BP	GO:0032105	negative regulation of response to extracellular stimulus	TRINITY_GG_63262_c0_g1	0.9999999999
+BP	GO:0075262	negative regulation of spore-bearing organ development	TRINITY_GG_63262_c0_g1	0.9999999999
+BP	GO:0060373	regulation of ventricular cardiac muscle cell membrane depolarization	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0032401	establishment of melanosome localization	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:0099639	neurotransmitter receptor transport, endosome to plasma membrane	TRINITY_GG_226_c8_g1	0.9999999999
+BP	GO:1990182	exosomal secretion	TRINITY_GG_226_c8_g1	0.9999999999
+CC	GO:0005608	laminin-3 complex	TRINITY_GG_75439_c0_g1	0.9999999999
+BP	GO:0086045	membrane depolarization during AV node cell action potential	TRINITY_GG_974_c33_g1	0.9999999999
+BP	GO:0086065	cell communication involved in cardiac conduction	TRINITY_GG_974_c33_g1	0.9999999999
