@@ -1,0 +1,40 @@
+GOslim,Count,Percent,Term,go_terms
+GO:0003674,131,71.5846994535519,molecular_function,GO:0000234;GO:0000977;GO:0000979;GO:0001046;GO:0001882;GO:0001883;GO:0002020;GO:0003682;GO:0003724;GO:0005525;GO:0008170;GO:0008186;GO:0010309;GO:0017076;GO:0017116;GO:0019001;GO:0030742;GO:0031433;GO:0031490;GO:0031730;GO:0032549;GO:0032550;GO:0032553;GO:0032555;GO:0032561;GO:0033677;GO:0033679;GO:0034236;GO:0034450;GO:0034452;GO:0034458;GO:0035035;GO:0035259;GO:0035639;GO:0035650;GO:0035651;GO:0036461;GO:0042379;GO:0042805;GO:0044389;GO:0045142;GO:0047372;GO:0047429;GO:0047714;GO:0048020;GO:0048156;GO:0050321;GO:0061676;GO:0099181;GO:0102549;GO:1905172;GO:1905538;GO:1990518;GO:1990825;GO:1990841
+GO:0003677,8,4.37158469945355,DNA binding,GO:0000977;GO:0000979;GO:0001046;GO:0031490;GO:0045142
+GO:0003700,0,0,DNA-binding transcription factor activity,
+GO:0003723,1,0.546448087431694,RNA binding,GO:1990825
+GO:0003729,1,0.546448087431694,mRNA binding,GO:1990825
+GO:0003735,0,0,structural constituent of ribosome,
+GO:0003924,0,0,GTPase activity,
+GO:0004386,8,4.37158469945355,helicase activity,GO:0003724;GO:0017116;GO:0033677;GO:0033679;GO:0034458;GO:1990518
+GO:0004518,0,0,nuclease activity,
+GO:0005198,1,0.546448087431694,structural molecule activity,GO:0099181
+GO:0008092,5,2.73224043715847,cytoskeletal protein binding,GO:0031433;GO:0034452;GO:0042805;GO:0048156
+GO:0008134,1,0.546448087431694,transcription factor binding,GO:0035259
+GO:0008135,0,0,translation factor activity, RNA binding,
+GO:0008168,3,1.63934426229508,methyltransferase activity,GO:0000234;GO:0008170
+GO:0008233,0,0,peptidase activity,
+GO:0008289,0,0,lipid binding,
+GO:0016301,1,0.546448087431694,kinase activity,GO:0050321
+GO:0016491,1,0.546448087431694,oxidoreductase activity,GO:0010309
+GO:0016746,0,0,transferase activity, transferring acyl groups,
+GO:0016757,0,0,transferase activity, transferring glycosyl groups,
+GO:0016765,0,0,transferase activity, transferring alkyl or aryl (other than methyl) groups,
+GO:0016779,0,0,nucleotidyltransferase activity,
+GO:0016791,0,0,phosphatase activity,
+GO:0016798,0,0,hydrolase activity, acting on glycosyl bonds,
+GO:0016810,0,0,hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds,
+GO:0016829,0,0,lyase activity,
+GO:0016853,0,0,isomerase activity,
+GO:0016874,0,0,ligase activity,
+GO:0019843,0,0,rRNA binding,
+GO:0019899,7,3.82513661202186,enzyme binding,GO:0002020;GO:0034236;GO:0035035;GO:0044389
+GO:0022857,0,0,transmembrane transporter activity,
+GO:0030234,0,0,enzyme regulator activity,
+GO:0030533,0,0,triplet codon-amino acid adaptor activity,
+GO:0030555,0,0,RNA modification guide activity,
+GO:0030674,0,0,protein-macromolecule adaptor activity,
+GO:0032182,0,0,ubiquitin-like protein binding,
+GO:0042393,0,0,histone binding,
+GO:0043167,15,8.19672131147541,ion binding,GO:0005525;GO:0035639
+GO:0051082,0,0,unfolded protein binding,
