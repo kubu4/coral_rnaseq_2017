@@ -111,7 +111,7 @@ ${trinity_dir}/Trinity \
 --right "${R2_list}"
 
 # Rename generic assembly FastA
-mv trinity_out_dir/Trinity.fasta trinity_out_dir/"${fasta_name}"
+find . -name "Trinity*.fasta" -exec mv {} trinity_out_dir/"${fasta_name}" \;
 
 # Assembly stats
 ${trinity_dir}/util/TrinityStats.pl trinity_out_dir/"${fasta_name}" \
