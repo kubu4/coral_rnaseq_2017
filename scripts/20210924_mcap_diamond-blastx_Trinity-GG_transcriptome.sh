@@ -19,7 +19,7 @@
 
 
 ## Script for running BLASTx (using DIAMOND) to annotate
-## Trinity-GG.fasta assembly from 20210903 against SwissProt database.
+## mcap_cnidaria_transcriptome_v1.0.fasta assembly from 20210903 against SwissProt database.
 ## Output will be in standard BLAST output format 6.
 ## For use with Trinotate later on.
 
@@ -36,7 +36,7 @@ programs_array=(
 
 # Transcriptomes arrays
 transcriptomes_dir="/gscratch/srlab/sam/data/M_capitata/transcriptomes"
-transcriptome="${transcriptomes_dir}/Trinity-GG.fasta"
+transcriptome="${transcriptomes_dir}/mcap_cnidaria_transcriptome_v1.0.fasta"
 
 # DIAMOND UniProt database
 dmnd=/gscratch/srlab/blastdbs/uniprot_sprot_20200123/uniprot_sprot.dmnd

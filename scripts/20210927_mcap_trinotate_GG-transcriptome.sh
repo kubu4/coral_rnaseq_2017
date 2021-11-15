@@ -19,7 +19,7 @@
 
 
 ## Script for running BLASTx (using DIAMOND) to annotate
-## Trinity-GG.fasta assembly from 20210903 against SwissProt database.
+## mcap_cnidaria_transcriptome_v1.0.fasta assembly from 20210903 against SwissProt database.
 ## Output will be in standard BLAST output format 6.
 ## For use with Trinotate later on.
 
@@ -39,7 +39,7 @@ blastp_out_dir="/gscratch/scrubbed/samwhite/outputs/20210922_mcap_transdecoder_G
 blastx_out_dir="/gscratch/scrubbed/samwhite/outputs/20210924_mcap_diamond-blastx_Trinity-GG_transcriptome"
 pfam_out_dir="/gscratch/scrubbed/samwhite/outputs/20210922_mcap_transdecoder_GG-transcriptome/pfam_out"
 trinity_out_dir="/gscratch/srlab/sam/data/M_capitata/transcriptomes"
-transdecoder_out_dir="/gscratch/scrubbed/samwhite/outputs/20210922_mcap_transdecoder_GG-transcriptome/Trinity-GG.fasta.transdecoder_dir"
+transdecoder_out_dir="/gscratch/scrubbed/samwhite/outputs/20210922_mcap_transdecoder_GG-transcriptome/mcap_cnidaria_transcriptome_v1.0.fasta.transdecoder_dir"
 
 
 
@@ -49,15 +49,15 @@ signalp_out_dir="${wd}/signalp_out"
 tmhmm_out_dir="${wd}/tmhmm_out"
 
 
-blastp_out="${blastp_out_dir}/Trinity-GG.fasta.blastp.outfmt6"
-blastx_out="${blastx_out_dir}/Trinity-GG.blastx.outfmt6"
-pfam_out="${pfam_out_dir}/Trinity-GG.fasta.pfam.domtblout"
+blastp_out="${blastp_out_dir}/mcap_cnidaria_transcriptome_v1.0.fasta.blastp.outfmt6"
+blastx_out="${blastx_out_dir}/mcap_cnidaria_transcriptome_v1.0.blastx.outfmt6.blastx.outfmt6"
+pfam_out="${pfam_out_dir}/mcap_cnidaria_transcriptome_v1.0.fasta.pfam.domtblout"
 lORFs_pep="${transdecoder_out_dir}/longest_orfs.pep"
-rnammer_out="${rnammer_out_dir}/Trinity-GG.fasta.rnammer.gff"
+rnammer_out="${rnammer_out_dir}/mcap_cnidaria_transcriptome_v1.0.fasta.rnammer.gff"
 signalp_out="${signalp_out_dir}/signalp.out"
 tmhmm_out="${tmhmm_out_dir}/tmhmm.out"
-trinity_fasta="${trinity_out_dir}/Trinity-GG.fasta"
-trinity_gene_map="${trinity_out_dir}/Trinity-GG.fasta.gene_trans_map"
+trinity_fasta="${trinity_out_dir}/mcap_cnidaria_transcriptome_v1.0.fasta"
+trinity_gene_map="${trinity_out_dir}/mcap_cnidaria_transcriptome_v1.0.fasta.gene_trans_map"
 trinotate_report="${wd}/${prefix}.trinotate_annotation_report.txt"
 
 

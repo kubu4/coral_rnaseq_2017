@@ -35,8 +35,8 @@ threads=40
 
 # Set input file locations
 transcriptome_dir="/gscratch/srlab/sam/data/M_capitata/transcriptomes"
-trinity_fasta="${transcriptome_dir}/Trinity-GG.fasta"
-trinity_gene_map="${transcriptome_dir}/Trinity-GG.fasta.gene_trans_map"
+trinity_fasta="${transcriptome_dir}/mcap_cnidaria_transcriptome_v1.0.fasta"
+trinity_gene_map="${transcriptome_dir}/mcap_cnidaria_transcriptome_v1.0.fasta.gene_trans_map"
 
 
 # Capture trinity file name

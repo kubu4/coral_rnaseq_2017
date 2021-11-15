@@ -18,7 +18,7 @@
 #SBATCH --chdir=/gscratch/scrubbed/samwhite/outputs/20210922_mcap_busco_GG-transcriptome
 
 ### M.capitata transcriptome assembly completeness assessment using BUSCO.
-### This is checking Trinity-GG.fasta from 20210904
+### This is checking mcap_cnidaria_transcriptome_v1.0.fasta from 20210904
 
 # Load Python Mox module for Python module availability
 module load intel-python3_2017
@@ -32,7 +32,7 @@ export THREADS_DAEMON_MODEL=1
 
 ## Input files and settings
 busco_db=/gscratch/srlab/sam/data/databases/BUSCO/metazoa_odb9
-transcriptome_fasta=/gscratch/srlab/sam/data/M_capitata/transcriptomes/Trinity-GG.fasta
+transcriptome_fasta=/gscratch/srlab/sam/data/M_capitata/transcriptomes/mcap_cnidaria_transcriptome_v1.0.fasta
 augustus_species=fly
 threads=40
 
