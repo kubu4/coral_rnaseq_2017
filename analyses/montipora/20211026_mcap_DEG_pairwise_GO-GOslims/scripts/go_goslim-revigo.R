@@ -1,5 +1,7 @@
 library(GSEABase)
 library(tidyverse)
+library(httr)
+library(stringi)
 
 #########################################################################
 # Script to map DEG enriched GO terms to GOslims
@@ -67,6 +69,9 @@ goslim_output_suffix=("GOslims.csv")
 ### Set REVIGO output filename suffix
 revigo_output_suffix=("revigo.tab")
 
+### Set REVIGO results output filename suffix
+revigo_results_output_suffix=("csv")
+
 ### Strip path from goseq files
 goseq_filename <- basename(goseq_files)
 
@@ -79,6 +84,15 @@ for (slim_ontology in ontologies) {
   go_offspring <- paste("GO", slim_ontology, "OFFSPRING", sep = "")
   
   for (item in goseq_files) {
+    
+    # Set REVIGO naemsapce to pull correct GOslim ontology
+    if (slim_ontology == "CC") {
+      namespace = "2"
+    } else if (slim_ontology == "MF") {
+      namespace = "3"
+    } else {
+      namespace = "1"
+    }
     
     
     ## Get max number of fields
@@ -150,7 +164,6 @@ for (slim_ontology in ontologies) {
     ## Paste these together using a period
     goseq_filename_split <-paste(split_filename[[1]][9:lengths(split_filename)], collapse = ".")
     
-    ## Slice split_dirs list at position
     
     ## Paste elements together to form GOslim output filename
     fdr_file_out <- paste("FDR", fdr, sep = "_")
@@ -158,6 +171,7 @@ for (slim_ontology in ontologies) {
     
     ## Paste elements together to form REVIGO output filename
     revigo_outfilename <- paste(goseq_filename_split, fdr_file_out, slim_ontology, revigo_output_suffix, collapse = ".", sep = ".")
+    revigo_results_outfilename <- paste(goseq_filename_split, fdr_file_out, slim_ontology, "revigo_results", namespace, revigo_results_output_suffix, collapse = ".", sep = ".")
     
     ## Set output file destination and name
     ## Adds proper subdirectory from split_dirs list
@@ -170,6 +184,63 @@ for (slim_ontology in ontologies) {
     
     ## Write output file
     write.csv(slimsdf, file = goslim_outfile_dest, quote = FALSE, row.names = FALSE)
+    
+    # Programmatic access to Revigo for Gene Ontology semantic analysis. 
+    
+    fileName <- revigo_outfile_dest
+
+    
+    fileNameOutput <- file.path("./analyses", split_dirs[[1]][3], revigo_results_outfilename)
+    
+    
+    # Read user data from a file
+    userData <- readChar(fileName,file.info(fileName)$size)
+    
+    # Submit job to Revigo
+    httr::POST(
+      url = "http://revigo.irb.hr/StartJob.aspx",
+      body = list(
+        cutoff = "0.7",
+        valueType = "pvalue",
+        speciesTaxon = "0",
+        measure = "SIMREL",
+        goList = userData
+      ),
+      # application/x-www-form-urlencoded
+      encode = "form"
+    ) -> res
+    
+    dat <- httr::content(res, encoding = "UTF-8")
+    
+    jobid <- jsonlite::fromJSON(dat,bigint_as_char=TRUE)$jobid
+    
+    # Check job status
+    running <- "1"
+    while (running != "0" ) {
+      httr::POST(
+        url = "http://revigo.irb.hr/QueryJobStatus.aspx",
+        query = list( jobid = jobid )
+      ) -> res2
+      dat2 <- httr::content(res2, encoding = "UTF-8")
+      running <- jsonlite::fromJSON(dat2)$running
+      Sys.sleep(1)
+    }
+    
+    # Fetch results
+    httr::POST(
+      url = "http://revigo.irb.hr/ExportJob.aspx",
+      query = list(
+        jobid = jobid, 
+        namespace = namespace,
+        type = "csvtree"
+      )
+    ) -> res3
+    
+    dat3 <- httr::content(res3, encoding = "UTF-8")
+    
+    # Write results to a file
+    dat3 <- stri_replace_all_fixed(dat3, "\r", "")
+    cat(dat3, file=fileNameOutput, fill = FALSE)
     
     
   }
