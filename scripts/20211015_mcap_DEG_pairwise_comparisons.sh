@@ -31,10 +31,10 @@
 ###################################################################################
 # These variables need to be set by user
 fastq_dir="/gscratch/srlab/sam/data/M_capitata/RNAseq/"
-fasta_prefix="Trinity-GG"
+fasta_prefix="mcap_cnidaria_transcriptome_v1.0"
 transcriptome_dir="/gscratch/srlab/sam/data/M_capitata/transcriptomes"
-trinotate_feature_map="${transcriptome_dir}/20211009.mcap.trinotate.annotation_feature_map.txt"
-go_annotations="${transcriptome_dir}/20211009.mcap.trinotate.go_annotations.txt"
+trinotate_feature_map="${transcriptome_dir}/20211115.mcap.trinotate.annotation_feature_map.txt"
+go_annotations="${transcriptome_dir}/20211115.mcap.trinotate.go_annotations.txt"
 
 # Array of the various comparisons to evaluate
 # Each condition in each comparison should be separated by a "-"
