@@ -50,7 +50,7 @@ tmhmm_out_dir="${wd}/tmhmm_out"
 
 
 blastp_out="${blastp_out_dir}/mcap_cnidaria_transcriptome_v1.0.fasta.blastp.outfmt6"
-blastx_out="${blastx_out_dir}/mcap_cnidaria_transcriptome_v1.0.blastx.outfmt6.blastx.outfmt6"
+blastx_out="${blastx_out_dir}/mcap_cnidaria_transcriptome_v1.0.blastx.outfmt6"
 pfam_out="${pfam_out_dir}/mcap_cnidaria_transcriptome_v1.0.fasta.pfam.domtblout"
 lORFs_pep="${transdecoder_out_dir}/longest_orfs.pep"
 rnammer_out="${rnammer_out_dir}/mcap_cnidaria_transcriptome_v1.0.fasta.rnammer.gff"
