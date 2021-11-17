@@ -571,10 +571,13 @@ do
   cd "${wd}" || exit
 done
 
+# Remove FastQ files
+find . -name "*.fq.gz" -exec rm {} \;
 
 # Begin "flattening" Trinity edgeR GOseq enrichment format
 # so each line contains a single gene/transcript ID
 # and associated GO term
+
 
 
 # Enable globstar for recursive searching
@@ -593,12 +596,17 @@ do
 	# Capture path to file
 	dir=${goseq%/*}
 
+  # Remove path from filename
+  # For some reason, if this isn't done
+  # this loop fails to find the *.enriched files...
+  goseq=$(basename ${goseq})
+
 	cd "${dir}" || exit
 
 	tmp_file=$(mktemp)
 
 	# Count lines in file
-  linecount=$(cat "${goseq}" | wc -l)
+  linecount=$(wc -l < "${goseq}")
 
 	# If file is not empty
   if (( "${linecount}" > 1 ))
