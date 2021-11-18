@@ -1,3 +1,0 @@
-category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
-GO:0003674	0.981657266835039	0.028732740447574	28	28786	molecular_function	MF	0.9999999999	0.9999999999	MF molecular_function
-GO:0008270	1	0.0379595392850214	0	2368	zinc ion binding	MF	0.9999999999	0.9999999999	MF zinc ion binding

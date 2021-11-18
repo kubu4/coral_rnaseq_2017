@@ -1,3 +1,0 @@
-category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
-GO:0065008	1	0.0342058796503097	0	6230	regulation of biological quality	BP	0.9999999999	0.999998326079336	BP regulation of biological quality
-GO:0005886	1	0.039555002202403	0	5977	plasma membrane	CC	0.9999999999	0.999998326079336	CC plasma membrane

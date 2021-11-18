@@ -1,3 +1,0 @@
-category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
-GO:0031224	1	0.0351448439382051	0	9011	intrinsic component of membrane	CC	0.9999999999	0.999999999782994	CC intrinsic component of membrane
-GO:0016021	1	0.038478304780306	0	8779	integral component of membrane	CC	0.9999999999	0.999999999782994	CC integral component of membrane
