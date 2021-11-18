@@ -1,0 +1,7 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0016772	0.992441295924756	0.0222995930392329	4	3409	transferase activity, transferring phosphorus-containing groups	MF	0.9999999999	0.9999999999	MF transferase activity, transferring phosphorus-containing groups
+GO:1902533	1	0.0253995797230312	0	1455	positive regulation of intracellular signal transduction	BP	0.9999999999	0.9999999999	BP positive regulation of intracellular signal transduction
+GO:0044092	1	0.0275472927896064	0	1364	negative regulation of molecular function	BP	0.9999999999	0.9999999999	BP negative regulation of molecular function
+GO:0006468	1	0.0364703776697221	0	1341	protein phosphorylation	BP	0.9999999999	0.9999999999	BP protein phosphorylation
+GO:0044260	0.974658000900285	0.0412376127017747	19	10311	cellular macromolecule metabolic process	BP	0.9999999999	0.9999999999	BP cellular macromolecule metabolic process
+GO:0044428	0.976097964728732	0.0469719070012335	9	6289	NA	NA	0.9999999999	0.9999999999	none
