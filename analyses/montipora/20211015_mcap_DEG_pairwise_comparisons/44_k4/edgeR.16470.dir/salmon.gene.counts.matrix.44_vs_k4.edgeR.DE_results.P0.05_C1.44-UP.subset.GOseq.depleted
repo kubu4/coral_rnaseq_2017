@@ -1,0 +1,2 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0016740	1	0.0365100333024564	0	8165	transferase activity	MF	0.9999999999	0.9999999999	MF transferase activity
