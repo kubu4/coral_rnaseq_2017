@@ -1,0 +1,50 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0009966	0.999631076449633	0.00330770117210018	1	4320	regulation of signal transduction	BP	0.9999999999	0.999999239703636	BP regulation of signal transduction
+GO:0010033	1	0.00352293423961747	0	3194	response to organic substance	BP	0.9999999999	0.999999239703636	BP response to organic substance
+GO:0050896	0.998610475961203	0.00439344423996682	5	7808	response to stimulus	BP	0.9999999999	0.999999239703636	BP response to stimulus
+GO:0006996	0.999399481971509	0.00508734603660233	1	4144	organelle organization	BP	0.9999999999	0.999999239703636	BP organelle organization
+GO:0044710	0.99847185897794	0.00530680036713825	4	6550	NA	NA	0.9999999999	0.999999239703636	none
+GO:0048584	1	0.00596954433572889	0	2877	positive regulation of response to stimulus	BP	0.9999999999	0.999999239703636	BP positive regulation of response to stimulus
+GO:0023051	0.998758744771144	0.00630780357598644	2	4946	regulation of signaling	BP	0.9999999999	0.999999239703636	BP regulation of signaling
+GO:0010646	0.99875434380805	0.00632770882900777	2	4940	regulation of cell communication	BP	0.9999999999	0.999999239703636	BP regulation of cell communication
+GO:0007165	0.997887660803083	0.00711602229389136	4	6423	signal transduction	BP	0.9999999999	0.999999239703636	BP signal transduction
+GO:0008152	0.995308430567689	0.00868285542022968	18	15786	metabolic process	BP	0.9999999999	0.999999239703636	BP metabolic process
+GO:1902531	1	0.00877047668360439	0	2662	regulation of intracellular signal transduction	BP	0.9999999999	0.999999239703636	BP regulation of intracellular signal transduction
+GO:0048583	0.997679769706981	0.00888636197060871	3	5542	regulation of response to stimulus	BP	0.9999999999	0.999999239703636	BP regulation of response to stimulus
+GO:0006950	0.997557058869435	0.0114875360931483	2	4619	response to stress	BP	0.9999999999	0.999999239703636	BP response to stress
+GO:0048869	0.996953823129516	0.0139456986600022	2	4557	cellular developmental process	BP	0.9999999999	0.999999239703636	BP cellular developmental process
+GO:0009987	0.990935005123667	0.0142034830172671	32	23864	cellular process	BP	0.9999999999	0.999999239703636	BP cellular process
+GO:0008150	0.989353942204352	0.0158950458851441	40	28256	biological_process	BP	0.9999999999	0.999999239703636	BP biological_process
+GO:0051716	0.996132116012913	0.0171864420547621	2	4417	cellular response to stimulus	BP	0.9999999999	0.999999239703636	BP cellular response to stimulus
+GO:0071704	0.988978106734392	0.0192995208732942	18	14885	organic substance metabolic process	BP	0.9999999999	0.999999239703636	BP organic substance metabolic process
+GO:0010605	0.997169210697495	0.0195374513895318	1	3414	negative regulation of macromolecule metabolic process	BP	0.9999999999	0.999999239703636	BP negative regulation of macromolecule metabolic process
+GO:0023057	1	0.0199962177356483	0	2118	negative regulation of signaling	BP	0.9999999999	0.999999239703636	BP negative regulation of signaling
+GO:0010648	1	0.0200342816335513	0	2116	negative regulation of cell communication	BP	0.9999999999	0.999999239703636	BP negative regulation of cell communication
+GO:0071840	0.990952598480071	0.0202373866689001	8	8815	cellular component organization or biogenesis	BP	0.9999999999	0.999999239703636	BP cellular component organization or biogenesis
+GO:0044237	0.988415844395163	0.020493589475171	17	14198	cellular metabolic process	BP	0.9999999999	0.999999239703636	BP cellular metabolic process
+GO:0044763	0.987414876505806	0.0215639051829908	19	15728	NA	NA	0.9999999999	0.999999239703636	none
+GO:0048518	0.990709851661299	0.0216840408133199	7	8123	positive regulation of biological process	BP	0.9999999999	0.999999239703636	BP positive regulation of biological process
+GO:0009967	1	0.0232501740000964	0	2149	positive regulation of signal transduction	BP	0.9999999999	0.999999239703636	BP positive regulation of signal transduction
+GO:0016043	0.98943338743893	0.0233021946907369	8	8687	cellular component organization	BP	0.9999999999	0.999999239703636	BP cellular component organization
+GO:0031324	0.996199741656519	0.0250970449897396	1	3291	negative regulation of cellular metabolic process	BP	0.9999999999	0.999999239703636	BP negative regulation of cellular metabolic process
+GO:0009968	1	0.0258440830678251	0	1958	negative regulation of signal transduction	BP	0.9999999999	0.999999239703636	BP negative regulation of signal transduction
+GO:0042221	0.993779322175668	0.0259666991930662	2	4032	response to chemical	BP	0.9999999999	0.999999239703636	BP response to chemical
+GO:1901700	1	0.028302940430545	0	2008	response to oxygen-containing compound	BP	0.9999999999	0.999999239703636	BP response to oxygen-containing compound
+GO:0048519	0.98808256427193	0.0286330320069912	6	7235	negative regulation of biological process	BP	0.9999999999	0.999999239703636	BP negative regulation of biological process
+GO:0005737	0.985530108972438	0.0298737285967327	9	9040	cytoplasm	CC	0.9999999999	0.999999239703636	CC cytoplasm
+GO:0051172	0.994574630401335	0.033878466130038	1	3057	negative regulation of nitrogen compound metabolic process	BP	0.9999999999	0.999999239703636	BP negative regulation of nitrogen compound metabolic process
+GO:0007166	0.994153788501171	0.0360671728511481	1	2816	cell surface receptor signaling pathway	BP	0.9999999999	0.999999239703636	BP cell surface receptor signaling pathway
+GO:1902589	1	0.0370275480739216	0	1935	NA	NA	0.9999999999	0.999999239703636	none
+GO:0009628	1	0.0376432898761384	0	1964	response to abiotic stimulus	BP	0.9999999999	0.999999239703636	BP response to abiotic stimulus
+GO:0044238	0.977321759385546	0.0377040956763003	18	14058	primary metabolic process	BP	0.9999999999	0.999999239703636	BP primary metabolic process
+GO:0071310	1	0.0388275657343832	0	1896	cellular response to organic substance	BP	0.9999999999	0.999999239703636	BP cellular response to organic substance
+GO:0007186	1	0.0392206136246506	0	1530	G protein-coupled receptor signaling pathway	BP	0.9999999999	0.999999239703636	BP G protein-coupled receptor signaling pathway
+GO:0050790	0.993068234261847	0.041572088188186	1	2746	regulation of catalytic activity	BP	0.9999999999	0.999999239703636	BP regulation of catalytic activity
+GO:0006629	1	0.0415870151328928	0	1765	lipid metabolic process	BP	0.9999999999	0.999999239703636	BP lipid metabolic process
+GO:0051649	0.992900110741429	0.0424086285524329	1	2733	establishment of localization in cell	BP	0.9999999999	0.999999239703636	BP establishment of localization in cell
+GO:0031226	0.992438693475372	0.0446871024119822	1	2482	intrinsic component of plasma membrane	CC	0.9999999999	0.999999239703636	CC intrinsic component of plasma membrane
+GO:0009892	0.987886872415256	0.0459537753312237	2	3753	negative regulation of metabolic process	BP	0.9999999999	0.999999239703636	BP negative regulation of metabolic process
+GO:0048522	0.97811189029457	0.0468279042671695	7	7371	positive regulation of cellular process	BP	0.9999999999	0.999999239703636	BP positive regulation of cellular process
+GO:0003824	0.970132603148464	0.0475749397831933	20	14552	catalytic activity	MF	0.9999999999	0.999999239703636	MF catalytic activity
+GO:0005887	0.991572334178557	0.0488846443094329	1	2423	integral component of plasma membrane	CC	0.9999999999	0.999999239703636	CC integral component of plasma membrane
+GO:0044464	0.9651728347144	0.0491485424271661	38	25969	NA	NA	0.9999999999	0.999999239703636	none

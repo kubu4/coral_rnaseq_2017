@@ -1,0 +1,43 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0009966	1	0.00120511911374517	0	4320	regulation of signal transduction	BP	0.9999999999	0.999999330234375	BP regulation of signal transduction
+GO:0023051	0.999528349240342	0.00411638081332787	1	4946	regulation of signaling	BP	0.9999999999	0.999999330234375	BP regulation of signaling
+GO:0010646	0.999526494807407	0.00413067766771089	1	4940	regulation of cell communication	BP	0.9999999999	0.999999330234375	BP regulation of cell communication
+GO:0010605	1	0.00660941971452189	0	3414	negative regulation of macromolecule metabolic process	BP	0.9999999999	0.999999330234375	BP negative regulation of macromolecule metabolic process
+GO:0044710	0.998329216956514	0.00663047457488716	3	6550	NA	NA	0.9999999999	0.999999330234375	none
+GO:0048583	0.998365366959408	0.00806574496768989	2	5542	regulation of response to stimulus	BP	0.9999999999	0.999999330234375	BP regulation of response to stimulus
+GO:0010033	1	0.00808256948658623	0	3194	response to organic substance	BP	0.9999999999	0.999999330234375	BP response to organic substance
+GO:0031324	1	0.00844323968629164	0	3291	negative regulation of cellular metabolic process	BP	0.9999999999	0.999999330234375	BP negative regulation of cellular metabolic process
+GO:0051172	1	0.0114974732804788	0	3057	negative regulation of nitrogen compound metabolic process	BP	0.9999999999	0.999999330234375	BP negative regulation of nitrogen compound metabolic process
+GO:0048584	1	0.012718488458724	0	2877	positive regulation of response to stimulus	BP	0.9999999999	0.999999330234375	BP positive regulation of response to stimulus
+GO:0006996	0.998200600297113	0.0132572044556991	1	4144	organelle organization	BP	0.9999999999	0.999999330234375	BP organelle organization
+GO:0008152	0.992955745069858	0.013354728999047	15	15786	metabolic process	BP	0.9999999999	0.999999330234375	BP metabolic process
+GO:1902531	1	0.0176558818456501	0	2662	regulation of intracellular signal transduction	BP	0.9999999999	0.999999330234375	BP regulation of intracellular signal transduction
+GO:0050896	0.993373586100879	0.0181420330892388	5	7808	response to stimulus	BP	0.9999999999	0.999999330234375	BP response to stimulus
+GO:0043169	0.991595095076586	0.0189600965599087	8	9608	cation binding	MF	0.9999999999	0.999999330234375	MF cation binding
+GO:0046872	0.990213467308818	0.0217735016371345	8	9462	metal ion binding	MF	0.9999999999	0.999999330234375	MF metal ion binding
+GO:0007165	0.991463756061612	0.0248864453508314	4	6423	signal transduction	BP	0.9999999999	0.999999330234375	BP signal transduction
+GO:0003824	0.985690256976151	0.0257624291583909	15	14552	catalytic activity	MF	0.9999999999	0.999999330234375	MF catalytic activity
+GO:0009892	0.995904943142475	0.0267575261852717	1	3753	negative regulation of metabolic process	BP	0.9999999999	0.999999330234375	BP negative regulation of metabolic process
+GO:0071704	0.985078039085117	0.026778254660188	15	14885	organic substance metabolic process	BP	0.9999999999	0.999999330234375	BP organic substance metabolic process
+GO:0043167	0.984765038542826	0.0277691702993445	14	13929	ion binding	MF	0.9999999999	0.999999330234375	MF ion binding
+GO:0006950	0.992838919069446	0.0293476672380185	2	4619	response to stress	BP	0.9999999999	0.999999330234375	BP response to stress
+GO:0010468	0.99028716338713	0.0315329981772427	3	5570	regulation of gene expression	BP	0.9999999999	0.999999330234375	BP regulation of gene expression
+GO:0010628	1	0.033415152073385	0	2383	positive regulation of gene expression	BP	0.9999999999	0.999999330234375	BP positive regulation of gene expression
+GO:0010629	1	0.0339725638942205	0	2362	negative regulation of gene expression	BP	0.9999999999	0.999999330234375	BP negative regulation of gene expression
+GO:0048869	0.991468113987888	0.0341113515370161	2	4557	cellular developmental process	BP	0.9999999999	0.999999330234375	BP cellular developmental process
+GO:0048518	0.98524436431346	0.0347061422330903	6	8123	positive regulation of biological process	BP	0.9999999999	0.999999330234375	BP positive regulation of biological process
+GO:0023057	1	0.0360900624908506	0	2118	negative regulation of signaling	BP	0.9999999999	0.999999330234375	BP negative regulation of signaling
+GO:0010648	1	0.0361538953847576	0	2116	negative regulation of cell communication	BP	0.9999999999	0.999999330234375	BP negative regulation of cell communication
+GO:0071840	0.983382060099166	0.0366617344150212	7	8815	cellular component organization or biogenesis	BP	0.9999999999	0.999999330234375	BP cellular component organization or biogenesis
+GO:0048519	0.984416680018827	0.0388575364163959	5	7235	negative regulation of biological process	BP	0.9999999999	0.999999330234375	BP negative regulation of biological process
+GO:0008150	0.972747614156834	0.0396437801441523	35	28256	biological_process	BP	0.9999999999	0.999999330234375	BP biological_process
+GO:0009967	1	0.040328148734928	0	2149	positive regulation of signal transduction	BP	0.9999999999	0.999999330234375	BP positive regulation of signal transduction
+GO:0051716	0.989600141313035	0.0404000066406311	2	4417	cellular response to stimulus	BP	0.9999999999	0.999999330234375	BP cellular response to stimulus
+GO:0016043	0.981047054953152	0.0412385592824483	7	8687	cellular component organization	BP	0.9999999999	0.999999330234375	BP cellular component organization
+GO:0016491	1	0.0414264887175711	0	1925	oxidoreductase activity	MF	0.9999999999	0.999999330234375	MF oxidoreductase activity
+GO:0044237	0.974215601227632	0.0442897678011203	15	14198	cellular metabolic process	BP	0.9999999999	0.999999330234375	BP cellular metabolic process
+GO:0009968	1	0.0450210504395437	0	1958	negative regulation of signal transduction	BP	0.9999999999	0.999999330234375	BP negative regulation of signal transduction
+GO:0004872	0.992254539638228	0.0456209406498924	1	2749	NA	NA	0.9999999999	0.999999330234375	none
+GO:0060089	0.992254539638228	0.0456209406498924	1	2749	molecular transducer activity	MF	0.9999999999	0.999999330234375	MF molecular transducer activity
+GO:1901700	1	0.0478946651836163	0	2008	response to oxygen-containing compound	BP	0.9999999999	0.999999330234375	BP response to oxygen-containing compound
+GO:0044238	0.971753352807244	0.048148828247387	15	14058	primary metabolic process	BP	0.9999999999	0.999999330234375	BP primary metabolic process
