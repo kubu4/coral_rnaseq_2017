@@ -1,0 +1,964 @@
+sending incremental file list
+4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,103,035,146 bytes  received 35 bytes  315,152,908.86 bytes/sec
+total size is 1,102,765,760  speedup is 1.00
+
+Generating checksum for 4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz.
+e2cee63fa74f4b2d37f4079ccf1e4063  4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,237,569,499 bytes  received 35 bytes  275,015,452.00 bytes/sec
+total size is 1,237,267,273  speedup is 1.00
+
+Generating checksum for 4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz.
+b897a792ddf5b447df2070f823a7b34b  4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,437,532,044 bytes  received 35 bytes  319,451,573.11 bytes/sec
+total size is 1,437,181,010  speedup is 1.00
+
+Generating checksum for 4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz.
+438efda85e34ad94510d9d4983405500  4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,634,098,345 bytes  received 35 bytes  363,132,973.33 bytes/sec
+total size is 1,633,699,335  speedup is 1.00
+
+Generating checksum for 4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz.
+88ae6e8ff2ca8ef886397c6ed54a0c3a  4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,058,108,866 bytes  received 35 bytes  302,316,828.86 bytes/sec
+total size is 1,057,850,441  speedup is 1.00
+
+Generating checksum for 4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz.
+7eda5db3ba20cd663defc3f89c695fec  4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,201,030,592 bytes  received 35 bytes  266,895,694.89 bytes/sec
+total size is 1,200,737,286  speedup is 1.00
+
+Generating checksum for 4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz.
+8176e44fbd56ccada17313426ac40034  4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,131,990,621 bytes  received 35 bytes  251,553,479.11 bytes/sec
+total size is 1,131,714,163  speedup is 1.00
+
+Generating checksum for 4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz.
+3b0246d33f65ec5c288f4dc7382a8087  4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,192,401,184 bytes  received 35 bytes  340,686,062.57 bytes/sec
+total size is 1,192,109,982  speedup is 1.00
+
+Generating checksum for 4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz.
+f01075d99faae9d9716f2ecf5deb6a8e  4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,516,456,928 bytes  received 35 bytes  275,719,447.82 bytes/sec
+total size is 1,516,086,630  speedup is 1.00
+
+Generating checksum for 4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz.
+4eb5caa14567821915d819272a1afa95  4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,746,585,867 bytes  received 35 bytes  317,561,073.09 bytes/sec
+total size is 1,746,159,401  speedup is 1.00
+
+Generating checksum for 4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz.
+19fe2f41432fe324004c5679b04ea81d  4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,762,588,615 bytes  received 35 bytes  320,470,663.64 bytes/sec
+total size is 1,762,158,245  speedup is 1.00
+
+Generating checksum for 4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz.
+5f4720fc68807807926fdb6631dfe46b  4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,013,272,076 bytes  received 35 bytes  309,734,170.92 bytes/sec
+total size is 2,012,780,514  speedup is 1.00
+
+Generating checksum for 4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz.
+fd97f34b2cbd122f43b21b697b94b839  4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,274,559,732 bytes  received 35 bytes  283,235,503.78 bytes/sec
+total size is 1,274,248,482  speedup is 1.00
+
+Generating checksum for 4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz.
+64de176361ef9ab71111da2021de6a73  4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,444,998,677 bytes  received 35 bytes  321,110,824.89 bytes/sec
+total size is 1,444,645,819  speedup is 1.00
+
+Generating checksum for 4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz.
+dd9769818f794a56965e21921a6bf98a  4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,789,713,825 bytes  received 35 bytes  275,340,593.85 bytes/sec
+total size is 1,789,276,831  speedup is 1.00
+
+Generating checksum for 4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+7481a202d35c4e4b0115cd2a31a8ac3f  4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,051,586,034 bytes  received 35 bytes  373,015,648.91 bytes/sec
+total size is 2,051,085,120  speedup is 1.00
+
+Generating checksum for 4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+5ab095f45ebc222b4c68245afb040c08  4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,461,496,892 bytes  received 35 bytes  265,726,714.00 bytes/sec
+total size is 1,461,140,010  speedup is 1.00
+
+Generating checksum for 4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz.
+732c6748c1aa6a1effb3338b8472032a  4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,703,523,493 bytes  received 35 bytes  309,731,550.55 bytes/sec
+total size is 1,703,107,539  speedup is 1.00
+
+Generating checksum for 4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz.
+ca551befac95d125305a37a42b64cf7c  4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 686,203,223 bytes  received 35 bytes  274,481,303.20 bytes/sec
+total size is 686,035,574  speedup is 1.00
+
+Generating checksum for 4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz.
+8cd97e941954fec3706fbd2967de5185  4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 788,702,934 bytes  received 35 bytes  225,343,705.43 bytes/sec
+total size is 788,510,269  speedup is 1.00
+
+Generating checksum for 4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz.
+35ac55eec613ae69c5fa27ccd5cad93a  4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,876,397,660 bytes  received 35 bytes  288,676,568.46 bytes/sec
+total size is 1,875,939,507  speedup is 1.00
+
+Generating checksum for 4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz.
+d2311b5f5399222686f41b6f6f2ffd2f  4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,104,730,079 bytes  received 35 bytes  323,804,632.92 bytes/sec
+total size is 2,104,216,198  speedup is 1.00
+
+Generating checksum for 4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz.
+398c82abcf73e7f06ab9ac0310fa6360  4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,866,959,627 bytes  received 35 bytes  287,224,563.38 bytes/sec
+total size is 1,866,503,777  speedup is 1.00
+
+Generating checksum for 4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+b992e6f69bd8932ad1e1e61e01646af1  4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,094,285,504 bytes  received 35 bytes  322,197,775.23 bytes/sec
+total size is 2,093,774,174  speedup is 1.00
+
+Generating checksum for 4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+eacfa57e80a87380d09ab1dcecb5d8ce  4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,103,035,146 bytes  received 35 bytes  245,118,929.11 bytes/sec
+total size is 1,102,765,760  speedup is 1.00
+
+Generating checksum for 4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz.
+e2cee63fa74f4b2d37f4079ccf1e4063  4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,237,569,499 bytes  received 35 bytes  225,012,642.55 bytes/sec
+total size is 1,237,267,273  speedup is 1.00
+
+Generating checksum for 4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz.
+b897a792ddf5b447df2070f823a7b34b  4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,437,532,044 bytes  received 35 bytes  261,369,468.91 bytes/sec
+total size is 1,437,181,010  speedup is 1.00
+
+Generating checksum for 4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz.
+438efda85e34ad94510d9d4983405500  4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,634,098,345 bytes  received 35 bytes  297,108,796.36 bytes/sec
+total size is 1,633,699,335  speedup is 1.00
+
+Generating checksum for 4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz.
+88ae6e8ff2ca8ef886397c6ed54a0c3a  4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,058,108,866 bytes  received 35 bytes  302,316,828.86 bytes/sec
+total size is 1,057,850,441  speedup is 1.00
+
+Generating checksum for 4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz.
+7eda5db3ba20cd663defc3f89c695fec  4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+Finished generating checksum for 4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz.
+sending incremental file list
+4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,201,030,592 bytes  received 35 bytes  343,151,607.71 bytes/sec
+total size is 1,200,737,286  speedup is 1.00
+
+Generating checksum for 4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz.
+8176e44fbd56ccada17313426ac40034  4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+Finished generating checksum for 4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz.
+sending incremental file list
+4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,131,990,621 bytes  received 35 bytes  251,553,479.11 bytes/sec
+total size is 1,131,714,163  speedup is 1.00
+
+Generating checksum for 4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz.
+3b0246d33f65ec5c288f4dc7382a8087  4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+Finished generating checksum for 4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz.
+sending incremental file list
+4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,192,401,184 bytes  received 35 bytes  264,978,048.67 bytes/sec
+total size is 1,192,109,982  speedup is 1.00
+
+Generating checksum for 4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz.
+f01075d99faae9d9716f2ecf5deb6a8e  4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+Finished generating checksum for 4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz.
+sending incremental file list
+4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,516,456,928 bytes  received 35 bytes  336,990,436.22 bytes/sec
+total size is 1,516,086,630  speedup is 1.00
+
+Generating checksum for 4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz.
+4eb5caa14567821915d819272a1afa95  4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+Finished generating checksum for 4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz.
+sending incremental file list
+4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,746,585,867 bytes  received 35 bytes  388,130,200.44 bytes/sec
+total size is 1,746,159,401  speedup is 1.00
+
+Generating checksum for 4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz.
+19fe2f41432fe324004c5679b04ea81d  4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+Finished generating checksum for 4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz.
+sending incremental file list
+4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,762,588,615 bytes  received 35 bytes  320,470,663.64 bytes/sec
+total size is 1,762,158,245  speedup is 1.00
+
+Generating checksum for 4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz.
+5f4720fc68807807926fdb6631dfe46b  4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,013,272,076 bytes  received 35 bytes  268,436,281.47 bytes/sec
+total size is 2,012,780,514  speedup is 1.00
+
+Generating checksum for 4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz.
+fd97f34b2cbd122f43b21b697b94b839  4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,274,559,732 bytes  received 35 bytes  364,159,933.43 bytes/sec
+total size is 1,274,248,482  speedup is 1.00
+
+Generating checksum for 4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz.
+64de176361ef9ab71111da2021de6a73  4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,444,998,677 bytes  received 35 bytes  321,110,824.89 bytes/sec
+total size is 1,444,645,819  speedup is 1.00
+
+Generating checksum for 4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz.
+dd9769818f794a56965e21921a6bf98a  4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,789,713,825 bytes  received 35 bytes  275,340,593.85 bytes/sec
+total size is 1,789,276,831  speedup is 1.00
+
+Generating checksum for 4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+7481a202d35c4e4b0115cd2a31a8ac3f  4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,051,586,034 bytes  received 35 bytes  315,628,626.00 bytes/sec
+total size is 2,051,085,120  speedup is 1.00
+
+Generating checksum for 4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+5ab095f45ebc222b4c68245afb040c08  4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,461,496,892 bytes  received 35 bytes  265,726,714.00 bytes/sec
+total size is 1,461,140,010  speedup is 1.00
+
+Generating checksum for 4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz.
+732c6748c1aa6a1effb3338b8472032a  4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,703,523,493 bytes  received 35 bytes  309,731,550.55 bytes/sec
+total size is 1,703,107,539  speedup is 1.00
+
+Generating checksum for 4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz.
+ca551befac95d125305a37a42b64cf7c  4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 686,203,223 bytes  received 35 bytes  274,481,303.20 bytes/sec
+total size is 686,035,574  speedup is 1.00
+
+Generating checksum for 4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz.
+8cd97e941954fec3706fbd2967de5185  4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+Finished generating checksum for 4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz.
+sending incremental file list
+4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 788,702,934 bytes  received 35 bytes  175,267,326.44 bytes/sec
+total size is 788,510,269  speedup is 1.00
+
+Generating checksum for 4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz.
+35ac55eec613ae69c5fa27ccd5cad93a  4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+Finished generating checksum for 4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz.
+sending incremental file list
+4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,876,397,660 bytes  received 35 bytes  341,163,217.27 bytes/sec
+total size is 1,875,939,507  speedup is 1.00
+
+Generating checksum for 4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz.
+d2311b5f5399222686f41b6f6f2ffd2f  4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+Finished generating checksum for 4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz.
+sending incremental file list
+4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,104,730,079 bytes  received 35 bytes  323,804,632.92 bytes/sec
+total size is 2,104,216,198  speedup is 1.00
+
+Generating checksum for 4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz.
+398c82abcf73e7f06ab9ac0310fa6360  4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+Finished generating checksum for 4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz.
+sending incremental file list
+4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,866,959,627 bytes  received 35 bytes  287,224,563.38 bytes/sec
+total size is 1,866,503,777  speedup is 1.00
+
+Generating checksum for 4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+b992e6f69bd8932ad1e1e61e01646af1  4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+Finished generating checksum for 4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+sending incremental file list
+4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,094,285,504 bytes  received 35 bytes  246,386,534.00 bytes/sec
+total size is 2,093,774,174  speedup is 1.00
+
+Generating checksum for 4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+eacfa57e80a87380d09ab1dcecb5d8ce  4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+Finished generating checksum for 4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+sending incremental file list
+4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,103,035,146 bytes  received 35 bytes  245,118,929.11 bytes/sec
+total size is 1,102,765,760  speedup is 1.00
+
+Generating checksum for 4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz.
+e2cee63fa74f4b2d37f4079ccf1e4063  4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,237,569,499 bytes  received 35 bytes  275,015,452.00 bytes/sec
+total size is 1,237,267,273  speedup is 1.00
+
+Generating checksum for 4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz.
+b897a792ddf5b447df2070f823a7b34b  4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,437,532,044 bytes  received 35 bytes  261,369,468.91 bytes/sec
+total size is 1,437,181,010  speedup is 1.00
+
+Generating checksum for 4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz.
+438efda85e34ad94510d9d4983405500  4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,634,098,345 bytes  received 35 bytes  297,108,796.36 bytes/sec
+total size is 1,633,699,335  speedup is 1.00
+
+Generating checksum for 4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz.
+88ae6e8ff2ca8ef886397c6ed54a0c3a  4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,762,588,615 bytes  received 35 bytes  320,470,663.64 bytes/sec
+total size is 1,762,158,245  speedup is 1.00
+
+Generating checksum for 4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz.
+5f4720fc68807807926fdb6631dfe46b  4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,013,272,076 bytes  received 35 bytes  309,734,170.92 bytes/sec
+total size is 2,012,780,514  speedup is 1.00
+
+Generating checksum for 4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz.
+fd97f34b2cbd122f43b21b697b94b839  4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,274,559,732 bytes  received 35 bytes  283,235,503.78 bytes/sec
+total size is 1,274,248,482  speedup is 1.00
+
+Generating checksum for 4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz.
+64de176361ef9ab71111da2021de6a73  4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,444,998,677 bytes  received 35 bytes  321,110,824.89 bytes/sec
+total size is 1,444,645,819  speedup is 1.00
+
+Generating checksum for 4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz.
+dd9769818f794a56965e21921a6bf98a  4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,789,713,825 bytes  received 35 bytes  325,402,520.00 bytes/sec
+total size is 1,789,276,831  speedup is 1.00
+
+Generating checksum for 4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+7481a202d35c4e4b0115cd2a31a8ac3f  4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,051,586,034 bytes  received 35 bytes  315,628,626.00 bytes/sec
+total size is 2,051,085,120  speedup is 1.00
+
+Generating checksum for 4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+5ab095f45ebc222b4c68245afb040c08  4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,461,496,892 bytes  received 35 bytes  324,777,094.89 bytes/sec
+total size is 1,461,140,010  speedup is 1.00
+
+Generating checksum for 4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz.
+732c6748c1aa6a1effb3338b8472032a  4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,703,523,493 bytes  received 35 bytes  378,560,784.00 bytes/sec
+total size is 1,703,107,539  speedup is 1.00
+
+Generating checksum for 4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz.
+ca551befac95d125305a37a42b64cf7c  4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,058,108,866 bytes  received 35 bytes  302,316,828.86 bytes/sec
+total size is 1,057,850,441  speedup is 1.00
+
+Generating checksum for 4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz.
+7eda5db3ba20cd663defc3f89c695fec  4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,201,030,592 bytes  received 35 bytes  343,151,607.71 bytes/sec
+total size is 1,200,737,286  speedup is 1.00
+
+Generating checksum for 4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz.
+8176e44fbd56ccada17313426ac40034  4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,131,990,621 bytes  received 35 bytes  323,425,901.71 bytes/sec
+total size is 1,131,714,163  speedup is 1.00
+
+Generating checksum for 4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz.
+3b0246d33f65ec5c288f4dc7382a8087  4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,192,401,184 bytes  received 35 bytes  340,686,062.57 bytes/sec
+total size is 1,192,109,982  speedup is 1.00
+
+Generating checksum for 4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz.
+f01075d99faae9d9716f2ecf5deb6a8e  4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,516,456,928 bytes  received 35 bytes  202,194,261.73 bytes/sec
+total size is 1,516,086,630  speedup is 1.00
+
+Generating checksum for 4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz.
+4eb5caa14567821915d819272a1afa95  4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,746,585,867 bytes  received 35 bytes  317,561,073.09 bytes/sec
+total size is 1,746,159,401  speedup is 1.00
+
+Generating checksum for 4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz.
+19fe2f41432fe324004c5679b04ea81d  4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 686,203,223 bytes  received 35 bytes  196,058,073.71 bytes/sec
+total size is 686,035,574  speedup is 1.00
+
+Generating checksum for 4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz.
+8cd97e941954fec3706fbd2967de5185  4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 788,702,934 bytes  received 35 bytes  225,343,705.43 bytes/sec
+total size is 788,510,269  speedup is 1.00
+
+Generating checksum for 4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz.
+35ac55eec613ae69c5fa27ccd5cad93a  4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,876,397,660 bytes  received 35 bytes  341,163,217.27 bytes/sec
+total size is 1,875,939,507  speedup is 1.00
+
+Generating checksum for 4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz.
+d2311b5f5399222686f41b6f6f2ffd2f  4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,104,730,079 bytes  received 35 bytes  323,804,632.92 bytes/sec
+total size is 2,104,216,198  speedup is 1.00
+
+Generating checksum for 4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz.
+398c82abcf73e7f06ab9ac0310fa6360  4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,866,959,627 bytes  received 35 bytes  287,224,563.38 bytes/sec
+total size is 1,866,503,777  speedup is 1.00
+
+Generating checksum for 4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+b992e6f69bd8932ad1e1e61e01646af1  4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,094,285,504 bytes  received 35 bytes  246,386,534.00 bytes/sec
+total size is 2,093,774,174  speedup is 1.00
+
+Generating checksum for 4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+eacfa57e80a87380d09ab1dcecb5d8ce  4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,058,108,866 bytes  received 35 bytes  302,316,828.86 bytes/sec
+total size is 1,057,850,441  speedup is 1.00
+
+Generating checksum for 4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz.
+7eda5db3ba20cd663defc3f89c695fec  4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P03-GTTTCG-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,201,030,592 bytes  received 35 bytes  266,895,694.89 bytes/sec
+total size is 1,200,737,286  speedup is 1.00
+
+Generating checksum for 4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz.
+8176e44fbd56ccada17313426ac40034  4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P03-GTTTCG-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,131,990,621 bytes  received 35 bytes  323,425,901.71 bytes/sec
+total size is 1,131,714,163  speedup is 1.00
+
+Generating checksum for 4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz.
+3b0246d33f65ec5c288f4dc7382a8087  4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P04-ATCACG-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,192,401,184 bytes  received 35 bytes  264,978,048.67 bytes/sec
+total size is 1,192,109,982  speedup is 1.00
+
+Generating checksum for 4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz.
+f01075d99faae9d9716f2ecf5deb6a8e  4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P04-ATCACG-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,762,588,615 bytes  received 35 bytes  320,470,663.64 bytes/sec
+total size is 1,762,158,245  speedup is 1.00
+
+Generating checksum for 4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz.
+5f4720fc68807807926fdb6631dfe46b  4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P06-AGTTCC-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,013,272,076 bytes  received 35 bytes  268,436,281.47 bytes/sec
+total size is 2,012,780,514  speedup is 1.00
+
+Generating checksum for 4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz.
+fd97f34b2cbd122f43b21b697b94b839  4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P06-AGTTCC-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,274,559,732 bytes  received 35 bytes  283,235,503.78 bytes/sec
+total size is 1,274,248,482  speedup is 1.00
+
+Generating checksum for 4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz.
+64de176361ef9ab71111da2021de6a73  4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P07-ATGTCA-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,444,998,677 bytes  received 35 bytes  321,110,824.89 bytes/sec
+total size is 1,444,645,819  speedup is 1.00
+
+Generating checksum for 4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz.
+dd9769818f794a56965e21921a6bf98a  4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P07-ATGTCA-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,461,496,892 bytes  received 35 bytes  324,777,094.89 bytes/sec
+total size is 1,461,140,010  speedup is 1.00
+
+Generating checksum for 4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz.
+732c6748c1aa6a1effb3338b8472032a  4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P09-GGCTAC-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,703,523,493 bytes  received 35 bytes  309,731,550.55 bytes/sec
+total size is 1,703,107,539  speedup is 1.00
+
+Generating checksum for 4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz.
+ca551befac95d125305a37a42b64cf7c  4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P09-GGCTAC-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 686,203,223 bytes  received 35 bytes  274,481,303.20 bytes/sec
+total size is 686,035,574  speedup is 1.00
+
+Generating checksum for 4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz.
+8cd97e941954fec3706fbd2967de5185  4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P10-GTCCGC-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 788,702,934 bytes  received 35 bytes  315,481,187.60 bytes/sec
+total size is 788,510,269  speedup is 1.00
+
+Generating checksum for 4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz.
+35ac55eec613ae69c5fa27ccd5cad93a  4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P10-GTCCGC-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,103,035,146 bytes  received 35 bytes  200,551,851.09 bytes/sec
+total size is 1,102,765,760  speedup is 1.00
+
+Generating checksum for 4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz.
+e2cee63fa74f4b2d37f4079ccf1e4063  4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P01-AGTCAA-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,237,569,499 bytes  received 35 bytes  225,012,642.55 bytes/sec
+total size is 1,237,267,273  speedup is 1.00
+
+Generating checksum for 4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz.
+b897a792ddf5b447df2070f823a7b34b  4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P01-AGTCAA-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,437,532,044 bytes  received 35 bytes  261,369,468.91 bytes/sec
+total size is 1,437,181,010  speedup is 1.00
+
+Generating checksum for 4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz.
+438efda85e34ad94510d9d4983405500  4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P02-CTTGTA-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,634,098,345 bytes  received 35 bytes  251,399,750.77 bytes/sec
+total size is 1,633,699,335  speedup is 1.00
+
+Generating checksum for 4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz.
+88ae6e8ff2ca8ef886397c6ed54a0c3a  4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P02-CTTGTA-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,516,456,928 bytes  received 35 bytes  336,990,436.22 bytes/sec
+total size is 1,516,086,630  speedup is 1.00
+
+Generating checksum for 4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz.
+4eb5caa14567821915d819272a1afa95  4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P05-TAGCTT-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 1,746,585,867 bytes  received 35 bytes  268,705,523.38 bytes/sec
+total size is 1,746,159,401  speedup is 1.00
+
+Generating checksum for 4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz.
+19fe2f41432fe324004c5679b04ea81d  4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P05-TAGCTT-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,789,713,825 bytes  received 35 bytes  325,402,520.00 bytes/sec
+total size is 1,789,276,831  speedup is 1.00
+
+Generating checksum for 4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+7481a202d35c4e4b0115cd2a31a8ac3f  4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,051,586,034 bytes  received 35 bytes  273,544,809.20 bytes/sec
+total size is 2,051,085,120  speedup is 1.00
+
+Generating checksum for 4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+5ab095f45ebc222b4c68245afb040c08  4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,876,397,660 bytes  received 35 bytes  250,186,359.33 bytes/sec
+total size is 1,875,939,507  speedup is 1.00
+
+Generating checksum for 4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz.
+d2311b5f5399222686f41b6f6f2ffd2f  4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P11-GAGTGG-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,104,730,079 bytes  received 35 bytes  280,630,681.87 bytes/sec
+total size is 2,104,216,198  speedup is 1.00
+
+Generating checksum for 4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz.
+398c82abcf73e7f06ab9ac0310fa6360  4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P11-GAGTGG-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+sending incremental file list
+4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz
+
+sent 1,866,959,627 bytes  received 35 bytes  287,224,563.38 bytes/sec
+total size is 1,866,503,777  speedup is 1.00
+
+Generating checksum for 4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+b992e6f69bd8932ad1e1e61e01646af1  4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz
+Finished generating checksum for 4R041-L6-P12-GCCAAT-READ1-Sequences.txt.gz_val_1.fq.gz.
+
+sending incremental file list
+4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz
+
+sent 2,094,285,504 bytes  received 35 bytes  322,197,775.23 bytes/sec
+total size is 2,093,774,174  speedup is 1.00
+
+Generating checksum for 4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+eacfa57e80a87380d09ab1dcecb5d8ce  4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz
+Finished generating checksum for 4R041-L6-P12-GCCAAT-READ2-Sequences.txt.gz_val_2.fq.gz.
+
+Logging system $PATH...
+
+
+Finished logging system $PATH.
