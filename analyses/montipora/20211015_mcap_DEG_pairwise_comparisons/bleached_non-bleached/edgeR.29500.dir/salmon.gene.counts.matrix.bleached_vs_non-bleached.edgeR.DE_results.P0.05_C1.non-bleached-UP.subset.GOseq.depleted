@@ -1,0 +1,9 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0008152	0.993082700003148	0.0237882506503172	3	17326	metabolic process	BP	0.9999999999	0.999998673990857	BP metabolic process
+GO:0071704	0.989641605716656	0.0338143705743638	3	16363	organic substance metabolic process	BP	0.9999999999	0.999998673990857	BP organic substance metabolic process
+GO:0005515	0.991621262787049	0.0339970565999019	2	13685	protein binding	MF	0.9999999999	0.999998673990857	MF protein binding
+GO:0044237	0.985901134473603	0.0441337946959024	3	15617	cellular metabolic process	BP	0.9999999999	0.999998673990857	BP cellular metabolic process
+GO:0065008	1	0.0452844440454545	0	6222	regulation of biological quality	BP	0.9999999999	0.999998673990857	BP regulation of biological quality
+GO:0044238	0.985264961578528	0.0458412470656673	3	15497	primary metabolic process	BP	0.9999999999	0.999998673990857	BP primary metabolic process
+GO:0043228	1	0.0484768543774246	0	6121	non-membrane-bounded organelle	CC	0.9999999999	0.999998673990857	CC non-membrane-bounded organelle
+GO:0043232	1	0.0487557556402836	0	6110	intracellular non-membrane-bounded organelle	CC	0.9999999999	0.999998673990857	CC intracellular non-membrane-bounded organelle

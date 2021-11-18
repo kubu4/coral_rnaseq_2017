@@ -1,0 +1,89 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0015804	0.000270101293482444	0.999997984759614	2	44	neutral amino acid transport	BP	0.9999999999	BP neutral amino acid transport	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:0015175	0.000334494924845017	0.999997210655242	2	49	neutral amino acid transmembrane transporter activity	MF	0.9999999999	MF neutral amino acid transmembrane transporter activity	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:0003333	0.00121676134680402	0.999980246936603	2	90	amino acid transmembrane transport	BP	0.9999999999	BP amino acid transmembrane transport	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:1903825	0.00292216801170907	0.999925505864362	2	141	organic acid transmembrane transport	BP	0.9999999999	BP organic acid transmembrane transport	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:1905039	0.00292216801170907	0.999925505864362	2	141	carboxylic acid transmembrane transport	BP	0.9999999999	BP carboxylic acid transmembrane transport	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:0005052	0.00336275346126397	0.999995496825714	1	5	peroxisome matrix targeting signal-1 binding	MF	0.9999999999	MF peroxisome matrix targeting signal-1 binding	TRINITY_GG_65867_c0_g2
+GO:0016560	0.00366267154450473	0.999994434705627	1	6	protein import into peroxisome matrix, docking	BP	0.9999999999	BP protein import into peroxisome matrix, docking	TRINITY_GG_65867_c0_g2
+GO:0032197	0.00438836816399674	0.999862226311883	2	146	transposition, RNA-mediated	BP	0.9999999999	BP transposition, RNA-mediated	TRINITY_GG_20986_c17_g1, TRINITY_GG_81047_c0_g2
+GO:0034113	0.0044671289985192	0.999991305424867	1	8	heterotypic cell-cell adhesion	BP	0.9999999999	BP heterotypic cell-cell adhesion	TRINITY_GG_100721_c3_g2
+GO:0022615	0.00463834424201763	0.999990625557162	1	8	protein to membrane docking	BP	0.9999999999	BP protein to membrane docking	TRINITY_GG_65867_c0_g2
+GO:0021540	0.00472539462354834	0.999990115838557	1	9	corpus callosum morphogenesis	BP	0.9999999999	BP corpus callosum morphogenesis	TRINITY_GG_71135_c141_g1
+GO:0000268	0.00542135436512931	0.999986986556169	1	9	peroxisome targeting sequence binding	MF	0.9999999999	MF peroxisome targeting sequence binding	TRINITY_GG_65867_c0_g2
+GO:0009624	0.0062316922119826	0.999982585733509	1	10	response to nematode	BP	0.9999999999	BP response to nematode	TRINITY_GG_12835_c6_g1
+GO:1901668	0.006245452719418	0.999982332309794	1	11	regulation of superoxide dismutase activity	BP	0.9999999999	BP regulation of superoxide dismutase activity	TRINITY_GG_71135_c141_g1
+GO:0030346	0.00631435964129632	0.999981789633517	1	12	protein phosphatase 2B binding	MF	0.9999999999	MF protein phosphatase 2B binding	TRINITY_GG_25361_c2_g1
+GO:0015171	0.00639783734805815	0.999755443770388	2	211	amino acid transmembrane transporter activity	MF	0.9999999999	MF amino acid transmembrane transporter activity	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:0140007	0.00661630327582722	0.999980004203686	1	12	KICSTOR complex	CC	0.9999999999	CC KICSTOR complex	TRINITY_GG_71135_c141_g1
+GO:0008305	0.00738243096842857	0.999974775698396	1	14	integrin complex	CC	0.9999999999	CC integrin complex	TRINITY_GG_100721_c3_g2
+GO:0071476	0.00774388119469502	0.999972099597059	1	15	cellular hypotonic response	BP	0.9999999999	BP cellular hypotonic response	TRINITY_GG_74680_c7_g1
+GO:0098636	0.00870940330842789	0.999964539087269	1	16	protein complex involved in cell adhesion	CC	0.9999999999	CC protein complex involved in cell adhesion	TRINITY_GG_100721_c3_g2
+GO:0006865	0.00883088103803667	0.999600850051819	2	251	amino acid transport	BP	0.9999999999	BP amino acid transport	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:2000121	0.00900394328320512	0.999962096051909	1	16	regulation of removal of superoxide radicals	BP	0.9999999999	BP regulation of removal of superoxide radicals	TRINITY_GG_71135_c141_g1
+GO:0005774	0.00905402113932607	0.99908172986462	3	748	vacuolar membrane	CC	0.9999999999	CC vacuolar membrane	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1, TRINITY_GG_71135_c141_g1
+GO:0098656	0.0109545003194893	0.999445977706774	2	275	anion transmembrane transport	BP	0.9999999999	BP anion transmembrane transport	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:0006971	0.0115198361441579	0.999936773360254	1	22	hypotonic response	BP	0.9999999999	BP hypotonic response	TRINITY_GG_74680_c7_g1
+GO:0046943	0.0118477422335682	0.999375670532606	2	290	carboxylic acid transmembrane transporter activity	MF	0.9999999999	MF carboxylic acid transmembrane transporter activity	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:0005342	0.0120357291539417	0.999360517302105	2	292	organic acid transmembrane transporter activity	MF	0.9999999999	MF organic acid transmembrane transporter activity	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:0042579	0.0123679067659498	0.999333461368135	2	293	microbody	CC	0.9999999999	CC microbody	TRINITY_GG_65867_c0_g2, TRINITY_GG_71135_c141_g1
+GO:0039702	0.0137355117108305	0.999909687114091	1	24	viral budding via host ESCRT complex	BP	0.9999999999	BP viral budding via host ESCRT complex	TRINITY_GG_66058_c1_g3
+GO:0044437	0.014179945784691	0.998304405018122	3	883	NA	NA	0.9999999999	none	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1, TRINITY_GG_71135_c141_g1
+GO:0055036	0.0156297855961451	0.999882778553776	1	25	virion membrane	CC	0.9999999999	CC virion membrane	TRINITY_GG_66058_c1_g3
+GO:0090322	0.0160272654543812	0.999875871764989	1	30	regulation of superoxide metabolic process	BP	0.9999999999	BP regulation of superoxide metabolic process	TRINITY_GG_71135_c141_g1
+GO:0043539	0.0170913084604515	0.999858350207435	1	33	protein serine/threonine kinase activator activity	MF	0.9999999999	MF protein serine/threonine kinase activator activity	TRINITY_GG_74680_c7_g1
+GO:0046755	0.017211687498587	0.999856629780488	1	31	viral budding	BP	0.9999999999	BP viral budding	TRINITY_GG_66058_c1_g3
+GO:1902590	0.017211687498587	0.999856629780488	1	31	multi-organism organelle organization	BP	0.9999999999	BP multi-organism organelle organization	TRINITY_GG_66058_c1_g3
+GO:1902592	0.017211687498587	0.999856629780488	1	31	NA	NA	0.9999999999	none	TRINITY_GG_66058_c1_g3
+GO:0008514	0.0173373245214258	0.998883872250298	2	357	organic anion transmembrane transporter activity	MF	0.9999999999	MF organic anion transmembrane transporter activity	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:0006336	0.0187955404867726	0.999828147330292	1	36	DNA replication-independent nucleosome assembly	BP	0.9999999999	BP DNA replication-independent nucleosome assembly	TRINITY_GG_25361_c2_g1
+GO:0005542	0.0190597381022699	0.999823722002123	1	33	folic acid binding	MF	0.9999999999	MF folic acid binding	TRINITY_GG_84075_c55_g1
+GO:0021952	0.0194313514273057	0.999816283126563	1	36	central nervous system projection neuron axonogenesis	BP	0.9999999999	BP central nervous system projection neuron axonogenesis	TRINITY_GG_71135_c141_g1
+GO:0044803	0.0196170911863157	0.999812741982786	1	36	multi-organism membrane organization	BP	0.9999999999	BP multi-organism membrane organization	TRINITY_GG_66058_c1_g3
+GO:0034724	0.0196904889109256	0.999811051396367	1	38	DNA replication-independent nucleosome organization	BP	0.9999999999	BP DNA replication-independent nucleosome organization	TRINITY_GG_25361_c2_g1
+GO:0071470	0.0201301106040364	0.999802353802234	1	39	cellular response to osmotic stress	BP	0.9999999999	BP cellular response to osmotic stress	TRINITY_GG_74680_c7_g1
+GO:0004518	0.0210967333728036	0.995860318175892	4	1658	nuclease activity	MF	0.9999999999	MF nuclease activity	TRINITY_GG_20986_c17_g1, TRINITY_GG_55147_c0_g1, TRINITY_GG_68962_c1_g1, TRINITY_GG_81047_c0_g2
+GO:0021955	0.0221903606510291	0.999759205489663	1	42	central nervous system neuron axonogenesis	BP	0.9999999999	BP central nervous system neuron axonogenesis	TRINITY_GG_71135_c141_g1
+GO:1904262	0.0230956580310813	0.999739229102632	1	41	negative regulation of TORC1 signaling	BP	0.9999999999	BP negative regulation of TORC1 signaling	TRINITY_GG_71135_c141_g1
+GO:1901017	0.023195730683094	0.999736375146054	1	45	negative regulation of potassium ion transmembrane transporter activity	BP	0.9999999999	BP negative regulation of potassium ion transmembrane transporter activity	TRINITY_GG_74680_c7_g1
+GO:0044174	0.0239128653236361	0.999720916416645	1	38	host cell endosome	CC	0.9999999999	CC host cell endosome	TRINITY_GG_66058_c1_g3
+GO:0044184	0.0239128653236361	0.999720916416645	1	38	host cell late endosome	CC	0.9999999999	CC host cell late endosome	TRINITY_GG_66058_c1_g3
+GO:0072494	0.0239128653236361	0.999720916416645	1	38	host multivesicular body	CC	0.9999999999	CC host multivesicular body	TRINITY_GG_66058_c1_g3
+GO:0003964	0.024250514661927	0.993868127492425	5	2465	RNA-directed DNA polymerase activity	MF	0.9999999999	MF RNA-directed DNA polymerase activity	TRINITY_GG_20986_c17_g1, TRINITY_GG_34748_c0_g1, TRINITY_GG_55147_c0_g1, TRINITY_GG_68962_c1_g1, TRINITY_GG_81047_c0_g2
+GO:0003993	0.0246540363657706	0.999702186519697	1	44	acid phosphatase activity	MF	0.9999999999	MF acid phosphatase activity	TRINITY_GG_12916_c4_g3
+GO:0016788	0.0251322236645734	0.993586173626819	5	2707	hydrolase activity, acting on ester bonds	MF	0.9999999999	MF hydrolase activity, acting on ester bonds	TRINITY_GG_12916_c4_g3, TRINITY_GG_20986_c17_g1, TRINITY_GG_55147_c0_g1, TRINITY_GG_68962_c1_g1, TRINITY_GG_81047_c0_g2
+GO:1901380	0.0259455623767131	0.999669105156802	1	50	negative regulation of potassium ion transmembrane transport	BP	0.9999999999	BP negative regulation of potassium ion transmembrane transport	TRINITY_GG_74680_c7_g1
+GO:0015173	0.026954964455495	0.999643033198569	1	48	aromatic amino acid transmembrane transporter activity	MF	0.9999999999	MF aromatic amino acid transmembrane transporter activity	TRINITY_GG_12835_c6_g1
+GO:0034061	0.027243114149929	0.992901933124856	5	2552	DNA polymerase activity	MF	0.9999999999	MF DNA polymerase activity	TRINITY_GG_20986_c17_g1, TRINITY_GG_34748_c0_g1, TRINITY_GG_55147_c0_g1, TRINITY_GG_68962_c1_g1, TRINITY_GG_81047_c0_g2
+GO:0016235	0.0287597076210678	0.99959242429826	1	54	aggresome	CC	0.9999999999	CC aggresome	TRINITY_GG_25361_c2_g1
+GO:0010800	0.029055579561954	0.999583810898954	1	55	positive regulation of peptidyl-threonine phosphorylation	BP	0.9999999999	BP positive regulation of peptidyl-threonine phosphorylation	TRINITY_GG_74680_c7_g1
+GO:0014823	0.0307166349500408	0.99953415469557	1	58	response to activity	BP	0.9999999999	BP response to activity	TRINITY_GG_25361_c2_g1
+GO:0042149	0.0308305044214926	0.99953053769924	1	59	cellular response to glucose starvation	BP	0.9999999999	BP cellular response to glucose starvation	TRINITY_GG_71135_c141_g1
+GO:0043267	0.0311063728590342	0.999521916881575	1	60	negative regulation of potassium ion transport	BP	0.9999999999	BP negative regulation of potassium ion transport	TRINITY_GG_74680_c7_g1
+GO:0033655	0.0315722712012332	0.999508866528481	1	51	host cell cytoplasm part	CC	0.9999999999	CC host cell cytoplasm part	TRINITY_GG_66058_c1_g3
+GO:0004864	0.0325623625977031	0.999475565177079	1	62	protein phosphatase inhibitor activity	MF	0.9999999999	MF protein phosphatase inhibitor activity	TRINITY_GG_25361_c2_g1
+GO:0019212	0.0325623625977031	0.999475565177079	1	62	phosphatase inhibitor activity	MF	0.9999999999	MF phosphatase inhibitor activity	TRINITY_GG_25361_c2_g1
+GO:1901031	0.0330130402441076	0.999461154617506	1	60	regulation of response to reactive oxygen species	BP	0.9999999999	BP regulation of response to reactive oxygen species	TRINITY_GG_71135_c141_g1
+GO:0098805	0.0334106405269012	0.992458589946655	4	2151	NA	NA	0.9999999999	none	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1, TRINITY_GG_65867_c0_g2, TRINITY_GG_71135_c141_g1
+GO:0005048	0.0340312438924296	0.999426327523871	1	66	signal sequence binding	MF	0.9999999999	MF signal sequence binding	TRINITY_GG_65867_c0_g2
+GO:0020002	0.0340795080303321	0.999426633993191	1	54	host cell plasma membrane	CC	0.9999999999	CC host cell plasma membrane	TRINITY_GG_66058_c1_g3
+GO:0007229	0.0350675686017335	0.999390636414802	1	66	integrin-mediated signaling pathway	BP	0.9999999999	BP integrin-mediated signaling pathway	TRINITY_GG_100721_c3_g2
+GO:0015849	0.0359477859020545	0.996584669461904	2	522	organic acid transport	BP	0.9999999999	BP organic acid transport	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:0046942	0.0359477859020545	0.996584669461904	2	522	carboxylic acid transport	BP	0.9999999999	BP carboxylic acid transport	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:0016779	0.0365563022300935	0.98971431952066	5	2795	nucleotidyltransferase activity	MF	0.9999999999	MF nucleotidyltransferase activity	TRINITY_GG_20986_c17_g1, TRINITY_GG_34748_c0_g1, TRINITY_GG_55147_c0_g1, TRINITY_GG_68962_c1_g1, TRINITY_GG_81047_c0_g2
+GO:0033644	0.0382136698478157	0.999276308114795	1	62	host cell membrane	CC	0.9999999999	CC host cell membrane	TRINITY_GG_66058_c1_g3
+GO:0044218	0.0394388187091935	0.999228440156486	1	64	other organism cell membrane	CC	0.9999999999	CC other organism cell membrane	TRINITY_GG_66058_c1_g3
+GO:0044279	0.0394388187091935	0.999228440156486	1	64	NA	NA	0.9999999999	none	TRINITY_GG_66058_c1_g3
+GO:0010799	0.0399167813933658	0.999207538847142	1	76	regulation of peptidyl-threonine phosphorylation	BP	0.9999999999	BP regulation of peptidyl-threonine phosphorylation	TRINITY_GG_74680_c7_g1
+GO:1903432	0.0408281244174393	0.99917112462522	1	73	regulation of TORC1 signaling	BP	0.9999999999	BP regulation of TORC1 signaling	TRINITY_GG_71135_c141_g1
+GO:0032196	0.0408887925800338	0.992695912406461	3	1167	transposition	BP	0.9999999999	BP transposition	TRINITY_GG_20986_c17_g1, TRINITY_GG_34748_c0_g1, TRINITY_GG_81047_c0_g2
+GO:0019013	0.0412289035273295	0.999156491297593	1	63	viral nucleocapsid	CC	0.9999999999	CC viral nucleocapsid	TRINITY_GG_66058_c1_g3
+GO:0034198	0.0414923038518268	0.999143275849247	1	76	cellular response to amino acid starvation	BP	0.9999999999	BP cellular response to amino acid starvation	TRINITY_GG_71135_c141_g1
+GO:1904813	0.0423359311318634	0.999107375284455	1	79	ficolin-1-rich granule lumen	CC	0.9999999999	CC ficolin-1-rich granule lumen	TRINITY_GG_74680_c7_g1
+GO:0044423	0.0434316112210288	0.999062552665267	1	66	virion part	CC	0.9999999999	CC virion part	TRINITY_GG_66058_c1_g3
+GO:1902554	0.043658263061394	0.999049328111543	1	86	serine/threonine protein kinase complex	CC	0.9999999999	CC serine/threonine protein kinase complex	TRINITY_GG_74680_c7_g1
+GO:0030295	0.0442924208731067	0.999021426116176	1	85	protein kinase activator activity	MF	0.9999999999	MF protein kinase activator activity	TRINITY_GG_74680_c7_g1
+GO:0008509	0.0468951177451998	0.994851904596722	2	601	anion transmembrane transporter activity	MF	0.9999999999	MF anion transmembrane transporter activity	TRINITY_GG_12835_c43_g1, TRINITY_GG_12835_c6_g1
+GO:0033218	0.0469562548131653	0.994841468436684	2	604	amide binding	MF	0.9999999999	MF amide binding	TRINITY_GG_65867_c0_g2, TRINITY_GG_84075_c55_g1
+GO:0004519	0.049231349592767	0.990540272496708	3	1283	endonuclease activity	MF	0.9999999999	MF endonuclease activity	TRINITY_GG_55147_c0_g1, TRINITY_GG_68962_c1_g1, TRINITY_GG_81047_c0_g2
+GO:0061462	0.0496925193797866	0.998765131785111	1	90	protein localization to lysosome	BP	0.9999999999	BP protein localization to lysosome	TRINITY_GG_71135_c141_g1

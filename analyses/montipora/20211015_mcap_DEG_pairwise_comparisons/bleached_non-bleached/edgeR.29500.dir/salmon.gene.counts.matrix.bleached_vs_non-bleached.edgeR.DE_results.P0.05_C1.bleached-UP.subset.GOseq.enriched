@@ -1,0 +1,35 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	go_term	gene_ids
+GO:0039702	0.00282541230864265	0.999996302998744	1	24	viral budding via host ESCRT complex	BP	0.9999999999	BP viral budding via host ESCRT complex	TRINITY_GG_66058_c1_g3
+GO:0055036	0.00299914070093697	0.999995826882063	1	25	virion membrane	CC	0.9999999999	CC virion membrane	TRINITY_GG_66058_c1_g3
+GO:0046755	0.00362637652486867	0.999993848305011	1	31	viral budding	BP	0.9999999999	BP viral budding	TRINITY_GG_66058_c1_g3
+GO:1902590	0.00362637652486867	0.999993848305011	1	31	multi-organism organelle organization	BP	0.9999999999	BP multi-organism organelle organization	TRINITY_GG_66058_c1_g3
+GO:1902592	0.00362637652486867	0.999993848305011	1	31	NA	NA	0.9999999999	none	TRINITY_GG_66058_c1_g3
+GO:0044803	0.00419548233261564	0.99999172621613	1	36	multi-organism membrane organization	BP	0.9999999999	BP multi-organism membrane organization	TRINITY_GG_66058_c1_g3
+GO:0044174	0.00456442902404665	0.999990191065501	1	38	host cell endosome	CC	0.9999999999	CC host cell endosome	TRINITY_GG_66058_c1_g3
+GO:0044184	0.00456442902404665	0.999990191065501	1	38	host cell late endosome	CC	0.9999999999	CC host cell late endosome	TRINITY_GG_66058_c1_g3
+GO:0072494	0.00456442902404665	0.999990191065501	1	38	host multivesicular body	CC	0.9999999999	CC host multivesicular body	TRINITY_GG_66058_c1_g3
+GO:0033655	0.00610220777880398	0.999982338171436	1	51	host cell cytoplasm part	CC	0.9999999999	CC host cell cytoplasm part	TRINITY_GG_66058_c1_g3
+GO:0020002	0.00649127549118099	0.999979989283155	1	54	host cell plasma membrane	CC	0.9999999999	CC host cell plasma membrane	TRINITY_GG_66058_c1_g3
+GO:0033644	0.00741358322596249	0.999973826993248	1	62	host cell membrane	CC	0.9999999999	CC host cell membrane	TRINITY_GG_66058_c1_g3
+GO:0019013	0.00764479855406719	0.999972159473822	1	63	viral nucleocapsid	CC	0.9999999999	CC viral nucleocapsid	TRINITY_GG_66058_c1_g3
+GO:0044218	0.00765243969119236	0.999972096704572	1	64	other organism cell membrane	CC	0.9999999999	CC other organism cell membrane	TRINITY_GG_66058_c1_g3
+GO:0044279	0.00765243969119236	0.999972096704572	1	64	NA	NA	0.9999999999	none	TRINITY_GG_66058_c1_g3
+GO:0044423	0.00802023772783593	0.999969331349769	1	66	virion part	CC	0.9999999999	CC virion part	TRINITY_GG_66058_c1_g3
+GO:0006900	0.0108490582795485	0.99994357580698	1	93	vesicle budding from membrane	BP	0.9999999999	BP vesicle budding from membrane	TRINITY_GG_66058_c1_g3
+GO:0001171	0.0110551867180239	0.999941421061046	1	91	reverse transcription	BP	0.9999999999	BP reverse transcription	TRINITY_GG_81047_c0_g2
+GO:0009036	0.0110551867180239	0.999941421061046	1	91	type II site-specific deoxyribonuclease activity	MF	0.9999999999	MF type II site-specific deoxyribonuclease activity	TRINITY_GG_81047_c0_g2
+GO:0015666	0.0110551867180239	0.999941421061046	1	91	restriction endodeoxyribonuclease activity	MF	0.9999999999	MF restriction endodeoxyribonuclease activity	TRINITY_GG_81047_c0_g2
+GO:0032199	0.0110551867180239	0.999941421061046	1	91	reverse transcription involved in RNA-mediated transposition	BP	0.9999999999	BP reverse transcription involved in RNA-mediated transposition	TRINITY_GG_81047_c0_g2
+GO:0042025	0.0128324283525144	0.999920885905319	1	108	host cell nucleus	CC	0.9999999999	CC host cell nucleus	TRINITY_GG_66058_c1_g3
+GO:0033647	0.0146149660414957	0.99989719933211	1	123	host intracellular organelle	CC	0.9999999999	CC host intracellular organelle	TRINITY_GG_66058_c1_g3
+GO:0033648	0.0146149660414957	0.99989719933211	1	123	host intracellular membrane-bounded organelle	CC	0.9999999999	CC host intracellular membrane-bounded organelle	TRINITY_GG_66058_c1_g3
+GO:0006278	0.0160864937841131	0.999875308141129	1	134	RNA-dependent DNA biosynthetic process	BP	0.9999999999	BP RNA-dependent DNA biosynthetic process	TRINITY_GG_81047_c0_g2
+GO:0033646	0.0164801735325891	0.999869077074282	1	139	host intracellular part	CC	0.9999999999	CC host intracellular part	TRINITY_GG_66058_c1_g3
+GO:0032197	0.0176229350806403	0.99985017891397	1	146	transposition, RNA-mediated	BP	0.9999999999	BP transposition, RNA-mediated	TRINITY_GG_81047_c0_g2
+GO:0033643	0.0191130084514713	0.999823560498493	1	162	host cell part	CC	0.9999999999	CC host cell part	TRINITY_GG_66058_c1_g3
+GO:0016888	0.0197835794723711	0.999810890041718	1	166	endodeoxyribonuclease activity, producing 5'-phosphomonoesters	MF	0.9999999999	MF endodeoxyribonuclease activity, producing 5'-phosphomonoesters	TRINITY_GG_81047_c0_g2
+GO:0044217	0.0214306896037313	0.999777843914431	1	182	other organism part	CC	0.9999999999	CC other organism part	TRINITY_GG_66058_c1_g3
+GO:0004520	0.0269936423670128	0.9996464522686	1	229	endodeoxyribonuclease activity	MF	0.9999999999	MF endodeoxyribonuclease activity	TRINITY_GG_81047_c0_g2
+GO:0004536	0.0325693050236059	0.999483911578724	1	277	deoxyribonuclease activity	MF	0.9999999999	MF deoxyribonuclease activity	TRINITY_GG_81047_c0_g2
+GO:0071897	0.032656569403689	0.999481119608623	1	278	DNA biosynthetic process	BP	0.9999999999	BP DNA biosynthetic process	TRINITY_GG_81047_c0_g2
+GO:0090305	0.0420895535306076	0.99913445269411	1	363	nucleic acid phosphodiester bond hydrolysis	BP	0.9999999999	BP nucleic acid phosphodiester bond hydrolysis	TRINITY_GG_81047_c0_g2

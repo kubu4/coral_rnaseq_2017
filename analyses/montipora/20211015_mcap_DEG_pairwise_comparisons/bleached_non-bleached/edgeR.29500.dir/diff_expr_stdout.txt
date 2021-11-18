@@ -1,0 +1,375 @@
+> library(goseq)
+> library(GO.db)
+> library(qvalue)
+> # capture list of genes for functional enrichment testing
+> factor_labeling = read.table("salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.bleached-UP.subset", row.names=1)
+> factor_labeling[,1] = rep('custom_list', dim(factor_labeling)[1])
+> factor_labeling = factor_labeling[,1,drop=F]
+> colnames(factor_labeling) = c('type')
+> factor_list = unique(factor_labeling[,1])
+> DE_genes = rownames(factor_labeling)
+> 
+> 
+> # get gene lengths
+> gene_lengths = read.table("/gscratch/scrubbed/samwhite/outputs/20211015_mcap_DEG_pairwise_comparisons/bleached_non-bleached/Trinity.gene_lengths.txt", header=T, row.names=1, com='')
+> gene_lengths = as.matrix(gene_lengths[,1,drop=F])
+> 
+> 
+> # get background gene list
+> background = read.table("salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.count_matrix", header=T, row.names=1)
+> background.gene_ids = rownames(background)
+> background.gene_ids = unique(c(background.gene_ids, DE_genes))
+> sample_set_gene_ids = background.gene_ids
+> 
+> 
+> # parse GO assignments
+> GO_info = read.table("/gscratch/srlab/sam/data/M_capitata/transcriptomes/20211115.mcap.trinotate.go_annotations.txt", header=F, row.names=1,stringsAsFactors=F)
+> GO_info_listed = apply(GO_info, 1, function(x) unlist(strsplit(x,',')))
+> names(GO_info_listed) = rownames(GO_info)
+> get_GO_term_descr =  function(x) {
++     d = 'none';
++     go_info = GOTERM[[x]];
++     if (length(go_info) >0) { d = paste(Ontology(go_info), Term(go_info), sep=' ');}
++     return(d);
++ }
+> 
+> 
+> #organize go_id -> list of genes
+> GO_to_gene_list = list()
+> for (gene_id in intersect(names(GO_info_listed), sample_set_gene_ids)) {
++     go_list = GO_info_listed[[gene_id]]
++     for (go_id in go_list) {
++         GO_to_gene_list[[go_id]] = c(GO_to_gene_list[[go_id]], gene_id)
++     }
++ }
+> 
+> 
+> # GO-Seq protocol: build pwf based on ALL DE features
+> missing_gene_lengths = sample_set_gene_ids[! sample_set_gene_ids %in% rownames(gene_lengths)]
+> if (length(missing_gene_lengths) > 0) {
++      stop("Error, missing gene lengths for features: ", paste(missing_gene_lengths, collapse=', '))
++ }
+> sample_set_gene_lengths = gene_lengths[sample_set_gene_ids,]
+> GO_info_listed = GO_info_listed[ names(GO_info_listed) %in% sample_set_gene_ids ]
+> cat_genes_vec = as.integer(sample_set_gene_ids %in% rownames(factor_labeling))
+> pwf=nullp(cat_genes_vec, bias.data=sample_set_gene_lengths)
+> rownames(pwf) = sample_set_gene_ids
+> 
+> 
+> # perform functional enrichment testing for each category.
+> for (feature_cat in factor_list) {
++     message('Processing category: ', feature_cat)
++     gene_ids_in_feature_cat = rownames(factor_labeling)[factor_labeling$type == feature_cat]
++     cat_genes_vec = as.integer(sample_set_gene_ids %in% gene_ids_in_feature_cat)
++     pwf$DEgenes = cat_genes_vec
++     res = goseq(pwf,gene2cat=GO_info_listed, use_genes_without_cat=TRUE)
++     ## over-represented categories:
++      pvals = res$over_represented_pvalue
++      pvals[pvals > 1 - 1e-10] = 1 - 1e-10
++      q = qvalue(pvals)
++      res$over_represented_FDR = q$qvalues
++ go_enrich_filename = paste("salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.bleached-UP.subset", '.GOseq.enriched', sep='')
++     result_table = res[res$over_represented_pvalue<=0.05,]
++     descr = unlist(lapply(result_table$category, get_GO_term_descr))
++     result_table$go_term = descr;
++     result_table$gene_ids = do.call(rbind, lapply(result_table$category, function(x) { 
++             gene_list = GO_to_gene_list[[x]]
++             gene_list = gene_list[gene_list %in% gene_ids_in_feature_cat]
++             paste(gene_list, collapse=', ');
++      }) )
++     write.table(result_table[order(result_table$over_represented_pvalue),], file=go_enrich_filename, sep='	', quote=F, row.names=F)
++     ## under-represented categories:
++      pvals = res$under_represented_pvalue
++      pvals[pvals>1-1e-10] = 1 - 1e-10
++      q = qvalue(pvals)
++      res$under_represented_FDR = q$qvalues
++     go_depleted_filename = paste("salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.bleached-UP.subset", '.GOseq.depleted', sep='')
++     result_table = res[res$under_represented_pvalue<=0.05,]
++     descr = unlist(lapply(result_table$category, get_GO_term_descr))
++     result_table$go_term = descr;
++     write.table(result_table[order(result_table$under_represented_pvalue),], file=go_depleted_filename, sep='	', quote=F, row.names=F)
++ }
+> 
+> library(goseq)
+> library(GO.db)
+> library(qvalue)
+> # capture list of genes for functional enrichment testing
+> factor_labeling = read.table("salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.non-bleached-UP.subset", row.names=1)
+> factor_labeling[,1] = rep('custom_list', dim(factor_labeling)[1])
+> factor_labeling = factor_labeling[,1,drop=F]
+> colnames(factor_labeling) = c('type')
+> factor_list = unique(factor_labeling[,1])
+> DE_genes = rownames(factor_labeling)
+> 
+> 
+> # get gene lengths
+> gene_lengths = read.table("/gscratch/scrubbed/samwhite/outputs/20211015_mcap_DEG_pairwise_comparisons/bleached_non-bleached/Trinity.gene_lengths.txt", header=T, row.names=1, com='')
+> gene_lengths = as.matrix(gene_lengths[,1,drop=F])
+> 
+> 
+> # get background gene list
+> background = read.table("salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.count_matrix", header=T, row.names=1)
+> background.gene_ids = rownames(background)
+> background.gene_ids = unique(c(background.gene_ids, DE_genes))
+> sample_set_gene_ids = background.gene_ids
+> 
+> 
+> # parse GO assignments
+> GO_info = read.table("/gscratch/srlab/sam/data/M_capitata/transcriptomes/20211115.mcap.trinotate.go_annotations.txt", header=F, row.names=1,stringsAsFactors=F)
+> GO_info_listed = apply(GO_info, 1, function(x) unlist(strsplit(x,',')))
+> names(GO_info_listed) = rownames(GO_info)
+> get_GO_term_descr =  function(x) {
++     d = 'none';
++     go_info = GOTERM[[x]];
++     if (length(go_info) >0) { d = paste(Ontology(go_info), Term(go_info), sep=' ');}
++     return(d);
++ }
+> 
+> 
+> #organize go_id -> list of genes
+> GO_to_gene_list = list()
+> for (gene_id in intersect(names(GO_info_listed), sample_set_gene_ids)) {
++     go_list = GO_info_listed[[gene_id]]
++     for (go_id in go_list) {
++         GO_to_gene_list[[go_id]] = c(GO_to_gene_list[[go_id]], gene_id)
++     }
++ }
+> 
+> 
+> # GO-Seq protocol: build pwf based on ALL DE features
+> missing_gene_lengths = sample_set_gene_ids[! sample_set_gene_ids %in% rownames(gene_lengths)]
+> if (length(missing_gene_lengths) > 0) {
++      stop("Error, missing gene lengths for features: ", paste(missing_gene_lengths, collapse=', '))
++ }
+> sample_set_gene_lengths = gene_lengths[sample_set_gene_ids,]
+> GO_info_listed = GO_info_listed[ names(GO_info_listed) %in% sample_set_gene_ids ]
+> cat_genes_vec = as.integer(sample_set_gene_ids %in% rownames(factor_labeling))
+> pwf=nullp(cat_genes_vec, bias.data=sample_set_gene_lengths)
+> rownames(pwf) = sample_set_gene_ids
+> 
+> 
+> # perform functional enrichment testing for each category.
+> for (feature_cat in factor_list) {
++     message('Processing category: ', feature_cat)
++     gene_ids_in_feature_cat = rownames(factor_labeling)[factor_labeling$type == feature_cat]
++     cat_genes_vec = as.integer(sample_set_gene_ids %in% gene_ids_in_feature_cat)
++     pwf$DEgenes = cat_genes_vec
++     res = goseq(pwf,gene2cat=GO_info_listed, use_genes_without_cat=TRUE)
++     ## over-represented categories:
++      pvals = res$over_represented_pvalue
++      pvals[pvals > 1 - 1e-10] = 1 - 1e-10
++      q = qvalue(pvals)
++      res$over_represented_FDR = q$qvalues
++ go_enrich_filename = paste("salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.non-bleached-UP.subset", '.GOseq.enriched', sep='')
++     result_table = res[res$over_represented_pvalue<=0.05,]
++     descr = unlist(lapply(result_table$category, get_GO_term_descr))
++     result_table$go_term = descr;
++     result_table$gene_ids = do.call(rbind, lapply(result_table$category, function(x) { 
++             gene_list = GO_to_gene_list[[x]]
++             gene_list = gene_list[gene_list %in% gene_ids_in_feature_cat]
++             paste(gene_list, collapse=', ');
++      }) )
++     write.table(result_table[order(result_table$over_represented_pvalue),], file=go_enrich_filename, sep='	', quote=F, row.names=F)
++     ## under-represented categories:
++      pvals = res$under_represented_pvalue
++      pvals[pvals>1-1e-10] = 1 - 1e-10
++      q = qvalue(pvals)
++      res$under_represented_FDR = q$qvalues
++     go_depleted_filename = paste("salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.non-bleached-UP.subset", '.GOseq.depleted', sep='')
++     result_table = res[res$under_represented_pvalue<=0.05,]
++     descr = unlist(lapply(result_table$category, get_GO_term_descr))
++     result_table$go_term = descr;
++     write.table(result_table[order(result_table$under_represented_pvalue),], file=go_depleted_filename, sep='	', quote=F, row.names=F)
++ }
+> 
+> library(goseq)
+> library(GO.db)
+> library(qvalue)
+> # capture list of genes for functional enrichment testing
+> factor_labeling = read.table("salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset", row.names=1)
+> factor_labeling[,1] = rep('custom_list', dim(factor_labeling)[1])
+> factor_labeling = factor_labeling[,1,drop=F]
+> colnames(factor_labeling) = c('type')
+> factor_list = unique(factor_labeling[,1])
+> DE_genes = rownames(factor_labeling)
+> 
+> 
+> # get gene lengths
+> gene_lengths = read.table("/gscratch/scrubbed/samwhite/outputs/20211015_mcap_DEG_pairwise_comparisons/bleached_non-bleached/Trinity.gene_lengths.txt", header=T, row.names=1, com='')
+> gene_lengths = as.matrix(gene_lengths[,1,drop=F])
+> 
+> 
+> # get background gene list
+> background = read.table("salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.count_matrix", header=T, row.names=1)
+> background.gene_ids = rownames(background)
+> background.gene_ids = unique(c(background.gene_ids, DE_genes))
+> sample_set_gene_ids = background.gene_ids
+> 
+> 
+> # parse GO assignments
+> GO_info = read.table("/gscratch/srlab/sam/data/M_capitata/transcriptomes/20211115.mcap.trinotate.go_annotations.txt", header=F, row.names=1,stringsAsFactors=F)
+> GO_info_listed = apply(GO_info, 1, function(x) unlist(strsplit(x,',')))
+> names(GO_info_listed) = rownames(GO_info)
+> get_GO_term_descr =  function(x) {
++     d = 'none';
++     go_info = GOTERM[[x]];
++     if (length(go_info) >0) { d = paste(Ontology(go_info), Term(go_info), sep=' ');}
++     return(d);
++ }
+> 
+> 
+> #organize go_id -> list of genes
+> GO_to_gene_list = list()
+> for (gene_id in intersect(names(GO_info_listed), sample_set_gene_ids)) {
++     go_list = GO_info_listed[[gene_id]]
++     for (go_id in go_list) {
++         GO_to_gene_list[[go_id]] = c(GO_to_gene_list[[go_id]], gene_id)
++     }
++ }
+> 
+> 
+> # GO-Seq protocol: build pwf based on ALL DE features
+> missing_gene_lengths = sample_set_gene_ids[! sample_set_gene_ids %in% rownames(gene_lengths)]
+> if (length(missing_gene_lengths) > 0) {
++      stop("Error, missing gene lengths for features: ", paste(missing_gene_lengths, collapse=', '))
++ }
+> sample_set_gene_lengths = gene_lengths[sample_set_gene_ids,]
+> GO_info_listed = GO_info_listed[ names(GO_info_listed) %in% sample_set_gene_ids ]
+> cat_genes_vec = as.integer(sample_set_gene_ids %in% rownames(factor_labeling))
+> pwf=nullp(cat_genes_vec, bias.data=sample_set_gene_lengths)
+> rownames(pwf) = sample_set_gene_ids
+> 
+> 
+> # perform functional enrichment testing for each category.
+> for (feature_cat in factor_list) {
++     message('Processing category: ', feature_cat)
++     gene_ids_in_feature_cat = rownames(factor_labeling)[factor_labeling$type == feature_cat]
++     cat_genes_vec = as.integer(sample_set_gene_ids %in% gene_ids_in_feature_cat)
++     pwf$DEgenes = cat_genes_vec
++     res = goseq(pwf,gene2cat=GO_info_listed, use_genes_without_cat=TRUE)
++     ## over-represented categories:
++      pvals = res$over_represented_pvalue
++      pvals[pvals > 1 - 1e-10] = 1 - 1e-10
++      q = qvalue(pvals)
++      res$over_represented_FDR = q$qvalues
++ go_enrich_filename = paste("salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset", '.GOseq.enriched', sep='')
++     result_table = res[res$over_represented_pvalue<=0.05,]
++     descr = unlist(lapply(result_table$category, get_GO_term_descr))
++     result_table$go_term = descr;
++     result_table$gene_ids = do.call(rbind, lapply(result_table$category, function(x) { 
++             gene_list = GO_to_gene_list[[x]]
++             gene_list = gene_list[gene_list %in% gene_ids_in_feature_cat]
++             paste(gene_list, collapse=', ');
++      }) )
++     write.table(result_table[order(result_table$over_represented_pvalue),], file=go_enrich_filename, sep='	', quote=F, row.names=F)
++     ## under-represented categories:
++      pvals = res$under_represented_pvalue
++      pvals[pvals>1-1e-10] = 1 - 1e-10
++      q = qvalue(pvals)
++      res$under_represented_FDR = q$qvalues
++     go_depleted_filename = paste("salmon.gene.counts.matrix.bleached_vs_non-bleached.edgeR.DE_results.P0.05_C1.DE.subset", '.GOseq.depleted', sep='')
++     result_table = res[res$under_represented_pvalue<=0.05,]
++     descr = unlist(lapply(result_table$category, get_GO_term_descr))
++     result_table$go_term = descr;
++     write.table(result_table[order(result_table$under_represented_pvalue),], file=go_depleted_filename, sep='	', quote=F, row.names=F)
++ }
+> 
+> library(cluster)
+> library(Biobase)
+> library(qvalue)
+> library(fastcluster)
+> options(stringsAsFactors = FALSE)
+> NO_REUSE = F
+> 
+> # try to reuse earlier-loaded data if possible
+> if (file.exists("diffExpr.P0.05_C1.matrix.RData") && ! NO_REUSE) {
++     print('RESTORING DATA FROM EARLIER ANALYSIS')
++     load("diffExpr.P0.05_C1.matrix.RData")
++ } else {
++     print('Reading matrix file.')
++     primary_data = read.table("diffExpr.P0.05_C1.matrix", header=T, com='', row.names=1, check.names=F, sep='\t')
++     primary_data = as.matrix(primary_data)
++ }
+[1] "Reading matrix file."
+> source("/gscratch/srlab/programs/trinityrnaseq-v2.9.0/Analysis/DifferentialExpression/R/heatmap.3.R")
+> source("/gscratch/srlab/programs/trinityrnaseq-v2.9.0/Analysis/DifferentialExpression/R/misc_rnaseq_funcs.R")
+> source("/gscratch/srlab/programs/trinityrnaseq-v2.9.0/Analysis/DifferentialExpression/R/pairs3.R")
+> source("/gscratch/srlab/programs/trinityrnaseq-v2.9.0/Analysis/DifferentialExpression/R/vioplot2.R")
+> data = primary_data
+> myheatcol = colorpanel(75, 'purple','black','yellow')
+> samples_data = read.table("/gscratch/scrubbed/samwhite/outputs/20211015_mcap_DEG_pairwise_comparisons/bleached_non-bleached/bleached_non-bleached.samples.txt", header=F, check.names=F, fill=T)
+> samples_data = samples_data[samples_data[,2] != '',]
+> colnames(samples_data) = c('sample_name', 'replicate_name')
+> sample_types = as.character(unique(samples_data[,1]))
+> rep_names = as.character(samples_data[,2])
+> data = data[, colnames(data) %in% rep_names, drop=F ]
+> nsamples = length(sample_types)
+> sample_colors = rainbow(nsamples)
+> names(sample_colors) = sample_types
+> sample_type_list = list()
+> for (i in 1:nsamples) {
++     samples_want = samples_data[samples_data[,1]==sample_types[i], 2]
++     sample_type_list[[sample_types[i]]] = as.vector(samples_want)
++ }
+> sample_factoring = colnames(data)
+> for (i in 1:nsamples) {
++     sample_type = sample_types[i]
++     replicates_want = sample_type_list[[sample_type]]
++     sample_factoring[ colnames(data) %in% replicates_want ] = sample_type
++ }
+> initial_matrix = data # store before doing various data transformations
+> data = log2(data+1)
+> sample_factoring = colnames(data)
+> for (i in 1:nsamples) {
++     sample_type = sample_types[i]
++     replicates_want = sample_type_list[[sample_type]]
++     sample_factoring[ colnames(data) %in% replicates_want ] = sample_type
++ }
+> sampleAnnotations = matrix(ncol=ncol(data),nrow=nsamples)
+> for (i in 1:nsamples) {
++   sampleAnnotations[i,] = colnames(data) %in% sample_type_list[[sample_types[i]]]
++ }
+> sampleAnnotations = apply(sampleAnnotations, 1:2, function(x) as.logical(x))
+> sampleAnnotations = sample_matrix_to_color_assignments(sampleAnnotations, col=sample_colors)
+> rownames(sampleAnnotations) = as.vector(sample_types)
+> colnames(sampleAnnotations) = colnames(data)
+> data = as.matrix(data) # convert to matrix
+> 
+> # Centering rows
+> data = t(scale(t(data), scale=F))
+> 
+> write.table(data, file="diffExpr.P0.05_C1.matrix.log2.centered.dat", quote=F, sep='	');
+> if (nrow(data) < 2) { stop("
++ 
++ **** Sorry, at least two rows are required for this matrix.
++ 
++ ");}
+> if (ncol(data) < 2) { stop("
++ 
++ **** Sorry, at least two columns are required for this matrix.
++ 
++ ");}
+> sample_cor = cor(data, method='pearson', use='pairwise.complete.obs')
+> write.table(sample_cor, file="diffExpr.P0.05_C1.matrix.log2.centered.sample_cor.dat", quote=F, sep='	')
+> sample_dist = dist(t(data), method='euclidean')
+> hc_samples = hclust(sample_dist, method='complete')
+> pdf("diffExpr.P0.05_C1.matrix.log2.centered.sample_cor_matrix.pdf")
+> sample_cor_for_plot = sample_cor
+> heatmap.3(sample_cor_for_plot, dendrogram='both', Rowv=as.dendrogram(hc_samples), Colv=as.dendrogram(hc_samples), col = myheatcol, scale='none', symm=TRUE, key=TRUE,density.info='none', trace='none', symkey=FALSE, symbreaks=F, margins=c(10,10), cexCol=1, cexRow=1, cex.main=0.75, main=paste("sample correlation matrix
++ ", "diffExpr.P0.05_C1.matrix.log2.centered") , ColSideColors=sampleAnnotations, RowSideColors=t(sampleAnnotations))
+> dev.off()
+null device 
+          1 
+> gene_cor = NULL
+> gene_dist = dist(data, method='euclidean')
+> if (nrow(data) <= 1) { message('Too few genes to generate heatmap'); quit(status=0); }
+> hc_genes = hclust(gene_dist, method='complete')
+> heatmap_data = data
+> pdf("diffExpr.P0.05_C1.matrix.log2.centered.genes_vs_samples_heatmap.pdf")
+> heatmap.3(heatmap_data, dendrogram='both', Rowv=as.dendrogram(hc_genes), Colv=as.dendrogram(hc_samples), col=myheatcol, scale="none", density.info="none", trace="none", key=TRUE, keysize=1.2, cexCol=1, margins=c(10,10), cex.main=0.75, main=paste("samples vs. features
++ ", "diffExpr.P0.05_C1.matrix.log2.centered" ) , ColSideColors=sampleAnnotations)
+> dev.off()
+null device 
+          1 
+> save(list=ls(all=TRUE), file="diffExpr.P0.05_C1.matrix.RData")
+> 

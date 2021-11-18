@@ -1,0 +1,16 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0008152	0.99169862365371	0.0245809185214921	4	17326	metabolic process	BP	0.9999999999	0.999997984759614	BP metabolic process
+GO:0065008	1	0.0274050961010686	0	6222	regulation of biological quality	BP	0.9999999999	0.999997984759614	BP regulation of biological quality
+GO:0005886	1	0.0315775591930906	0	5991	plasma membrane	CC	0.9999999999	0.999997984759614	CC plasma membrane
+GO:1901564	0.994600477914457	0.034031020087125	1	9051	organonitrogen compound metabolic process	BP	0.9999999999	0.999997984759614	BP organonitrogen compound metabolic process
+GO:0010468	1	0.0352871653441143	0	5886	regulation of gene expression	BP	0.9999999999	0.999997984759614	BP regulation of gene expression
+GO:0071704	0.987221999593785	0.0359205947440506	4	16363	organic substance metabolic process	BP	0.9999999999	0.999997984759614	BP organic substance metabolic process
+GO:0009889	1	0.0396474958367192	0	5673	regulation of biosynthetic process	BP	0.9999999999	0.999997984759614	BP regulation of biosynthetic process
+GO:0032502	0.99326596537827	0.0409094701829749	1	8744	developmental process	BP	0.9999999999	0.999997984759614	BP developmental process
+GO:0031326	1	0.0420652398857997	0	5567	regulation of cellular biosynthetic process	BP	0.9999999999	0.999997984759614	BP regulation of cellular biosynthetic process
+GO:0048518	0.992693337872197	0.0437743860178637	1	8581	positive regulation of biological process	BP	0.9999999999	0.999997984759614	BP positive regulation of biological process
+GO:0005515	0.985475387388765	0.045134572829722	3	13685	protein binding	MF	0.9999999999	0.999997984759614	MF protein binding
+GO:0044237	0.982267718173125	0.0478059964772937	4	15617	cellular metabolic process	BP	0.9999999999	0.999997984759614	BP cellular metabolic process
+GO:0010556	1	0.0485434159090834	0	5321	regulation of macromolecule biosynthetic process	BP	0.9999999999	0.999997984759614	BP regulation of macromolecule biosynthetic process
+GO:0019219	1	0.0486052804188054	0	5315	regulation of nucleobase-containing compound metabolic process	BP	0.9999999999	0.999997984759614	BP regulation of nucleobase-containing compound metabolic process
+GO:0044238	0.981429411985109	0.0497628589678694	4	15497	primary metabolic process	BP	0.9999999999	0.999997984759614	BP primary metabolic process
