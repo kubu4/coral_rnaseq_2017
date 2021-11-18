@@ -1,0 +1,65 @@
+[2021-11-17 22:29:04.489] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-11-17 22:29:04.489] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-11-17 22:29:04.489] [jointLog] [info] Usage of --validateMappings implies a default consensus slack of 0.2. Setting consensusSlack to 0.35.
+[2021-11-17 22:29:04.489] [jointLog] [info] parsing read library format
+[2021-11-17 22:29:04.489] [jointLog] [info] There is 1 library.
+[2021-11-17 22:29:04.553] [jointLog] [info] Loading pufferfish index
+[2021-11-17 22:29:04.553] [jointLog] [info] Loading dense pufferfish index.
+[2021-11-17 22:29:09.218] [jointLog] [info] done
+[2021-11-17 22:29:09.218] [jointLog] [info] Index contained 578,756 targets
+[2021-11-17 22:29:09.474] [jointLog] [info] Number of decoys : 0
+[2021-11-17 22:30:54.482] [jointLog] [info] Computed 2,094,266 rich equivalence classes for further processing
+[2021-11-17 22:30:54.482] [jointLog] [info] Counted 35,093,522 total reads in the equivalence classes 
+[2021-11-17 22:30:54.509] [jointLog] [warning] 0.0113284% of fragments were shorter than the k used to build the index.
+If this fraction is too large, consider re-building the index with a smaller k.
+The minimum read size found was 20.
+
+
+[2021-11-17 22:30:54.509] [jointLog] [info] Number of mappings discarded because of alignment score : 67,239,024
+[2021-11-17 22:30:54.509] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 1,412,011
+[2021-11-17 22:30:54.509] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2021-11-17 22:30:54.509] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 985,855
+[2021-11-17 22:30:54.509] [jointLog] [info] Mapping rate = 85.6427%
+
+[2021-11-17 22:30:54.509] [jointLog] [info] finished quantifyLibrary()
+[2021-11-17 22:30:54.523] [jointLog] [info] Starting optimizer
+[2021-11-17 22:30:54.483] [fileLog] [info] 
+At end of round 0
+==================
+Observed 40976641 total fragments (40976641 in most recent round)
+
+[2021-11-17 22:31:45.242] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-11-17 22:31:45.321] [jointLog] [info] iteration = 0 | max rel diff. = 1806.63
+[2021-11-17 22:31:51.287] [jointLog] [info] iteration = 100 | max rel diff. = 19.5911
+[2021-11-17 22:31:57.155] [jointLog] [info] iteration = 200 | max rel diff. = 13.5829
+[2021-11-17 22:32:03.020] [jointLog] [info] iteration = 300 | max rel diff. = 6.82714
+[2021-11-17 22:32:08.877] [jointLog] [info] iteration = 400 | max rel diff. = 9.44104
+[2021-11-17 22:32:14.730] [jointLog] [info] iteration = 500 | max rel diff. = 12.1281
+[2021-11-17 22:32:20.586] [jointLog] [info] iteration = 600 | max rel diff. = 15.2872
+[2021-11-17 22:32:26.446] [jointLog] [info] iteration = 700 | max rel diff. = 2.10332
+[2021-11-17 22:32:32.302] [jointLog] [info] iteration = 800 | max rel diff. = 3.25981
+[2021-11-17 22:32:38.151] [jointLog] [info] iteration = 900 | max rel diff. = 0.827954
+[2021-11-17 22:32:44.003] [jointLog] [info] iteration = 1,000 | max rel diff. = 1.71951
+[2021-11-17 22:32:49.850] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.124837
+[2021-11-17 22:32:55.698] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.32704
+[2021-11-17 22:33:01.545] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.801265
+[2021-11-17 22:33:07.389] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.128572
+[2021-11-17 22:33:13.237] [jointLog] [info] iteration = 1,500 | max rel diff. = 0.246338
+[2021-11-17 22:33:19.087] [jointLog] [info] iteration = 1,600 | max rel diff. = 0.500807
+[2021-11-17 22:33:24.934] [jointLog] [info] iteration = 1,700 | max rel diff. = 0.916986
+[2021-11-17 22:33:30.783] [jointLog] [info] iteration = 1,800 | max rel diff. = 0.0254375
+[2021-11-17 22:33:36.628] [jointLog] [info] iteration = 1,900 | max rel diff. = 0.198819
+[2021-11-17 22:33:42.479] [jointLog] [info] iteration = 2,000 | max rel diff. = 0.0377216
+[2021-11-17 22:33:48.328] [jointLog] [info] iteration = 2,100 | max rel diff. = 1.03825
+[2021-11-17 22:33:54.175] [jointLog] [info] iteration = 2,200 | max rel diff. = 0.226652
+[2021-11-17 22:34:00.020] [jointLog] [info] iteration = 2,300 | max rel diff. = 3.17933
+[2021-11-17 22:34:05.866] [jointLog] [info] iteration = 2,400 | max rel diff. = 0.0294483
+[2021-11-17 22:34:11.717] [jointLog] [info] iteration = 2,500 | max rel diff. = 0.0583423
+[2021-11-17 22:34:14.174] [jointLog] [info] iteration = 2,543 | max rel diff. = 0.00706339
+[2021-11-17 22:34:14.187] [jointLog] [info] Finished optimizer
+[2021-11-17 22:34:14.187] [jointLog] [info] writing output 
+
+[2021-11-17 22:34:15.193] [jointLog] [warning] NOTE: Read Lib [[ /gscratch/scrubbed/samwhite/outputs/20211015_mcap_DEG_pairwise_comparisons/non-bleached-44_non-bleached-k4/4R041-L6-P08-ACTGAT-READ1-Sequences.txt.gz_val_1.fq.gz, /gscratch/scrubbed/samwhite/outputs/20211015_mcap_DEG_pairwise_comparisons/non-bleached-44_non-bleached-k4/4R041-L6-P08-ACTGAT-READ2-Sequences.txt.gz_val_2.fq.gz]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: non-bleached_k4_03/lib_format_counts.json for details
+
